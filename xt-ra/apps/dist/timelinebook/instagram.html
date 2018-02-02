@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Instagram</title>
+</head>
+<body>
+  <script>
+    function popAccessToken() {
+      var access_token = window.location.hash.replace(/^\#/, "").split("access_token=")[1];
+      var data = {accessToken: access_token};
+
+      if(window.opener) {
+        window.opener.insCallback(JSON.stringify(data));
+      }
+      window.close();
+    }
+
+    popAccessToken();
+  </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "app.css": "bundle.css",
+  "app.js": "app.js",
+  "arrow.svg": "91875c2e8cc7f757f39300b54043672f.svg",
+  "cn.yml": "cn.json?8f85accf8785d09d17961f2539fb2b46",
+  "en.yml": "en.json?1eabf415bbe7f47bdc22ad87ddbf8541",
+  "i18n.js": "i18n.js",
+  "materials.js": "materials.js"
+}

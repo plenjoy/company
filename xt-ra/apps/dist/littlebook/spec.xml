@@ -1,0 +1,158 @@
+<!--<?xml version="1.2" encoding="UTF-8"?>-->
+<product-spec version="1.0">
+  <global>
+    <dpi>300</dpi>
+
+    <options>
+      <optionGroup id="product">
+        <option id="LB2" name="Little Black Book" />
+      </optionGroup>
+
+      <optionGroup id="cover">
+        <option id="LBPAC" name="Paper Cover" default="true" />
+        <option id="LBHC" name="Hard Cover" />
+      </optionGroup>
+
+      <optionGroup id="size">
+        <option id="5X7" name="5x7" default="true"/>
+        <option id="6X6" name="6x6" />
+        <option id="8X8" name="8x8" />
+      </optionGroup>
+
+      <optionGroup id="paper">
+        <option id="DP" name="Artisan Print" />
+      </optionGroup>
+
+      <optionGroup id="paperThickness">
+        <option id="ExtraThin" name="Extra Thin" />
+      </optionGroup>
+
+      <!-- 配色方案 -->
+      <optionGroup id="colorScheme">
+        <option id="ColorScheme0" value="0x000000" />
+        <option id="ColorScheme1" value="0x7CE0D3" />
+        <option id="ColorScheme2" value="0xDBDAD9" />
+        <option id="ColorScheme3" value="0xCC000E" />
+        <option id="ColorScheme4" value="0x1F3B34" />
+        <option id="ColorScheme5" value="0xFFD862" />
+        <option id="ColorScheme6" value="0xF1C3B8" />
+        <option id="ColorScheme7" value="0xFEFEFE" />
+        <option id="ColorScheme8" value="0x151A36" />
+        <option id="ColorScheme9" value="0xADC1E4" />
+      </optionGroup>
+    </options>
+  </global>
+
+  <configurableOptionMap>
+    <optionMap id="cover" keyPattern="product">
+      <entry key="*" value="LBHC,LBPAC" defaultValue="LBPAC" />
+    </optionMap>
+  </configurableOptionMap>
+
+  <parameters>
+    <!-- 封面基础宽高 -->
+    <parameter id="bookCoverBaseSize" keyPattern="size-product-cover">
+      <entry key="5X7-LB2-LBHC" widthInInch="7.3228346" heightInInch="5.2362205" />
+      <entry key="5X7-LB2-LBPAC" widthInInch="6.9291" heightInInch="4.8425" />
+
+      <entry key="6X6-LB2-LBHC" widthInInch="6.2007874" heightInInch="6.023622" />
+      <entry key="6X6-LB2-LBPAC" widthInInch="5.8748031" heightInInch="5.7480315" />
+
+      <entry key="8X8-LB2-LBHC" widthInInch="8.2086614" heightInInch="7.992126" />
+      <entry key="8X8-LB2-LBPAC" widthInInch="7.7645669" heightInInch="7.519685" />
+    </parameter>
+
+    <!-- 内页基础宽高 -->
+    <parameter id="bookInnerBaseSize" keyPattern="size-product-cover">
+      <entry key="5X7-LB2-[LBHC,LBPAC]" widthInInch="6.9291" heightInInch="4.8425" />
+      <entry key="6X6-LB2-[LBHC,LBPAC]" widthInInch="5.8661417" heightInInch="5.7480315" />
+      <entry key="8X8-LB2-[LBHC,LBPAC]" widthInInch="7.7559055" heightInInch="7.519685" />
+    </parameter>
+
+    <!-- 延边 -->
+    <parameter id="coverExpandingSize" keyPattern="cover-size">
+      <entry key="[LBHC,LBPAC]-[5X7,6X6,8X8]" left="0" top="0" right="0" bottom="0" />
+    </parameter>
+
+    <!-- 封面出血 -->
+    <parameter id="coverPageBleed" keyPattern="cover-size">
+      <!-- 18 mm -->
+      <entry key="LBHC-5X7" left="212.5984" top="212.5984" right="212.5984" bottom="212.5984" />
+
+      <!-- 19 mm -->
+      <entry key="LBHC-[6X6,8X8]" left="224.4" top="224.4" right="224.4" bottom="224.4" />
+
+      <!-- 左右：2 mm  上下：4 mm -->
+      <entry key="LBPAC-5X7" left="23.6220" top="47.2441" right="23.6220" bottom="47.2441" />
+
+      <!-- 左右：4.5 mm  上下：4.5 mm -->
+      <entry key="LBPAC-6X6" left="53.1496" top="53.1496" right="53.1496" bottom="53.1496" />
+
+      <!-- 左右：6mm  上下：6mm -->
+      <entry key="LBPAC-8X8" left="70.866" top="70.866" right="70.866" bottom="70.866" />
+    </parameter>
+
+    <!-- 内页出血 -->
+    <parameter id="innerPageBleed" keyPattern="cover-size">
+      <!-- 左右：2 mm  上下：4 mm -->
+      <entry key="[LBHC,LBPAC]-5X7" left="23.6220" top="47.2441" right="23.6220" bottom="47.2441" />
+
+      <!-- 4.5 mm -->
+      <entry key="[LBHC,LBPAC]-6X6" left="53.1496" top="53.1496" right="53.1496" bottom="53.1496" />
+
+      <!-- 6mm -->
+      <entry key="[LBHC,LBPAC]-8X8" left="70.866" top="70.866" right="70.866" bottom="70.866" />
+    </parameter>
+
+    <!-- 封面厚度. -->
+    <parameter id="coverThickness" keyPattern="cover-size">
+      <!-- HC：4 mm -->
+      <entry key="LBHC-[5X7,6X6,8X8]" left="47.2441" top="47.2441" right="47.2441" bottom="47.2441" />
+
+      <!-- PC：0 mm -->
+      <entry key="LBPAC-[5X7,6X6,8X8]" left="0" top="0" right="0" bottom="0" />
+    </parameter>
+
+    <parameter id="spineWidth" keyPattern="cover-paperThickness">
+      <!-- 基础宽度：13.56 mm  每页增加宽度：0.8 mm -->
+      <entry key="LBPAC-ExtraThin" baseValue="160.1575" addtionalValue="9.4488" />
+
+      <!-- 基础宽度：13 mm  每页增加宽度：0.8 mm -->
+      <entry key="LBHC-ExtraThin" baseValue="153.54" addtionalValue="9.4488" />
+    </parameter>
+
+    <parameter id="spineExpanding" keyPattern="cover">
+      <!-- 20 mm -->
+      <entry key="LBHC" expandingOverBackcover="236.2205" expandingOverFrontcover="236.2205" />
+
+      <!-- 13mm -->
+      <entry key="LBPAC" expandingOverBackcover="153.5433" expandingOverFrontcover="153.5433" />
+    </parameter>
+
+    <parameter id="sheetNumberRange" keyPattern="size">
+      <entry key="[5X7,6X6,8X8]" min="12" max="12" />
+    </parameter>
+  </parameters>
+
+  <variables>
+    <!-- 封面背景色 -->
+    <variable id="coverBackgroundColor" keyPattern="colorScheme">
+      <entry key="ColorScheme0" value="0x000000" />
+      <entry key="ColorScheme1" value="0x7CE0D3" />
+      <entry key="ColorScheme2" value="0xDBDAD9" />
+      <entry key="ColorScheme3" value="0xCC000E" />
+      <entry key="ColorScheme4" value="0x1F3B34" />
+      <entry key="ColorScheme5" value="0xFFD862" />
+      <entry key="ColorScheme6" value="0xF1C3B8" />
+      <entry key="ColorScheme7" value="0xFEFEFE" />
+      <entry key="ColorScheme8" value="0x151A36" />
+      <entry key="ColorScheme9" value="0xADC1E4" />
+    </variable>
+
+    <!-- 封面文本及LOGO颜色 -->
+    <variable id="coverForegroundColor" keyPattern="colorScheme">
+      <entry key="[ColorScheme0,ColorScheme1,ColorScheme3,ColorScheme4,ColorScheme8,ColorScheme9]" value="0xFEFEFE" />
+      <entry key="[ColorScheme2,ColorScheme5,ColorScheme6,ColorScheme7]" value="0x000000" />
+    </variable>
+  </variables>
+</product-spec>

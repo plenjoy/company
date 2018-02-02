@@ -1,0 +1,86 @@
+<product-spec version="2.0">
+  <global>
+    <dpi>300</dpi>
+    <imageQualityBufferPercent>30</imageQualityBufferPercent>
+    <imagedimenstions>
+      <imagedimenstion viewWidth="96" viewHeight="96">96x96</imagedimenstion>
+      <imagedimenstion viewWidth="350" viewHeight="350">350x350</imagedimenstion>
+      <imagedimenstion viewWidth="700" viewHeight="700">700x700</imagedimenstion>
+      <imagedimenstion viewWidth="1000" viewHeight="1000">1000x1000</imagedimenstion>
+      <imagedimenstion viewWidth="1500" viewHeight="1500">1500x1500</imagedimenstion>
+    </imagedimenstions>
+    <options>
+      <!-- 台历、挂历产品 -->
+      <optionGroup id="product">
+        <option id="LC">
+          <title><![CDATA[Little Moments Calendar]]></title>
+        </option>
+        <option id="LPS">
+          <title><![CDATA[Little Prints Stand]]></title>
+        </option>
+      </optionGroup>
+
+      <!-- 尺寸 -->
+      <optionGroup id="size">
+        <option id="7X5" name="7X5"/>
+        <option id="8X6" name="8X6"/>
+      </optionGroup>
+
+    </options>
+  </global>
+
+  <configurableOptionMap>
+    <optionMap id="size" keyPattern="product">
+      <entry key="LC" value="7X5,8X6" />
+      <entry key="LPS" value="7X5,8X6" />
+    </optionMap>
+  </configurableOptionMap>
+
+  <parameters>
+    <!-- 基础尺寸 -->
+    <parameter id="baseSize" keyPattern="product-size">
+      <entry key="LC-7X5" widthInInch="5" heightInInch="7.440944881889764" />
+      <entry key="LC-8X6" widthInInch="5.9842519685" heightInInch="8.425196850" />
+      <entry key="LPS-7X5" widthInInch="5" heightInInch="7.440944881889764" />
+      <entry key="LPS-8X6" widthInInch="5.9842519685" heightInInch="8.425196850" />
+    </parameter>
+
+    <!-- 出血 -->
+    <parameter id="pageBleed" keyPattern="product-size">
+      <entry key="LC-[7X5,8X6]" top="36" bottom="36" left="36" right="36" />
+      <entry key="LPS-[7X5,8X6]" top="36" bottom="36" left="36" right="36" />
+    </parameter>
+  </parameters>
+
+  <variables>
+    <variable id="coverForeground" keyPattern="product-size">
+      <entry key="LC-7X5" width="577" height="920" left="40" top="40" right="40" bottom="142" />
+      <entry key="LC-8X6" width="632" height="960" left="40" top="40" right="40" bottom="140" />
+      <entry key="LPS-7X5" width="577" height="920" left="40" top="40" right="40" bottom="142" />
+      <entry key="LPS-8X6" width="632" height="960" left="40" top="40" right="40" bottom="140" />
+    </variable>
+    <variable id="innerForeground" keyPattern="product-size">
+      <entry key="LC-7X5" width="577" height="920" bottomPageLeft="40" bottomPageTop="40" bottomPageRight="40" bottomPageBottom="142" />
+      <entry key="LC-8X6" width="632" height="960" bottomPageLeft="40" bottomPageTop="40" bottomPageRight="40" bottomPageBottom="140" />
+      <entry key="LPS-7X5" width="577" height="920" bottomPageLeft="40" bottomPageTop="40" bottomPageRight="40" bottomPageBottom="142"
+         hwidth="859" hheight="733" hbottomPageLeft="40" hbottomPageTop="40" hbottomPageRight="40" hbottomPageBottom="142" />
+      <entry key="LPS-8X6" width="632" height="960" bottomPageLeft="40" bottomPageTop="40" bottomPageRight="40" bottomPageBottom="140"
+        hwidth="912" hheight="774" hbottomPageLeft="40" hbottomPageTop="40" hbottomPageRight="40" hbottomPageBottom="140" />
+    </variable>
+    <variable id="allPageCoverForeground" keyPattern="product-size">
+      <entry key="LC-7X5" width="257" height="372" left="10" top="10" right="10" bottom="10" />
+      <entry key="LC-8X6" width="275" height="380" left="10" top="10" right="10" bottom="10" />
+      <entry key="LPS-7X5" width="257" height="372" left="10" top="10" right="10" bottom="10" />
+      <entry key="LPS-8X6" width="275" height="380" left="10" top="10" right="10" bottom="10" />
+    </variable>
+    <variable id="allPageInnerForeground" keyPattern="product-size">
+      <entry key="LC-7X5" width="257" height="372" bottomPageLeft="10" bottomPageTop="10" bottomPageRight="10" bottomPageBottom="10" />
+      <entry key="LC-8X6" width="275" height="380" bottomPageLeft="10" bottomPageTop="10" bottomPageRight="10" bottomPageBottom="10" />
+      <entry key="LPS-7X5" width="257" height="372" bottomPageLeft="10" bottomPageTop="10" bottomPageRight="10" bottomPageBottom="10"
+        hwidth="380" hheight="275" hbottomPageLeft="10" hbottomPageTop="10" hbottomPageRight="10" hbottomPageBottom="10" />
+      <entry key="LPS-8X6" width="275" height="380" bottomPageLeft="10" bottomPageTop="10" bottomPageRight="10" bottomPageBottom="10"
+        hwidth="444" hheight="322" hbottomPageLeft="10" hbottomPageTop="10" hbottomPageRight="10" hbottomPageBottom="10" />
+    </variable>
+
+  </variables>
+</product-spec>

@@ -1,0 +1,92 @@
+{
+	"locale": "zh-cn",
+	"Modals": {
+		"TITLE": "TEST"
+	},
+	"PageHeader": {
+		"ORDER": "Order",
+		"PREVIEW": "Preview",
+		"SAVE": "Save",
+		"SUBMIT": "Submit",
+		"SUBMIT_PROJECT_SUCCESS": "Submit successfully!",
+		"SUBMIT_PROJECT_FAILED": "Submit failed, please try again or contact us."
+	},
+	"PageNav": {
+		"ALLPAGES": "All Pages",
+		"ONEPAGE": "One Page"
+	},
+	"SideBar": {
+		"PHOTOS": "Photos",
+		"LAYOUTS": "Layouts",
+		"DECORATINOS": "Decorations",
+		"OPTIONS": "Options",
+		"TOP_PICK": "Top picks",
+		"FILTER_TEXT": "Text",
+		"MY_LAYOUTS": "My Layouts",
+		"IMAGES": "Images",
+		"ADD_PHOTOS": "Add Photos"
+	},
+	"PhotoTab": {
+		"ADD_PHOTOS": "Add Photos",
+		"DATE_TOKEN_O_T_N": "Date Taken (oldest to newest)",
+		"DATE_TOKEN_N_T_O": "Date Taken (newest to oldest)",
+		"UPLOAD_TIME_O_T_N": "Upload Time (oldest to newest)",
+		"UPLOAD_TIME_N_T_O": "Upload Time (newest to oldest)",
+		"TITLE_A_Z": "Title (A - Z)",
+		"TITLE_Z_A": "Title (Z - A)",
+		"EMPTY_IMAGE_LIST_TIP": "Or Drag & Drop your photos to screen to upload."
+	},
+	"UploadModal": {
+		"UPLOAD_IMAGES": "Upload Images",
+		"COMPLETE_COUNT": "{{n}} Complete",
+		"FILED_COUNT": "{{n}} Failed",
+		"ADD_MORE_PHOTOS": "Add More Photos",
+		"CANCELL_ALL": "Cancel All",
+		"DONE": "DONE",
+		"FILE_EMPTY": "Invalid image file, please select another file",
+		"COLOR_SPACE_ERROR": "File has invalid color space, Please select another file",
+		"EXCEEDS_SIZE": "File exceeds maximum size of 100M",
+		"TYPE_CONFLICT": "Only .jpg .jpeg and .png files are supported",
+		"FILE_EXCEEDS_MAXIMUM_SIZE": "File exceeds maximum size of 100M",
+		"CLOSE_PROMPT": "Your image has not been uploaded. Click \"Continue\" to cancel upload or \"Cancel\" to continue uploading.",
+		"ERROR": "An unexpected error occurred. Try again",
+		"TIMEOUT": "Session time expired. Try again?"
+	},
+	"ItemList": {
+		"FILE": "File",
+		"FILE_PROGRESS": "File Progress"
+	},
+	"SortAndFilter": {
+		"HIDE_USED": "Hide Used",
+		"SORT_BY": "Sort By"
+	},
+	"UploadItem": {
+		"FAILED": "Failed",
+		"RETRY": "Retry",
+		"HELP": "Help"
+	},
+	"ContactUsModal": {
+		"TITLE": "Contact Us",
+		"QUESTION_TITLE": "Have a question?",
+		"REQUEST_TITLE": "Have a feature request?",
+		"BUG_TITLE": "Want to report a bug?",
+		"CANCEL": "Cancel",
+		"SUBMIT": "Submit",
+		"QUESTION_PLACEHOLDER": "Input your question here",
+		"REQUEST_PLACEHOLDER": "Input your feature request here",
+		"BUG_PLACEHOLDER": "Input the bug description here"
+	},
+	"ExchangeImage": {
+		"DRAR_SWAP_TIP": "Drag to swap image with another frame"
+	},
+	"ItemPrice": {
+		"USE_COUPON": "Use coupon code: ",
+		"COUPON_CODE": "{{couponCode}}",
+		"GET_PRICE": " to get sale price of ${{sellPrice}}. ",
+		"END_DATE": "{{endDate}}"
+	},
+	"PhotoQuantitySwitch": {
+		"STANDARD": "Standard",
+		"SPLIT": "Split"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"locale": "zh-cn",
+	"Modals": {
+		"TITLE": "TEST"
+	},
+	"PageHeader": {
+		"ORDER": "Order"
+	},
+	"PageNav": {
+		"ALLPAGES": "All Pages",
+		"MANAGEPHOTOS": "Manage Photos"
+	}
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Instagram</title>
+</head>
+<body>
+  <script>
+    function popDataToParent(data) {
+      try {
+        window.parent.preLoginCallback(JSON.stringify(data));
+      } catch(e) {
+        window.parent.postMessage(JSON.stringify(data), '*');
+      }
+    }
+
+    function popDataToOpener(data) {
+      try {
+        window.opener.insCallback(JSON.stringify(data));
+      } catch(e) {
+        window.opener.postMessage(JSON.stringify(data), '*');
+      }
+    }
+
+    function popAccessToken() {
+      var access_token = window.location.hash.replace(/^\#/, "").split("access_token=")[1];
+      var data = {accessToken: access_token};
+
+      if(window.opener) {
+        popDataToOpener(data);
+      } else {
+        popDataToParent(data);
+      }
+
+      window.close();
+    }
+
+    popAccessToken();
+  </script>
+</body>
+</html>

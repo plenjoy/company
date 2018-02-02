@@ -1,0 +1,122 @@
+{
+	"locale": "en",
+	"Modals": {
+		"TITLE": "TEST"
+	},
+	"PageHeader": {
+		"ORDER": "Order",
+		"PREVIEW": "Preview",
+		"SAVE": "Save",
+		"SUBMIT": "Submit",
+		"SUBMIT_PROJECT_SUCCESS": "Submit successfully!",
+		"SUBMIT_PROJECT_FAILED": "Submit failed, please try again or contact us."
+	},
+	"PageNav": {
+		"ALLPAGES": "All Pages",
+		"ONEPAGE": "Single Page"
+	},
+	"SideBar": {
+		"PHOTOS": "Photos",
+		"OPTIONS": "Options",
+		"LAYOUTS": "Layouts",
+		"DECORATINOS": "Decorations",
+		"TOP_PICK": "Top picks",
+		"FILTER_TEXT": "Text",
+		"MY_LAYOUTS": "My Layouts",
+		"IMAGES": "Images",
+		"ADD_PHOTOS": "Add Photos"
+	},
+	"PhotoTab": {
+		"ADD_PHOTOS": "Add Photos",
+		"ADD_PHOTOS_TIP": "Click here to select photos"
+	},
+	"UploadModal": {
+		"UPLOAD_IMAGES": "Upload Images",
+		"COMPLETE_COUNT": "{{n}} Complete",
+		"FILED_COUNT": "{{n}} Failed",
+		"ADD_MORE_PHOTOS": "Add More Photos",
+		"CANCELL_ALL": "Cancel All",
+		"DONE": "DONE",
+		"FILE_EMPTY": "Invalid image file, please select another file",
+		"EXCEEDS_SIZE": "File exceeds maximum size of 100M",
+		"TYPE_CONFLICT": "Only .jpg .jpeg and .png files are supported",
+		"FILE_EXCEEDS_MAXIMUM_SIZE": "File exceeds maximum size of 100M",
+		"CLOSE_PROMPT": "Your image has not been uploaded.\n What do you want to do?",
+		"ERROR": "An unexpected error occurred. Try again",
+		"TIMEOUT": "Session time expired. Try again?",
+		"ATTENTION": "Still need to upload {{count}} photo(s), click here to continue"
+	},
+	"ItemList": {
+		"FILE": "File",
+		"FILE_PROGRESS": "File Progress"
+	},
+	"UploadItem": {
+		"FAILED": "Failed",
+		"RETRY": "Retry",
+		"HELP": "Help"
+	},
+	"SortAndFilter": {
+		"DATE_TOKEN_O_T_N": "Date Taken (oldest to newest)",
+		"DATE_TOKEN_N_T_O": "Date Taken (newest to oldest)",
+		"UPLOAD_TIME_O_T_N": "Upload Time (oldest to newest)",
+		"UPLOAD_TIME_N_T_O": "Upload Time (newest to oldest)",
+		"TITLE_A_Z": "Title (A - Z)",
+		"TITLE_Z_A": "Title (Z - A)",
+		"HIDE_USED": "Hide Used",
+		"SORT_BY": "Sort By"
+	},
+	"BookPage": {
+		"EDIT": "Edit",
+		"ROTATE": "Rotate",
+		"FLIP": "Flip",
+		"EXPAND": "Expand",
+		"EXPAND_TO_FULL_SHEET": "Expand To Full Sheet",
+		"EXPAND_TO_LEFT_PAGE": "Expand To Left Page",
+		"EXPAND_TO_RIGHT_SHEET": "Expand To Right Page",
+		"FIT_FRAME_TO_IMAGE": "Fit Frame To Content",
+		"REMOVE": "Remove",
+		"UPLOAD_IMAGE": "Upload Image",
+		"CROP_ITEM": "Crop Image",
+		"ROTATE_ITEM": "Rotate Image",
+		"FLIP_ITEM": "Flip Image",
+		"EXPAND_ITEM": "Expand",
+		"EXPAND_TO_FULLPAGE": "Expand To Full Page",
+		"EXPAND_TO_LEFTPAGE": "Expand To Left Page",
+		"EXPAND_TO_RIGHTPAGE": "Expand To Right Page",
+		"LAYER_ITEM": "Layer",
+		"BRING_TO_FRONT": "Bring To Front",
+		"SEND_TO_BACK": "Send To Back",
+		"BRING_FORWARD": "Bring Forward",
+		"SEND_BACKWARD": "Send Backward",
+		"CLEAR_ITEM": "Delete",
+		"UPLOAD_FILES": "Upload Image",
+		"FILTER_ITEM": "Properties",
+		"EDIT_TEXT": "Edit Text",
+		"ENABLED_BACKGROUND_TIP": "Drag image here or select layout",
+		"DISABLED_BACKGROUND_TIP": "This area will be blank in your printed book",
+		"DOUBLE_CLICK_TO_EDIT_TEXT": "Double click to edit text",
+		"CLEAR_TEXT": "Remove Text Frame",
+		"ALIGN_LEFT": "Align Left",
+		"ALIGN_CENTER": "Align Center",
+		"ALIGN_RIGHT": "Align Right",
+		"ALIGN_TOP": "Align Top",
+		"ALIGN_MIDDLE": "Align Middle",
+		"ALIGN_BOTTOM": "Align Bottom",
+		"SPACE_NEED_THREE_MORE_ELEMENTS": "Select 3 or more elements",
+		"SPACE_HORIZONAL": "Space Evenly Horizontally",
+		"SPACE_VERTICAL": "Space Evenly Vertically",
+		"CLEAR_ALL": "Remove All",
+		"MATCH_WIDEST_WIDTH": "Match Widest Width",
+		"MATCH_NARROWEST_WIDTH": "Match Narrowest Width",
+		"MATCH_TALLEST_HEIGHT": "Match Tallest Height",
+		"MATCH_SHORTEST_HEIGHT": "Match Shortest Height",
+		"MATCH_FIRST_SELECT_WIDTH_AND_HEIGHT": "Match Width And Height",
+		"BLEED_EXTEND_BY_SAFE_ZOON": "Image frames dragged to this area of the page are adjusted to occupy page margins with no white space. Outside edges of images will not be fully visible on the printed page.",
+		"SAFE_ZOON_CLAMP_BY_SAFE_ZOON": "Image frames dragged to this area of the page are adjusted slightly inward to ensure the image is visible on the printed page."
+	},
+	"LayoutList": {
+		"GET_MORE_LAYOUTS": "+ Get More Layouts",
+		"NO_LAYOUTS": "No Available Layout!",
+		"NO_LAYOUTS_INNER": "No Available Layout!"
+	}
+}

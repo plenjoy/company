@@ -1,0 +1,97 @@
+{
+  "state": "success",
+  "data": {
+    "parameters": {
+      "bookBaseSize": {
+        "heightInInch": "5.747",
+        "widthInInch": "5.8735"
+      },
+      "coverExpandingSize": {
+        "bottom": "0",
+        "left": "0",
+        "right": "0",
+        "top": "0"
+      },
+      "coverPageBleed": {
+        "bottom": "24",
+        "left": "24",
+        "right": "24",
+        "top": "24"
+      },
+      "coverPageSize": {
+        "backCoverLogoBottom": "116",
+        "backCoverLogoHeight": "46",
+        "backCoverLogoWidth": "250",
+        "coverImageBottom": "142",
+        "coverImageHeight": "1558",
+        "coverImageLeft": "70",
+        "coverImageRight": "142",
+        "coverImageTop": "142",
+        "coverImageWidth": "1532",
+        "height": "1842",
+        "spineLogoSize": "43",
+        "spineLogoTextDistance": "24",
+        "spinePaddingBottom": "142",
+        "spinePaddingTop": "142",
+        "spineTextFontSize": "44",
+        "width": "3803"
+      },
+      "coverWrapSize": {
+        "bottom": "0",
+        "left": "0",
+        "right": "0",
+        "top": "0"
+      },
+      "innerPageBleed": {
+        "bottom": "24",
+        "left": "24",
+        "right": "24",
+        "top": "24"
+      },
+      "innerPageSize": {
+        "avatarsHeight": "86",
+        "avatarsTop": "74",
+        "avatarsWidth": "86",
+        "captionFontSize": "34",
+        "dateLocationTextFontSize": "34",
+        "height": "1843",
+        "imageBottomTextDistance": "30",
+        "imageTopTextDistance": "20",
+        "imageTopTextTop": "176",
+        "innerImageHeight": "1400",
+        "innerImageWidth": "1400",
+        "leftImageBottom": "221",
+        "leftImageLeft": "156",
+        "leftImageRight": "296",
+        "leftImageTop": "221",
+        "locationIconRightDistance": "16",
+        "rightImageBottom": "221",
+        "rightImageLeft": "296",
+        "rightImageRight": "156",
+        "rightImageTop": "221",
+        "width": "1854"
+      },
+      "sheetNumberRange": {
+        "max": "51",
+        "min": "51"
+      },
+      "spineExpanding": {
+        "expandingOverBackcover": "107",
+        "expandingOverFrontcover": "107"
+      },
+      "spineWidth": {
+        "addtionalValue": "1.8",
+        "baseValue": "94"
+      }
+    },
+    "spec": {
+      "client": "H5",
+      "cover": "TLBSC",
+      "leatherColor": "none",
+      "paper": "SP",
+      "paperThickness": "TLBthin",
+      "product": "TLB",
+      "size": "6X6"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+	"locale": "en",
+	"Modals": {
+		"TITLE": "TEST"
+	},
+	"PageHeader": {
+		"ORDER": "Order"
+	},
+	"PageNav": {
+		"ALLPAGES": "All Pages",
+		"MANAGEPHOTOS": "Manage Photos"
+	},
+	"OAuthPage": {
+		"CHOOSE_YOUR_PHOTO_SOURCE": "Choose Your Photo Source",
+		"SELECT": "Select",
+		"ADD_VIA_FACEBOOK": "Add via Facebook",
+		"ADD_VIA_INSTAGRAM": "Add via Instagram"
+	},
+	"OAuthLoading": {
+		"PREPARING_PHOTOS": "Preparing your photos, please wait…"
+	},
+	"SideBar": {
+		"OPTIONS": "Options",
+		"VOLUMES": "Volumes"
+	},
+	"PanelAlbums": {
+		"INCOMPLETE": "Incomplete"
+	},
+	"PanelOptions": {
+		"LAYOUT_SETTINGS": "Layout Settings",
+		"SHOW_DATE": "Show Date",
+		"SHOW_LOCATION": "Show Location",
+		"SHOW_CAPTION": "Show Caption",
+		"UPGRADE_COVER": "Upgrade Cover",
+		"SOFT_COVER": "Soft Cover",
+		"HARD_COVER": "Hard Cover",
+		"HARD_COVER_ADDITIONAL": "(Additional $5 per book)"
+	},
+	"BookCover": {
+		"BACK_COVER": "Back Cover",
+		"FRONT_COVER": "Front Cover",
+		"TLBSC": "Soft Cover",
+		"TLBHC": "Hard Cover"
+	},
+	"EmptyPage": {
+		"BACK": "Back",
+		"EMPTY_PAGE_TEXT": "You must add at least one image to your social account before creating a Timeline book."
+	},
+	"SheetHandler": {
+		"USE_FOR_COVER": "Use for Cover",
+		"SWITCH_COVER": "Swith Cover",
+		"TLBSC": "Soft Cover",
+		"TLBHC": "Hard Cover"
+	},
+	"ItemPrice": {
+		"USD": "USD"
+	},
+	"IncompleteModal": {
+		"OK": "OK",
+		"INSUFFICIENT_PAGES": "Insufficient Pages",
+		"INSUFFICIENT_PAGES_MESSAGE": "Books are required to have 100 pages before printing."
+	},
+	"ManagePhotos": {
+		"INCLUDED": "Included",
+		"EXCLUDED": "Excluded",
+		"MULTIPLE_SELECT": " + Click to select multiple photos",
+		"NO_EXCLUDED_PHOTO": "No excluded photo.",
+		"NO_INCLUDED_PHOTO": "No included photo."
+	},
+	"XPagination": {
+		"COVER": "Cover",
+		"SHEET": "Sheet",
+		"PAGE": "Page",
+		"OF": "of"
+	}
+}

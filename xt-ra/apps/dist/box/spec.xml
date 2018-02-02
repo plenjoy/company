@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product-spec version="4.0">
+  <global>
+    <dpi>300</dpi>
+    <imageQualityBufferPercent>30</imageQualityBufferPercent>
+    <imagedimenstions>
+      <imagedimenstion viewWidth="96" viewHeight="96">96x96</imagedimenstion>
+      <imagedimenstion viewWidth="350" viewHeight="350">350x350</imagedimenstion>
+      <imagedimenstion viewWidth="700" viewHeight="700">700x700</imagedimenstion>
+      <imagedimenstion viewWidth="1000" viewHeight="1000">1000x1000</imagedimenstion>
+      <imagedimenstion viewWidth="1500" viewHeight="1500">1500x1500</imagedimenstion>
+    </imagedimenstions>
+    <options>
+      <!-- imagebox name -->
+      <optionGroup id="product">
+        <!--以前的id为IB需要在解析的时候做兼容-->
+        <option id="IB">
+          <title>Image Box</title>
+        </option>
+        <option id="woodBox">
+          <title>Wood Box</title>
+        </option>
+        <option id="usbCase">
+          <title>USB Case</title>
+        </option>
+        <option id="dvdCase">
+          <title>DVD Case</title>
+        </option>
+      </optionGroup>
+      <!-- size -->
+      <optionGroup id="size">
+        <option id="6.5X6.5" name="6.5X6.5"/>
+        <option id="4X6" name="4X6"/>
+        <option id="5X7" name="5X7"/>
+        <option id="8X10" name="8X10"/>
+        <option id="8X8" name="8X8"/>
+        <option id="8X11" name="8X11"/>
+        <option id="11X8" name="11X8"/>
+        <option id="10X10" name="10X10"/>
+        <option id="11X14" name="11X14"/>
+        <option id="14X11" name="14X11"/>
+        <option id="12X12" name="12X12"/>
+        <option id="12X16" name="12X16"/>
+        <option id="16X12" name="16X12"/>
+        <option id="14X14" name="14X14"/>
+      </optionGroup>
+      <!-- type -->
+      <optionGroup id="type">
+        <option id="none" name="None" />
+        <option id="IW" name="Image Wrapped"/>
+        <option id="BL" name="Black Leatherette"/>
+        <option id="IP" name="Image Panel"/>
+        <option id="BP" name="Black Panel"/>
+      </optionGroup>
+      <!-- cover-->
+      <optionGroup id="cover">
+        <option id="none" name="None" />
+        <option id="HC" name="Hard Cover" />
+        <option id="NC" name="Linen Cover" />
+        <option id="LC" name="Leatherette" />
+        <option id="BC" name="Bling Cover" />
+      </optionGroup>
+      <!-- leatherColor -->
+      <optionGroup id="leatherColor">
+        <option id="none" name="None" />
+        <option id="black" name="Black" />
+        <option id="red" name="Ruby" />
+        <option id="white" name="White" />
+        <option id="espresso" name="Espresso" />
+        <option id="camel" name="Cinnamon" />
+        <option id="blue" name="Blue" />
+        <option id="kiwi" name="Kiwi" />
+        <option id="pink" name="Pink" />
+        <option id="navyBlue" name="Navy Blue" />
+        <option id="shamrockGreen" name="Shamrock Green" />
+        <option id="tangerineOrange" name="Tangerine Orange" />
+        <option id="slateGrey" name="Slate Grey" />
+        <option id="maroon" name="Maroon" />
+        <option id="lightBlue" name="Light Blue" />
+        <option id="siennaBrown" name="Sienna Brown" />
+        <option id="cream" name="Cream" />
+        <option id="oliveGreen" name="Olive Green" />
+        <option id="indianRed" name="Indian Red" />
+        <option id="chocolateBrown" name="Chocolate Brown" />
+        <option id="brown" name="Dark Brown" />
+        <option id="darkGreen" name="Dark Green" />
+        <option id="orange" name="Brown" />
+        <option id="tan" name="Tan" />
+        <option id="rusticGreen" name="Rustic Green" />
+        <option id="rusticBrown" name="Rustic Brown" />
+        <option id="blingLace" name="Lace" />
+        <option id="blingZebra" name="Zebra" />
+        <option id="blingCream" name="Cream" />
+        <option id="blingBlack" name="Black Grid" />
+        <option id="blingBlue" name="Blue Grid" />
+        <option id="blingEspresso" name="Espresso Grid" />
+        <option id="blingRed" name="Red Grid" />
+        <option id="blingWhite" name="White Grid" />
+        <option id="greenLeaf" name="Green Leaf" />
+        <option id="fireBrick" name="Fire Brick" />
+        <option id="pinkRose" name="Pink Rose" />
+        <option id="pansy" name="Pansy" />
+        <option id="blueGrey" name="Blue Grey" />
+        <option id="sunnyYellow" name="Sunny Yellow" />
+        <option id="cinnamon" name="Cinnamon" />
+        <option id="ruby" name="Ruby" />
+        <option id="blackNavyBlue" name="Navy Blue" />
+      </optionGroup>
+      <!-- spine -->
+      <optionGroup id="spineThickness">
+        <option id="none" name="None"/>
+        <option id="T" name="Thick"/>
+        <option id="L" name="Thin"/>
+        <option id="N" name="Normal"/>
+      </optionGroup>
+      <optionGroup id="finish">
+        <option id="none">
+            <title>None</title>
+        </option>
+        <option id="matte">
+            <title>Matte</title>
+        </option>
+        <option id="glossy">
+            <title>Glossy</title>
+        </option>
+      </optionGroup>
+      <optionGroup id="dvdType">
+        <option id="none" default="true">
+            <title>None</title>
+        </option>
+        <option id="one">
+            <title>One DVD Holder</title>
+        </option>
+        <option id="two">
+            <title>Two DVD Holders</title>
+        </option>
+      </optionGroup>
+      <optionGroup id="dvdPrinted">
+        <option id="none" default="true">
+            <title>None</title>
+        </option>
+        <option id="noPrinted">
+            <title>No Printed</title>
+        </option>
+        <option id="customerPrinted">
+            <title>Customer Printed</title>
+        </option>
+      </optionGroup>
+      <optionGroup id="usbCapacities">
+        <option id="none">
+            <title>None</title>
+        </option>
+        <option id="sixteen">
+            <title>16GB</title>
+        </option>
+        <option id="thirtytwo">
+            <title>32GB</title>
+        </option>
+      </optionGroup>
+      <optionGroup id="usbColor">
+        <option id="none">
+            <title>None</title>
+        </option>
+        <option id="usb_silver">
+            <title>Silver</title>
+        </option>
+        <option id="usb_black">
+            <title>Black</title>
+        </option>
+      </optionGroup>
+
+      <!--  天窗形状  -->
+      <optionGroup id="cameoShape">
+        <option id="none"/>
+        <option id="Box_Rect" />
+        <option id="Box_Round" />
+      </optionGroup>
+      <!--  天窗类型  -->
+      <optionGroup id="cameo">
+        <option id="none"/>
+        <option id="Box_M" />
+      </optionGroup>
+
+      <optionGroup id="paper">
+        <option id="none">
+            <title>None</title>
+        </option>
+        <option id="EP">
+            <title>Lustre Print</title>
+        </option>
+      </optionGroup>
+
+    </options>
+  </global>
+  <configurableOptionMap>
+    <optionMap id="size" keyPattern="product">
+      <entry key="IB" value="8X8,10X10,12X12,14X14,8X11,11X14,12X16,11X8,14X11,16X12" defaultValue="8X8"/>
+      <entry key="woodBox" value="4X6,5X7,8X10" defaultValue="4X6"/>
+      <entry key="usbCase" value="6.5X6.5" defaultValue="6.5X6.5"/>
+      <entry key="dvdCase" value="6.5X6.5" defaultValue="6.5X6.5"/>
+    </optionMap>
+
+    <optionMap id="type" keyPattern="product-dvdType">
+      <entry key="woodBox-none" value="none" defaultValue="none"/>
+      <entry key="IB-none" value="BL,IW" defaultValue="BL"/>
+      <entry key="usbCase-none" value="BP,IP" defaultValue="BP"/>
+      <entry key="dvdCase-one" value="BP,IP" defaultValue="BP"/>
+      <entry key="dvdCase-two" value="none" defaultValue="none"/>
+    </optionMap>
+
+    <optionMap id="cover" keyPattern="product">
+      <entry key="[usbCase,dvdCase]" value="HC,NC,BC,LC" defaultValue="HC"/>
+      <entry key="[woodBox,IB]" value="none" defaultValue="none"/>
+    </optionMap>
+
+    <optionMap id="leatherColor" keyPattern="cover">
+      <entry key="HC" value="none" />
+      <entry key="NC" value="black,navyBlue,shamrockGreen,tangerineOrange,slateGrey,maroon,lightBlue,siennaBrown,cream,oliveGreen,indianRed,chocolateBrown,greenLeaf,fireBrick,pinkRose,pansy" />
+      <entry key="LC" value="black,red,white,espresso,camel,blue,kiwi,pink,cream,brown,darkGreen,orange,tan,blackNavyBlue,blueGrey,sunnyYellow" />
+      <entry key="BC" value="blingLace,blingZebra,blingCream,blingBlack,blingBlue,blingEspresso,blingRed,blingWhite" />
+    </optionMap>
+
+    <optionMap id="spineThickness" keyPattern="product">
+      <entry key="IB" value="T,L" defaultValue="T"/>
+      <entry key="woodBox" value="none"/>
+      <entry key="[usbCase,dvdCase]" value="N"/>
+    </optionMap>
+
+    <optionMap id="finish" keyPattern="product">
+      <entry key="woodBox" value="glossy,matte" defaultValue="matte"/>
+      <entry key="[IB,usbCase,dvdCase]" value="none"/>
+    </optionMap>
+
+    <optionMap id="dvdType" keyPattern="product">
+      <entry key="dvdCase" value="one,two" defaultValue="one"/>
+      <entry key="[woodBox,usbCase,IB]" value="none"/>
+    </optionMap>
+
+    <optionMap id="dvdPrinted" keyPattern="product">
+      <entry key="dvdCase" value="customerPrinted,noPrinted" defaultValue="customerPrinted"/>
+      <entry key="[woodBox,usbCase,IB]" value="none"/>
+    </optionMap>
+
+    <optionMap id="usbCapacities" keyPattern="product">
+      <entry key="usbCase" value="sixteen,thirtytwo" defaultValue="sixteen"/>
+      <entry key="[woodBox,dvdCase,IB]" value="none"/>
+    </optionMap>
+
+    <optionMap id="usbColor" keyPattern="product">
+      <entry key="usbCase" value="usb_silver,usb_black" defaultValue="usb_silver"/>
+      <entry key="[woodBox,dvdCase,IB]" value="none"/>
+    </optionMap>
+
+    <optionMap id="cameo" keyPattern="cover">
+      <entry key="[HC,none]" value="none" />
+      <entry key="[LC,NC,BC]" value="Box_M" defaultValue="Box_M" />
+    </optionMap>
+
+    <optionMap id="cameoShape" keyPattern="cover">
+      <entry key="[HC,none]" value="none" />
+      <entry key="[LC,NC,BC]" value="Box_Rect,Box_Round" defaultValue="Box_Rect" />
+    </optionMap>
+
+    <optionMap id="paper" keyPattern="product">
+      <entry key="woodBox" value="none" />
+      <entry key="[usbCase,dvdCase,IB]" value="EP" defaultValue="EP" />
+    </optionMap>
+
+  </configurableOptionMap>
+  <parameters>
+    <parameter id="baseSize" keyPattern="size">
+      <entry key="6.5X6.5" widthInInch="6.5" heightInInch="6.5"/>
+      <entry key="4X6" widthInInch="7.323333333333333" heightInInch="5.276666666666667"/>
+      <entry key="5X7" widthInInch="7.913333333333333" heightInInch="5.943333333333333"/>
+      <entry key="8X10" widthInInch="11.26" heightInInch="9.29"/>
+      <entry key="8X8" widthInInch="9.527559055" heightInInch="9.803149606"/>
+      <entry key="8X11" widthInInch="12.67716535" heightInInch="9.803149606"/>
+      <entry key="11X8" widthInInch="9.527559055" heightInInch="12.95275591"/>
+      <entry key="10X10" widthInInch="11.69291339" heightInInch="11.96850394"/>
+      <entry key="11X14" widthInInch="15.82677165" heightInInch="12.95275591"/>
+      <entry key="14X11" widthInInch="12.67716535" heightInInch="16.1023622"/>
+      <entry key="12X12" widthInInch="13.66141732" heightInInch="13.93700787"/>
+      <entry key="12X16" widthInInch="17.79527559" heightInInch="13.93700787"/>
+      <entry key="16X12" widthInInch="13.66141732" heightInInch="18.07086614"/>
+      <entry key="14X14" widthInInch="15.82677165" heightInInch="16.1023622"/>
+    </parameter>
+
+    <parameter id="innerBaseSize" keyPattern="size">
+      <entry key="6.5X6.5" widthInInch="6.3" heightInInch="6.1"/>
+      <entry key="4X6" widthInInch="7.323333333333333" heightInInch="5.276666666666667"/>
+      <entry key="5X7" widthInInch="7.913333333333333" heightInInch="5.943333333333333"/>
+      <entry key="8X10" widthInInch="11.26" heightInInch="9.29"/>
+      <entry key="8X8" widthInInch="8.937007874" heightInInch="8.937007874"/>
+      <entry key="8X11" widthInInch="12.08661417" heightInInch="8.937007874"/>
+      <entry key="11X8" widthInInch="8.937007874" heightInInch="12.08661417"/>
+      <entry key="10X10" widthInInch="11.1023622" heightInInch="11.1023622"/>
+      <entry key="11X14" widthInInch="15.23622047" heightInInch="12.08661417"/>
+      <entry key="14X11" widthInInch="12.08661417" heightInInch="15.23622047"/>
+      <entry key="12X12" widthInInch="13.07086614" heightInInch="13.07086614"/>
+      <entry key="12X16" widthInInch="17.20472441" heightInInch="13.07086614"/>
+      <entry key="16X12" widthInInch="13.07086614" heightInInch="17.20472441"/>
+      <entry key="14X14" widthInInch="15.23622047" heightInInch="15.23622047"/>
+    </parameter>
+
+    <parameter id="wrapSize" keyPattern="product">
+      <entry key="IB" top="331" right="331" bottom="331" left="331"/>
+      <entry key="woodBox" top="18" right="18" bottom="18" left="18"/>
+      <entry key="usbCase" top="201" right="158" bottom="201" left="158"/>
+      <entry key="dvdCase" top="201" right="158" bottom="201" left="158"/>
+    </parameter>
+
+    <parameter id="innerWrapSize" keyPattern="product">
+      <entry key="IB" top="178" right="178" bottom="178" left="178"/>
+      <entry key="woodBox" top="0" right="0" bottom="0" left="0"/>
+      <entry key="usbCase" top="0" right="0" bottom="0" left="0"/>
+      <entry key="dvdCase" top="0" right="0" bottom="0" left="0"/>
+    </parameter>
+
+    <parameter id="bleedSize" keyPattern="product-cover">
+      <entry key="IB-none" top="35" right="35" bottom="35" left="35"/>
+      <entry key="woodBox-none" top="0" right="0" bottom="0" left="0"/>
+      <entry key="[usbCase,dvdCase]-[HC]" top="24" right="24" bottom="24" left="24"/>
+      <entry key="[usbCase,dvdCase]-[NC,BC,LC]" top="0" right="0" bottom="0" left="0"/>
+    </parameter>
+
+    <parameter id="innerBleedSize" keyPattern="product">
+      <entry key="IB" top="35" right="35" bottom="35" left="35"/>
+      <entry key="woodBox" top="0" right="0" bottom="0" left="0"/>
+      <entry key="usbCase" top="24" right="24" bottom="24" left="24"/>
+      <entry key="dvdCase" top="24" right="24" bottom="24" left="24"/>
+    </parameter>
+
+    <parameter id="spineSize" keyPattern="spineThickness">
+      <entry key="T" baseValue="827"/>
+      <entry key="L" baseValue="579"/>
+      <entry key="N" baseValue="130"/>
+    </parameter>
+
+    <parameter id="spineExpanding" keyPattern="spineThickness">
+      <entry key="[T,L]" expandingOverBackcover="0" expandingOverFrontcover="0" />
+      <entry key="N" expandingOverBackcover="53" expandingOverFrontcover="53" />
+    </parameter>
+
+    <parameter id="dvdSize" keyPattern="product">
+      <entry key="dvdCase" width="1418" height="1418"/>
+      <entry key="[IB,woodBox,usbCase]" width="0" height="0"/>
+    </parameter>
+
+    <parameter id="usbSize" keyPattern="product">
+      <entry key="usbCase" width="524" height="199"/>
+      <entry key="[IB,woodBox,dvdCase]" width="0" height="0"/>
+    </parameter>
+
+    <!--  天窗出血  -->
+    <parameter id="cameoBleed" keyPattern="cameo">
+      <entry key="none" top="0" bottom="0" left="0" right="0" />
+      <entry key="Box_M" top="60" bottom="60" left="60" right="60" />
+    </parameter>
+    <!--  天窗尺寸  -->
+    <parameter id="cameoSize" keyPattern="cameoShape">
+      <entry key="none" width="0" height="0" />
+      <entry key="Box_Rect" width="885" height="885" />
+      <entry key="Box_Round" width="885" height="885" />
+    </parameter>
+
+  </parameters>
+  <variables>
+    <!-- 产品外盒素材图尺寸 -->
+    <variable id="cover" keyPattern="product-size-spineThickness-cover">
+      <!-- ImageBox -->
+      <entry key="IB-8X8-L-none" width="1859" height="962" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="90" image="./assets/imageBox/cover/L/8x8.png" />
+      <entry key="IB-8X11-L-none" width="1855" height="744" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="90" image="./assets/imageBox/cover/L/8x11.png" />
+      <entry key="IB-11X8-L-none" width="1526" height="1019" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="90" image="./assets/imageBox/cover/L/11x8.png" />
+      <entry key="IB-10X10-L-none" width="1761" height="927" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="90" image="./assets/imageBox/cover/L/10x10.png" />
+      <entry key="IB-11X14-L-none" width="1640" height="737" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="90" image="./assets/imageBox/cover/L/11x14.png" />
+      <entry key="IB-14X11-L-none" width="1332" height="865" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="90" image="./assets/imageBox/cover/L/14x11.png" />
+      <entry key="IB-12X12-L-none" width="1390" height="755" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="90" image="./assets/imageBox/cover/L/12x12.png" />
+      <entry key="IB-12X16-L-none" width="1778" height="767" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="90" image="./assets/imageBox/cover/L/12x16.png" />
+      <entry key="IB-16X12-L-none" width="1465" height="980" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="90" image="./assets/imageBox/cover/L/16x12.png" />
+      <entry key="IB-14X14-L-none" width="1692" height="853" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="90" image="./assets/imageBox/cover/L/14x14.png" />
+      <entry key="IB-8X8-T-none" width="1846" height="925" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="90" image="./assets/imageBox/cover/T/8x8.png" />
+      <entry key="IB-8X11-T-none" width="1803" height="738" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="90" image="./assets/imageBox/cover/T/8x11.png" />
+      <entry key="IB-11X8-T-none" width="1385" height="902" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="90" image="./assets/imageBox/cover/T/11x8.png" />
+      <entry key="IB-10X10-T-none" width="1740" height="892" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="90" image="./assets/imageBox/cover/T/10x10.png" />
+      <entry key="IB-11X14-T-none" width="1780" height="881" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="90" image="./assets/imageBox/cover/T/11x14.png" />
+      <entry key="IB-14X11-T-none" width="1446" height="910" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="90" image="./assets/imageBox/cover/T/14x11.png" />
+      <entry key="IB-12X12-T-none" width="1693" height="880" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="90" image="./assets/imageBox/cover/T/12x12.png" />
+      <entry key="IB-12X16-T-none" width="1810" height="766" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="90" image="./assets/imageBox/cover/T/12x16.png" />
+      <entry key="IB-16X12-T-none" width="1501" height="981" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="90" image="./assets/imageBox/cover/T/16x12.png" />
+      <entry key="IB-14X14-T-none" width="1784" height="879" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="90" image="./assets/imageBox/cover/T/14x14.png" />
+
+      <!-- Wood Box -->
+      <entry key="woodBox-4X6-none-none" width="841" height="669" paddingLeft="143" paddingTop="152" paddingRight="50" paddingBottom="50" image="./assets/woodBox/6x4.png" rWidth="669" rHeight="862" rPaddingLeft="145" rPaddingTop="154" rPaddingRight="50" rPaddingBottom="50" rImage="./assets/woodBox/4x6.png" />
+      <entry key="woodBox-5X7-none-none" width="899" height="736" paddingLeft="155" paddingTop="163" paddingRight="50" paddingBottom="50" image="./assets/woodBox/7x5.png" rWidth="727" rHeight="909" rPaddingLeft="154" rPaddingTop="163" rPaddingRight="50" rPaddingBottom="50" rImage="./assets/woodBox/5x7.png" />
+      <entry key="woodBox-8X10-none-none" width="914" height="793" paddingLeft="129" paddingTop="135" paddingRight="50" paddingBottom="50" image="./assets/woodBox/10x8.png" rWidth="797" rHeight="932" rPaddingLeft="138" rPaddingTop="144" rPaddingRight="50" rPaddingBottom="50" rImage="./assets/woodBox/8x10.png" />
+
+      <!-- USB -->
+      <entry key="usbCase-6.5X6.5-N-[HC,NC]" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" image="./assets/usbCase/cover/HC+NC/6.5x6.5.png" />
+      <entry key="usbCase-6.5X6.5-N-[LC,BC]" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" image="./assets/usbCase/cover/LC+BC/6.5x6.5.png" />
+
+      <!-- DVD -->
+      <entry key="dvdCase-6.5X6.5-N-[HC,NC]" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" image="./assets/dvdCase/cover/HC+NC/6.5x6.5.png" />
+      <entry key="dvdCase-6.5X6.5-N-[LC,BC]" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" image="./assets/dvdCase/cover/LC+BC/6.5x6.5.png" />
+    </variable>
+
+    <!-- 产品内部素材图尺寸 -->
+    <variable id="inner" keyPattern="product-size-dvdPrinted-dvdType-usbColor-cover-type">
+      <!-- ImageBox -->
+      <entry key="IB-8X8-none-none-none-none-IW" width="1707" height="943" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="70" lPagePaddingLeft="96" lPagePaddingTop="96" lPagePaddingRight="872" lPagePaddingBottom="106" image="./assets/imageBox/inner/IW/8x8.png" />
+      <entry key="IB-8X11-none-none-none-none-IW" width="1728" height="747" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="70" lPagePaddingLeft="88" lPagePaddingTop="88" lPagePaddingRight="877" lPagePaddingBottom="97" image="./assets/imageBox/inner/IW/8x11.png" />
+      <entry key="IB-11X8-none-none-none-none-IW" width="1308" height="932" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="70" lPagePaddingLeft="87" lPagePaddingTop="88" lPagePaddingRight="667" lPagePaddingBottom="97" image="./assets/imageBox/inner/IW/11x8.png" />
+      <entry key="IB-10X10-none-none-none-none-IW" width="1581" height="870" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="70"  lPagePaddingLeft="88" lPagePaddingTop="88" lPagePaddingRight="807" lPagePaddingBottom="98" image="./assets/imageBox/inner/IW/10x10.png" />
+      <entry key="IB-11X14-none-none-none-none-IW" width="1790" height="809" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="70" lPagePaddingLeft="83" lPagePaddingTop="83" lPagePaddingRight="909" lPagePaddingBottom="93" image="./assets/imageBox/inner/IW/11x14.png" />
+      <entry key="IB-14X11-none-none-none-none-IW" width="1450" height="967" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="70" lPagePaddingLeft="84" lPagePaddingTop="82" lPagePaddingRight="739" lPagePaddingBottom="94" image="./assets/imageBox/inner/IW/14x11.png" />
+      <entry key="IB-12X12-none-none-none-none-IW" width="1591" height="874" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="70" lPagePaddingLeft="84" lPagePaddingTop="84" lPagePaddingRight="810" lPagePaddingBottom="93" image="./assets/imageBox/inner/IW/12x12.png" />
+      <entry key="IB-12X16-none-none-none-none-IW" width="1738" height="760" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="70" lPagePaddingLeft="80" lPagePaddingTop="80" lPagePaddingRight="881" lPagePaddingBottom="91" image="./assets/imageBox/inner/IW/12x16.png" />
+      <entry key="IB-16X12-none-none-none-none-IW" width="1366" height="947" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="70" lPagePaddingLeft="80" lPagePaddingTop="80" lPagePaddingRight="695" lPagePaddingBottom="90" image="./assets/imageBox/inner/IW/16x12.png" />
+      <entry key="IB-14X14-none-none-none-none-IW" width="1561" height="857" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="70" lPagePaddingLeft="80" lPagePaddingTop="79" lPagePaddingRight="792" lPagePaddingBottom="89" image="./assets/imageBox/inner/IW/14x14.png" />
+
+      <entry key="IB-8X8-none-none-none-none-BL" width="1707" height="943" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="70" lPagePaddingLeft="96" lPagePaddingTop="96" lPagePaddingRight="872" lPagePaddingBottom="106" image="./assets/imageBox/inner/BL/8x8.png" />
+      <entry key="IB-8X11-none-none-none-none-BL" width="1728" height="747" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="70" lPagePaddingLeft="88" lPagePaddingTop="88" lPagePaddingRight="877" lPagePaddingBottom="97" image="./assets/imageBox/inner/BL/8x11.png" />
+      <entry key="IB-11X8-none-none-none-none-BL" width="1308" height="932" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="70" lPagePaddingLeft="87" lPagePaddingTop="88" lPagePaddingRight="667" lPagePaddingBottom="97" image="./assets/imageBox/inner/BL/11x8.png" />
+      <entry key="IB-10X10-none-none-none-none-BL" width="1581" height="870" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="70"  lPagePaddingLeft="88" lPagePaddingTop="88" lPagePaddingRight="807" lPagePaddingBottom="98" image="./assets/imageBox/inner/BL/10x10.png" />
+      <entry key="IB-11X14-none-none-none-none-BL" width="1790" height="809" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="70" lPagePaddingLeft="83" lPagePaddingTop="83" lPagePaddingRight="909" lPagePaddingBottom="93" image="./assets/imageBox/inner/BL/11x14.png" />
+      <entry key="IB-14X11-none-none-none-none-BL" width="1450" height="967" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="70" lPagePaddingLeft="84" lPagePaddingTop="82" lPagePaddingRight="739" lPagePaddingBottom="94" image="./assets/imageBox/inner/BL/14x11.png" />
+      <entry key="IB-12X12-none-none-none-none-BL" width="1591" height="874" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="70" lPagePaddingLeft="84" lPagePaddingTop="84" lPagePaddingRight="810" lPagePaddingBottom="93" image="./assets/imageBox/inner/BL/12x12.png" />
+      <entry key="IB-12X16-none-none-none-none-BL" width="1738" height="760" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="70" lPagePaddingLeft="80" lPagePaddingTop="80" lPagePaddingRight="881" lPagePaddingBottom="91" image="./assets/imageBox/inner/BL/12x16.png" />
+      <entry key="IB-16X12-none-none-none-none-BL" width="1366" height="947" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="70" lPagePaddingLeft="80" lPagePaddingTop="80" lPagePaddingRight="695" lPagePaddingBottom="90" image="./assets/imageBox/inner/BL/16x12.png" />
+      <entry key="IB-14X14-none-none-none-none-BL" width="1561" height="857" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="70" lPagePaddingLeft="80" lPagePaddingTop="79" lPagePaddingRight="792" lPagePaddingBottom="89" image="./assets/imageBox/inner/BL/14x14.png" />
+
+      <!-- USB -->
+      <entry key="usbCase-6.5X6.5-none-none-usb_silver-[HC,NC]-IP" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" lPagePaddingLeft="63" lPagePaddingTop="63" lPagePaddingRight="866" lPagePaddingBottom="63" rPagePaddingLeft="1164" rPagePaddingTop="371" rPagePaddingRight="291" rPagePaddingBottom="382" image="./assets/usbCase/inner/HC+NC/IW/silver/6.5x6.5.png" />
+      <entry key="usbCase-6.5X6.5-none-none-usb_silver-[HC,NC]-BP" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" lPagePaddingLeft="63" lPagePaddingTop="63" lPagePaddingRight="866" lPagePaddingBottom="63" rPagePaddingLeft="1164" rPagePaddingTop="371" rPagePaddingRight="291" rPagePaddingBottom="382" image="./assets/usbCase/inner/HC+NC/BL/silver/6.5x6.5.png" />
+      <entry key="usbCase-6.5X6.5-none-none-usb_silver-[LC,BC]-IP" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" lPagePaddingLeft="63" lPagePaddingTop="63" lPagePaddingRight="866" lPagePaddingBottom="63" rPagePaddingLeft="1164" rPagePaddingTop="371" rPagePaddingRight="291" rPagePaddingBottom="382" image="./assets/usbCase/inner/LC+BC/IW/silver/6.5x6.5.png" />
+      <entry key="usbCase-6.5X6.5-none-none-usb_silver-[LC,BC]-BP" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" lPagePaddingLeft="63" lPagePaddingTop="63" lPagePaddingRight="866" lPagePaddingBottom="63" rPagePaddingLeft="1164" rPagePaddingTop="371" rPagePaddingRight="291" rPagePaddingBottom="382" image="./assets/usbCase/inner/LC+BC/BL/silver/6.5x6.5.png" />
+
+      <entry key="usbCase-6.5X6.5-none-none-usb_black-[HC,NC]-IP" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" lPagePaddingLeft="63" lPagePaddingTop="63" lPagePaddingRight="866" lPagePaddingBottom="63" rPagePaddingLeft="1164" rPagePaddingTop="371" rPagePaddingRight="291" rPagePaddingBottom="382" image="./assets/usbCase/inner/HC+NC/IW/black/6.5x6.5.png" />
+      <entry key="usbCase-6.5X6.5-none-none-usb_black-[HC,NC]-BP" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" lPagePaddingLeft="63" lPagePaddingTop="63" lPagePaddingRight="866" lPagePaddingBottom="63" rPagePaddingLeft="1164" rPagePaddingTop="371" rPagePaddingRight="291" rPagePaddingBottom="382" image="./assets/usbCase/inner/HC+NC/BL/black/6.5x6.5.png" />
+      <entry key="usbCase-6.5X6.5-none-none-usb_black-[LC,BC]-IP" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" lPagePaddingLeft="63" lPagePaddingTop="63" lPagePaddingRight="866" lPagePaddingBottom="63" rPagePaddingLeft="1164" rPagePaddingTop="371" rPagePaddingRight="291" rPagePaddingBottom="382" image="./assets/usbCase/inner/LC+BC/IW/black/6.5x6.5.png" />
+      <entry key="usbCase-6.5X6.5-none-none-usb_black-[LC,BC]-BP" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" lPagePaddingLeft="63" lPagePaddingTop="63" lPagePaddingRight="866" lPagePaddingBottom="63" rPagePaddingLeft="1164" rPagePaddingTop="371" rPagePaddingRight="291" rPagePaddingBottom="382" image="./assets/usbCase/inner/LC+BC/BL/black/6.5x6.5.png" />
+
+      <!-- DVD -->
+      <entry key="dvdCase-6.5X6.5-customerPrinted-one-none-[HC,NC]-IP" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" lPagePaddingLeft="63" lPagePaddingTop="63" lPagePaddingRight="866" lPagePaddingBottom="63" rPagePaddingLeft="955" rPagePaddingTop="141" rPagePaddingRight="152" rPagePaddingBottom="141" image="./assets/dvdCase/inner/HC+NC/customerPrinted/one/IW/6.5x6.5.png" />
+      <entry key="dvdCase-6.5X6.5-customerPrinted-one-none-[HC,NC]-BP" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" lPagePaddingLeft="63" lPagePaddingTop="63" lPagePaddingRight="866" lPagePaddingBottom="63" rPagePaddingLeft="955" rPagePaddingTop="141" rPagePaddingRight="152" rPagePaddingBottom="141" image="./assets/dvdCase/inner/HC+NC/customerPrinted/one/BL/6.5x6.5.png" />
+      <entry key="dvdCase-6.5X6.5-customerPrinted-one-none-[LC,BC]-IP" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" lPagePaddingLeft="63" lPagePaddingTop="63" lPagePaddingRight="866" lPagePaddingBottom="63" rPagePaddingLeft="955" rPagePaddingTop="141" rPagePaddingRight="152" rPagePaddingBottom="141" image="./assets/dvdCase/inner/LC+BC/customerPrinted/one/IW/6.5x6.5.png" />
+      <entry key="dvdCase-6.5X6.5-customerPrinted-one-none-[LC,BC]-BP" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" lPagePaddingLeft="63" lPagePaddingTop="63" lPagePaddingRight="866" lPagePaddingBottom="63" rPagePaddingLeft="955" rPagePaddingTop="141" rPagePaddingRight="152" rPagePaddingBottom="141" image="./assets/dvdCase/inner/LC+BC/customerPrinted/one/BL/6.5x6.5.png" />
+      <entry key="dvdCase-6.5X6.5-customerPrinted-two-none-[HC,NC]-none" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" lPagePaddingLeft="152" lPagePaddingTop="141" lPagePaddingRight="957" lPagePaddingBottom="141" rPagePaddingLeft="956" rPagePaddingTop="141" rPagePaddingRight="153" rPagePaddingBottom="141" image="./assets/dvdCase/inner/HC+NC/customerPrinted/two/6.5x6.5.png" />
+      <entry key="dvdCase-6.5X6.5-customerPrinted-two-none-[LC,BC]-none" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" lPagePaddingLeft="152" lPagePaddingTop="141" lPagePaddingRight="957" lPagePaddingBottom="141" rPagePaddingLeft="956" rPagePaddingTop="141" rPagePaddingRight="153" rPagePaddingBottom="141" image="./assets/dvdCase/inner/LC+BC/customerPrinted/two/6.5x6.5.png" />
+
+      <entry key="dvdCase-6.5X6.5-noPrinted-one-none-[HC,NC]-IP" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" lPagePaddingLeft="63" lPagePaddingTop="63" lPagePaddingRight="866" lPagePaddingBottom="63" rPagePaddingLeft="955" rPagePaddingTop="141" rPagePaddingRight="152" rPagePaddingBottom="141" image="./assets/dvdCase/inner/HC+NC/noPrinted/one/IW/6.5x6.5.png" />
+      <entry key="dvdCase-6.5X6.5-noPrinted-one-none-[HC,NC]-BP" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" lPagePaddingLeft="63" lPagePaddingTop="63" lPagePaddingRight="866" lPagePaddingBottom="63" rPagePaddingLeft="955" rPagePaddingTop="141" rPagePaddingRight="152" rPagePaddingBottom="141" image="./assets/dvdCase/inner/HC+NC/noPrinted/one/BL/6.5x6.5.png" />
+      <entry key="dvdCase-6.5X6.5-noPrinted-one-none-[LC,BC]-IP" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" lPagePaddingLeft="63" lPagePaddingTop="63" lPagePaddingRight="866" lPagePaddingBottom="63" rPagePaddingLeft="955" rPagePaddingTop="141" rPagePaddingRight="152" rPagePaddingBottom="141" image="./assets/dvdCase/inner/LC+BC/noPrinted/one/IW/6.5x6.5.png" />
+      <entry key="dvdCase-6.5X6.5-noPrinted-one-none-[LC,BC]-BP" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" lPagePaddingLeft="63" lPagePaddingTop="63" lPagePaddingRight="866" lPagePaddingBottom="63" rPagePaddingLeft="955" rPagePaddingTop="141" rPagePaddingRight="152" rPagePaddingBottom="141" image="./assets/dvdCase/inner/LC+BC/noPrinted/one/BL/6.5x6.5.png" />
+      <entry key="dvdCase-6.5X6.5-noPrinted-two-none-[HC,NC]-none" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" lPagePaddingLeft="152" lPagePaddingTop="141" lPagePaddingRight="957" lPagePaddingBottom="141" rPagePaddingLeft="956" rPagePaddingTop="141" rPagePaddingRight="153" rPagePaddingBottom="141" image="./assets/dvdCase/inner/HC+NC/noPrinted/two/6.5x6.5.png" />
+      <entry key="dvdCase-6.5X6.5-noPrinted-two-none-[LC,BC]-none" width="1644" height="817" paddingLeft="40" paddingTop="40" paddingRight="40" paddingBottom="40" lPagePaddingLeft="152" lPagePaddingTop="141" lPagePaddingRight="957" lPagePaddingBottom="141" rPagePaddingLeft="956" rPagePaddingTop="141" rPagePaddingRight="153" rPagePaddingBottom="141" image="./assets/dvdCase/inner/LC+BC/noPrinted/two/6.5x6.5.png" />
+
+    </variable>
+
+    <variable id="usbTextSize" keyPattern="product">
+      <entry key="usbCase" width="364" height="113" />
+    </variable>
+
+    <variable id="cameoSupportCondition" keyPattern="cover-size">
+      <entry key="[LC,NC,BC,GL]-*" value="true" />
+      <entry key="BC-*" value="false" />
+    </variable>
+
+    <variable id="coverAsset" keyPattern="cover-leatherColor">
+      <entry key="LC-black" coverimage="/template-resources/images/option/cover/preview/black.jpg" thumbnailUrl="./assets/coverThumbnail/LC/leatherette_Black.jpg" />
+      <entry key="LC-red" coverimage="/template-resources/images/option/cover/preview/red.jpg" thumbnailUrl="./assets/coverThumbnail/LC/leatherette_Ruby.jpg" />
+      <entry key="LC-white" coverimage="/template-resources/images/option/cover/preview/white.jpg" thumbnailUrl="./assets/coverThumbnail/LC/leatherette_White.jpg" />
+      <entry key="LC-espresso" coverimage="/template-resources/images/option/cover/preview/espresso.jpg" thumbnailUrl="./assets/coverThumbnail/LC/leatherette_Espresso.jpg" />
+      <entry key="LC-camel" coverimage="/template-resources/images/option/cover/preview/camel.jpg" thumbnailUrl="./assets/coverThumbnail/LC/leatherette_Cinnamon.jpg" />
+      <entry key="LC-blue" coverimage="/template-resources/images/option/cover/preview/blue.jpg" thumbnailUrl="./assets/coverThumbnail/LC/leatherette_Blue.jpg" />
+      <entry key="LC-kiwi" coverimage="/template-resources/images/option/cover/preview/kiwi.jpg" thumbnailUrl="./assets/coverThumbnail/LC/leatherette_Kiwi.jpg" />
+      <entry key="LC-pink" coverimage="/template-resources/images/option/cover/preview/pink.jpg" thumbnailUrl="./assets/coverThumbnail/LC/leatherette_Pink.jpg" />
+      <entry key="LC-brown" coverimage="/template-resources/images/option/cover/preview/brown.jpg?version=2" thumbnailUrl="./assets/coverThumbnail/LC/leatherette_DarkBrown.jpg" />
+      <entry key="LC-darkGreen" coverimage="/template-resources/images/option/cover/preview/darkGreen.jpg" thumbnailUrl="./assets/coverThumbnail/LC/leatherette_DarkGreen.jpg" />
+      <entry key="LC-orange" coverimage="/template-resources/images/option/cover/preview/orange.jpg" thumbnailUrl="./assets/coverThumbnail/LC/leatherette_Brown.jpg" />
+      <entry key="LC-tan" coverimage="/template-resources/images/option/cover/preview/tan.jpg" thumbnailUrl="./assets/coverThumbnail/LC/leatherette_Tan.jpg" />
+      <entry key="LC-blackNavyBlue" coverimage="/template-resources/images/option/cover/preview/blackNavyBlue.jpg" thumbnailUrl="./assets/coverThumbnail/LC/leatherette_NavyBlue.jpg" />
+      <entry key="LC-cream" coverimage="/template-resources/images/option/cover/preview/cream-leather.jpg" thumbnailUrl="./assets/coverThumbnail/LC/leatherette_Cream.jpg" />
+      <entry key="LC-blueGrey" coverimage="/template-resources/images/option/cover/preview/blueGrey.jpg" thumbnailUrl="./assets/coverThumbnail/LC/leatherette_BlueGrey.jpg" />
+      <entry key="LC-sunnyYellow" coverimage="/template-resources/images/option/cover/preview/sunnyYellow.jpg" thumbnailUrl="./assets/coverThumbnail/LC/leatherette_SunnyYellow.jpg" />
+      <entry key="NC-black" coverimage="/template-resources/images/option/cover/preview/linenBlack.jpg" thumbnailUrl="./assets/coverThumbnail/NC/linen_Black.jpg" />
+      <entry key="NC-navyBlue" coverimage="/template-resources/images/option/cover/preview/navyBlue.jpg" thumbnailUrl="./assets/coverThumbnail/NC/linen_NavyBlue.jpg" />
+      <entry key="NC-shamrockGreen" coverimage="/template-resources/images/option/cover/preview/shamrockGreen.jpg" thumbnailUrl="./assets/coverThumbnail/NC/linen_ShamrockGreen.jpg" />
+      <entry key="NC-tangerineOrange" coverimage="/template-resources/images/option/cover/preview/tangerineOrange.jpg" thumbnailUrl="./assets/coverThumbnail/NC/linen_TangerineOrange.jpg" />
+      <entry key="NC-slateGrey" coverimage="/template-resources/images/option/cover/preview/slateGrey.jpg" thumbnailUrl="./assets/coverThumbnail/NC/linen_SlateGrey.jpg" />
+      <entry key="NC-maroon" coverimage="/template-resources/images/option/cover/preview/maroon.jpg" thumbnailUrl="./assets/coverThumbnail/NC/linen_Maroon.jpg" />
+      <entry key="NC-lightBlue" coverimage="/template-resources/images/option/cover/preview/lightBlue.jpg" thumbnailUrl="./assets/coverThumbnail/NC/linen_LightBlue.jpg" />
+      <entry key="NC-siennaBrown" coverimage="/template-resources/images/option/cover/preview/siennaBrown.jpg" thumbnailUrl="./assets/coverThumbnail/NC/linen_SiennaBrown.jpg" />
+      <entry key="NC-cream" coverimage="/template-resources/images/option/cover/preview/cream.jpg" thumbnailUrl="./assets/coverThumbnail/NC/linen_Cream.jpg" />
+      <entry key="NC-oliveGreen" coverimage="/template-resources/images/option/cover/preview/oliveGreen.jpg" thumbnailUrl="./assets/coverThumbnail/NC/linen_OliveGreen.jpg" />
+      <entry key="NC-indianRed" coverimage="/template-resources/images/option/cover/preview/indianRed.jpg" thumbnailUrl="./assets/coverThumbnail/NC/linen_IndianRed.jpg" />
+      <entry key="NC-chocolateBrown" coverimage="/template-resources/images/option/cover/preview/chocolateBrown.jpg" thumbnailUrl="./assets/coverThumbnail/NC/linen_ChocolateBrown.jpg" />
+      <entry key="NC-greenLeaf" coverimage="/template-resources/images/option/cover/preview/Greenleaf.jpg" thumbnailUrl="./assets/coverThumbnail/NC/linen_GreenLeaf.jpg" />
+      <entry key="NC-fireBrick" coverimage="/template-resources/images/option/cover/preview/Firebrick.jpg" thumbnailUrl="./assets/coverThumbnail/NC/linen_FireBrick.jpg" />
+      <entry key="NC-pinkRose" coverimage="/template-resources/images/option/cover/preview/Pinkrose.jpg" thumbnailUrl="./assets/coverThumbnail/NC/linen_PinkRose.jpg" />
+      <entry key="NC-pansy" coverimage="/template-resources/images/option/cover/preview/Pansy.jpg" thumbnailUrl="./assets/coverThumbnail/NC/linen_Pansy.jpg" />
+      <entry key="BC-blingLace" coverimage="/template-resources/images/option/cover/preview/blingLace.jpg" thumbnailUrl="./assets/coverThumbnail/BC/bling_Lace.jpg" />
+      <entry key="BC-blingZebra" coverimage="/template-resources/images/option/cover/preview/blingZebra.jpg" thumbnailUrl="./assets/coverThumbnail/BC/bling_Zebra.jpg" />
+      <entry key="BC-blingCream" coverimage="/template-resources/images/option/cover/preview/blingCream.jpg" thumbnailUrl="./assets/coverThumbnail/BC/bling_Cream.jpg" />
+      <entry key="BC-blingBlack" coverimage="/template-resources/images/option/cover/preview/blingBlack.jpg" thumbnailUrl="./assets/coverThumbnail/BC/bling_BlackGrid.jpg" />
+      <entry key="BC-blingBlue" coverimage="/template-resources/images/option/cover/preview/blingBlue.jpg" thumbnailUrl="./assets/coverThumbnail/BC/bling_BlueGrid.jpg" />
+      <entry key="BC-blingEspresso" coverimage="/template-resources/images/option/cover/preview/blingEspresso.jpg" thumbnailUrl="./assets/coverThumbnail/BC/bling_EspressoGrid.jpg" />
+      <entry key="BC-blingRed" coverimage="/template-resources/images/option/cover/preview/blingRed.jpg" thumbnailUrl="./assets/coverThumbnail/BC/bling_RedGrid.jpg" />
+      <entry key="BC-blingWhite" coverimage="/template-resources/images/option/cover/preview/blingWhite.jpg" thumbnailUrl="./assets/coverThumbnail/BC/bling_WhiteGrid.jpg" />
+    </variable>
+    <variable id="paintedTextColor" keyPattern="cover-leatherColor">
+      <entry key="[NC]-[tangerineOrange,cream,lightBlue]" value="0x000000" />
+      <entry key="[NC]-[black,navyBlue,shamrockGreen,slateGrey,maroon,siennaBrown,oliveGreen,indianRed,chocolateBrown,greenLeaf,fireBrick,pinkRose,pansy]" value="0xffffff" />
+      <entry key="[LC]-[white,kiwi,pink,cream]" value="0x000000" />
+      <entry key="[LC]-[black,red,espresso,camel,blue,brown,darkGreen,orange,tan,blackNavyBlue,blueGrey,sunnyYellow]" value="0xffffff" />
+    </variable>
+  </variables>
+</product-spec>

@@ -1,0 +1,44 @@
+.work-space {
+  //width: 1200px;
+
+  .image-editor {
+    //background-color: #efefef;
+    //height: 600px;
+    position: relative;
+    //min-height: 300px;
+  }
+
+  .btn-list {
+    text-align: center;
+    height: 26px;
+    margin-bottom: 32px;
+
+    .x-add-text{
+      margin: 0 auto;
+    }
+
+    &.m-b-66{
+      margin: 30px auto 66px;
+    }
+
+    .btn {
+      border: none;
+      outline: none;
+      padding: 0 12px;
+      border-radius: 4px;
+      background: #000;
+      box-shadow: 0 0 2px 2px #fff;
+      color: #fff;
+      height: 28px;
+      line-height: 28px;
+      font-size: 14px;
+
+      & + .btn {
+        margin-left: 10px;
+      }
+    }
+  }
+  p {
+    margin: 0;
+  }
+}

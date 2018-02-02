@@ -1,0 +1,33 @@
+.upload-item{
+    .delete,.retry,.failed{
+      display: none;
+    }
+    &.progress{
+      // .delete{
+      //   // display: inline-block;
+      // }
+    }
+    &.done{
+      .delete,.retry{
+        display: none;
+      }
+      .progress{
+        width: 99%!important;
+      }
+    }
+    &.fail{
+        // .retry{
+        //   display: inline-block;
+        // }
+        .progress-c{
+          display: none;
+        }
+        .status{
+          color: #de3418;
+          font-style: italic;
+        }
+        .failed{
+          display: block;
+        }
+    }
+}

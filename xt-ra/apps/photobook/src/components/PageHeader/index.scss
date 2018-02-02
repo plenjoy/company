@@ -1,0 +1,83 @@
+@import "../../../../common/styles/fonts.scss";
+@import "../../../../common/styles/common.scss";
+
+.logo {
+  margin:12px 20px 12px 30px;
+}
+
+.logo img{
+  height:100%;
+}
+
+.project-title{
+  display: inline-block;
+  margin-top: 10px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.head-nav{
+  float:right;
+  height:38px;
+  margin-top:2px;
+}
+
+.nav-item{
+  position:relative;
+  margin-right:50px;
+  display: inline-block;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+  line-height: 38px;
+
+  &:last-child{
+    margin-right:22px;
+  }
+
+  .sub-panel{
+    position:absolute;
+    box-sizing:border-box;
+    display:none;
+    left:-25px;
+    top:38px;
+    width:140px;
+
+    padding:10px 0;
+    background:#fff;
+    box-shadow: 0 0 3px 0px rgb(223,223,223);
+
+    .sub-item{
+      @include font-light();
+      display:block;
+      box-sizing:border-box;
+      width:100%;
+      height:30px;
+      line-height:30px;
+      padding-left:20px;
+      color:#3a3a3a;
+      font-size:13px;
+      text-decoration:none;
+
+      &:hover{
+        background:#f0f0f0;
+      }
+    }
+
+    span {
+      position:absolute;
+      left:28px;
+      top:-10px;
+      color:#fff;
+      font-size:20px;
+      line-height:1;
+    }
+  }
+
+  &:hover .sub-panel{
+    display:block;
+  }
+}

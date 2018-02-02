@@ -1,0 +1,33 @@
+.auto-layout-switch {
+  position: absolute;
+  right: 20px;
+  top: 2px;
+
+  .text{
+    font-size: 12px;
+    color: #7b7b7b;
+    margin-right: 8px;
+    line-height: 30px;
+  }
+
+  .x-toggle-switch{
+    margin-top: -2px;
+  }
+
+  .icon {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+
+    &:focus {
+      outline: 0;
+    }
+
+    &.auto-layout-tip {
+      width: 13px;
+      height: 13px;
+      background: url('./icon-auto-layout-tip.svg') center no-repeat;
+      margin-top: 7px;
+    }
+  }
+}

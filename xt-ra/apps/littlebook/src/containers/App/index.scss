@@ -1,0 +1,68 @@
+@import "../../../../common/styles/fonts";
+@import "../../../../common/styles/base";
+@import "../../../../common/styles/common";
+
+.app {
+  clear: both;
+
+  @include font-light();
+
+  .full-screen-btn {
+    position: fixed;
+    z-index: 50002;
+  }
+
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .side-bar {
+    position: absolute;
+    top: 77px;
+    bottom: 0;
+    overflow: hidden;
+  }
+
+  .notifications-tr{
+    z-index: 99999 !important;
+  }
+  .notifications-tr a {
+    color: #007eff;
+  }
+
+  .work-space {
+    margin-top: 82px;
+  }
+
+  .x-simple-price{
+    height: 38px;
+    line-height: 38px;
+    text-align: right;
+    position: absolute;
+    right: 22px;
+    top: 40px;
+    z-index: 49000;
+    user-select: none;
+  }
+}
+
+/* change react-select default style */
+.Select-menu-outer {
+  background-color: #f0f0f0 !important;
+  border: 1px solid #d6d6d6 !important;
+  color: #3a3a3a !important;
+}
+
+.Select-option {
+  &.is-selected {
+    background-color: #fff !important;
+  }
+
+  &.is-focused {
+    background-color: #f0f0f0 !important;
+  }
+}
+/* END OF changeing react-select default style*/

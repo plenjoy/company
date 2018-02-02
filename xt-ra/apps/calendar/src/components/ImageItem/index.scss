@@ -1,0 +1,58 @@
+@import "../../../../common/styles/fonts";
+
+.image-item{
+  transform: translate3d(-50%, -50%, 0);
+  top: 50%;
+  left: 50%;
+  position: relative;
+
+  .wrap-image{
+    border-radius: 5px;
+    &.selected {
+      background: #d6d6d6;
+    }
+  }
+  .loaded-image-item{
+      position:relative;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  .loaded-image{
+    &.no-image{
+      background: #d6d6d6;
+    }
+
+    &:hover{
+      cursor: move;
+    }
+    .preview-image{
+      display: block;
+      max-width: 80px;
+      max-height: 80px;
+      margin: 0 auto;
+      box-sizing: border-box;
+      box-shadow: 0 3px 6px #e1e1e1;
+    }
+
+    .x-usage-count,
+    .x-delete-icon{
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    &:hover{
+      .x-delete-icon{
+        display: inline-block;
+      }
+    }
+  }
+
+  .preview-image-tip{
+    @include font-light();
+    margin-top: 5px;
+    text-align: center;
+    color: #7b7b7b;
+    font-size: 12px;
+  }
+}

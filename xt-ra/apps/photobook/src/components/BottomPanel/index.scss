@@ -1,0 +1,15 @@
+.tab-pages-layouts{
+   .tab-item{
+    cursor:pointer;
+
+    &.disabled{
+      cursor: default;
+    }
+  }
+}
+ .tab-nav{
+    .tab-nav-item {
+    cursor: pointer;
+  }
+ }
+

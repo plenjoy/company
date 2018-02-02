@@ -1,0 +1,206 @@
+<product-spec version="2.1">
+  <global>
+    <dpi>300</dpi>
+    <imageQualityBufferPercent>30</imageQualityBufferPercent>
+    <imagedimenstions>
+      <imagedimenstion viewWidth="96" viewHeight="96">96x96</imagedimenstion>
+      <imagedimenstion viewWidth="350" viewHeight="350">350x350</imagedimenstion>
+      <imagedimenstion viewWidth="700" viewHeight="700">700x700</imagedimenstion>
+      <imagedimenstion viewWidth="1000" viewHeight="1000">1000x1000</imagedimenstion>
+      <imagedimenstion viewWidth="1500" viewHeight="1500">1500x1500</imagedimenstion>
+    </imagedimenstions>
+    <options>
+      <!-- 贺卡产品 -->
+      <optionGroup id="product">
+        <option id="FT">
+          <title><![CDATA[Flat]]></title>
+        </option>
+        <option id="FD" >
+          <title><![CDATA[Folded]]></title>
+        </option>
+      </optionGroup>
+
+      <!-- 尺寸 -->
+      <optionGroup id="size">
+        <option id="3.5X5">
+          <title><![CDATA[3.5X5]]></title>
+        </option>
+        <option id="6X8">
+          <title><![CDATA[6X8]]></title>
+        </option>
+        <option id="5X7">
+          <title><![CDATA[5X7]]></title>
+        </option>
+        <option id="5X5">
+          <title><![CDATA[5X5]]></title>
+        </option>
+        <option id="4X8">
+          <title><![CDATA[4X8]]></title>
+        </option>
+      </optionGroup>
+      <!-- 纸张 -->
+      <optionGroup id="paper">
+        <option id="SP">
+          <title><![CDATA[Signature Paper]]></title>
+        </option>
+        <option id="PP">
+          <title><![CDATA[Pearlescent Paper]]></title>
+        </option>
+      </optionGroup>
+      <!-- 方向 -->
+      <optionGroup id="orientation">
+        <option id="LA">
+          <title><![CDATA[Landscape]]></title>
+        </option>
+        <option id="PO">
+          <title><![CDATA[Portrait]]></title>
+        </option>
+      </optionGroup>
+       <!--形状-->
+      <optionGroup id="trim">
+        <option id="S">
+          <title><![CDATA[Square]]></title>
+        </option>
+        <option id="R">
+          <title><![CDATA[Rounded]]></title>
+        </option>
+      </optionGroup>
+      <!-- 折痕 -->
+      <optionGroup id="format">
+        <option id="TOP">
+          <title><![CDATA[Top]]></title>
+        </option>
+        <option id="SIDE">
+          <title><![CDATA[Side]]></title>
+        </option>
+      </optionGroup>
+    </options>
+  </global>
+
+  <disableOptionMap>
+    <optionMap id="size" keyPattern="product">
+      <entry key="FD" value="4X8" />
+    </optionMap>
+    <optionMap id="format" keyPattern="product-size-orientation">
+      <entry key="FD-[5X5,6X8,5X7,4X8]-LA" value="SIDE" isShow="true" />
+      <entry key="FD-[5X5,6X8,5X7,4X8]-PO" value="TOP" isShow="true" />
+    </optionMap>
+  </disableOptionMap>
+
+  <configurableOptionMap>
+    <!-- 尺寸 -->
+    <optionMap id="size" keyPattern="product">
+      <entry key="FT" value="3.5X5,6X8,5X7,5X5,4X8" defaultValue="5X7"/>
+      <entry key="FD" value="6X8,5X7,5X5,4X8" defaultValue="5X7"/>
+    </optionMap>
+    <!-- 纸张 -->
+    <optionMap id="paper" keyPattern="product">
+      <entry key="FT" value="SP,PP" defaultValue="SP"/>
+      <entry key="FD" value="SP,PP" defaultValue="SP"/>
+    </optionMap>
+    <!-- 形状 -->
+    <optionMap id="trim" keyPattern="product">
+      <entry key="FT" value="S,R" defaultValue="S"/>
+      <entry key="FD" value="S,R" defaultValue="S"/>
+    </optionMap>
+    <!-- 方向 -->
+    <optionMap id="orientation" keyPattern="product-size">
+      <entry key="FT-5X5" value="PO" defaultValue="PO"/>
+      <entry key="FT-[3.5X5,6X8,5X7,4X8]" value="LA,PO" defaultValue="LA"/>
+      <entry key="FD-[5X5,6X8,5X7,4X8]" value="LA,PO" defaultValue="LA"/>
+    </optionMap>
+    <!-- 折痕 -->
+    <optionMap id="format" keyPattern="product">
+      <entry key="FT" value="none" defaultValue="none"/>
+      <entry key="FD" value="TOP,SIDE" defaultValue="TOP"/>
+    </optionMap>
+  </configurableOptionMap>
+
+  <parameters>
+    <!-- 基础尺寸 -->
+    <parameter id="baseSize" keyPattern="product-size-orientation-format">
+
+      <entry key="FT-5X5-LA-none" widthInInch="5" heightInInch="5" />
+      <entry key="FT-4X8-LA-none" widthInInch="8" heightInInch="4" />
+      <entry key="FT-5X7-LA-none" widthInInch="7" heightInInch="5" />
+      <entry key="FT-6X8-LA-none" widthInInch="8" heightInInch="6" />
+
+      <entry key="FT-5X5-PO-none" widthInInch="5" heightInInch="5"/>
+      <entry key="FT-4X8-PO-none" widthInInch="4" heightInInch="8"/>
+      <entry key="FT-5X7-PO-none" widthInInch="5" heightInInch="7"/>
+      <entry key="FT-6X8-PO-none" widthInInch="6" heightInInch="8"/>
+
+      <entry key="FT-3.5X5-LA-none" widthInInch="5" heightInInch="3.5" />
+      <entry key="FT-3.5X5-PO-none" widthInInch="3.5" heightInInch="5" />
+
+      <entry key="FD-5X5-LA-TOP" widthInInch="5" heightInInch="10.078740157480315" />
+      <entry key="FD-4X8-LA-TOP" widthInInch="8" heightInInch="8.078740157480315" />
+      <entry key="FD-5X7-LA-TOP" widthInInch="7" heightInInch="10.078740157480315" />
+      <entry key="FD-6X8-LA-TOP" widthInInch="8" heightInInch="12.078740157480315" />
+
+      <entry key="FD-5X5-PO-SIDE" widthInInch="10.078740157480315" heightInInch="5" />
+      <entry key="FD-4X8-PO-SIDE" widthInInch="8.078740157480315" heightInInch="8" />
+      <entry key="FD-5X7-PO-SIDE" widthInInch="10.078740157480315" heightInInch="7"/>
+      <entry key="FD-6X8-PO-SIDE" widthInInch="12.078740157480315" heightInInch="8" />
+    </parameter>
+
+    <!-- 出血 -->
+    <parameter id="pageBleed" keyPattern="size">
+      <entry key="[3.5X5,6X8,5X7,5X5,4X8]" top="24" bottom="24" left="24" right="24" />
+    </parameter>
+
+  </parameters>
+
+  <variables>
+    <variable id="foreground" keyPattern="product-size-trim-orientation-format">
+      <!-- c 前缀表示 cover，  i 表示  inner -->
+      <!-- paddingLeft、paddingTop、paddingRight、paddingBottom指图片边缘到图片上frame边缘的距离 -->
+
+      <entry key="FT-3.5X5-S-LA-none" cWidth="965" cHeight="669" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="120" cPaddingBottom="60" />
+      <entry key="FT-3.5X5-R-LA-none" cWidth="965" cHeight="669" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="120" cPaddingBottom="60" />
+      <entry key="FT-3.5X5-S-PO-none" cWidth="730" cHeight="905" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="120" cPaddingBottom="60" />
+      <entry key="FT-3.5X5-R-PO-none" cWidth="730" cHeight="905" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="120" cPaddingBottom="60" />
+
+      <entry key="FT-4X8-S-LA-none" cWidth="1270" cHeight="666" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="120" cPaddingBottom="60" />
+      <entry key="FT-5X5-S-LA-none" cWidth="960" cHeight="900" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="120" cPaddingBottom="60" />
+      <entry key="FT-5X7-S-LA-none" cWidth="1090" cHeight="770" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="120" cPaddingBottom="60" />
+      <entry key="FT-6X8-S-LA-none" cWidth="1182" cHeight="871" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="120" cPaddingBottom="60" />
+
+      <entry key="FT-4X8-S-PO-none" cWidth="640" cHeight="1040" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="120" cPaddingBottom="60" />
+      <entry key="FT-5X5-S-PO-none" cWidth="960" cHeight="900" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="120" cPaddingBottom="60" />
+      <entry key="FT-5X7-S-PO-none" cWidth="771" cHeight="947" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="120" cPaddingBottom="60" />
+      <entry key="FT-6X8-S-PO-none" cWidth="875" cHeight="1046" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="120" cPaddingBottom="60" />
+
+      <entry key="FT-4X8-R-LA-none" cWidth="1270" cHeight="666" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="120" cPaddingBottom="60" />
+      <entry key="FT-5X5-R-LA-none" cWidth="960" cHeight="900" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="120" cPaddingBottom="60" />
+      <entry key="FT-5X7-R-LA-none" cWidth="1090" cHeight="770" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="120" cPaddingBottom="60" />
+      <entry key="FT-6X8-R-LA-none" cWidth="1182" cHeight="871" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="120" cPaddingBottom="60" />
+
+      <entry key="FT-4X8-R-PO-none" cWidth="640" cHeight="1040" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="120" cPaddingBottom="60" />
+      <entry key="FT-5X5-R-PO-none" cWidth="960" cHeight="900" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="120" cPaddingBottom="60" />
+      <entry key="FT-5X7-R-PO-none" cWidth="771" cHeight="947" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="120" cPaddingBottom="60" />
+      <entry key="FT-6X8-R-PO-none" cWidth="875" cHeight="1046" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="120" cPaddingBottom="60" />
+
+      <entry key="FD-4X8-S-LA-TOP" cWidth="1300" cHeight="665" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="150" cPaddingBottom="60" iWidth="961" iHeight="960" iPaddingLeft="52" iPaddingTop="52" iPaddingRight="52" iPaddingBottom="52" />
+      <entry key="FD-5X5-S-LA-TOP" cWidth="735" cHeight="715" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="100" cPaddingBottom="80" iWidth="810" iHeight="1522" iPaddingLeft="50" iPaddingTop="50" iPaddingRight="50" iPaddingBottom="50" />
+      <entry key="FD-5X7-S-LA-TOP" cWidth="1118" cHeight="768" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="150" cPaddingBottom="60" iWidth="731" iHeight="1000" iPaddingLeft="52" iPaddingTop="52" iPaddingRight="52" iPaddingBottom="52" />
+      <entry key="FD-6X8-S-LA-TOP" cWidth="1247" cHeight="899" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="150" cPaddingBottom="60" iWidth="728" iHeight="1040" iPaddingLeft="52" iPaddingTop="52" iPaddingRight="52" iPaddingBottom="52" />
+
+      <entry key="FD-4X8-S-PO-SIDE" cWidth="562" cHeight="943" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="100" cPaddingBottom="80" iWidth="961" iHeight="961" iPaddingLeft="52" iPaddingTop="52" iPaddingRight="52" iPaddingBottom="52" />
+      <entry key="FD-5X5-S-PO-SIDE" cWidth="735" cHeight="715" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="100" cPaddingBottom="80" iWidth="1524" iHeight="815" iPaddingLeft="52" iPaddingTop="52" iPaddingRight="52" iPaddingBottom="52" />
+      <entry key="FD-5X7-S-PO-SIDE" cWidth="729" cHeight="936" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="100" cPaddingBottom="80" iWidth="1052" iHeight="767" iPaddingLeft="52" iPaddingTop="52" iPaddingRight="52" iPaddingBottom="52" />
+      <entry key="FD-6X8-S-PO-SIDE" cWidth="807" cHeight="1003" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="100" cPaddingBottom="80" iWidth="1109" iHeight="774" iPaddingLeft="52" iPaddingTop="52" iPaddingRight="52" iPaddingBottom="52" />
+
+      <entry key="FD-4X8-R-LA-TOP" cWidth="1300" cHeight="664" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="150" cPaddingBottom="60" iWidth="962" iHeight="961" iPaddingLeft="52" iPaddingTop="52" iPaddingRight="52" iPaddingBottom="52" />
+      <entry key="FD-5X5-R-LA-TOP" cWidth="735" cHeight="715" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="100" cPaddingBottom="80" iWidth="810" iHeight="1522" iPaddingLeft="50" iPaddingTop="50" iPaddingRight="50" iPaddingBottom="50" />
+      <entry key="FD-5X7-R-LA-TOP" cWidth="1118" cHeight="769" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="150" cPaddingBottom="60" iWidth="731" iHeight="1000" iPaddingLeft="52" iPaddingTop="52" iPaddingRight="52" iPaddingBottom="52" />
+      <entry key="FD-6X8-R-LA-TOP" cWidth="1247" cHeight="899" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="150" cPaddingBottom="60" iWidth="728" iHeight="1040" iPaddingLeft="52" iPaddingTop="52" iPaddingRight="52" iPaddingBottom="52" />
+
+      <entry key="FD-4X8-R-PO-SIDE" cWidth="552" cHeight="923" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="90" cPaddingBottom="60" iWidth="961" iHeight="961" iPaddingLeft="52" iPaddingTop="52" iPaddingRight="52" iPaddingBottom="52" />
+      <entry key="FD-5X5-R-PO-SIDE" cWidth="725" cHeight="695" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="90" cPaddingBottom="60" iWidth="1524" iHeight="815" iPaddingLeft="52" iPaddingTop="52" iPaddingRight="52" iPaddingBottom="52" />
+      <entry key="FD-5X7-R-PO-SIDE" cWidth="719" cHeight="916" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="90" cPaddingBottom="60" iWidth="1052" iHeight="767" iPaddingLeft="52" iPaddingTop="52" iPaddingRight="52" iPaddingBottom="52" />
+      <entry key="FD-6X8-R-PO-SIDE" cWidth="797" cHeight="982" cPaddingLeft="60" cPaddingTop="60" cPaddingRight="90" cPaddingBottom="60" iWidth="1109" iHeight="774" iPaddingLeft="52" iPaddingTop="52" iPaddingRight="52" iPaddingBottom="52" />
+
+    </variable>
+  </variables>
+</product-spec>

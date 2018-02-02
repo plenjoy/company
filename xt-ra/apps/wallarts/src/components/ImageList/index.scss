@@ -1,0 +1,40 @@
+@import '../../../../common/styles/common.scss';
+
+.image-list{
+  overflow: auto;
+  position: absolute;
+  top: 57px;
+  bottom: 0;
+  // width: 100%;
+  overflow-x: hidden;
+  left: 10px;
+  right: 0;
+
+  &.row-1 {
+    top: 165px;
+  }
+
+  &.row-2 {
+    top: 191px;
+  }
+
+  .image-row{
+    @include clearfix();
+
+    width: 320px;
+    margin: 0 auto;
+
+  }
+
+  .lazy-item {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    float: left;
+    margin: 0 10px 10px 0;
+
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}

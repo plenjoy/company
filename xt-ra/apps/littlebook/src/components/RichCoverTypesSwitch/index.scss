@@ -1,0 +1,59 @@
+@import "../../../../common/styles/fonts";
+
+.rich-cover-type-switch{
+  .btn{
+    cursor: pointer;
+    display: inline-block;
+
+    .icon{
+      height: 18px;
+      width: 18px;
+      display: block;
+      background-size: contain;
+      margin: 0 auto;
+    }
+
+    .text-wrap{
+      @include font-light();
+
+      font-size: 12px;
+      color: #7b7b7b;
+      transform: scale(0.75);
+
+      .text{
+        margin: 0;
+      }
+    }
+
+    &.active{
+      .text-wrap{
+        color: #3a3a3a;
+      }
+    }
+
+    &.btn1{
+      .icon{
+        background: url(./icons/softcover.svg) center no-repeat;
+        background-size: contain;
+      }
+
+      &.active .icon{
+        background: url(./icons/softcover-active.svg) center no-repeat;
+        background-size: contain;
+      }
+    }
+
+    &.btn2{
+      .icon{
+        background: url(./icons/hardcover.svg) center no-repeat;
+        background-size: contain;
+      }
+
+      &.active .icon{
+        background: url(./icons/hardcover-active.svg) center no-repeat;
+        background-size: contain;
+      }
+    }
+  }
+}
+

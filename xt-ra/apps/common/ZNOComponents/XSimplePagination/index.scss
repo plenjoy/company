@@ -1,0 +1,40 @@
+.x-simple-pagination {
+    input{
+        display: none;
+    }
+
+    .icon{
+      width: 28px;
+      height: 48px;
+      cursor: pointer;
+      display: inline-block;
+    }
+
+    // previous icon
+    .previous-icon{
+      background: #F0F0F0 url("./icons/left-normal.svg") center center no-repeat;
+
+      &:hover{
+        background-image: url("./icons/left-hover.svg");
+      }
+    }
+
+    // input:disabled + .previous-icon{
+    //   cursor: not-allowed;
+    //   background-image: url("./icons/more-disable.svg");
+    // }
+
+    // next icon
+    .next-icon{
+      background: #F0F0F0 url("./icons/right-normal.svg") center center no-repeat;
+
+      &:hover{
+        background-image: url("./icons/right-hover.svg");
+      }
+    }
+
+    // input:disabled + .next-icon{
+    //   cursor: not-allowed;
+    //   background-image: url("./icons/less-disable.svg");
+    // }
+}

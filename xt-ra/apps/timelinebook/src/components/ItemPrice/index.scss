@@ -1,0 +1,15 @@
+@import "../../../../common/styles/fonts";
+
+.item-price {
+  @include font-medium();
+  height: 38px;
+  line-height: 38px;
+  text-align: right;
+  position: absolute;
+  right: 22px;
+  top: 40px;
+  z-index: 9997;
+  user-select: none;
+  font-size: 13px;
+  color: #3A3A3A;
+}

@@ -1,0 +1,13 @@
+.spine-text-element{
+  position: absolute;
+  transform: rotate(90deg) translateY(-100%);
+  transform-origin: left top;
+  .spine-text-logo,
+  .spine-text-username,
+  .spine-text-date {
+    display: block;
+    position: absolute;
+    top: 50%;
+    opacity: 0.9;
+  }
+}

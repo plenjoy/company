@@ -1,0 +1,242 @@
+@import '../../../common/styles/common.scss';
+@import '../../../common/styles/fonts.scss';
+.text-edit-modal {
+  box-sizing: border-box;
+  padding: 40px;
+  width: 800px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .modal-title {
+    @include font-light();
+    font-size: 24px;
+    color: #3A3A3A;
+    margin-bottom: 32px;
+  }
+  .modal-content {
+    .text-box {
+      position: relative;
+      >textarea {
+        box-sizing: border-box;
+        width: 100%;
+        height: 80px;
+        padding: 12px;
+        font-size: 12px;
+        background-color: #f0f0f0;
+        border: none;
+        outline: none;
+        resize: none;
+        display: block;
+      }
+      .illegal-char-tip {
+        @include font-light();
+        font-size: 12px;
+        font-style: italic;
+        color: #DE3418;
+        text-align: right;
+        margin: 0;
+        height: 16px;
+        position: absolute;
+        left: 0;
+        bottom: -20px;
+
+        > span {
+          display: inline-block;
+          margin-right: 20px;
+        }
+      }
+    }
+    .button-container {
+      text-align: right;
+      margin: 10px 0;
+      >button {
+        @include font-normal();
+        font-size: 13px;
+        box-sizing: border-box;
+        width: 216px;
+        height: 30px;
+        line-height: 30px;
+      }
+    }
+    .option-container {
+      margin: 20px 0 10px 0;
+      @include clearfix;
+      .option-item {
+        float: left;
+        >div {
+          display: inline-block;
+        }
+        .select-container {
+          &.font-name {
+            width: 160px;
+            .Select-value {
+              width: 143px;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+            }
+          }
+          &.font-weight {
+            width: 140px;
+          }
+          width: 75px;
+          display: inline-block;
+          font-size: 12px;
+          vertical-align: middle;
+          &+.select-container {
+            margin-left: 6px;
+          }
+          .Select-control {
+            height: 20px;
+            border: 1px solid #d6d6d6;
+            border-radius: 4px;
+            background-color: #fff;
+            .Select-clear-zone {
+              display: none;
+            }
+            .Select-value,
+            .Select-clear-zone,
+            .Select-arrow-zone,
+            .Select-input,
+            .Select-placeholder {
+              height: 20px;
+              line-height: 20px;
+            }
+            .Select-menu-outer {
+              font-size: 12px;
+            }
+          }
+        }
+        .size-container {
+          position: relative;
+          .slider-container {
+            display: none;
+            position: absolute;
+            top: 24px;
+            left: 11px;
+            height: 120px;
+            width: 18px;
+            box-sizing: border-box;
+            padding: 6px;
+            background-color: #f0f0f0;
+            border: 1px solid #d6d6d6;
+            border-radius: 4px;
+            z-index: 2;
+            .rc-slider {
+              background-color: #ccc;
+              .rc-slider-track {
+                background-color: #3a3a3a;
+              }
+              .rc-slider-handle {
+                background-color: #fff;
+                border: 1px solid #3a3a3a;
+              }
+            }
+          }
+          .size-input {
+            @include font-normal();
+            width: 49px;
+            height: 22px;
+            box-sizing: border-box;
+            padding: 2px 4px;
+            border: 1px solid #d6d6d6;
+            font-size: 12px;
+            color: #3a3a3a;
+            text-align: center;
+            border-radius: 4px;
+          }
+          .size-input:focus+.slider-container {
+            display: block;
+          }
+        }
+      }
+      .color-picker {
+        margin-left: 12px;
+        display: block;
+        float: left;
+      }
+      .divider {
+        float: left;
+        width: 1px;
+        height: 20px;
+        margin: 0 12px;
+        background-color: #d6d6d6;
+      }
+    }
+    .align-container {
+      @include clearfix();
+      float: left;
+      >div {
+        float: left;
+        .icon {
+          height: 20px;
+          width: 20px;
+          border: none;
+          outline: none;
+          padding: 0;
+          cursor: pointer;
+          display: block;
+          float: left;
+          &+.icon {
+            margin-left: 8px;
+          }
+          &.align-left {
+            background: url('icon-align-left.svg') center no-repeat;
+            &:hover {
+              background: url('icon-align-left-hover.svg') center no-repeat;
+            }
+            &.selected {
+              background: url('icon-align-left-selected.svg') center no-repeat;
+            }
+          }
+          &.align-center {
+            background: url('icon-align-center.svg') center no-repeat;
+            &:hover {
+              background: url('icon-align-center-hover.svg') center no-repeat;
+            }
+            &.selected {
+              background: url('icon-align-center-selected.svg') center no-repeat;
+            }
+          }
+          &.align-right {
+            background: url('icon-align-right.svg') center no-repeat;
+            &:hover {
+              background: url('icon-align-right-hover.svg') center no-repeat;
+            }
+            &.selected {
+              background: url('icon-align-right-selected.svg') center no-repeat;
+            }
+          }
+          &.align-top {
+            background: url('icon-align-top.svg') center no-repeat;
+            &:hover {
+              background: url('icon-align-top-hover.svg') center no-repeat;
+            }
+            &.selected {
+              background: url('icon-align-top-selected.svg') center no-repeat;
+            }
+          }
+          &.align-middle {
+            background: url('icon-align-middle.svg') center no-repeat;
+            &:hover {
+              background: url('icon-align-middle-hover.svg') center no-repeat;
+            }
+            &.selected {
+              background: url('icon-align-middle-selected.svg') center no-repeat;
+            }
+          }
+          &.align-bottom {
+            background: url('icon-align-bottom.svg') center no-repeat;
+            &:hover {
+              background: url('icon-align-bottom-hover.svg') center no-repeat;
+            }
+            &.selected {
+              background: url('icon-align-bottom-selected.svg') center no-repeat;
+            }
+          }
+        }
+      }
+    }
+  }
+}

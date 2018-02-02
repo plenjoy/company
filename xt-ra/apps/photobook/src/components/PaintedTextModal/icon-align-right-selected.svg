@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1203 93 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3a3a3a;
+        stroke: #3a3a3a;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #7b7b7b;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_72" data-name="Group 72" transform="translate(0 -27)">
+    <g id="Rectangle_57" data-name="Rectangle 57" class="cls-1" transform="translate(1203 120)">
+      <rect class="cls-4" width="20" height="20" rx="2"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="19" height="19" rx="1.5"/>
+    </g>
+    <rect id="Rectangle_58" data-name="Rectangle 58" class="cls-2" width="12" height="1" transform="translate(1207 125)"/>
+    <rect id="Rectangle_59" data-name="Rectangle 59" class="cls-2" width="12" height="1" transform="translate(1207 131)"/>
+    <g id="Group_71" data-name="Group 71" transform="translate(-435 -50)">
+      <path id="Path_4" data-name="Path 4" class="cls-3" d="M.5.5h0Z" transform="translate(1642 181)"/>
+      <g id="Group_68" data-name="Group 68" transform="translate(1646 178)">
+        <rect id="Rectangle_60" data-name="Rectangle 60" class="cls-2" width="8" height="1"/>
+      </g>
+      <g id="Group_70" data-name="Group 70" transform="translate(-69 7)">
+        <g id="Group_69" data-name="Group 69" transform="translate(1715 177)">
+          <rect id="Rectangle_61" data-name="Rectangle 61" class="cls-2" width="8" height="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+{
+  "name": "h5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "copy-dir": "^0.3.0",
+    "cp-file": "^4.1.1",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "assets-webpack-plugin": "^3.4.0",
+    "html-webpack-plugin": "^2.22.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1",
+    "write-file-webpack-plugin": "^3.1.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wallartsDev": "set NODE_ENV=dev&&set PRODUCT=wallarts&&node webpack/webpack-dev-server.js",
+    "printDev": "set NODE_ENV=dev&&set PRODUCT=print&&node webpack/webpack-dev-server.js",
+    "newPrintDev": "set NODE_ENV=dev&&set PRODUCT=newPrint&&node webpack/webpack-dev-server.js",
+    "posterDev": "set NODE_ENV=dev&&set PRODUCT=poster&&node webpack/webpack-dev-server.js",
+    "phonecaseDev": "set NODE_ENV=dev&&set PRODUCT=phonecase&&node webpack/webpack-dev-server.js",
+    "tshirtDev": "set NODE_ENV=dev&&set PRODUCT=tshirt&&node webpack/webpack-dev-server.js",
+    "cardsDev": "set NODE_ENV=dev&&set PRODUCT=cards&&node webpack/webpack-dev-server.js",
+    "padCaseDev": "set NODE_ENV=dev&&set PRODUCT=padCase&&node webpack/webpack-dev-server.js",
+    "flushMountPrintDev": "set NODE_ENV=dev&&set PRODUCT=flushMountPrint&&node webpack/webpack-dev-server.js",
+    "littleRoundBlockDev": "set NODE_ENV=dev&&set PRODUCT=littleRoundBlock&&node webpack/webpack-dev-server.js",
+    "littleScribbleCardDev": "set NODE_ENV=dev&&set PRODUCT=littleScribbleCard&&node webpack/webpack-dev-server.js",
+    "lmc": "set NODE_ENV=dev&&set PRODUCT=littleModernCanvas&&node webpack/webpack-dev-server.js",
+    "changeTimeStamps": "node fsWrite.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

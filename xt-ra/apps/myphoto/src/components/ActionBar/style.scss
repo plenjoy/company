@@ -1,0 +1,39 @@
+@import '../../scss/index';
+
+.Header__menus {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+
+.Header__menus--item {
+  height: $Header__menuItem-height;
+  display: inline-block;
+  text-align: center;
+  margin: 0 20px;
+  &:last-child {
+    margin-right: 40px;
+  }
+  a {
+    @include font-family(500);
+    color: white;
+    line-height: $Header__menuItem-height;
+    height: $Header__menuItem-height;
+    display: block;
+    font-size: 14px;
+    cursor: pointer;
+    &:hover {
+      color: #a0a0a0;
+    }
+  }
+
+  .text {
+    position: relative;
+  }
+
+  span.icon {
+    position: relative;
+    font-size: 24px;
+    top: 1px;
+  }
+}

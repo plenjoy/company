@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="15px" viewBox="0 0 13 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>redo-normal</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="delete-page" transform="translate(-1832.000000, -145.000000)" fill="#393939">
+            <g id="redo-normal" transform="translate(1832.000000, 145.000000)">
+                <path d="M12.394,5.245 L7.768,9.826 L7.768,7.052 C6.368,7.052 2.799,7.083 2.799,10.862 C2.77966806,12.7795492 4.10148415,14.4504613 5.972,14.873 C2.98271855,14.4216162 0.782099464,11.8380212 0.812,8.815 C0.812,3.04 6.802,2.991 7.768,2.991 L7.768,0.626 L12.394,5.245 Z" id="path-9"></path>
+            </g>
+        </g>
+    </g>
+</svg>

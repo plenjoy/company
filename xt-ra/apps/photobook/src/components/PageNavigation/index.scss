@@ -1,0 +1,63 @@
+@import '../../../../common/styles/fonts';
+
+.pages-navigation {
+  width: calc(100% - 76px);
+  left: 76px;
+  position: absolute;
+  padding: 24px 10px 0;
+  overflow: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+  box-sizing: border-box;
+  background-color: #F0F0F0;
+  top: 10px;
+
+  .page-number-simple {
+    position: absolute;
+    top: -21px;
+    z-index: 100;
+    width:114px;
+    height:15px;
+    cursor:pointer;
+  }
+
+  .book-cover,
+  .book-sheet {
+    display: inline-block;
+    margin-left:10px;
+    vertical-align: bottom;
+    &:hover {
+      .page-number-simple {
+        div {
+          &:not(.active) {
+            span {
+              position:relative;
+              color: #fff;
+              background:#7b7b7b;
+              padding:0 6px;
+              border-radius: 3px;
+              display: inline-block;
+              &:after {
+                content: '';
+                width: 0;
+                height: 0;
+                border-left: 3px solid transparent;
+                border-right: 3px solid transparent;
+                border-top: 5px solid #7b7b7b;
+                position:absolute;
+                left: 50%;
+                bottom: -4px;
+                transform: translateX(-50%);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .cover-sheet{
+    overflow: hidden;
+  }
+}
+

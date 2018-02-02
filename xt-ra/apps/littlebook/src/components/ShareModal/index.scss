@@ -1,0 +1,184 @@
+@import "../../../../common/styles/fonts.scss";
+
+.share-modal{
+  width:540px;
+  padding:40px;
+  box-sizing:border-box;
+
+  .fl{
+    float:left;
+  }
+  .fr{
+    float:right;
+  }
+
+  .text-position-tabs>li{
+    margin-right:45px;
+  }
+
+  .modal-title{
+    @include font-light();
+    font-size:24px;
+    color:#3a3a3a;
+    margin:0 0 30px 0;
+  }
+
+  h3{
+    @include font-normal();
+    margin:0;
+    padding:0;
+    font-size:13px;
+    color:#3a3a3a;
+  }
+
+  .position-reference{
+    position:relative;
+
+    span{
+      @include font-normal();
+      position:absolute;
+      display:none;
+      right:0;
+      top:-20px;
+      font-size:12px;
+      color:#7b7b7b;
+
+      &.show{
+        display:inline;
+      }
+    }
+  }
+
+  input, button, textarea{
+    margin:0;
+    padding:0;
+    outline:none;
+    box-sizing:border-box;
+  }
+
+  .share-url-wrap{
+    display:none;
+    height:155px;
+    margin-top:40px;
+    &.show{
+      display:block;
+    }
+
+    .znoUrl-wrap, .anonymousUrl-wrap {
+      margin-top:30px;
+
+      >div{
+        margin-top:10px;
+      }
+
+      .url-text{
+        @include font-light();
+        padding-left:5px;
+        border:none;
+        background:#f0f0f0;
+        width:410px;
+        height:30px;
+        font-size:12px;
+        color:#7b7b7b;
+        user-select:all;
+      }
+
+      .copy-button{
+        @include font-normal();
+        margin-left:4px;
+        width:46px;
+        height:30px;
+        font-size:13px;
+        border:1px solid #3a3a3a;
+        background:white;
+        cursor:pointer;
+      }
+    }
+
+  }
+
+  .share-embed-wrap{
+    margin-top:40px;
+    height:155px;
+    display:none;
+    &.show{
+      display:block;
+    }
+
+    .share-size-wrap{
+      text-align:center;
+      .size-item-wrap{
+        display:inline-block;
+        vertical-align:middle;
+
+        input, label{
+          vertical-align:middle;
+        }
+        label{
+          @include font-normal();
+          font-size:13px;
+          color:#3a3a3a;
+          margin-left:2px;
+
+          span{
+            color:#7b7b7b;
+          }
+        }
+      }
+
+    }
+
+    .embed-code-wrap{
+      margin-top:30px;
+
+      >div{
+        margin-top:10px;
+        font-size:0;
+      }
+
+      .embed-code{
+        @include font-light();
+        width:410px;
+        height:84px;
+        background:#f0f0f0;
+        font-size:12px;
+        color:#7b7b7b;
+        padding:5px;
+        border:none;
+        resize:none;
+      }
+
+      .copy-button{
+        @include font-normal();
+        width:46px;
+        height:30px;
+        font-size:13px;
+        border:1px solid #3a3a3a;
+        background:white;
+        cursor:pointer;
+      }
+    }
+  }
+
+  .button-wrap{
+    margin-top:40px;
+    text-align:center;
+
+    .little-button{
+      height:30px;
+      font-size:13px;
+      color:#3a3a3a;
+      line-height:30px;
+      margin:0 20px;
+      background:white;
+      border:1px solid #7b7b7b;
+
+      &:hover{
+        @include font-normal();
+        background:#f0f0f0;
+      }
+    }
+  }
+
+
+}

@@ -1,0 +1,26 @@
+@import '../../../common/styles/fonts';
+
+.OptionList {
+  padding: 28px 0;
+}
+
+.OptionType {
+  padding: 20px 30px #{20 - 15}px 30px;
+  box-sizing: border-box;
+  &:first-child {
+    padding-top: 0;
+  }
+  &:last-child {
+    padding-bottom: 0;
+  }
+  &.showHr {
+    border-bottom: 1px solid #D6D6D6;
+  }
+}
+
+.OptionType__title {
+  @include font-family(400);
+  font-size: 15px;
+  color: #3a3a3a;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,26 @@
+.rotatable {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -100%);
+  z-index: 9000;
+
+  .icon-rotate {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 4px;
+    background: url('./icon-rotate.svg');
+    background-size: 40px 40px;
+    pointer-events: auto;
+  }
+
+  .degree-string {
+    background-color: #060606;
+    color: #fff;
+    position: absolute;
+    left: 35px;
+    top: 6px;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+}

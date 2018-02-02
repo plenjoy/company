@@ -1,0 +1,140 @@
+@import "../../../common/styles/fonts.scss";
+.side-bar {
+  border-right: 1px solid rgba(232, 232, 232, 1);
+  width: 382px;
+  background: rgba(246,246,246,1);
+  border-top: 1px solid rgba(232, 232, 232, 1);
+
+  .list-tab{
+    height: 34px;
+    width: 382px;
+  }
+  .list-tab-selected{
+    float: left;
+    text-align: center;
+    width: 190px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 13px;
+    color: #3a3a3a;
+    @include font-normal();
+    background: rgba(246,246,246,1);
+    border-right: 1px solid rgba(232, 232, 232, 1);
+
+  }
+  .list-tab-noselect{
+    float: left;
+    width: 190px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 13px;
+    @include font-normal();
+    background: #fff;
+    border-bottom: 1px solid rgba(232, 232, 232, 1);
+  }
+  .add-photo{
+    @include font-normal();
+    display: block;
+    width: 324px;
+    margin: 18px auto 0;
+    height: 32px;
+    line-height: 32px;
+    background: #393939;
+    color: #fff;
+    &:hover{
+      background: #000;
+    }
+  }
+
+  .upload-hide{
+    width: 324px;
+    height: 20px;
+    line-height: 20px;
+    margin: 8px auto 24px;
+
+  }
+  .upload-time{
+    float: left;
+    width: 194px;
+    height: 20px;
+    border-radius: 4px;
+    padding-left: 6px;
+    outline: none;
+    font-size: 12px;
+    color: #7b7b7b;
+    word-spacing: 2px;
+
+  }
+  .sort{
+    float: left;
+    margin-left: 2px;
+    height: 17px;
+    width: 17px;
+    border-radius: 3px;
+    border: 1px solid #999;
+    background: url("./path.png") no-repeat 5px 2px;
+    background-size: 8px;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+
+  .item-image{
+    margin-left: 27px;
+    margin-bottom: 20px;
+    float: left;
+    height: 164px;
+    width: 150px;
+    box-sizing: border-box;
+
+
+    .loaded-image{
+      width: 150px;
+      height: 150px;
+      position: relative;
+      box-sizing: border-box;
+      border: 5px solid #fff;
+      box-shadow: 0 3px 6px #e1e1e1;
+
+      &:hover{
+        cursor: move;
+        .icon-delete{
+          width: 20px;
+          height: 20px;
+          position: absolute;
+          top: 130px;
+          left: 130px;
+          background: url("./delete.svg") no-repeat;
+          &:hover{
+            cursor: pointer;
+          }
+        }
+     }
+
+     .preview-image{
+       display: inline-block;
+       width: 140px;
+       height: 140px;
+       border: none;
+      //  background: url("./delete.svg");
+     }
+
+    }
+    .icon-count{
+      width: 27px;
+      height: 24px;
+      position: absolute;
+      top: 107px;
+      left: -13px;
+      background: url("./count.png") no-repeat;
+    }
+    .preview-image-tip{
+      @include font-light();
+      margin-top: 5px;
+      text-align: center;
+      color: #7b7b7b;
+      font-size: 12px;
+    }
+
+  }
+}

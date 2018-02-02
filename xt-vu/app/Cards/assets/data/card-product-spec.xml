@@ -1,0 +1,110 @@
+<product-spec version="1.0">
+  <global>
+    <dpi>300</dpi>
+    <imageQualityBufferPercent>30</imageQualityBufferPercent>
+    <imagedimenstions>
+      <imagedimenstion viewWidth="96" viewHeight="96">96x96</imagedimenstion>
+      <imagedimenstion viewWidth="350" viewHeight="350">350x350</imagedimenstion>
+      <imagedimenstion viewWidth="700" viewHeight="700">700x700</imagedimenstion>
+      <imagedimenstion viewWidth="1000" viewHeight="1000">1000x1000</imagedimenstion>
+      <imagedimenstion viewWidth="1500" viewHeight="1500">1500x1500</imagedimenstion>
+    </imagedimenstions>
+    <options>
+      <!-- 贺卡产品 -->
+      <optionGroup id="product">
+        <option id="FT">
+          <title><![CDATA[Flat]]></title>
+        </option>
+        <option id="FD" >
+          <title><![CDATA[Folded]]></title>
+        </option>
+      </optionGroup>
+
+      <!-- 尺寸 -->
+      <optionGroup id="size">
+        <option id="6X8">
+          <title><![CDATA[6X8]]></title>
+        </option>
+        <option id="5X7">
+          <title><![CDATA[5X7]]></title>
+        </option>
+        <option id="5X5">
+          <title><![CDATA[5X5]]></title>
+        </option>
+        <option id="4X8">
+          <title><![CDATA[4X8]]></title>
+        </option>
+      </optionGroup>
+      <!-- 纸张 -->
+      <optionGroup id="paper">
+        <option id="SP">
+          <title><![CDATA[Signature Paper]]></title>
+        </option>
+        <option id="PP">
+          <title><![CDATA[Pearlescent Paper]]></title>
+        </option>
+      </optionGroup>
+      <!-- 方向 -->
+      <optionGroup id="orientation">
+        <option id="LA">
+          <title><![CDATA[landscape]]></title>
+        </option>
+        <option id="PO">
+          <title><![CDATA[portrait]]></title>
+        </option>
+      </optionGroup>
+    </options>
+  </global>
+
+  <configurableOptionMap>
+    <optionMap id="size" keyPattern="product">
+      <entry key="FT" value="6X8,5X7,5X5,4X8" defaultValue="6X8"/>
+      <entry key="FD" value="6X8,5X7,5X5,4X8" defaultValue="5X7"/>
+    </optionMap>
+    <optionMap id="paper" keyPattern="product">
+      <entry key="FT" value="SP,PP" defaultValue="SP"/>
+      <entry key="FD" value="SP,PP" defaultValue="SP"/>
+    </optionMap>
+    <optionMap id="orientation" keyPattern="product">
+      <entry key="FT" value="LA,PO" defaultValue="LA"/>
+      <entry key="FD" value="LA,PO" defaultValue="LA"/>
+    </optionMap>
+  </configurableOptionMap>
+
+  <parameters>
+    <!-- 基础尺寸 -->
+    <parameter id="baseSize" keyPattern="product-size-orientation">
+
+      <entry key="FT-5X5-LA" widthInInch="4.803149606" heightInInch="4.803149606" />
+      <entry key="FT-4X8-LA" widthInInch="7.874015748" heightInInch="3.976377953" />
+      <entry key="FT-5X7-LA" widthInInch="6.732283465" heightInInch="4.803149606" />
+      <entry key="FT-6X8-LA" widthInInch="8.031496063" heightInInch="5.866141732" />
+      
+      <entry key="FT-5X5-PO" widthInInch="4.803149606" heightInInch="4.803149606"/>
+      <entry key="FT-4X8-PO" widthInInch="3.976377953" heightInInch="7.874015748"/>
+      <entry key="FT-5X7-PO" widthInInch="4.803149606" heightInInch="6.732283465"/>
+      <entry key="FT-6X8-PO" widthInInch="5.866141732" heightInInch="8.031496063"/>
+
+      
+      <entry key="FD-5X5-LA" widthInInch="4.803149606" heightInInch="9.606299212" />
+      <entry key="FD-4X8-LA" widthInInch="7.874015748" heightInInch="7.952755906" />
+      <entry key="FD-5X7-LA" widthInInch="6.732283465" heightInInch="9.68503937" />
+      <entry key="FD-6X8-LA" widthInInch="8.031496063" heightInInch="11.732283464" />
+
+      <entry key="FD-5X5-PO" widthInInch="9.606299212" heightInInch="4.803149606" />
+      <entry key="FD-4X8-PO" widthInInch="7.952755906" heightInInch="7.874015748" />
+      <entry key="FD-5X7-PO" widthInInch="9.68503937" heightInInch="6.732283465"/>
+      <entry key="FD-6X8-PO" widthInInch="11.732283464" heightInInch="8.031496063" />
+
+    </parameter>
+
+    <!-- 出血 -->
+    <parameter id="pageBleed" keyPattern="size">
+      <entry key="[6X8,5X7,5X5,4X8]" top="24" bottom="24" left="24" right="24" />
+    </parameter>
+
+  </parameters>
+
+  <variables>
+  </variables>
+</product-spec>

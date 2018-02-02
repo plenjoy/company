@@ -1,0 +1,57 @@
+@import "../../../../common/styles/common";
+.multiple-action-bar {
+  @include action-bar;
+  width: 200px;
+
+  .item-align-horizontal > a {
+    background: url("./icons/align-horizontal.png") center center no-repeat;
+  }
+
+  .item-align-left > a {
+    background: url("./icons/align-left.png") center center no-repeat;
+  }
+
+  .item-align-center > a {
+    background: url("./icons/align-center.png") center center no-repeat;
+  }
+
+  .item-align-right > a {
+    background: url("./icons/align-right.png") center center no-repeat;
+  }
+
+  .item-align-vertical > a {
+    background: url("./icons/align-vertical.png") center center no-repeat;
+  }
+
+  .item-align-top > a {
+    background: url("./icons/align-top.png") center center no-repeat;
+  }
+
+  .item-align-middle > a {
+    background: url("./icons/align-middle.png") center center no-repeat;
+  }
+
+  .item-align-bottom > a {
+    background: url("./icons/align-bottom.png") center center no-repeat;
+  }
+
+  .item-space > a {
+    background: url("./icons/space.png") center center no-repeat;
+  }
+
+  .item-space-horizontal > a {
+    background: url("./icons/space-horizontal.png") center center no-repeat;
+  }
+
+  .item-space-vertical > a {
+    background: url("./icons/space-vertical.png") center center no-repeat;
+  }
+
+  .item-clear-all > a {
+    background: url("./icons/clear-all.png") center center no-repeat;
+  }
+
+  .icon-item .sub-menu {
+    margin-left: 4px;
+  }
+}

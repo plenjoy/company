@@ -1,0 +1,44 @@
+.book-spreads {
+  height: 100%;
+  padding: 30px 80px;
+  background: rgb(240, 240, 240);
+  box-sizing: border-box;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  .book-spread-row {
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+    width: 1000%;
+    & > *:not(:last-child) {
+      margin-right: 40px;
+    }
+    & > .book-sheet-spread:nth-last-child(2) {
+      margin-right: 0;
+    }
+  }
+  .clearfix {
+    clear: both;
+  }
+  .hide {
+    display: none;
+  }
+  .book-spread-loading {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(240, 240, 240, 0.85);
+    z-index: 2;
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 96px;
+      height: 96px;
+    }
+  }
+}

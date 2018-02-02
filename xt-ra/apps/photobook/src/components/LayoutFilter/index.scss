@@ -1,0 +1,17 @@
+.layout-filter {
+  padding: 0 20px 0 15px;
+  text-align: center;
+
+  a {
+    display: inline-block;
+    margin-right: 20px;
+    color: #909090;
+    font-size: 12px;
+    line-height: 30px;
+
+    &.selected {
+      color: #3a3a3a;
+      font-weight: 500;
+    }
+  }
+}

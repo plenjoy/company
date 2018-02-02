@@ -1,0 +1,1297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product-spec version="4.00">
+    <global>
+        <!-- 精度 -->
+        <dpi>300</dpi>
+        <!-- 打印质量检测时容许的像素不足部分的百分比 -->
+        <imageQualityBufferPercent>30</imageQualityBufferPercent>
+        <!-- 有效的照片缩略图尺寸维度 -->
+        <imagedimenstions>
+            <imagedimenstion viewWidth="96" viewHeight="96">96x96
+            </imagedimenstion>
+            <imagedimenstion viewWidth="350" viewHeight="350">350x350
+            </imagedimenstion>
+            <imagedimenstion viewWidth="700" viewHeight="700">700x700
+            </imagedimenstion>
+            <imagedimenstion viewWidth="1000" viewHeight="1000">1000x1000
+            </imagedimenstion>
+            <imagedimenstion viewWidth="1500" viewHeight="1500">1500x1500
+            </imagedimenstion>
+        </imagedimenstions>
+        <options>
+            <!-- 相框产品 -->
+            <optionGroup id="category">
+                <option id="categoryCanvas">
+                    <title><![CDATA[Canvas Print]]></title>
+                </option>
+                <option id="categoryFramedCanvas">
+                    <title><![CDATA[Framed Canvas]]></title>
+                </option>
+                <option id="categoryFrame">
+                    <title><![CDATA[Standard Frame]]></title>
+                </option>
+                 <option id="categoryFloatFrame">
+                    <title><![CDATA[Float Frame]]></title>
+                </option>
+                <option id="categoryTableTop">
+                    <title><![CDATA[Table Top]]></title>
+                </option>
+                <!-- <option id="categoryWallarts">
+                    <title><![CDATA[Other]]></title>
+                </option> -->
+                <option id="categoryMetalPrint">
+                    <title><![CDATA[Metal Print]]></title>
+                </option>
+                <option id="categoryMountedPrint">
+                    <title><![CDATA[Mounted Print]]></title>
+                </option>
+                <option id="categoryAcrylicPrint">
+                    <title><![CDATA[Acrylic Print]]></title>
+                </option>
+                <option id="categoryWoodPrint">
+                    <title><![CDATA[Wood Print]]></title>
+                </option>
+            </optionGroup>
+            <!-- 相框产品 -->
+            <optionGroup id="product">
+                <option id="contemporary" default="true">
+                    <title><![CDATA[Modern]]></title>
+                </option>
+                <option id="metal">
+                    <title><![CDATA[Metal]]></title>
+                </option>
+                <option id="classicFrame">
+                    <title><![CDATA[Classic]]></title>
+                </option>
+                <option id="canvas" default="true">
+                    <title><![CDATA[Canvas Print]]></title>
+                </option>
+                <option id="frameCanvas">
+                    <title><![CDATA[Framed Canvas]]></title>
+                </option>
+                <option id="flushMountCanvas">
+                    <title><![CDATA[Flush Mount Canvas]]></title>
+                </option>
+                <option id="rusticFrame">
+                    <title><![CDATA[Rustic Frame]]></title>
+                </option>
+                <option id="mountPrint">
+                    <title><![CDATA[Mounted Print]]></title>
+                </option>
+                <option id="acrylicPrint">
+                    <title><![CDATA[Acrylic Print]]></title>
+                </option>
+                <option id="metalPrint">
+                    <title><![CDATA[Metal Print]]></title>
+                </option>
+                <option id="woodPrint">
+                    <title><![CDATA[Wood Print]]></title>
+                </option>
+                <option id="table_classicFrame" >
+                    <title><![CDATA[Vintage Frame]]></title>
+                </option>
+                <option id="table_crystalPlaque">
+                    <title><![CDATA[Crystal Plaque]]></title>
+                </option>
+                <option id="table_modernFrame">
+                    <title><![CDATA[Contemporary Frame]]></title>
+                </option>
+                <option id="table_metalCube">
+                    <title><![CDATA[Metal Cube]]></title>
+                </option>
+                <option id="table_metalPlaque">
+                    <title><![CDATA[Metal Plaque]]></title>
+                </option>
+                <option id="table_woodPlaque">
+                    <title><![CDATA[Wood Plaque]]></title>
+                </option>
+                <!-- <option id="floatFrame">
+                    <title><![CDATA[Float Frame]]></title>
+                </option> -->
+
+                 <option id="floatFrame" default="true">
+                    <title><![CDATA[Modern]]></title>
+                </option>
+                <option id="floatFrame_metalFrame">
+                    <title><![CDATA[Metal]]></title>
+                </option>
+                <option id="floatFrame_classicFrame">
+                    <title><![CDATA[Classic]]></title>
+                </option>
+                <option id="table_woodPlaque2">
+                    <title><![CDATA[Wood Plaque]]></title>
+                </option>
+            </optionGroup>
+            <!-- Style -->
+            <optionGroup id="frameStyle">
+                <option id="none">
+                    <title>None</title>
+                </option>
+                <option id="deep" default="true">
+                    <title>Deep</title>
+                </option>
+                <option id="wide">
+                    <title>Wide</title>
+                </option>
+                <option id="metalDeep">
+                    <title>Old Deep</title>
+                </option>
+                <option id="metalDeep2" default="true">
+                    <title>Deep</title>
+                </option>
+                <option id="baroqueFrame">
+                    <title>Baroque</title>
+                </option>
+                <option id="baroqueCanvas">
+                    <title>Baroque</title>
+                </option>
+                <option id="frameCanvasModernStyle">
+                    <title>Modern</title>
+                </option>
+                <option id="rusticWide">
+                    <title>Wide</title>
+                </option>
+                <option id="curveFrame">
+                    <title>Curve</title>
+                </option>
+                <option id="curveCanvas">
+                    <title>Curve</title>
+                </option>
+                <option id="chelseaFrame" default="true">
+                    <title>Chelsea</title>
+                </option>
+                <option id="newportFrame">
+                    <title>Newport</title>
+                </option>
+                <option id="hudsonFrame">
+                    <title>Hudson</title>
+                </option>
+            </optionGroup>
+            <!-- 相框尺寸 -->
+            <optionGroup id="size">
+                <option id="4X4" name="4x4" aspectRatioType="Square" />
+                <option id="5X7" name="5x7" aspectRatioType="Portrait" />
+                <option id="6X6" name="6x6" aspectRatioType="Square" />
+                <option id="6X8" name="6x8" aspectRatioType="Portrait" />
+                <option id="8X10" name="8x10" aspectRatioType="Portrait" />
+                <option id="11X14" name="11x14" aspectRatioType="Portrait" />
+                <option id="10X24" name="10x24" aspectRatioType="Portrait" />
+                <option id="12X12" name="12x12" aspectRatioType="Square" />
+                <option id="12X36" name="12x36" aspectRatioType="Portrait" />
+                <option id="16X16" name="16x16" aspectRatioType="Square" />
+                <option id="16X20" name="16x20" aspectRatioType="Portrait" />
+                <option id="20X20" name="20x20" aspectRatioType="Square" />
+                <option id="20X30" name="20x30" aspectRatioType="Portrait" />
+                <option id="24X24" name="24x24" aspectRatioType="Square" />
+                <option id="24X36" name="24x36" aspectRatioType="Portrait" />
+                <option id="30X30" name="30x30" aspectRatioType="Square" />
+            </optionGroup>
+            <!-- 旋转方向  -->
+            <optionGroup id="orientation">
+                <option id="Portrait" name="Portrait" />
+                <option id="Landscape" name="Landscape" />
+            </optionGroup>
+            <!-- 相框类型 -->
+            <optionGroup id="color">
+                <option id="none">
+                    <title>None</title>
+                </option>
+                <option id="blackFM" default="true">
+                    <title>Black</title>
+                </option>
+                <option id="whiteFM">
+                    <title>White</title>
+                </option>
+                <option id="mapleFM">
+                    <title>Maple</title>
+                </option>
+                <option id="espressoFM">
+                    <title><![CDATA[Espresso]]></title>
+                </option>
+                <option id="metalBlack">
+                    <title><![CDATA[Black]]></title>
+                </option>
+                <option id="metalSilver">
+                    <title><![CDATA[Silver]]></title>
+                </option>
+                <option id="metalGold">
+                    <title><![CDATA[Gold]]></title>
+                </option>
+                <option id="gold">
+                    <title><![CDATA[Gold]]></title>
+                </option>
+                <option id="blackTT" default="true">
+                    <title>Black</title>
+                </option>
+                <option id="whiteTT">
+                    <title>White</title>
+                </option>
+                <option id="espressoTT">
+                    <title><![CDATA[Espresso]]></title>
+                </option>
+                <option id="mapleTT">
+                    <title><![CDATA[Maple]]></title>
+                </option>
+                <option id="blackCV" default="true">
+                    <title><![CDATA[Black]]></title>
+                </option>
+                <option id="whiteCV">
+                    <title><![CDATA[White]]></title>
+                </option>
+                <option id="mapleCV">
+                    <title><![CDATA[Maple]]></title>
+                </option>
+                <option id="espressoCV">
+                    <title><![CDATA[Espresso]]></title>
+                </option>
+                <option id="greyFM" default="true">
+                    <title><![CDATA[Grey]]></title>
+                </option>
+                <option id="brownFM">
+                    <title><![CDATA[Brown]]></title>
+                </option>
+                <option id="blackCurve" default="true">
+                    <title><![CDATA[Black]]></title>
+                </option>
+                <option id="whiteCurve">
+                    <title><![CDATA[White]]></title>
+                </option>
+                <option id="espressoCurve">
+                    <title><![CDATA[Espresso]]></title>
+                </option>
+                <option id="mapleCurve">
+                    <title><![CDATA[Maple]]></title>
+                </option>
+            </optionGroup>
+            <!-- 纸张类型 -->
+            <optionGroup id="paper">
+                <option id="none">
+                    <title>None</title>
+                </option>
+                <option id="TP">
+                    <title><![CDATA[Canvas]]></title>
+                </option>
+                <option id="EP" default="true">
+                    <title><![CDATA[Lustre]]></title>
+                </option>
+                <option id="MP">
+                    <title><![CDATA[Metallic]]></title>
+                </option>
+                <option id="RP">
+                    <title><![CDATA[Art Print]]></title>
+                </option>
+                <option id="CP">
+                    <title><![CDATA[Canvas]]></title>
+                </option>
+                <option id="metalPrint">
+                    <title><![CDATA[Metal]]></title>
+                </option>
+            </optionGroup>
+            <!-- 金属类型 -->
+            <optionGroup id="metalType">
+                <option id="none" default="true">
+                    <title>None</title>
+                </option>
+                <option id="TC">
+                    <title><![CDATA[White Base]]></title>
+                </option>
+                <option id="BM">
+                    <title><![CDATA[Metal Brush]]></title>
+                </option>
+            </optionGroup>
+            <!-- Matting -->
+            <optionGroup id="matte">
+                <option id="none">
+                    <title>None</title>
+                </option>
+                <option id="M" default="true">
+                    <title>Medium</title>
+                </option>
+            </optionGroup>
+            <!-- Matting Style-->
+            <optionGroup id="matteStyle">
+                <option id="none">
+                    <title>No Matting</title>
+                </option>
+                <option id="matteStyleWhite" default="true">
+                    <title>White Matting</title>
+                </option>
+                <option id="matteStyleBlack">
+                    <title>Black Matting</title>
+                </option>
+            </optionGroup>
+            <!-- Glass -->
+            <optionGroup id="glassStyle">
+                <option id="none">
+                    <title>Glassless</title>
+                </option>
+                <option id="glass" default="true">
+                    <title>Glass</title>
+                </option>
+                <option id="coating">
+                    <title>Glassless</title>
+                </option>
+            </optionGroup>
+            <!-- Canvas Border 油画布包边类型-->
+            <optionGroup id="canvasBorder">
+                <option id="none" default="true">
+                    <title>None</title>
+                </option>
+                <option id="mirror">
+                    <title>Mirror Wrap</title>
+                </option>
+                <option id="image">
+                    <title>Image Wrap</title>
+                </option>
+                <option id="color">
+                    <title>Colored Wrap</title>
+                </option>
+            </optionGroup>
+            <!-- finish-->
+            <optionGroup id="finish">
+                <option id="none" default="true">
+                    <title>None</title>
+                </option>
+                <option id="matte">
+                    <title>Matte</title>
+                </option>
+                <option id="glossy">
+                    <title>Glossy</title>
+                </option>
+                <option id="natural">
+                    <title>Wood Grain</title>
+                </option>
+                <option id="white">
+                    <title>White Base</title>
+                </option>
+            </optionGroup>
+            <optionGroup id="canvasBorderSize">
+                <option id="none">
+                    <title>None</title>
+                </option>
+                <option id="thin">
+                    <title>0.75" (Thin Wrap)</title>
+                </option>
+                <option id="standard">
+                    <title>1.25" (Standard Wrap)</title>
+                </option>
+                <option id="thick">
+                    <title>1.5" (Thick Wrap)</title>
+                </option>
+            </optionGroup>
+            <optionGroup id="photoQuantity">
+                <option id="one">
+                    <title>1 photo</title>
+                </option>
+                <option id="three">
+                    <title>3 photos</title>
+                </option>
+            </optionGroup>
+            <optionGroup id="shape">
+                <option id="Rect">
+                    <title>Rect</title>
+                </option>
+                <option id="Round">
+                    <title>Round</title>
+                </option>
+                <option id="Square">
+                    <title>Square</title>
+                </option>
+            </optionGroup>
+        </options>
+    </global>
+    <disableOptionMap>
+        <optionMap id="product" keyPattern="category">
+            <entry key="*" value="flushMountCanvas,rusticFrame,table_metalPlaque,table_metalCube,table_modernFrame,table_classicFrame,table_woodPlaque" />
+        </optionMap>
+        <optionMap id="frameStyle" keyPattern="product">
+            <entry key="[classicFrame,floatFrame_classicFrame]" value="baroqueFrame,curveFrame" />
+            <entry key="[metal,floatFrame_metalFrame]" value="metalDeep" />
+        </optionMap>
+        <optionMap id="color" keyPattern="product">
+            <entry key="[classicFrame,floatFrame_classicFrame]" value="mapleFM,mapleCV,mapleCurve" />
+            <entry key="[contemporary,floatFrame]" value="mapleFM" />
+            <entry key="frameCanvas" value="mapleCV" />
+        </optionMap>
+        <optionMap id="matteStyle" keyPattern="product">
+            <entry key="*" value="matteStyleBlack" />
+        </optionMap>
+    </disableOptionMap>
+    <configurableOptionMap>
+        <optionMap id="product" keyPattern="category">
+            <entry key="categoryFrame" value="contemporary,metal,classicFrame,rusticFrame" defaultValue="contemporary"></entry>
+            <entry key="categoryCanvas" value="canvas,flushMountCanvas" defaultValue="canvas" ></entry>
+            <entry key="categoryFramedCanvas" value="frameCanvas" defaultValue="frameCanvas" ></entry>
+            <entry key="categoryFloatFrame" value="floatFrame,floatFrame_metalFrame,floatFrame_classicFrame" defaultValue="floatFrame"></entry>
+            <!-- <entry key="categoryWallarts" value="metalPrint,acrylicPrint,mountPrint,woodPrint" defaultValue="metalPrint"></entry> -->
+            <entry key="categoryMetalPrint" value="metalPrint" defaultValue="metalPrint"></entry>
+            <entry key="categoryMountedPrint" value="mountPrint" defaultValue="mountPrint"></entry>
+            <entry key="categoryAcrylicPrint" value="acrylicPrint" defaultValue="acrylicPrint"></entry>
+            <entry key="categoryWoodPrint" value="woodPrint" defaultValue="woodPrint"></entry>
+            <entry key="categoryTableTop" value="table_crystalPlaque,table_metalPlaque,table_woodPlaque,table_woodPlaque2,table_metalCube,table_modernFrame,table_classicFrame" defaultValue="table_crystalPlaque"></entry>
+        </optionMap>
+        <optionMap id="frameStyle" keyPattern="product">
+            <entry key="[contemporary,floatFrame]" value="wide,deep" defaultValue="wide"></entry>
+            <entry key="[metal,floatFrame_metalFrame]" value="metalDeep,metalDeep2" defaultValue="metalDeep2"></entry>
+            <entry key="canvas" value="none" defaultValue="none"></entry>
+            <entry key="[classicFrame,floatFrame_classicFrame]" value="baroqueFrame,curveFrame,chelseaFrame,newportFrame,hudsonFrame" defaultValue="chelseaFrame"></entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque,table_woodPlaque2]" value="none" defaultValue="none"></entry>
+            <entry key="flushMountCanvas" value="baroqueCanvas,curveCanvas"></entry>
+            <entry key="frameCanvas" value="frameCanvasModernStyle" defaultValue="frameCanvasModernStyle"></entry>
+            <entry key="rusticFrame" value="rusticWide" defaultValue="rusticWide"></entry>
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]" value="none" defaultValue="none"></entry>
+        </optionMap>
+        <optionMap id="size" keyPattern="product">
+            <entry key="[contemporary,floatFrame]" value="8X10,10X24,11X14,12X12,12X36,16X16,16X20,20X20,20X30,24X36,24X24,30X30" defaultValue="8X10"/>
+            <entry key="canvas" value="8X10,10X24,11X14,12X12,12X36,16X16,16X20,20X20,20X30,24X36,24X24,30X30" defaultValue="8X10"/>
+            <entry key="[classicFrame,floatFrame_classicFrame]" value="8X10,10X24,11X14,12X12,12X36,16X16,16X20,20X20,20X30,24X36,24X24,30X30" defaultValue="8X10"/>
+            <entry key="[metal,floatFrame_metalFrame]" value="8X10,10X24,11X14,12X12,12X36,16X16,16X20,20X20,20X30,24X36,24X24,30X30" defaultValue="8X10"/>
+            <entry key="flushMountCanvas" value="16X16,16X20,20X30,24X36" defaultValue="16X16"/>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalPlaque,table_woodPlaque]" value="5X7,6X8,8X10" defaultValue="5X7"/>
+            <entry key="table_woodPlaque2" value="5X7,6X8" defaultValue="5X7"/>
+            <entry key="table_metalCube" value="4X4,5X7,6X6,6X8" defaultValue="4X4"/>
+            <entry key="frameCanvas" value="8X10,10X24,11X14,12X12,12X36,16X16,16X20,20X20,20X30,24X24,24X36,30X30" defaultValue="8X10"/>
+            <entry key="rusticFrame" value="8X10,10X24,11X14,12X12,16X16,16X20,20X30,24X36" defaultValue="8X10"/>
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]" value="8X10,10X24,11X14,12X12,12X36,16X16,16X20,20X20,20X30,24X36,24X24,30X30" defaultValue="8X10" />
+        </optionMap>
+        <optionMap id="orientation" keyPattern="product">
+            <entry key="*" value="Portrait,Landscape" defaultValue="Landscape"></entry>
+        </optionMap>
+        <optionMap id="color" keyPattern="product-frameStyle">
+            <entry key="[contemporary,floatFrame]-*" value="blackFM,whiteFM,mapleFM,espressoFM" defaultValue="blackFM"></entry>
+            <entry key="[metal,floatFrame_metalFrame]-*" value="metalBlack,metalSilver,metalGold" defaultValue="metalBlack"></entry>
+            <entry key="canvas-*" value="none" defaultValue="none"></entry>
+            <entry key="[classicFrame,floatFrame_classicFrame]-baroqueFrame" value="gold" defaultValue="gold"></entry>
+            <entry key="[classicFrame,floatFrame_classicFrame]-curveFrame" value="blackCurve,whiteCurve,espressoCurve,mapleCurve" defaultValue="blackCurve" ></entry>
+            <entry key="[classicFrame,floatFrame_classicFrame]-[chelseaFrame,newportFrame,hudsonFrame]" value="blackFM,whiteFM,espressoFM" defaultValue="blackFM" ></entry>
+            <entry key="table_classicFrame-none" value="blackTT,whiteTT,espressoTT,mapleTT" defaultValue="blackTT"></entry>
+            <entry key="[table_crystalPlaque,table_woodPlaque,table_metalPlaque,table_woodPlaque2]-none" value="none"></entry>
+            <entry key="table_modernFrame-none" value="blackFM,espressoFM,whiteFM,mapleFM" defaultValue="blackFM"></entry>
+            <entry key="table_metalCube-none" value="metalBlack,metalSilver" defaultValue="metalSilver"></entry>
+            <entry key="flushMountCanvas-baroqueCanvas" value="gold"></entry>
+            <entry key="flushMountCanvas-curveCanvas" value="blackCurve,whiteCurve,espressoCurve,mapleCurve"></entry>
+            <entry key="frameCanvas-frameCanvasModernStyle" value="blackCV,whiteCV,mapleCV,espressoCV" defaultValue="blackCV"></entry>
+            <entry key="rusticFrame-*" value="greyFM,brownFM" defaultValue="greyFM"></entry>
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*" value="none" defaultValue="none"></entry>
+            <!-- <entry key="floatFrame-*" value="blackFM,whiteFM,espressoFM" defaultValue="blackFM"></entry> -->
+        </optionMap>
+        <optionMap id="paper" keyPattern="product">
+            <entry key="[contemporary,metal,classicFrame]" value="EP,MP,RP,CP" defaultValue="EP" />
+            <entry key="[rusticFrame,floatFrame,floatFrame_metalFrame,floatFrame_classicFrame]" value="EP,MP,RP,CP,metalPrint" defaultValue="EP" />
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque,table_woodPlaque2]" value="EP" defaultValue="EP" />
+            <entry key="[canvas,flushMountCanvas,frameCanvas]" value="TP" defaultValue="TP"></entry>
+            <entry key="[mountPrint,acrylicPrint]" value="EP,MP,RP" defaultValue="EP"></entry>
+            <entry key="[metalPrint,woodPrint]" value="none" defaultValue="none"></entry>
+        </optionMap>
+        <optionMap id="metalType" keyPattern="product-paper">
+            <entry key="[contemporary,metal,classicFrame,rusticFrame]-*" value="none" defaultValue="none" />
+            <entry key="[floatFrame,floatFrame_metalFrame,floatFrame_classicFrame]-metalPrint" value="TC,BM" defaultValue="TC"/>
+            <entry key="[floatFrame,floatFrame_metalFrame,floatFrame_classicFrame]-[EP,MP,RP,CP]" value="none" defaultValue="none"/>
+            <entry key="[canvas,flushMountCanvas,frameCanvas]-*" value="none" defaultValue="none"></entry>
+            <entry key="[mountPrint,acrylicPrint]-*" value="none" defaultValue="none"></entry>
+            <entry key="metalPrint-*" value="TC,BM" defaultValue="TC"></entry>
+            <entry key="woodPrint-*" value="none" defaultValue="none"></entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_woodPlaque,table_woodPlaque2]-*" value="none" defaultValue="none"></entry>
+            <entry key="table_metalPlaque-*" value="TC,BM" defaultValue="TC"></entry>
+        </optionMap>
+        <optionMap id="matteStyle" keyPattern="product-paper">
+            <entry key="[contemporary,metal,classicFrame,rusticFrame]-[CP,MP]" value="none" defaultValue="none" />
+            <entry key="[contemporary,metal,classicFrame,rusticFrame]-[EP,RP]" value="none,matteStyleWhite,matteStyleBlack" defaultValue="matteStyleWhite" />
+            <entry key="[canvas,table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque,flushMountCanvas,frameCanvas,table_woodPlaque2]-*" value="none" defaultValue="none" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint,floatFrame,floatFrame_metalFrame,floatFrame_classicFrame]-*" value="none" defaultValue="none" />
+        </optionMap>
+        <optionMap id="matte" keyPattern="matteStyle">
+            <entry key="[matteStyleWhite,matteStyleBlack]" value="M" defaultValue="M" />
+            <entry key="none" value="none" defaultValue="none" />
+        </optionMap>
+
+        <optionMap id="glassStyle" keyPattern="product-matteStyle-paper">
+            <entry key="[contemporary,metal,classicFrame,rusticFrame]-[matteStyleWhite,matteStyleBlack]-[EP,RP]" value="glass" defaultValue="glass"></entry>
+            <entry key="[contemporary,metal,classicFrame,rusticFrame]-none-[EP,RP]" value="coating,glass" defaultValue="glass"></entry>
+            <entry key="[contemporary,metal,classicFrame,rusticFrame]-*-CP" value="none" defaultValue="none"></entry>
+            <entry key="[contemporary,metal,classicFrame,rusticFrame]-none-MP" value="coating" defaultValue="coating"></entry>
+            <entry key="[canvas,table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque,flushMountCanvas,frameCanvas,table_woodPlaque2]-*-*" value="none" defaultValue="none"></entry>
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint,floatFrame,floatFrame_metalFrame,floatFrame_classicFrame]-*-*" value="none" defaultValue="none"></entry>
+        </optionMap>
+        <optionMap id="canvasBorder" keyPattern="product">
+            <entry key="[contemporary,metal,classicFrame,rusticFrame,table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque,flushMountCanvas,floatFrame,floatFrame_metalFrame,floatFrame_classicFrame,table_woodPlaque2]" value="none" defaultValue="none"></entry>
+            <entry key="canvas" value="image,mirror,color" defaultValue="image"></entry>
+            <entry key="frameCanvas" value="mirror" defaultValue="mirror"></entry>
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]" value="none" defaultValue="none"></entry>
+        </optionMap>
+        <optionMap id="canvasBorderSize" keyPattern="product">
+            <entry key="[contemporary,metal,classicFrame,rusticFrame,table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque,flushMountCanvas,floatFrame,floatFrame_metalFrame,floatFrame_classicFrame,table_woodPlaque2]" value="none" defaultValue="none"></entry>
+            <entry key="canvas" value="thin,standard,thick" defaultValue="standard"></entry>
+            <entry key="frameCanvas" value="standard" defaultValue="standard"></entry>
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]" value="standard" defaultValue="standard"></entry>
+        </optionMap>
+        <optionMap id="finish" keyPattern="product-paper">
+            <entry key="[contemporary,metal,classicFrame,rusticFrame,flushMountCanvas,frameCanvas]-*" value="none" defaultValue="none"></entry>
+            <entry key="[floatFrame,floatFrame_metalFrame,floatFrame_classicFrame]-metalPrint" value="glossy,matte" defaultValue="glossy"></entry>
+            <entry key="[floatFrame,floatFrame_metalFrame,floatFrame_classicFrame]-[EP,MP,RP,CP]" value="none" defaultValue="none"></entry>
+            <entry key="canvas-*" value="none" defaultValue="none"></entry>
+            <entry key="[mountPrint,acrylicPrint]-*" value="none" defaultValue="none"></entry>
+            <entry key="metalPrint-*" value="glossy,matte" defaultValue="glossy"></entry>
+            <entry key="woodPrint-*" value="glossy,matte" defaultValue="glossy"></entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube]-*" value="none" defaultValue="none"></entry>
+            <entry key="[table_woodPlaque,table_woodPlaque2]-*" value="glossy,matte" defaultValue="matte"></entry>
+            <entry key="table_metalPlaque-*" value="glossy,matte" defaultValue="glossy"></entry>
+        </optionMap>
+
+        <optionMap id="photoQuantity" keyPattern="product-size">
+          <entry key="[contemporary,metal,classicFrame,canvas,frameCanvas,flushMountCanvas,rusticFrame,mountPrint,acrylicPrint,metalPrint,woodPrint,table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque,table_woodPlaque2]-*" value="one"></entry>
+          <entry key="[floatFrame,floatFrame_metalFrame,floatFrame_classicFrame]-[8X10,11X14,12X12,16X16,16X20,20X20,20X30,24X36,24X24,30X30]" value="one"></entry>
+          <entry key="[floatFrame,floatFrame_metalFrame,floatFrame_classicFrame]-[10X24,12X36]" value="one,three"></entry>
+        </optionMap>
+
+        <optionMap id="shape" keyPattern="product-size">
+            <entry key="[floatFrame,floatFrame_metalFrame,floatFrame_classicFrame,mountPrint,metalPrint,woodPrint]-[12X12,16X16,20X20,24X24,30X30]" value="Square,Round" defaultValue="Square"></entry>
+            <entry key="[contemporary,metal,classicFrame,rusticFrame,flushMountCanvas,canvas,frameCanvas,acrylicPrint]-[12X12,16X16,20X20,24X24,30X30]" value="Square" defaultValue="Square"></entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque,table_woodPlaque2]-[4X4,6X6]" value="Square" defaultValue="Square"></entry>
+            <entry key="*-[4X4,6X6]" value="Square" defaultValue="Square"></entry>
+            <entry key="*-[5X7,6X8,8X10,11X14,10X24,12X36,16X20,20X30,24X36]" value="Rect" defaultValue="Rect"></entry>
+        </optionMap>
+
+    </configurableOptionMap>
+    <parameters>
+        <!-- 相框板基础尺寸 -->
+        <parameter id="frameBaseSize" keyPattern="product-frameStyle-size-orientation">
+            <entry key="flushMountCanvas-baroqueCanvas-16X16-Portrait" heightInInch="15.76377953" widthInInch="15.76377953" />
+            <entry key="flushMountCanvas-baroqueCanvas-16X20-Portrait" heightInInch="19.76377953" widthInInch="15.76377953" />
+            <entry key="flushMountCanvas-baroqueCanvas-20X30-Portrait" heightInInch="29.76377953" widthInInch="19.76377953" />
+            <entry key="flushMountCanvas-baroqueCanvas-24X36-Portrait" widthInInch="23.77952756" heightInInch="35.7480315" />
+            <entry key="flushMountCanvas-baroqueCanvas-16X16-Landscape" heightInInch="15.76377953" widthInInch="15.76377953" />
+            <entry key="flushMountCanvas-baroqueCanvas-16X20-Landscape" heightInInch="15.76377953" widthInInch="19.76377953" />
+            <entry key="flushMountCanvas-baroqueCanvas-20X30-Landscape" heightInInch="19.76377953" widthInInch="29.76377953" />
+            <entry key="flushMountCanvas-baroqueCanvas-24X36-Landscape" widthInInch="35.7480315" heightInInch="23.77952756" />
+            <entry key="flushMountCanvas-curveCanvas-16X16-Portrait" widthInInch="15.7480315" heightInInch="15.7480315" />
+            <entry key="flushMountCanvas-curveCanvas-16X20-Portrait" widthInInch="15.7480315" heightInInch="19.76377953" />
+            <entry key="flushMountCanvas-curveCanvas-20X30-Portrait" widthInInch="19.76377953" heightInInch="29.76377953" />
+            <entry key="flushMountCanvas-curveCanvas-24X36-Portrait" widthInInch="23.77952756" heightInInch="35.7480315" />
+            <entry key="flushMountCanvas-curveCanvas-16X16-Landscape" widthInInch="15.7480315" heightInInch="15.7480315" />
+            <entry key="flushMountCanvas-curveCanvas-16X20-Landscape" widthInInch="19.76377953" heightInInch="15.7480315" />
+            <entry key="flushMountCanvas-curveCanvas-20X30-Landscape" widthInInch="29.76377953" heightInInch="19.76377953" />
+            <entry key="flushMountCanvas-curveCanvas-24X36-Landscape" widthInInch="35.7480315" heightInInch="23.77952756" />
+
+            <entry key="classicFrame-baroqueFrame-8X10-Portrait" widthInInch="7.755905512" heightInInch="9.763779528" />
+            <entry key="classicFrame-baroqueFrame-11X14-Portrait" widthInInch="10.7480315" heightInInch="13.77952756" />
+            <entry key="classicFrame-baroqueFrame-10X24-Portrait" widthInInch="9.763779528" heightInInch="23.77952756" />
+            <entry key="classicFrame-baroqueFrame-12X12-Portrait" widthInInch="11.77165354" heightInInch="11.77165354" />
+            <entry key="classicFrame-baroqueFrame-16X16-Portrait" widthInInch="15.7480315" heightInInch="15.7480315" />
+            <entry key="classicFrame-baroqueFrame-16X20-Portrait" widthInInch="15.7480315" heightInInch="19.76377953" />
+            <entry key="classicFrame-baroqueFrame-20X30-Portrait" widthInInch="19.76377953" heightInInch="29.76377953" />
+            <entry key="classicFrame-baroqueFrame-24X36-Portrait" widthInInch="23.77952756" heightInInch="35.7480315" />
+            <entry key="classicFrame-baroqueFrame-8X10-Landscape" widthInInch="9.763779528" heightInInch="7.755905512" />
+            <entry key="classicFrame-baroqueFrame-11X14-Landscape" widthInInch="13.77952756" heightInInch="10.7480315" />
+            <entry key="classicFrame-baroqueFrame-10X24-Landscape" widthInInch="23.77952756" heightInInch="9.763779528" />
+            <entry key="classicFrame-baroqueFrame-12X12-Landscape" widthInInch="11.77165354" heightInInch="11.77165354" />
+            <entry key="classicFrame-baroqueFrame-16X16-Landscape" widthInInch="15.7480315" heightInInch="15.7480315" />
+            <entry key="classicFrame-baroqueFrame-16X20-Landscape" widthInInch="19.76377953" heightInInch="15.7480315" />
+            <entry key="classicFrame-baroqueFrame-20X30-Landscape" widthInInch="29.76377953" heightInInch="19.76377953" />
+            <entry key="classicFrame-baroqueFrame-24X36-Landscape" widthInInch="35.7480315" heightInInch="23.77952756" />
+
+            <entry key="classicFrame-curveFrame-8X10-Portrait" widthInInch="7.755905512" heightInInch="9.763779528" />
+            <entry key="classicFrame-curveFrame-11X14-Portrait" widthInInch="10.7480315" heightInInch="13.77952756" />
+            <entry key="classicFrame-curveFrame-10X24-Portrait" widthInInch="9.763779528" heightInInch="23.77952756" />
+            <entry key="classicFrame-curveFrame-12X12-Portrait" widthInInch="11.77165354" heightInInch="11.77165354" />
+            <entry key="classicFrame-curveFrame-16X16-Portrait" widthInInch="15.7480315" heightInInch="15.7480315" />
+            <entry key="classicFrame-curveFrame-16X20-Portrait" widthInInch="15.7480315" heightInInch="19.76377953" />
+            <entry key="classicFrame-curveFrame-20X30-Portrait" widthInInch="19.76377953" heightInInch="29.76377953" />
+            <entry key="classicFrame-curveFrame-24X36-Portrait" widthInInch="23.77952756" heightInInch="35.7480315" />
+            <entry key="classicFrame-curveFrame-8X10-Landscape" widthInInch="9.763779528" heightInInch="7.755905512" />
+            <entry key="classicFrame-curveFrame-11X14-Landscape" widthInInch="13.77952756" heightInInch="10.7480315" />
+            <entry key="classicFrame-curveFrame-10X24-Landscape" widthInInch="23.77952756" heightInInch="9.763779528" />
+            <entry key="classicFrame-curveFrame-12X12-Landscape" widthInInch="11.77165354" heightInInch="11.77165354" />
+            <entry key="classicFrame-curveFrame-16X16-Landscape" widthInInch="15.7480315" heightInInch="15.7480315" />
+            <entry key="classicFrame-curveFrame-16X20-Landscape" widthInInch="19.76377953" heightInInch="15.7480315" />
+            <entry key="classicFrame-curveFrame-20X30-Landscape" widthInInch="29.76377953" heightInInch="19.76377953" />
+            <entry key="classicFrame-curveFrame-24X36-Landscape" widthInInch="35.7480315" heightInInch="23.77952756" />
+
+            <!-- Frame 2.0 -->
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-8X10-Portrait" widthInInch="7.51968504" heightInInch="9.52755906" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-11X14-Portrait" widthInInch="10.55118110" heightInInch="13.54330709" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-10X24-Portrait" widthInInch="9.52755906" heightInInch="23.54330709" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-12X12-Portrait" widthInInch="11.53543307" heightInInch="11.53543307" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-12X36-Portrait" widthInInch="11.53543307" heightInInch="35.51181102" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-16X16-Portrait" widthInInch="15.55118110" heightInInch="15.55118110" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-16X20-Portrait" widthInInch="15.55118110" heightInInch="19.56692913" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-20X20-Portrait" widthInInch="19.56692913" heightInInch="19.56692913" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-20X30-Portrait" widthInInch="19.56692913" heightInInch="29.52755906" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-24X24-Portrait" widthInInch="23.54330709" heightInInch="23.54330709" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-24X36-Portrait" widthInInch="23.54330709" heightInInch="35.51181102" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-30X30-Portrait" widthInInch="29.52755906" heightInInch="29.52755906" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-8X10-Landscape" widthInInch="9.52755906" heightInInch="7.51968504" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-11X14-Landscape" widthInInch="13.54330709" heightInInch="10.55118110" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-10X24-Landscape" widthInInch="23.54330709" heightInInch="9.52755906" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-12X12-Landscape" widthInInch="11.53543307" heightInInch="11.53543307" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-12X36-Landscape" widthInInch="35.51181102" heightInInch="11.53543307" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-16X16-Landscape" widthInInch="15.55118110" heightInInch="15.55118110" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-16X20-Landscape" widthInInch="19.56692913" heightInInch="15.55118110" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-20X20-Landscape" widthInInch="19.56692913" heightInInch="19.56692913" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-20X30-Landscape" widthInInch="29.52755906" heightInInch="19.56692913" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-24X24-Landscape" widthInInch="23.54330709" heightInInch="23.54330709" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-24X36-Landscape" widthInInch="35.51181102" heightInInch="23.54330709" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-30X30-Landscape" widthInInch="29.52755906" heightInInch="29.52755906" />
+
+            <entry key="[contemporary,metal,rusticFrame]-*-8X10-Portrait" heightInInch="9.52755906" widthInInch="7.51968504" default="true" />
+            <entry key="[contemporary,metal,rusticFrame]-*-11X14-Portrait" heightInInch="13.54330709" widthInInch="10.55118110" />
+            <entry key="[contemporary,metal,rusticFrame]-*-10X24-Portrait" heightInInch="23.54330709" widthInInch="9.52755906" />
+            <entry key="[contemporary,metal,rusticFrame]-*-12X12-Portrait" heightInInch="11.53543307" widthInInch="11.53543307" />
+            <entry key="[contemporary,metal,rusticFrame]-*-12X36-Portrait" heightInInch="35.51181102" widthInInch="11.53543307" />
+            <entry key="[contemporary,metal,rusticFrame]-*-16X16-Portrait" heightInInch="15.55118110" widthInInch="15.55118110" />
+            <entry key="[contemporary,metal,rusticFrame]-*-16X20-Portrait" heightInInch="19.56692913" widthInInch="15.55118110" />
+            <entry key="[contemporary,metal,rusticFrame]-*-20X20-Portrait" heightInInch="19.56692913" widthInInch="19.56692913" />
+            <entry key="[contemporary,metal,rusticFrame]-*-20X30-Portrait" heightInInch="29.52755906" widthInInch="19.56692913" />
+            <entry key="[contemporary,metal,rusticFrame]-*-24X24-Portrait" heightInInch="23.54330709" widthInInch="23.54330709" />
+            <entry key="[contemporary,metal,rusticFrame]-*-24X36-Portrait" heightInInch="35.51181102" widthInInch="23.54330709" />
+            <entry key="[contemporary,metal,rusticFrame]-*-30X30-Portrait" heightInInch="29.52755906" widthInInch="29.52755906" />
+            <entry key="[contemporary,metal,rusticFrame]-*-8X10-Landscape" heightInInch="7.51968504" widthInInch="9.52755906" default="true" />
+            <entry key="[contemporary,metal,rusticFrame]-*-11X14-Landscape" heightInInch="10.55118110" widthInInch="13.54330709" />
+            <entry key="[contemporary,metal,rusticFrame]-*-10X24-Landscape" heightInInch="9.52755906" widthInInch="23.54330709" />
+            <entry key="[contemporary,metal,rusticFrame]-*-12X12-Landscape" heightInInch="11.53543307" widthInInch="11.53543307" />
+            <entry key="[contemporary,metal,rusticFrame]-*-12X36-Landscape" heightInInch="11.53543307" widthInInch="35.51181102" />
+            <entry key="[contemporary,metal,rusticFrame]-*-16X16-Landscape" heightInInch="15.55118110" widthInInch="15.55118110" />
+            <entry key="[contemporary,metal,rusticFrame]-*-16X20-Landscape" heightInInch="15.55118110" widthInInch="19.56692913" />
+            <entry key="[contemporary,metal,rusticFrame]-*-20X20-Landscape" heightInInch="19.56692913" widthInInch="19.56692913" />
+            <entry key="[contemporary,metal,rusticFrame]-*-20X30-Landscape" heightInInch="19.56692913" widthInInch="29.52755906" />
+            <entry key="[contemporary,metal,rusticFrame]-*-24X24-Landscape" heightInInch="23.54330709" widthInInch="23.54330709" />
+            <entry key="[contemporary,metal,rusticFrame]-*-24X36-Landscape" heightInInch="23.54330709" widthInInch="35.51181102" />
+            <entry key="[contemporary,metal,rusticFrame]-*-30X30-Landscape" heightInInch="29.52755906" widthInInch="29.52755906" />
+
+            <!-- Frame 2.0  -->
+            <entry key="canvas-*-8X10-Portrait" heightInInch="10.07874016" widthInInch="8.070866142" />
+            <entry key="canvas-*-11X14-Portrait" heightInInch="14.09448819" widthInInch="11.06299213" />
+            <entry key="canvas-*-10X24-Portrait" heightInInch="24.09448819" widthInInch="10.07874016" />
+            <entry key="canvas-*-12X12-Portrait" heightInInch="12.08661417" widthInInch="12.08661417" />
+            <entry key="canvas-*-12X36-Portrait" heightInInch="36.10236220" widthInInch="12.08661417" />
+            <entry key="canvas-*-16X16-Portrait" heightInInch="16.1023622" widthInInch="16.1023622" />
+            <entry key="canvas-*-16X20-Portrait" heightInInch="20.11811024" widthInInch="16.1023622" />
+            <entry key="canvas-*-20X30-Portrait" heightInInch="30.11811024" widthInInch="20.11811024" />
+            <entry key="canvas-*-20X20-Portrait" heightInInch="20.11811024" widthInInch="20.11811024" />
+            <entry key="canvas-*-24X24-Portrait" heightInInch="24.13385827" widthInInch="24.13385827" />
+            <entry key="canvas-*-24X36-Portrait" heightInInch="36.1023622" widthInInch="24.13385827" />
+            <entry key="canvas-*-30X30-Portrait" heightInInch="30.11811024" widthInInch="30.11811024" />
+            <entry key="canvas-*-8X10-Landscape" heightInInch="8.070866142" widthInInch="10.07874016" />
+            <entry key="canvas-*-11X14-Landscape" heightInInch="11.06299213" widthInInch="14.09448819" />
+            <entry key="canvas-*-10X24-Landscape" heightInInch="10.07874016" widthInInch="24.09448819" />
+            <entry key="canvas-*-12X12-Landscape" heightInInch="12.08661417" widthInInch="12.08661417" />
+            <entry key="canvas-*-12X36-Landscape" heightInInch="12.08661417" widthInInch="36.10236220" />
+            <entry key="canvas-*-16X16-Landscape" heightInInch="16.1023622" widthInInch="16.1023622" />
+            <entry key="canvas-*-16X20-Landscape" heightInInch="16.1023622" widthInInch="20.11811024" />
+            <entry key="canvas-*-20X30-Landscape" heightInInch="20.11811024" widthInInch="30.11811024" />
+            <entry key="canvas-*-20X20-Landscape" heightInInch="20.11811024" widthInInch="20.11811024" />
+            <entry key="canvas-*-24X24-Landscape" heightInInch="24.13385827" widthInInch="24.13385827" />
+            <entry key="canvas-*-24X36-Landscape" heightInInch="24.13385827" widthInInch="36.1023622" />
+            <entry key="canvas-*-30X30-Landscape" heightInInch="30.11811024" widthInInch="30.11811024" />
+
+            <entry key="frameCanvas-*-8X10-Portrait" heightInInch="9.763779528" widthInInch="7.755905512" />
+            <entry key="frameCanvas-*-11X14-Portrait" heightInInch="13.77952756" widthInInch="10.7480315" />
+            <entry key="frameCanvas-*-10X24-Portrait" heightInInch="23.77952756" widthInInch="9.763779528" />
+            <entry key="frameCanvas-*-12X12-Portrait" heightInInch="11.77165354" widthInInch="11.77165354" />
+            <entry key="frameCanvas-*-12X36-Portrait" heightInInch="35.7480315" widthInInch="11.77165354" />
+            <entry key="frameCanvas-*-16X16-Portrait" heightInInch="15.7480315" widthInInch="15.7480315" />
+            <entry key="frameCanvas-*-16X20-Portrait" heightInInch="19.76377953" widthInInch="15.7480315" />
+            <entry key="frameCanvas-*-20X20-Portrait" heightInInch="19.76377953" widthInInch="19.76377953" />
+            <entry key="frameCanvas-*-20X30-Portrait" heightInInch="29.76377953" widthInInch="19.76377953" />
+            <entry key="frameCanvas-*-24X24-Portrait" heightInInch="23.77952756" widthInInch="23.77952756" />
+            <entry key="frameCanvas-*-24X36-Portrait" heightInInch="35.7480315" widthInInch="23.77952756" />
+            <entry key="frameCanvas-*-30X30-Portrait" heightInInch="29.76377953" widthInInch="29.76377953" />
+            <entry key="frameCanvas-*-8X10-Landscape" heightInInch="7.755905512" widthInInch="9.763779528" />
+            <entry key="frameCanvas-*-11X14-Landscape" heightInInch="10.7480315" widthInInch="13.77952756" />
+            <entry key="frameCanvas-*-10X24-Landscape" heightInInch="9.763779528" widthInInch="23.77952756" />
+            <entry key="frameCanvas-*-12X12-Landscape" heightInInch="11.77165354" widthInInch="11.77165354" />
+            <entry key="frameCanvas-*-12X36-Landscape" heightInInch="11.77165354" widthInInch="35.7480315" />
+            <entry key="frameCanvas-*-16X16-Landscape" heightInInch="15.7480315" widthInInch="15.7480315" />
+            <entry key="frameCanvas-*-16X20-Landscape" heightInInch="15.7480315" widthInInch="19.76377953" />
+            <entry key="frameCanvas-*-20X20-Landscape" heightInInch="19.76377953" widthInInch="19.76377953" />
+            <entry key="frameCanvas-*-20X30-Landscape" heightInInch="19.76377953" widthInInch="29.76377953" />
+            <entry key="frameCanvas-*-24X24-Landscape" heightInInch="23.77952756" widthInInch="23.77952756" />
+            <entry key="frameCanvas-*-24X36-Landscape" heightInInch="23.77952756" widthInInch="35.7480315" />
+            <entry key="frameCanvas-*-30X30-Landscape" heightInInch="29.76377953" widthInInch="29.76377953" />
+
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-8X10-Portrait" widthInInch="8" heightInInch="10" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-10X24-Portrait" widthInInch="10" heightInInch="24" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-11X14-Portrait" widthInInch="11" heightInInch="14" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-12X12-Portrait" widthInInch="12" heightInInch="12" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-12X36-Portrait" widthInInch="11.96850393700787" heightInInch="35.98425196850394" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-16X16-Portrait" widthInInch="16" heightInInch="16" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-16X20-Portrait" widthInInch="16" heightInInch="20" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-20X20-Portrait" widthInInch="20" heightInInch="20" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-20X30-Portrait" widthInInch="20" heightInInch="30" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-24X24-Portrait" widthInInch="23.97637795275591" heightInInch="23.97637795275591" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-24X36-Portrait" widthInInch="24" heightInInch="36" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-30X30-Portrait" widthInInch="30" heightInInch="30" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-8X10-Landscape" widthInInch="10" heightInInch="8" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-10X24-Landscape" widthInInch="24" heightInInch="10" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-11X14-Landscape" widthInInch="14" heightInInch="11" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-12X12-Landscape" widthInInch="12" heightInInch="12" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-12X36-Landscape" widthInInch="35.98425196850394" heightInInch="11.96850393700787" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-16X16-Landscape" widthInInch="16" heightInInch="16" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-16X20-Landscape" widthInInch="20" heightInInch="16" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-20X20-Landscape" widthInInch="20" heightInInch="20" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-20X30-Landscape" widthInInch="30" heightInInch="20" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-24X24-Landscape" widthInInch="23.97637795275591" heightInInch="23.97637795275591" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-24X36-Landscape" widthInInch="36" heightInInch="24" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-30X30-Landscape" widthInInch="30" heightInInch="30" />
+
+            <entry key="[table_classicFrame,table_modernFrame]-*-5X7-Portrait" widthInInch="4.842519685" heightInInch="6.811023622" />
+            <entry key="[table_classicFrame,table_modernFrame]-*-5X7-Landscape" widthInInch="6.811023622" heightInInch="4.842519685" />
+            <entry key="[table_classicFrame,table_modernFrame]-*-6X8-Portrait" widthInInch="5.826771654" heightInInch="7.834645669" />
+            <entry key="[table_classicFrame,table_modernFrame]-*-6X8-Landscape" widthInInch="7.834645669" heightInInch="5.826771654" />
+            <entry key="[table_classicFrame,table_modernFrame]-*-8X10-Portrait" widthInInch="7.834645669" heightInInch="9.842519685" />
+            <entry key="[table_classicFrame,table_modernFrame]-*-8X10-Landscape" widthInInch="9.842519685" heightInInch="7.834645669" />
+
+            <entry key="[table_crystalPlaque,table_metalPlaque]-*-5X7-Portrait" widthInInch="5" heightInInch="6.968503937" />-*
+            <entry key="[table_crystalPlaque,table_metalPlaque]-*-5X7-Landscape" widthInInch="6.968503937" heightInInch="5" />-*
+            <entry key="[table_crystalPlaque,table_metalPlaque]-*-6X8-Portrait" widthInInch="5.984251969" heightInInch="7.992125984" />-*
+            <entry key="[table_crystalPlaque,table_metalPlaque]-*-6X8-Landscape" widthInInch="7.992125984" heightInInch="5.984251969" />-*
+            <entry key="[table_crystalPlaque,table_metalPlaque]-*-8X10-Portrait" widthInInch="7.992125984" heightInInch="10" />-*
+            <entry key="[table_crystalPlaque,table_metalPlaque]-*-8X10-Landscape" widthInInch="10" heightInInch="7.992125984" />
+
+            <entry key="table_metalCube-*-4X4-*" widthInInch="3.858267717" heightInInch="3.858267717" />
+            <entry key="table_metalCube-*-5X7-Portrait" widthInInch="4.842519685" heightInInch="6.811023622" />
+            <entry key="table_metalCube-*-5X7-Landscape" widthInInch="6.811023622" heightInInch="4.842519685" />
+            <entry key="table_metalCube-*-6X6-*" widthInInch="5.826771654" heightInInch="5.826771654" />
+            <entry key="table_metalCube-*-6X8-Portrait" widthInInch="5.826771654" heightInInch="7.834645669" />
+            <entry key="table_metalCube-*-6X8-Landscape" widthInInch="7.834645669" heightInInch="5.826771654" />
+
+            <entry key="table_woodPlaque-*-5X7-Portrait" widthInInch="5.157480315" heightInInch="7.125984252" />
+            <entry key="table_woodPlaque-*-5X7-Landscape" widthInInch="7.125984252" heightInInch="5.157480315" />
+            <entry key="table_woodPlaque-*-6X8-Portrait" widthInInch="6.141732283" heightInInch="8.149606299" />
+            <entry key="table_woodPlaque-*-6X8-Landscape" widthInInch="8.149606299" heightInInch="6.141732283" />
+            <entry key="table_woodPlaque-*-8X10-Portrait" widthInInch="8.149606299" heightInInch="10.15748031" />
+            <entry key="table_woodPlaque-*-8X10-Landscape" widthInInch="10.15748031" heightInInch="8.149606299" />
+
+            <entry key="floatFrame-*-8X10-Portrait" heightInInch="9.37007874" widthInInch="7.3622047199" default="true" />
+            <entry key="floatFrame-*-11X14-Portrait" heightInInch="13.38582677" widthInInch="10.39370079" />
+            <entry key="floatFrame-*-10X24-Portrait" heightInInch="23.38582677" widthInInch="9.330708659999999" />
+            <entry key="floatFrame-*-12X12-Portrait" heightInInch="11.37795275" widthInInch="11.37795275" />
+            <entry key="floatFrame-*-12X36-Portrait" heightInInch="35.35433071" widthInInch="11.377952756" />
+            <entry key="floatFrame-*-16X16-Portrait" heightInInch="15.393700789999999" widthInInch="15.393700789999999" />
+            <entry key="floatFrame-*-16X20-Portrait" heightInInch="19.40944882" widthInInch="15.393700789999999" />
+            <entry key="floatFrame-*-20X20-Portrait" heightInInch="19.40944882" widthInInch="19.40944882" />
+            <entry key="floatFrame-*-20X30-Portrait" heightInInch="29.37007874" widthInInch="19.40944882" />
+            <entry key="floatFrame-*-24X24-Portrait" heightInInch="23.38582677" widthInInch="23.38582677" />
+            <entry key="floatFrame-*-24X36-Portrait" heightInInch="35.35433071" widthInInch="23.38582677" />
+            <entry key="floatFrame-*-30X30-Portrait" heightInInch="29.37007874" widthInInch="29.37007874" />
+
+            <entry key="floatFrame-*-8X10-Landscape" widthInInch="9.37007874" heightInInch="7.3622047199" default="true" />
+            <entry key="floatFrame-*-11X14-Landscape" widthInInch="13.38582677" heightInInch="10.39370079" />
+            <entry key="floatFrame-*-10X24-Landscape" widthInInch="23.38582677" heightInInch="9.330708659999999" />
+            <entry key="floatFrame-*-12X12-Landscape" widthInInch="11.37795275" heightInInch="11.37795275" />
+            <entry key="floatFrame-*-12X36-Landscape" widthInInch="35.35433071" heightInInch="11.377952756" />
+            <entry key="floatFrame-*-16X16-Landscape" widthInInch="15.393700789999999" heightInInch="15.393700789999999" />
+            <entry key="floatFrame-*-16X20-Landscape" widthInInch="19.40944882" heightInInch="15.393700789999999" />
+            <entry key="floatFrame-*-20X20-Landscape" widthInInch="19.40944882" heightInInch="19.40944882" />
+            <entry key="floatFrame-*-20X30-Landscape" widthInInch="29.37007874" heightInInch="19.40944882" />
+            <entry key="floatFrame-*-24X24-Landscape" widthInInch="23.38582677" heightInInch="23.38582677" />
+            <entry key="floatFrame-*-24X36-Landscape" widthInInch="35.35433071" heightInInch="23.38582677" />
+            <entry key="floatFrame-*-30X30-Landscape" widthInInch="29.37007874" heightInInch="29.37007874" />
+
+            <entry key="floatFrame_classicFrame-chelseaFrame-8X10-Portrait" heightInInch="9.0157480315" widthInInch="7.007874016" default="true" />
+            <entry key="floatFrame_classicFrame-chelseaFrame-11X14-Portrait" heightInInch="13.03149606" widthInInch="10.03937008" />
+            <entry key="floatFrame_classicFrame-chelseaFrame-10X24-Portrait" heightInInch="23.03149606" widthInInch="9.0157480315" />
+            <entry key="floatFrame_classicFrame-chelseaFrame-12X12-Portrait" heightInInch="11.02362205" widthInInch="11.02362205" />
+            <entry key="floatFrame_classicFrame-chelseaFrame-12X36-Portrait" heightInInch="35.00000000" widthInInch="11.02362205" />
+            <entry key="floatFrame_classicFrame-chelseaFrame-16X16-Portrait" heightInInch="15.03937008" widthInInch="15.03937008" />
+            <entry key="floatFrame_classicFrame-chelseaFrame-16X20-Portrait" heightInInch="19.05511811" widthInInch="15.03937008" />
+            <entry key="floatFrame_classicFrame-chelseaFrame-20X20-Portrait" heightInInch="19.05511811" widthInInch="19.05511811" />
+            <entry key="floatFrame_classicFrame-chelseaFrame-20X30-Portrait" heightInInch="29.01574803" widthInInch="19.05511811" />
+            <entry key="floatFrame_classicFrame-chelseaFrame-24X24-Portrait" heightInInch="23.03149606" widthInInch="23.03149606" />
+            <entry key="floatFrame_classicFrame-chelseaFrame-24X36-Portrait" heightInInch="35.00000000" widthInInch="23.03149606" />
+            <entry key="floatFrame_classicFrame-chelseaFrame-30X30-Portrait" heightInInch="29.01574803" widthInInch="29.01574803" />
+
+            <entry key="floatFrame_classicFrame-chelseaFrame-8X10-Landscape" widthInInch="9.0157480315" heightInInch="7.007874016" default="true" />
+            <entry key="floatFrame_classicFrame-chelseaFrame-11X14-Landscape" widthInInch="13.03149606" heightInInch="10.03937008" />
+            <entry key="floatFrame_classicFrame-chelseaFrame-10X24-Landscape" widthInInch="23.03149606" heightInInch="9.0157480315" />
+            <entry key="floatFrame_classicFrame-chelseaFrame-12X12-Landscape" widthInInch="11.02362205" heightInInch="11.02362205" />
+            <entry key="floatFrame_classicFrame-chelseaFrame-12X36-Landscape" widthInInch="35.00000000" heightInInch="11.02362205" />
+            <entry key="floatFrame_classicFrame-chelseaFrame-16X16-Landscape" widthInInch="15.03937008" heightInInch="15.03937008" />
+            <entry key="floatFrame_classicFrame-chelseaFrame-16X20-Landscape" widthInInch="19.05511811" heightInInch="15.03937008" />
+            <entry key="floatFrame_classicFrame-chelseaFrame-20X20-Landscape" widthInInch="19.05511811" heightInInch="19.05511811" />
+            <entry key="floatFrame_classicFrame-chelseaFrame-20X30-Landscape" widthInInch="29.01574803" heightInInch="19.05511811" />
+            <entry key="floatFrame_classicFrame-chelseaFrame-24X24-Landscape" widthInInch="23.03149606" heightInInch="23.03149606" />
+            <entry key="floatFrame_classicFrame-chelseaFrame-24X36-Landscape" widthInInch="35.00000000" heightInInch="23.03149606" />
+            <entry key="floatFrame_classicFrame-chelseaFrame-30X30-Landscape" widthInInch="29.01574803" heightInInch="29.01574803" />
+
+            <entry key="floatFrame_classicFrame-newportFrame-8X10-Portrait" heightInInch="9.094488189" widthInInch="7.086614173" default="true" />
+            <entry key="floatFrame_classicFrame-newportFrame-11X14-Portrait" heightInInch="13.11023622" widthInInch="10.11811024" />
+            <entry key="floatFrame_classicFrame-newportFrame-10X24-Portrait" heightInInch="23.11023622" widthInInch="9.094488189" />
+            <entry key="floatFrame_classicFrame-newportFrame-12X12-Portrait" heightInInch="11.10236221" widthInInch="11.10236221" />
+            <entry key="floatFrame_classicFrame-newportFrame-12X36-Portrait" heightInInch="35.07874016" widthInInch="11.10236221" />
+            <entry key="floatFrame_classicFrame-newportFrame-16X16-Portrait" heightInInch="15.11811024" widthInInch="15.11811024" />
+            <entry key="floatFrame_classicFrame-newportFrame-16X20-Portrait" heightInInch="19.13385827" widthInInch="15.11811024" />
+            <entry key="floatFrame_classicFrame-newportFrame-20X20-Portrait" heightInInch="19.13385827" widthInInch="19.13385827" />
+            <entry key="floatFrame_classicFrame-newportFrame-20X30-Portrait" heightInInch="29.09448819" widthInInch="19.13385827" />
+            <entry key="floatFrame_classicFrame-newportFrame-24X24-Portrait" heightInInch="23.11023622" widthInInch="23.11023622" />
+            <entry key="floatFrame_classicFrame-newportFrame-24X36-Portrait" heightInInch="35.07874016" widthInInch="23.11023622" />
+            <entry key="floatFrame_classicFrame-newportFrame-30X30-Portrait" heightInInch="29.09448819" widthInInch="29.09448819" />
+
+            <entry key="floatFrame_classicFrame-newportFrame-8X10-Landscape" widthInInch="9.094488189" heightInInch="7.086614173" default="true" />
+            <entry key="floatFrame_classicFrame-newportFrame-11X14-Landscape" widthInInch="13.11023622" heightInInch="10.11811024" />
+            <entry key="floatFrame_classicFrame-newportFrame-10X24-Landscape" widthInInch="23.11023622" heightInInch="9.094488189" />
+            <entry key="floatFrame_classicFrame-newportFrame-12X12-Landscape" widthInInch="11.10236221" heightInInch="11.10236221" />
+            <entry key="floatFrame_classicFrame-newportFrame-12X36-Landscape" widthInInch="35.07874016" heightInInch="11.10236221" />
+            <entry key="floatFrame_classicFrame-newportFrame-16X16-Landscape" widthInInch="15.11811024" heightInInch="15.11811024" />
+            <entry key="floatFrame_classicFrame-newportFrame-16X20-Landscape" widthInInch="19.13385827" heightInInch="15.11811024" />
+            <entry key="floatFrame_classicFrame-newportFrame-20X20-Landscape" widthInInch="19.13385827" heightInInch="19.13385827" />
+            <entry key="floatFrame_classicFrame-newportFrame-20X30-Landscape" widthInInch="29.09448819" heightInInch="19.13385827" />
+            <entry key="floatFrame_classicFrame-newportFrame-24X24-Landscape" widthInInch="23.11023622" heightInInch="23.11023622" />
+            <entry key="floatFrame_classicFrame-newportFrame-24X36-Landscape" widthInInch="35.07874016" heightInInch="23.11023622" />
+            <entry key="floatFrame_classicFrame-newportFrame-30X30-Landscape" widthInInch="29.09448819" heightInInch="29.09448819" />
+
+            <entry key="floatFrame_classicFrame-hudsonFrame-8X10-Portrait" heightInInch="9.0157480315" widthInInch="7.007874016" default="true" />
+            <entry key="floatFrame_classicFrame-hudsonFrame-11X14-Portrait" heightInInch="13.03149606" widthInInch="10.03937008" />
+            <entry key="floatFrame_classicFrame-hudsonFrame-10X24-Portrait" heightInInch="23.03149606" widthInInch="9.0157480315" />
+            <entry key="floatFrame_classicFrame-hudsonFrame-12X12-Portrait" heightInInch="11.02362205" widthInInch="11.02362205" />
+            <entry key="floatFrame_classicFrame-hudsonFrame-12X36-Portrait" heightInInch="35.00000000" widthInInch="11.02362205" />
+            <entry key="floatFrame_classicFrame-hudsonFrame-16X16-Portrait" heightInInch="15.03937008" widthInInch="15.03937008" />
+            <entry key="floatFrame_classicFrame-hudsonFrame-16X20-Portrait" heightInInch="19.05511811" widthInInch="15.03937008" />
+            <entry key="floatFrame_classicFrame-hudsonFrame-20X20-Portrait" heightInInch="19.05511811" widthInInch="19.05511811" />
+            <entry key="floatFrame_classicFrame-hudsonFrame-20X30-Portrait" heightInInch="29.01574803" widthInInch="19.05511811" />
+            <entry key="floatFrame_classicFrame-hudsonFrame-24X24-Portrait" heightInInch="23.03149606" widthInInch="23.03149606" />
+            <entry key="floatFrame_classicFrame-hudsonFrame-24X36-Portrait" heightInInch="35.00000000" widthInInch="23.03149606" />
+            <entry key="floatFrame_classicFrame-hudsonFrame-30X30-Portrait" heightInInch="29.01574803" widthInInch="29.01574803" />
+
+            <entry key="floatFrame_classicFrame-hudsonFrame-8X10-Landscape" widthInInch="9.0157480315" heightInInch="7.007874016" default="true" />
+            <entry key="floatFrame_classicFrame-hudsonFrame-11X14-Landscape" widthInInch="13.03149606" heightInInch="10.03937008" />
+            <entry key="floatFrame_classicFrame-hudsonFrame-10X24-Landscape" widthInInch="23.03149606" heightInInch="9.0157480315" />
+            <entry key="floatFrame_classicFrame-hudsonFrame-12X12-Landscape" widthInInch="11.02362205" heightInInch="11.02362205" />
+            <entry key="floatFrame_classicFrame-hudsonFrame-12X36-Landscape" widthInInch="35.00000000" heightInInch="11.02362205" />
+            <entry key="floatFrame_classicFrame-hudsonFrame-16X16-Landscape" widthInInch="15.03937008" heightInInch="15.03937008" />
+            <entry key="floatFrame_classicFrame-hudsonFrame-16X20-Landscape" widthInInch="19.05511811" heightInInch="15.03937008" />
+            <entry key="floatFrame_classicFrame-hudsonFrame-20X20-Landscape" widthInInch="19.05511811" heightInInch="19.05511811" />
+            <entry key="floatFrame_classicFrame-hudsonFrame-20X30-Landscape" widthInInch="29.01574803" heightInInch="19.05511811" />
+            <entry key="floatFrame_classicFrame-hudsonFrame-24X24-Landscape" widthInInch="23.03149606" heightInInch="23.03149606" />
+            <entry key="floatFrame_classicFrame-hudsonFrame-24X36-Landscape" widthInInch="35.00000000" heightInInch="23.03149606" />
+            <entry key="floatFrame_classicFrame-hudsonFrame-30X30-Landscape" widthInInch="29.01574803" heightInInch="29.01574803" />
+
+            <entry key="floatFrame_metalFrame-*-8X10-Portrait" heightInInch="9.1338582677" widthInInch="7.125984252" default="true" />
+            <entry key="floatFrame_metalFrame-*-11X14-Portrait" heightInInch="13.14960630" widthInInch="10.15748032" />
+            <entry key="floatFrame_metalFrame-*-10X24-Portrait" heightInInch="23.14960630" widthInInch="9.133858268" />
+            <entry key="floatFrame_metalFrame-*-12X12-Portrait" heightInInch="11.14173228" widthInInch="11.14173228" />
+            <entry key="floatFrame_metalFrame-*-12X36-Portrait" heightInInch="35.15748032" widthInInch="11.14173228" />
+            <entry key="floatFrame_metalFrame-*-16X16-Portrait" heightInInch="15.15748032" widthInInch="15.15748032" />
+            <entry key="floatFrame_metalFrame-*-16X20-Portrait" heightInInch="19.17322835" widthInInch="15.15748032" />
+            <entry key="floatFrame_metalFrame-*-20X20-Portrait" heightInInch="19.17322835" widthInInch="19.17322835" />
+            <entry key="floatFrame_metalFrame-*-20X30-Portrait" heightInInch="29.13385827" widthInInch="19.17322835" />
+            <entry key="floatFrame_metalFrame-*-24X24-Portrait" heightInInch="23.14960630" widthInInch="23.14960630" />
+            <entry key="floatFrame_metalFrame-*-24X36-Portrait" heightInInch="35.11811024" widthInInch="23.14960630" />
+            <entry key="floatFrame_metalFrame-*-30X30-Portrait" heightInInch="29.13385827" widthInInch="29.13385827" />
+
+            <entry key="floatFrame_metalFrame-*-8X10-Landscape" widthInInch="9.1338582677" heightInInch="7.125984252" default="true" />
+            <entry key="floatFrame_metalFrame-*-11X14-Landscape" widthInInch="13.14960630" heightInInch="10.15748032" />
+            <entry key="floatFrame_metalFrame-*-10X24-Landscape" widthInInch="23.14960630" heightInInch="9.133858268" />
+            <entry key="floatFrame_metalFrame-*-12X12-Landscape" widthInInch="11.14173228" heightInInch="11.14173228" />
+            <entry key="floatFrame_metalFrame-*-12X36-Landscape" widthInInch="35.15748032" heightInInch="11.14173228" />
+            <entry key="floatFrame_metalFrame-*-16X16-Landscape" widthInInch="15.15748032" heightInInch="15.15748032" />
+            <entry key="floatFrame_metalFrame-*-16X20-Landscape" widthInInch="19.17322835" heightInInch="15.15748032" />
+            <entry key="floatFrame_metalFrame-*-20X20-Landscape" widthInInch="19.17322835" heightInInch="19.17322835" />
+            <entry key="floatFrame_metalFrame-*-20X30-Landscape" widthInInch="29.13385827" heightInInch="19.17322835" />
+            <entry key="floatFrame_metalFrame-*-24X24-Landscape" widthInInch="23.14960630" heightInInch="23.14960630" />
+            <entry key="floatFrame_metalFrame-*-24X36-Landscape" widthInInch="35.11811024" heightInInch="23.14960630" />
+            <entry key="floatFrame_metalFrame-*-30X30-Landscape" widthInInch="29.13385827" heightInInch="29.13385827" />
+
+            <entry key="table_woodPlaque2-*-5X7-Portrait" widthInInch="5" heightInInch="6.968503937007874" />
+            <entry key="table_woodPlaque2-*-5X7-Landscape" widthInInch="6.968503937007874" heightInInch="5" />
+            <entry key="table_woodPlaque2-*-6X8-Portrait" widthInInch="5.984251968503937" heightInInch="7.992125984251969" />
+            <entry key="table_woodPlaque2-*-6X8-Landscape" widthInInch="7.992125984251969" heightInInch="5.984251968503937" />
+        </parameter>
+        <!-- 油画布包边厚度 -->
+        <parameter id="canvasBorderThickness" keyPattern="product-frameStyle-canvasBorderSize">
+            <entry key="[contemporary,metal,table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque,classicFrame,rusticFrame,floatFrame,floatFrame_metalFrame,floatFrame_classicFrame,table_woodPlaque2]-*-none" top="0" bottom="0" left="0" right="0" />
+            <entry key="canvas-*-standard" top="366" bottom="366" left="366" right="366" />
+            <entry key="canvas-*-thin" top="225" bottom="225" left="225" right="225" />
+            <entry key="canvas-*-thick" top="449" bottom="449" left="449" right="449" />
+            <entry key="frameCanvas-*-standard" top="225" bottom="225" left="225" right="225" />
+            <entry key="flushMountCanvas-baroqueCanvas-none" top="0" bottom="0" left="0" right="0" />
+            <entry key="flushMountCanvas-curveCanvas-none" top="0" bottom="0" left="0" right="0" />
+            <entry key="acrylicPrint-*-standard" top="0" bottom="0" left="0" right="0" />
+            <entry key="mountPrint-*-standard" top="0" bottom="0" left="0" right="0" />
+            <entry key="woodPrint-*-standard" top="0" bottom="0" left="0" right="0" />
+            <entry key="metalPrint-*-standard" top="0" bottom="0" left="0" right="0" />
+        </parameter>
+        <!-- 相框正面边框厚度 -->
+        <parameter id="frameBorderThickness" keyPattern="product-frameStyle">
+            <entry key="[contemporary,floatFrame]-deep" top="224" bottom="224" left="224" right="224" />
+            <entry key="[contemporary,floatFrame]-wide" top="375" bottom="375" left="375" right="375" />
+            <entry key="[metal,floatFrame_metalFrame]-[metalDeep,metalDeep2]" top="118" bottom="118" left="118" right="118" />
+            <entry key="table_classicFrame-none" top="330" bottom="330" left="330" right="330" />
+            <entry key="table_modernFrame-none" top="248" bottom="248" left="248" right="248" />
+            <entry key="[table_crystalPlaque,table_woodPlaque,table_metalPlaque]-none" top="0" bottom="0" left="0" right="0" />
+            <entry key="table_metalCube-none" top="59" bottom="59" left="59" right="59" />
+            <entry key="[classicFrame,floatFrame_classicFrame]-baroqueFrame" top="685" bottom="685" left="685" right="685" />
+            <entry key="[classicFrame,floatFrame_classicFrame]-curveFrame" top="591" bottom="591" left="591" right="591" />
+            <entry key="[classicFrame,floatFrame_classicFrame]-[chelseaFrame,newportFrame,hudsonFrame]" top="425" bottom="425" left="425" right="425" />
+            <entry key="flushMountCanvas-baroqueCanvas" top="685" bottom="685" left="685" right="685" />
+            <entry key="flushMountCanvas-curveCanvas" top="591" bottom="591" left="591" right="591" />
+            <entry key="frameCanvas-frameCanvasModernStyle" top="154" bottom="154" left="154" right="154" />
+            <entry key="rusticFrame-rusticWide" top="650" bottom="650" left="650" right="650" />
+            <entry key="acrylicPrint-*" top="0" bottom="0" left="0" right="0" />
+            <entry key="metalPrint-*" top="0" bottom="0" left="0" right="0" />
+            <!--因为倾斜 实际值x0.4 -->
+            <entry key="mountPrint-*" top="118" bottom="118" left="118" right="118" />
+            <entry key="woodPrint-*" top="57" bottom="57" left="57" right="57" />
+            <entry key="table_woodPlaque2-*" top="23" bottom="23" left="23" right="23" />
+            <!-- 这个配置有问题，需要更改。 -->
+            <entry key="canvas-none" top="0" bottom="0" left="0" right="0" />
+            <!-- <entry key="floatFrame-deep" top="224" bottom="224" left="224" right="224" />
+            <entry key="floatFrame-wide" top="366" bottom="366" left="366" right="366" /> -->
+        </parameter>
+        <!-- 照片出血 -->
+
+        <parameter id="bleed" keyPattern="product-frameStyle-size-paper-shape">
+            <entry key="[flushMountCanvas]-*-*-*-*-*" top="36" bottom="36" left="36" right="36" />
+            <entry key="frameCanvas-*-*-*-*" top="0" bottom="0" left="0" right="0" />
+            <entry key="canvas-*-*-*-*" top="24" bottom="24" left="24" right="24" />
+            <entry key="[table_classicFrame,table_modernFrame,table_metalCube,table_woodPlaque]-*-*-*-*" top="0" bottom="0" left="0" right="0" />
+            <entry key="[table_crystalPlaque,table_woodPlaque2]-*-*-*-*" top="36" bottom="36" left="36" right="36" />
+            <entry key="table_metalPlaque-*-*-*-*" top="18" bottom="18" left="18" right="18" />
+            <entry key="[contemporary,metal,rusticFrame]-*-*-*-*" top="0" bottom="0" left="0" right="0" />
+            <entry key="acrylicPrint-*-*-*-*" top="36" bottom="36" left="36" right="36" />
+            <entry key="[mountPrint,metalPrint,woodPrint]-*-[8X10,10X24,11X14,12X12,12X36,16X20,20X30,24X36]-*-*" top="36" bottom="36" left="36" right="36" />
+            <!-- 圆形Mount Print 16x16用户可视区圆形比方形左右各小0.5mm，所以单独配置 -->
+            <entry key="[mountPrint,metalPrint,woodPrint]-*-16X16-*-Square" top="36" bottom="36" left="36" right="36" />
+            <entry key="[mountPrint,metalPrint,woodPrint]-*-16X16-*-Round" top="27" bottom="27" left="27" right="27" />
+            <entry key="[mountPrint,metalPrint,woodPrint]-*-[20X20,24X24,30X30]-*-Square" top="36" bottom="36" left="36" right="36" />
+            <entry key="[mountPrint,metalPrint,woodPrint]-*-[20X20,24X24,30X30]-*-Round" top="48" bottom="48" left="48" right="48" />
+            <entry key="classicFrame-[baroqueFrame,curveFrame]-*-*-*" top="36" bottom="36" left="36" right="36" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-*-*-*" top="0" bottom="0" left="0" right="0" />
+             <entry key="[floatFrame,floatFrame_metalFrame,floatFrame_classicFrame]-*-[8X10,11X14,10X24,12X12,16X16,16X20]-*-*" top="36" bottom="36" left="36" right="36" />
+            <entry key="[floatFrame,floatFrame_metalFrame,floatFrame_classicFrame]-*-[20X30,24X36,12X36,20X20,24X24,30X30]-[EP,MP,RP,CP]-*" top="48" bottom="48" left="48" right="48" />
+            <entry key="[floatFrame,floatFrame_metalFrame,floatFrame_classicFrame]-*-[20X30,24X36,12X36,20X20,24X24,30X30]-metalPrint-*" top="36" bottom="36" left="36" right="36" />
+        </parameter>
+
+        <!-- 照片板嵌入到相框里被遮住的尺寸 -->
+        <parameter id="boardInFrame" keyPattern="product-frameStyle-size-orientation">
+            <entry key="contemporary-*-[8X10,11X14,12X12,12X36,16X16,16X20,20X20,20X30,24X24,24X36,30X30]-*" top="24" right="24" bottom="24" left="24"></entry>
+            <entry key="contemporary-*-10X24-Portrait" top="30" right="24" bottom="30" left="24"></entry>
+            <entry key="contemporary-*-10X24-Landscape" top="24" right="30" bottom="24" left="30"></entry>
+            <entry key="metal-*-*-*" top="59" right="59" bottom="59" left="59"></entry>
+            <entry key="canvas-*-*-*" top="0" bottom="0" left="0" right="0" />
+            <entry key="[table_classicFrame,table_modernFrame]-none-*-*" top="36" right="36" bottom="36" left="36" />
+            <entry key="[table_crystalPlaque,table_woodPlaque,table_metalPlaque,table_woodPlaque2]-none-*-*" top="0" right="0" bottom="0" left="0"/>
+            <entry key="table_metalCube-none-*-*" top="36" right="36" bottom="36" left="36"/>
+            <entry key="classicFrame-baroqueFrame-*-*" top="83" bottom="83" left="83" right="83" />
+            <entry key="classicFrame-curveFrame-*-*" top="95" bottom="95" left="95" right="95" />
+            <entry key="classicFrame-[chelseaFrame,hudsonFrame]-*-*" top="76" bottom="76" left="76" right="76" />
+            <entry key="classicFrame-newportFrame-*-*" top="65" bottom="65" left="65" right="65" />
+            <entry key="flushMountCanvas-baroqueCanvas-*-*" top="83" bottom="83" left="83" right="83" />
+            <entry key="flushMountCanvas-curveCanvas-*-*" top="95" bottom="95" left="95" right="95" />
+            <entry key="frameCanvas-frameCanvasModernStyle-*-*" top="0" bottom="0" left="0" right="0" />
+            <entry key="rusticFrame-*-*-*" top="77" bottom="77" left="77" right="77" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-*-*" top="0" bottom="0" left="0" right="0" />
+            <entry key="[floatFrame,floatFrame_metalFrame,floatFrame_classicFrame]-*-*-*" top="0" bottom="0" left="0" right="0" />
+        </parameter>
+        <!-- 照片板嵌入到相框卡纸里被遮住的尺寸 -->
+        <parameter id="boardInMatting" keyPattern="product-frameStyle-size-matte">
+            <entry key="classicFrame-[baroqueFrame,curveFrame]-*-M" top="83" right="83" bottom="83" left="83"></entry>
+            <!-- Frame 2.0 -->
+            <entry key="[contemporary,metal,rusticFrame]-*-[8X10,11X14,10X24,12X12,16X16,16X20]-M" top="35" right="35" bottom="35" left="35"></entry>
+            <entry key="[contemporary,metal,rusticFrame]-*-[12X36,20X20,20X30,24X24,24X36,30X30]-M" top="47" right="47" bottom="47" left="47"></entry>
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-[8X10,11X14,10X24,12X12,16X16,16X20,20X20]-M" top="35" right="35" bottom="35" left="35"></entry>
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-[12X36,20X30,24X24,24X36,30X30]-M" top="47" right="47" bottom="47" left="47"></entry>
+            <entry key="*-*-*-none" top="0" right="0" bottom="0" left="0"></entry>
+        </parameter>
+        <!-- 卡纸的尺寸 -->
+        <parameter id="matteSize" keyPattern="product-size-frameStyle-matte-orientation">
+            <entry key="classicFrame-8X10-[baroqueFrame,curveFrame]-M-*" top="265" bottom="265" left="265" right="265"></entry>
+            <entry key="classicFrame-11X14-[baroqueFrame,curveFrame]-M-Portrait" top="565" bottom="565" left="415" right="415"></entry>
+            <entry key="classicFrame-11X14-[baroqueFrame,curveFrame]-M-Landscape" top="415" bottom="415" left="565" right="565"></entry>
+            <entry key="classicFrame-10X24-[baroqueFrame,curveFrame]-M-Portrait" top="565" bottom="565" left="265" right="265"></entry>
+            <entry key="classicFrame-10X24-[baroqueFrame,curveFrame]-M-Landscape" top="265" bottom="265" left="565" right="565"></entry>
+            <entry key="classicFrame-12X12-[baroqueFrame,curveFrame]-M-*" top="415" bottom="415" left="415" right="415"></entry>
+            <entry key="classicFrame-16X16-[baroqueFrame,curveFrame]-M-*" top="565" bottom="565" left="565" right="565"></entry>
+            <entry key="classicFrame-16X20-[baroqueFrame,curveFrame]-M-Portrait" top="865" bottom="865" left="715" right="715"></entry>
+            <entry key="classicFrame-16X20-[baroqueFrame,curveFrame]-M-Landscape" top="715" bottom="715" left="865" right="865"></entry>
+            <entry key="classicFrame-20X30-[baroqueFrame,curveFrame]-M-Portrait" top="865" bottom="865" left="565" right="565"></entry>
+            <entry key="classicFrame-20X30-[baroqueFrame,curveFrame]-M-Landscape" top="565" bottom="565" left="865" right="865"></entry>
+            <entry key="classicFrame-24X36-[baroqueFrame,curveFrame]-M-Portrait" top="865" bottom="865" left="565" right="565"></entry>
+            <entry key="classicFrame-24X36-[baroqueFrame,curveFrame]-M-Landscape" top="565" bottom="565" left="865" right="865"></entry>
+
+            <!-- Frame 2.0 -->
+            <entry key="classicFrame-8X10-[chelseaFrame,newportFrame,hudsonFrame]-M-*" top="277" bottom="277" left="277" right="277"></entry>
+            <entry key="classicFrame-11X14-[chelseaFrame,newportFrame,hudsonFrame]-M-*" top="401" bottom="401" left="401" right="401"></entry>
+            <entry key="classicFrame-10X24-[chelseaFrame,newportFrame,hudsonFrame]-M-Portrait" top="395" bottom="395" left="401" right="401"></entry>
+            <entry key="classicFrame-10X24-[chelseaFrame,newportFrame,hudsonFrame]-M-Landscape" top="401" bottom="401" left="395" right="395"></entry>
+            <entry key="classicFrame-12X12-[chelseaFrame,newportFrame,hudsonFrame]-M-*" top="401" bottom="401" left="401" right="401"></entry>
+            <entry key="classicFrame-12X36-[chelseaFrame,newportFrame,hudsonFrame]-M-Portrait" top="703" bottom="703" left="401.5" right="401.5"></entry>
+            <entry key="classicFrame-12X36-[chelseaFrame,newportFrame,hudsonFrame]-M-Landscape" top="401.5" bottom="401.5" left="703" right="703"></entry>
+            <entry key="classicFrame-16X16-[chelseaFrame,newportFrame,hudsonFrame]-M-*" top="548" bottom="548" left="548" right="548"></entry>
+            <entry key="classicFrame-16X20-[chelseaFrame,newportFrame,hudsonFrame]-M-*" top="548" bottom="548" left="548" right="548"></entry>
+            <entry key="classicFrame-20X20-[chelseaFrame,newportFrame,hudsonFrame]-M-*" top="549" bottom="549" left="549" right="549"></entry>
+            <entry key="classicFrame-20X30-[chelseaFrame,newportFrame,hudsonFrame]-M-*" top="548" bottom="548" left="548" right="548"></entry>
+            <entry key="classicFrame-24X24-[chelseaFrame,newportFrame,hudsonFrame]-M-*" top="702" bottom="702" left="702" right="702"></entry>
+            <entry key="classicFrame-24X36-[chelseaFrame,newportFrame,hudsonFrame]-M-*" top="702" bottom="702" left="702" right="702"></entry>
+            <entry key="classicFrame-30X30-[chelseaFrame,newportFrame,hudsonFrame]-M-*" top="549" bottom="549" left="549" right="549"></entry>
+
+            <entry key="[contemporary,metal,rusticFrame]-8X10-*-M-*" top="277" bottom="277" left="277" right="277"></entry>
+            <entry key="[contemporary,metal,rusticFrame]-11X14-*-M-*" top="401" bottom="401" left="401" right="401"></entry>
+            <entry key="[contemporary,metal,rusticFrame]-10X24-*-M-Portrait" top="395" bottom="395" left="401" right="401"></entry>
+            <entry key="[contemporary,metal,rusticFrame]-10X24-*-M-Landscape" top="401" bottom="401" left="395" right="395"></entry>
+            <entry key="[contemporary,metal,rusticFrame]-12X12-*-M-*" top="401" bottom="401" left="401" right="401"></entry>
+            <entry key="[contemporary,metal,rusticFrame]-12X36-*-M-Portrait" top="703" bottom="703" left="401" right="401"></entry>
+            <entry key="[contemporary,metal,rusticFrame]-12X36-*-M-Landscape" top="401" bottom="401" left="703" right="703"></entry>
+            <entry key="[contemporary,metal,rusticFrame]-16X16-*-M-*" top="548" bottom="548" left="548" right="548"></entry>
+            <entry key="[contemporary,metal,rusticFrame]-16X20-*-M-*" top="548" bottom="548" left="548" right="548"></entry>
+            <entry key="[contemporary,metal,rusticFrame]-20X20-*-M-*" top="549" bottom="549" left="549" right="549"></entry>
+            <entry key="[contemporary,metal,rusticFrame]-20X30-*-M-*" top="548" bottom="548" left="548" right="548"></entry>
+            <entry key="[contemporary,metal,rusticFrame]-24X24-*-M-*" top="701" bottom="701" left="701" right="701"></entry>
+            <entry key="[contemporary,metal,rusticFrame]-24X36-*-M-*" top="702" bottom="702" left="702" right="702"></entry>
+            <entry key="[contemporary,metal,rusticFrame]-30X30-*-M-*" top="549" bottom="549" left="549" right="549"></entry>
+            <!-- Frame 2.0 -->
+            <entry key="*-*-*-none-*" top="0" bottom="0" left="0" right="0"></entry>
+        </parameter>
+        <parameter id="matteStyleColor" keyPattern="matteStyle">
+            <entry key="[none,matteStyleWhite]" color="0xffffff"></entry>
+            <entry key="matteStyleBlack" color="0"></entry>
+        </parameter>
+        <!--  装饰布的尺寸  -->
+        <parameter id="floatBgSize" keyPattern="product-frameStyle-size-photoQuantity-orientation">
+            <entry key="[contemporary,metal,classicFrame,rusticFrame,table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque,flushMountCanvas,frameCanvas,canvas,mountPrint,acrylicPrint,metalPrint,woodPrint,table_woodPlaque2]-*-*-*-*" top="0" bottom="0" left="0" right="0"></entry>
+
+            <entry key="floatFrame-*-8X10-one-*" top="236" bottom="236" left="236" right="236"></entry>
+            <entry key="floatFrame-*-11X14-one-*" top="360" bottom="360" left="360" right="360"></entry>
+            <entry key="floatFrame-*-10X24-one-*" top="354" bottom="354" left="354" right="354"></entry>
+            <entry key="floatFrame-*-12X12-one-*" top="360" bottom="360" left="360" right="360"></entry>
+            <entry key="floatFrame-*-12X36-one-Landscape" top="360" bottom="360" left="661" right="661"></entry>
+            <entry key="floatFrame-*-12X36-one-Portrait" top="661" bottom="661" left="360" right="360"></entry>
+            <entry key="floatFrame-*-16X16-one-*" top="508" bottom="508" left="508" right="508"></entry>
+            <entry key="floatFrame-*-16X20-one-*" top="508" bottom="508" left="508" right="508"></entry>
+            <entry key="floatFrame-*-20X20-one-*" top="508" bottom="508" left="508" right="508"></entry>
+            <entry key="floatFrame-*-20X30-one-*" top="508" bottom="508" left="508" right="508"></entry>
+            <entry key="floatFrame-*-24X24-one-*" top="661" bottom="661" left="661" right="661"></entry>
+            <entry key="floatFrame-*-24X36-one-*" top="661" bottom="661" left="661" right="661"></entry>
+            <entry key="floatFrame-*-30X30-one-*" top="508" bottom="508" left="508" right="508"></entry>
+            <entry key="floatFrame-*-10X24-three-*" top="319" bottom="319" left="319" right="319"></entry>
+            <entry key="floatFrame-*-12X36-three-Landscape" top="396" bottom="396" left="375" right="375"></entry>
+            <entry key="floatFrame-*-12X36-three-Portrait" top="375" bottom="375" left="396" right="396"></entry>
+
+            <entry key="floatFrame_classicFrame-chelseaFrame-8X10-one-*" top="183" bottom="183" left="183" right="183"></entry>
+            <entry key="floatFrame_classicFrame-chelseaFrame-11X14-one-*" top="307" bottom="307" left="307" right="307"></entry>
+            <entry key="floatFrame_classicFrame-chelseaFrame-10X24-one-Landscape" top="307" bottom="307" left="301" right="301"></entry>
+            <entry key="floatFrame_classicFrame-chelseaFrame-10X24-one-Portrait" top="301" bottom="301" left="307" right="307"></entry>
+            <entry key="floatFrame_classicFrame-chelseaFrame-12X12-one-*" top="307" bottom="307" left="307" right="307"></entry>
+            <entry key="floatFrame_classicFrame-chelseaFrame-12X36-one-Landscape" top="307" bottom="307" left="608" right="608"></entry>
+            <entry key="floatFrame_classicFrame-chelseaFrame-12X36-one-Portrait" top="608" bottom="608" left="307" right="307"></entry>
+            <entry key="floatFrame_classicFrame-chelseaFrame-16X16-one-*" top="455" bottom="455" left="455" right="455"></entry>
+            <entry key="floatFrame_classicFrame-chelseaFrame-16X20-one-*" top="455" bottom="455" left="455" right="455"></entry>
+            <entry key="floatFrame_classicFrame-chelseaFrame-20X20-one-*" top="455" bottom="455" left="455" right="455"></entry>
+            <entry key="floatFrame_classicFrame-chelseaFrame-20X30-one-*" top="455" bottom="455" left="455" right="455"></entry>
+            <entry key="floatFrame_classicFrame-chelseaFrame-24X24-one-*" top="608" bottom="608" left="608" right="608"></entry>
+            <entry key="floatFrame_classicFrame-chelseaFrame-24X36-one-*" top="608" bottom="608" left="608" right="608"></entry>
+            <entry key="floatFrame_classicFrame-chelseaFrame-30X30-one-*" top="455" bottom="455" left="455" right="455"></entry>
+            <entry key="floatFrame_classicFrame-chelseaFrame-10X24-three-Landscape" top="272" bottom="272" left="292" right="292"></entry>
+            <entry key="floatFrame_classicFrame-chelseaFrame-10X24-three-Portrait" top="292" bottom="292" left="272" right="272"></entry>
+            <entry key="floatFrame_classicFrame-chelseaFrame-12X36-three-Landscape" top="343" bottom="343" left="348" right="348"></entry>
+            <entry key="floatFrame_classicFrame-chelseaFrame-12X36-three-Portrait" top="348" bottom="348" left="343" right="343"></entry>
+
+            <entry key="floatFrame_classicFrame-newportFrame-8X10-one-*" top="195" bottom="195" left="195" right="195"></entry>
+            <entry key="floatFrame_classicFrame-newportFrame-11X14-one-*" top="319" bottom="319" left="319" right="319"></entry>
+            <entry key="floatFrame_classicFrame-newportFrame-10X24-one-Landscape" top="319" bottom="319" left="313" right="313"></entry>
+            <entry key="floatFrame_classicFrame-newportFrame-10X24-one-Portrait" top="313" bottom="313" left="319" right="319"></entry>
+            <entry key="floatFrame_classicFrame-newportFrame-12X12-one-*" top="319" bottom="319" left="319" right="319"></entry>
+            <entry key="floatFrame_classicFrame-newportFrame-12X36-one-Landscape" top="319" bottom="319" left="620" right="620"></entry>
+            <entry key="floatFrame_classicFrame-newportFrame-12X36-one-Portrait" top="620" bottom="620" left="319" right="319"></entry>
+            <entry key="floatFrame_classicFrame-newportFrame-16X16-one-*" top="467" bottom="467" left="467" right="467"></entry>
+            <entry key="floatFrame_classicFrame-newportFrame-16X20-one-*" top="467" bottom="467" left="467" right="467"></entry>
+            <entry key="floatFrame_classicFrame-newportFrame-20X20-one-*" top="467" bottom="467" left="467" right="467"></entry>
+            <entry key="floatFrame_classicFrame-newportFrame-20X30-one-*" top="467" bottom="467" left="467" right="467"></entry>
+            <entry key="floatFrame_classicFrame-newportFrame-24X24-one-*" top="620" bottom="620" left="620" right="620"></entry>
+            <entry key="floatFrame_classicFrame-newportFrame-24X36-one-*" top="620" bottom="620" left="620" right="620"></entry>
+            <entry key="floatFrame_classicFrame-newportFrame-30X30-one-*" top="467" bottom="467" left="467" right="467"></entry>
+            <entry key="floatFrame_classicFrame-newportFrame-10X24-three-Landscape" top="283.5" bottom="283.5" left="298" right="298"></entry>
+            <entry key="floatFrame_classicFrame-newportFrame-10X24-three-Portrait" top="298" bottom="298" left="283.5" right="283.5"></entry>
+            <entry key="floatFrame_classicFrame-newportFrame-12X36-three-*" top="354" bottom="354" left="354" right="354"></entry>
+
+            <entry key="floatFrame_classicFrame-hudsonFrame-8X10-one-*" top="183" bottom="183" left="183" right="183"></entry>
+            <entry key="floatFrame_classicFrame-hudsonFrame-11X14-one-*" top="307" bottom="307" left="307" right="307"></entry>
+            <entry key="floatFrame_classicFrame-hudsonFrame-10X24-one-Landscape" top="307" bottom="307" left="301" right="301"></entry>
+            <entry key="floatFrame_classicFrame-hudsonFrame-10X24-one-Portrait" top="301" bottom="301" left="307" right="307"></entry>
+            <entry key="floatFrame_classicFrame-hudsonFrame-12X12-one-*" top="307" bottom="307" left="307" right="307"></entry>
+            <entry key="floatFrame_classicFrame-hudsonFrame-12X36-one-Landscape" top="307" bottom="307" left="608" right="608"></entry>
+            <entry key="floatFrame_classicFrame-hudsonFrame-12X36-one-Portrait" top="608" bottom="608" left="307" right="307"></entry>
+            <entry key="floatFrame_classicFrame-hudsonFrame-16X16-one-*" top="455" bottom="455" left="455" right="455"></entry>
+            <entry key="floatFrame_classicFrame-hudsonFrame-16X20-one-*" top="455" bottom="455" left="455" right="455"></entry>
+            <entry key="floatFrame_classicFrame-hudsonFrame-20X20-one-*" top="455" bottom="455" left="455" right="455"></entry>
+            <entry key="floatFrame_classicFrame-hudsonFrame-20X30-one-*" top="455" bottom="455" left="455" right="455"></entry>
+            <entry key="floatFrame_classicFrame-hudsonFrame-24X24-one-*" top="608" bottom="608" left="608" right="608"></entry>
+            <entry key="floatFrame_classicFrame-hudsonFrame-24X36-one-*" top="608" bottom="608" left="608" right="608"></entry>
+            <entry key="floatFrame_classicFrame-hudsonFrame-30X30-one-*" top="455" bottom="455" left="455" right="455"></entry>
+            <entry key="floatFrame_classicFrame-hudsonFrame-10X24-three-Landscape" top="272" bottom="272" left="292" right="292"></entry>
+            <entry key="floatFrame_classicFrame-hudsonFrame-10X24-three-Portrait" top="292" bottom="292" left="272" right="272"></entry>
+            <entry key="floatFrame_classicFrame-hudsonFrame-12X36-three-Landscape" top="343" bottom="343" left="348" right="348"></entry>
+            <entry key="floatFrame_classicFrame-hudsonFrame-12X36-three-Portrait" top="348" bottom="348" left="343" right="343"></entry>
+
+            <entry key="floatFrame_metalFrame-*-8X10-one-*" top="201" bottom="201" left="201" right="201"></entry>
+            <entry key="floatFrame_metalFrame-*-11X14-one-*" top="325" bottom="325" left="325" right="325"></entry>
+            <entry key="floatFrame_metalFrame-*-10X24-one-Landscape" top="325" bottom="325" left="319" right="319"></entry>
+            <entry key="floatFrame_metalFrame-*-10X24-one-Portrait" top="319" bottom="319" left="325" right="325"></entry>
+            <entry key="floatFrame_metalFrame-*-12X12-one-*" top="325" bottom="325" left="325" right="325"></entry>
+            <entry key="floatFrame_metalFrame-*-12X36-one-Landscape" top="325" bottom="325" left="632" right="632"></entry>
+            <entry key="floatFrame_metalFrame-*-12X36-one-Portrait" top="632" bottom="632" left="325" right="325"></entry>
+            <entry key="floatFrame_metalFrame-*-16X16-one-*" top="472" bottom="472" left="472" right="472"></entry>
+            <entry key="floatFrame_metalFrame-*-16X20-one-*" top="472" bottom="472" left="472" right="472"></entry>
+            <entry key="floatFrame_metalFrame-*-20X20-one-*" top="472" bottom="472" left="472" right="472"></entry>
+            <entry key="floatFrame_metalFrame-*-20X30-one-*" top="472" bottom="472" left="472" right="472"></entry>
+            <entry key="floatFrame_metalFrame-*-24X24-one-*" top="626" bottom="626" left="626" right="626"></entry>
+            <entry key="floatFrame_metalFrame-*-24X36-one-*" top="626" bottom="626" left="626" right="626"></entry>
+            <entry key="floatFrame_metalFrame-*-30X30-one-*" top="472" bottom="472" left="472" right="472"></entry>
+            <entry key="floatFrame_metalFrame-*-10X24-three-Landscape" top="289" bottom="289" left="301" right="301"></entry>
+            <entry key="floatFrame_metalFrame-*-10X24-three-Portrait" top="301" bottom="301" left="289" right="289"></entry>
+            <entry key="floatFrame_metalFrame-*-12X36-three-Landscape" top="360" bottom="360" left="357" right="357"></entry>
+            <entry key="floatFrame_metalFrame-*-12X36-three-Portrait" top="357" bottom="357" left="360" right="360"></entry>
+        </parameter>
+
+        <parameter id="elementSize" keyPattern="product-size-photoQuantity-orientation">
+            <entry key="[floatFrame,floatFrame_metalFrame,floatFrame_classicFrame]-10X24-three-Landscape" width="1913" height="2161"></entry>
+            <entry key="[floatFrame,floatFrame_metalFrame,floatFrame_classicFrame]-12X36-three-Landscape" width="3035" height="2622"></entry>
+
+            <entry key="[floatFrame,floatFrame_metalFrame,floatFrame_classicFrame]-10X24-three-Portrait" width="2161" height="1913"></entry>
+            <entry key="[floatFrame,floatFrame_metalFrame,floatFrame_classicFrame]-12X36-three-Portrait" width="2622" height="3035"></entry>
+        </parameter>
+        <parameter id="elementBleed" keyPattern="product-size-paper-photoQuantity">
+            <entry key="[floatFrame,floatFrame_metalFrame,floatFrame_classicFrame]-10X24-[none,TP,EP,MP,RP,CP]-three" top="59" bottom="59" left="59" right="59"></entry>
+            <entry key="[floatFrame,floatFrame_metalFrame,floatFrame_classicFrame]-12X36-[none,TP,EP,MP,RP,CP]-three" top="59" bottom="59" left="59" right="59"></entry>
+
+            <entry key="[floatFrame,floatFrame_metalFrame,floatFrame_classicFrame]-10X24-metalPrint-three" top="35" bottom="35" left="35" right="35"></entry>
+            <entry key="[floatFrame,floatFrame_metalFrame,floatFrame_classicFrame]-12X36-metalPrint-three" top="35" bottom="35" left="35" right="35"></entry>
+        </parameter>
+    </parameters>
+    <variables>
+        <variable id="frameBorderAsset" keyPattern="product-color">
+            <entry key="[contemporary,floatFrame]-blackFM" assetUpUrl="/template-resources/images/bigNewPhotoFrame/black.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/black.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/black.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/black.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/black_texture.jpg">
+            </entry>
+            <entry key="[contemporary,floatFrame]-whiteFM" assetUpUrl="/template-resources/images/bigNewPhotoFrame/white_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/white_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/white_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/white_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/white_texture.jpg">
+            </entry>
+            <entry key="[contemporary,floatFrame]-mapleFM" assetUpUrl="/template-resources/images/bigNewPhotoFrame/maple_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/maple_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/maple_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/maple_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/maple_texture.jpg">
+            </entry>
+            <entry key="[contemporary,floatFrame]-espressoFM" assetUpUrl="/template-resources/images/bigNewPhotoFrame/espresso.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/espresso.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/espresso.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/espresso.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/espresso_texture.jpg">
+            </entry>
+            <entry key="[metal,floatFrame_metalFrame]-metalBlack" assetUpUrl="/template-resources/images/bigNewPhotoFrame/metal_black.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/metal_black.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/metal_black.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/metal_black.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/m_black.jpg">
+            </entry>
+            <entry key="[metal,floatFrame_metalFrame]-metalSilver" assetUpUrl="/template-resources/images/bigNewPhotoFrame/metal_silver_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/metal_silver_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/metal_silver_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/metal_silver_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/m_silver.jpg">
+            </entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque]-whiteTT" assetUpUrl="/template-resources/images/bigNewPhotoFrame/white_classic_up.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/white_classic_down.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/white_classic_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/white_classic_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/whiteTT.jpg">
+            </entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque]-blackTT" assetUpUrl="/template-resources/images/bigNewPhotoFrame/black_classic_up.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/black_classic_down.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/black_classic_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/black_classic_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/blackTT.jpg">
+            </entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque]-espressoTT" assetUpUrl="/template-resources/images/bigNewPhotoFrame/espresso_classic_up.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/espresso_classic_down.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/espresso_classic_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/espresso_classic_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/espressoTT.jpg">
+            </entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque]-mapleFM" assetUpUrl="/template-resources/images/bigNewPhotoFrame/maple_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/maple_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/maple_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/maple_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/maple_texture.jpg">
+            </entry>
+            <entry key="flushMountCanvas-gold" assetUpUrl="/template-resources/images/bigNewPhotoFrame/baroque_gold_up.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/baroque_gold_down.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/baroque_gold_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/baroque_gold_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/baroqueFM.jpg">
+            </entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque]-blackFM" assetUpUrl="/template-resources/images/bigNewPhotoFrame/black.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/black.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/black.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/black.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/black_texture.jpg">
+            </entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque]-whiteFM" assetUpUrl="/template-resources/images/bigNewPhotoFrame/white_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/white_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/white_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/white_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/white_texture.jpg">
+            </entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque]-mapleTT" assetUpUrl="/template-resources/images/bigNewPhotoFrame/classic_maple_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/classic_maple_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/classic_maple_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/classic_maple_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/mapleTT.jpg">
+            </entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque]-espressoFM" assetUpUrl="/template-resources/images/bigNewPhotoFrame/espresso.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/espresso.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/espresso.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/espresso.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/espresso_texture.jpg">
+            </entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque]-metalBlack" assetUpUrl="/template-resources/images/bigNewPhotoFrame/metal_black.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/metal_black.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/metal_black.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/metal_black.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/m_black.jpg">
+            </entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque]-metalSilver" assetUpUrl="/template-resources/images/bigNewPhotoFrame/metal_silver_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/metal_silver_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/metal_silver_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/metal_silver_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/m_silver.jpg">
+            </entry>
+            <entry key="frameCanvas-blackCV" assetUpUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_black_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_black_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_black_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_black_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/black_texture.jpg">
+            </entry>
+            <entry key="frameCanvas-whiteCV" assetUpUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_white_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_white_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_white_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_white_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/white_texture.jpg">
+            </entry>
+            <entry key="frameCanvas-mapleCV" assetUpUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_maple_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_maple_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_maple_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_maple_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/maple_texture.jpg">
+            </entry>
+            <entry key="frameCanvas-espressoCV" assetUpUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_espresso_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_espresso_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_espresso_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_espresso_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/espresso_texture.jpg">
+            </entry>
+            <entry key="rusticFrame-brownFM" assetUpUrl="/template-resources/images/bigNewPhotoFrame/rustic_brown_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/rustic_brown_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/rustic_brown_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/rustic_brown_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/brownFM.jpg">
+            </entry>
+            <entry key="rusticFrame-greyFM" assetUpUrl="/template-resources/images/bigNewPhotoFrame/rustic_grey_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/rustic_grey_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/rustic_grey_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/rustic_grey_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/greyFM.jpg">
+            </entry>
+            <entry key="[classicFrame,floatFrame_classicFrame]-gold" assetUpUrl="/template-resources/images/bigNewPhotoFrame/baroque_gold_up.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/baroque_gold_down.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/baroque_gold_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/baroque_gold_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/baroqueFM.jpg">
+            </entry>
+            <entry key="[classicFrame,floatFrame_classicFrame]-blackCurve" assetUpUrl="/template-resources/images/bigNewPhotoFrame/curve_black_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/curve_black_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/curve_black_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/curve_black_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/blackCurve.jpg">
+            </entry>
+            <entry key="[classicFrame,floatFrame_classicFrame]-whiteCurve" assetUpUrl="/template-resources/images/bigNewPhotoFrame/curve_white_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/curve_white_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/curve_white_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/curve_white_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/whiteCurve.jpg">
+            </entry>
+            <entry key="[classicFrame,floatFrame_classicFrame]-mapleCurve" assetUpUrl="/template-resources/images/bigNewPhotoFrame/curve_maple_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/curve_maple_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/curve_maple_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/curve_maple_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/mapleCurve.jpg">
+            </entry>
+            <entry key="[classicFrame,floatFrame_classicFrame]-espressoCurve" assetUpUrl="/template-resources/images/bigNewPhotoFrame/curve_espresso_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/curve_espresso_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/curve_espresso_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/curve_espresso_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/espressoCurve.jpg">
+            </entry>
+            <entry key="flushMountCanvas-blackCurve" assetUpUrl="/template-resources/images/bigNewPhotoFrame/curve_black_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/curve_black_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/curve_black_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/curve_black_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/blackCurve.jpg">
+            </entry>
+            <entry key="flushMountCanvas-whiteCurve" assetUpUrl="/template-resources/images/bigNewPhotoFrame/curve_white_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/curve_white_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/curve_white_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/curve_white_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/whiteCurve.jpg">
+            </entry>
+            <entry key="flushMountCanvas-mapleCurve" assetUpUrl="/template-resources/images/bigNewPhotoFrame/curve_maple_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/curve_maple_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/curve_maple_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/curve_maple_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/mapleCurve.jpg">
+            </entry>
+            <entry key="flushMountCanvas-espressoCurve" assetUpUrl="/template-resources/images/bigNewPhotoFrame/curve_espresso_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/curve_espresso_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/curve_espresso_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/curve_espresso_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/espressoCurve.jpg">
+            </entry>
+        </variable>
+        <variable id="sizeRatioType" keyPattern="size">
+            <entry key="[5X7,6X8,8X10,11X14,16X20,20X30,24X36]" supportRatioType="Portrait,Landscape" defaultRatioType="Landscape" />
+            <entry key="[4X4,6X6,12X12,16X16]" supportRatioType="Square" defaultRatioType="Square" />
+            <entry key="10X24" supportRatioType="Portrait,Landscape" defaultRatioType="Landscape" />
+        </variable>
+        <variable id="foregroundAsset" keyPattern="product-frameStyle-color-canvasBorderSize-finish">
+            <entry key="[classicFrame,floatFrame_classicFrame]-[chelseaFrame,newportFrame,hudsonFrame]-*-*-*" borderWidth="106" paddingTop="50" paddingLeft="60" paddingBottom="50" paddingRight="60" innerPaddingTop="94" innerPaddingLeft="84" innerPaddingBottom="94" innerPaddingRight="84"/>
+            <entry key="[metal,floatFrame_metalFrame]-metalDeep2-*-*-*" borderWidth="33" paddingLeft="60" paddingTop="50" paddingRight="60" paddingBottom="50" innerPaddingLeft="157" innerPaddingTop="167" innerPaddingRight="157" innerPaddingBottom="167"/>
+            <entry key="[contemporary,floatFrame]-deep-*-*-*" borderWidth="52" paddingLeft="60" paddingTop="50" paddingRight="60" paddingBottom="50" innerPaddingLeft="138" innerPaddingTop="148" innerPaddingRight="138" innerPaddingBottom="148"/>
+            <entry key="[contemporary,floatFrame]-wide-*-*-*" borderWidth="84" paddingLeft="60" paddingTop="50" paddingRight="60" paddingBottom="50" innerPaddingLeft="106" innerPaddingTop="116" innerPaddingRight="106" innerPaddingBottom="116"/>
+
+            <!-- 产品使用frame的渲染方式 所以左侧和下侧需要加入frameborder的数值，为了保证整图的比例不变，右侧向外倾斜图片多余的像素值-->
+            <entry key="mountPrint-*-*-*-*" borderWidth="20" paddingLeft="40" paddingTop="60" paddingRight="68" paddingBottom="40" innerPaddingLeft="90" innerPaddingTop="70" innerPaddingRight="62" innerPaddingBottom="90"/>
+
+            <entry key="metalPrint-*-*-*-*" borderWidth="0" borderWidth2="0" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="60" innerPaddingLeft="190" innerPaddingTop="190" innerPaddingRight="190" innerPaddingBottom="190"/>
+
+            <entry key="woodPrint-*-*-*-*" borderWidth="10" paddingLeft="50" paddingTop="50" paddingRight="60" paddingBottom="40" innerPaddingLeft="90" innerPaddingTop="90" innerPaddingRight="80" innerPaddingBottom="100"/>
+
+            <entry key="canvas-*-*-thin-*" borderWidth="22" borderWidth2="22" paddingLeft="60" paddingTop="50" paddingRight="60" paddingBottom="50" innerPaddingLeft="190" innerPaddingTop="175" innerPaddingRight="168" innerPaddingBottom="200"/>
+
+            <entry key="canvas-*-*-standard-*" borderWidth="34" borderWidth2="40" paddingLeft="60" paddingTop="50" paddingRight="60" paddingBottom="50" innerPaddingLeft="190" innerPaddingTop="166" innerPaddingRight="150" innerPaddingBottom="200"/>
+
+            <entry key="canvas-*-*-thick-*" borderWidth="35" borderWidth2="40"  paddingLeft="60" paddingTop="50" paddingRight="60" paddingBottom="50" innerPaddingLeft="190" innerPaddingTop="165" innerPaddingRight="150" innerPaddingBottom="200"/>
+
+            <entry key="acrylicPrint-*-*-*-*" borderWidth="0" borderWidth2="0" paddingLeft="60" paddingTop="50" paddingRight="60" paddingBottom="50" innerPaddingLeft="90" innerPaddingTop="100" innerPaddingRight="90" innerPaddingBottom="100"/>
+
+            <entry key="frameCanvas-*-*-*-*" borderWidth="46" paddingLeft="60" paddingTop="50" paddingRight="60" paddingBottom="50" innerPaddingLeft="144" innerPaddingTop="154" innerPaddingRight="144" innerPaddingBottom="154"/>
+
+            <entry key="table_modernFrame-*-*-*-*" borderWidth="85" paddingLeft="60" paddingTop="50" paddingRight="60" paddingBottom="50" innerPaddingLeft="105" innerPaddingTop="115" innerPaddingRight="105" innerPaddingBottom="115"/>
+
+            <entry key="table_classicFrame-*-*-*-*" borderWidth="102" paddingLeft="60" paddingTop="50" paddingRight="60" paddingBottom="50" innerPaddingLeft="88" innerPaddingTop="98" innerPaddingRight="88" innerPaddingBottom="98"/>
+
+            <entry key="table_metalPlaque-*-*-*-*" borderWidth="0"  borderWidth2="0" paddingLeft="60" paddingTop="50" paddingRight="60" paddingBottom="50" innerPaddingLeft="190" innerPaddingTop="200" innerPaddingRight="190" innerPaddingBottom="200"/>
+
+            <entry key="table_crystalPlaque-*-*-*-*" borderWidth="0"  borderWidth2="0" paddingLeft="60" paddingTop="50" paddingRight="60" paddingBottom="50" innerPaddingLeft="90" innerPaddingTop="100" innerPaddingRight="90" innerPaddingBottom="100"/>
+
+            <entry key="table_woodPlaque-*-*-*-*" borderWidth="0" paddingLeft="66" paddingTop="56" paddingRight="66" paddingBottom="56" innerPaddingLeft="184" innerPaddingTop="194" innerPaddingRight="184" innerPaddingBottom="194"/>
+
+            <entry key="table_metalCube-*-*-*-*" borderWidth="20" paddingLeft="60" paddingTop="94" paddingRight="126" paddingBottom="50" innerPaddingLeft="170" innerPaddingTop="136" innerPaddingRight="104" innerPaddingBottom="180"/>
+
+            <entry key="table_woodPlaque2-*-*-*-*" borderWidth="9" paddingLeft="71" paddingTop="40" paddingRight="83" paddingBottom="31" innerPaddingLeft="70" innerPaddingTop="101" innerPaddingRight="58" innerPaddingBottom="110"/>
+
+        </variable>
+
+        <variable id="roundForegroundAsset" keyPattern="product-size">
+            <entry key="metalPrint-12X12" width="683" height="683" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="60"/>
+            <entry key="metalPrint-16X16" width="747" height="747" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="60"/>
+            <entry key="metalPrint-20X20" width="816" height="816" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="60"/>
+            <entry key="metalPrint-24X24" width="892" height="892" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="60"/>
+            <entry key="metalPrint-30X30" width="1007" height="1007" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="60"/>
+
+            <entry key="mountPrint-12X12" width="663" height="655" paddingLeft="40" paddingTop="52" paddingRight="60" paddingBottom="40"/>
+            <entry key="mountPrint-16X16" width="727" height="719" paddingLeft="40" paddingTop="52" paddingRight="60" paddingBottom="40"/>
+            <entry key="mountPrint-20X20" width="796" height="789" paddingLeft="40" paddingTop="52" paddingRight="60" paddingBottom="40"/>
+            <entry key="mountPrint-24X24" width="873" height="864" paddingLeft="40" paddingTop="52" paddingRight="60" paddingBottom="40"/>
+            <entry key="mountPrint-30X30" width="987" height="979" paddingLeft="40" paddingTop="52" paddingRight="60" paddingBottom="40"/>
+
+            <entry key="woodPrint-12X12" width="653" height="651" paddingLeft="40" paddingTop="47" paddingRight="49" paddingBottom="40"/>
+            <entry key="woodPrint-16X16" width="719" height="717" paddingLeft="40" paddingTop="50" paddingRight="52" paddingBottom="40"/>
+            <entry key="woodPrint-20X20" width="786" height="784" paddingLeft="40" paddingTop="48" paddingRight="50" paddingBottom="40"/>
+            <entry key="woodPrint-24X24" width="862" height="860" paddingLeft="40" paddingTop="48" paddingRight="50" paddingBottom="40"/>
+            <entry key="woodPrint-30X30" width="977" height="975" paddingLeft="40" paddingTop="48" paddingRight="50" paddingBottom="40"/>
+        </variable>
+        <variable id="acrylicPrintAsset" keyPattern="category-product-size">
+            <entry key="[categoryMetalPrint,categoryWoodPrint,categoryAcrylicPrint,categoryMountedPrint]-acrylicPrint-*" cylinder="213" left="130" top="130" />
+            <entry key="[categoryMetalPrint,categoryWoodPrint,categoryAcrylicPrint,categoryMountedPrint]-[metalPrint,mountPrint,woodPrint]-*" cylinder="0" left="0" top="0"/>
+            <entry key="[categoryFrame,categoryCanvas,categoryFramedCanvas,categoryTableTop]-*-*" cylinder="0" left="0" top="0"/>
+        </variable>
+    </variables>
+</product-spec>

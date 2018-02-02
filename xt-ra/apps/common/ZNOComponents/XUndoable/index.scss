@@ -1,0 +1,65 @@
+@import '../../styles/common';
+
+.x-undoable {
+  @include clearfix();
+
+  .item{
+    cursor: not-allowed;
+    display: flex;
+    float: left;
+
+    .icon{
+      width: 12px;
+      height: 14px;
+      background: url('./icons/redo.svg') no-repeat center center;
+      background-size: contain;
+      display: inline-block;
+      margin-right: 3px;
+    }
+
+    .text{
+      color: #ccc;
+      font-size: 12px;
+      line-height: 14px;
+    }
+
+    &.undo{
+      margin-right: 32px;
+
+      .icon{
+        background-image: url('./icons/undoDisabled.svg');
+      }
+
+      &.active{
+        cursor: pointer;
+
+        .icon{
+          background-image: url('./icons/undo.svg');
+        }
+
+        .text{
+          color: #3a3a3a;
+        }
+      }
+    }
+
+    &.redo{
+      .icon{
+        background-image: url('./icons/redoDisabled.svg');
+      }
+
+      &.active{
+        cursor: pointer;
+
+        .icon{
+          background-image: url('./icons/redo.svg');
+        }
+
+        .text{
+          color: #3a3a3a;
+        }
+      }
+    }
+
+  }
+}

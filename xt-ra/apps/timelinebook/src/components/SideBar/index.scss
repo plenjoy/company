@@ -1,0 +1,59 @@
+@import "../../../../common/styles/fonts.scss";
+@import "../../../../common/styles/common.scss";
+
+.Sidebar {
+  @include font-normal();
+  @include reset-list();
+
+  background: #F6F6F6;
+  width: 280px;
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+
+  .sidebar-border {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    border-right: 1px solid #d6d6d6;
+  }
+
+  .react-tabs,
+  .ReactTabs__TabPanel {
+    height: 100%;
+  }
+
+  .list {
+    overflow: hidden;
+    .item {
+      @include font-light();
+      width: 50%;
+      height: 34px;
+      text-align: center;
+      background-color: #fff;
+      float: left;
+      color: #7b7b7b;
+      box-sizing: border-box;
+      border-left: 1px solid #d6d6d6;
+      border-bottom: 1px solid #d6d6d6;
+      font-size: 13px;
+      line-height: 34px;
+      cursor: pointer;
+
+      &.active{
+        @include font-medium();
+        color: #3a3a3a;
+        border-bottom: none;
+        background-color: rgba(246, 246, 246, 1);
+        cursor: auto;
+      }
+
+      &:focus{
+        outline: none;
+      }
+    }
+  }
+}

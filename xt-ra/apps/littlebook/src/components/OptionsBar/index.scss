@@ -1,0 +1,112 @@
+@import "../../../../common/styles/fonts.scss";
+@import "../../../../common/styles/common.scss";
+
+.options-bar{
+  @include font-normal();
+  @include reset-list();
+
+  border-right: 1px solid rgba(232, 232, 232, 1);
+  background: rgba(246, 246, 246, 1);
+  width: 480px;
+  overflow-y: auto;
+  padding-top:36px;
+  position:absolute;
+  box-sizing:border-box;
+  top:0;
+  bottom:0;
+
+  .options-switch{
+      @include font-medium();
+      position:absolute;
+      top:36px;
+      right:30px;
+      border:none;
+      background-color:transparent;
+      font-size:12px;
+      color:#3a3a3a;
+      outline:none;
+      cursor:pointer;
+
+      &:hover{
+        color:#000;
+      }
+  }
+
+  .options-item{
+    clear:both;
+    margin:0 0 30px 30px;
+    height:20px;
+
+    &.hide{
+      display: none;
+    }
+
+    .options-item-label, .options-item-value, .options-item-select {
+      float:left;
+      line-height:20px;
+    }
+    .options-item-label {
+      @include font-medium();
+      width:90px;
+      font-size:14px;
+      color:#3a3a3a;
+    }
+
+    .options-item-select{
+      width:200px;
+      height:20px;
+      font-size:12px;
+
+
+      .Select-control{
+        height:20px;
+        border: 1px solid #d6d6d6;
+        border-radius: 4px;
+        background-color: #fff;
+
+        .Select-input{
+          height:20px;
+        }
+
+        .Select-value,.Select-placeholder{
+          line-height:20px;
+        }
+
+        .Select-clear-zone{
+          display:none;
+        }
+      }
+    }
+
+
+  }
+
+  .downLoadSpec-wrap{
+    border-top:1px solid rgb(232, 232, 232);
+    padding:30px 0 0 30px;
+
+    div{
+      cursor:pointer;
+
+      img{
+        margin:0;
+        width:14px;
+        height:14px;
+        padding-right:10px;
+        vertical-align:middle;
+      }
+
+      span{
+        @include font-medium();
+        font-size:14px;
+        color:#3a3a3a;
+
+        &:hover{
+          color:#000;
+        }
+      }
+    }
+
+
+  }
+}

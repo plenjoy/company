@@ -1,0 +1,109 @@
+<product-spec version="1.0.0">
+    <global>
+        <!-- 打印精度 -->
+        <dpi>300</dpi>
+         
+        <!-- 图片质量警告阈值百分比 -->
+        <imageQualityBufferPercent>30</imageQualityBufferPercent>
+         
+        <options>
+            <!-- 产品 -->
+            <optionGroup id="product">
+                <option id="IPadCase" name="iPad Case" />
+            </optionGroup>
+             
+            <!-- 设备型号（更准确的命名应为deviceModel，但鉴于model这个词在开发中的特殊性，改用deviceType） -->
+            <optionGroup id="deviceType">
+                <option id="iPadmini2" name="iPad mini 1/2/3">
+                    <title>iPad mini 1/2/3</title>
+                </option>
+                 
+                <option id="iPadmini4" name="iPad mini 4">
+                    <title>iPad mini 4"</title>
+                </option>
+                 
+                <option id="iPadAir" name="iPad Air">
+                    <title>iPad Air</title>
+                </option>
+                 
+                <option id="iPadAir2" name="iPad Air 2">
+                    <title>iPad Air 2</title>
+                </option>
+            </optionGroup>
+
+            <optionGroup id="paper">
+                <option id="EP">
+                    <title>Matte</title>
+                </option>
+            </optionGroup>
+        </options>
+    </global>
+     
+    <configurableOptionMap>
+        <optionMap id="product" keyPattern="client">
+            <entry key="*" value="IPadCase" />
+        </optionMap>
+         
+        <optionMap id="deviceType" keyPattern="product">
+            <entry key="IPadCase" value="iPadmini2,iPadmini4,iPadAir,iPadAir2" />
+        </optionMap>
+        
+        <optionMap id="paper" keyPattern="deviceType">
+            <entry key="*" value="EP" />
+        </optionMap>
+
+    </configurableOptionMap>
+     
+    <parameters>
+        <!-- 1英寸 = 25.4毫米 -->
+         
+        <!-- 产品基础尺寸，等于手机正面尺寸 -->
+        <parameter id="baseSizeInInch" keyPattern="deviceType">
+            <!-- 158mm * 200mm -->
+            <entry key="iPadmini2" width="6.220472440944882" height="7.874015748031496" />
+             
+            <!-- 158mm * 206mm -->
+            <entry key="iPadmini4" width="6.220472440944882" height="8.110236220472441" />
+             
+            <!-- 200mm * 241mm -->
+            <entry key="iPadAir" width="7.598425196850394" height="9.488188976377953" />
+             
+            <!-- 192mm * 240mm -->
+            <entry key="iPadAir2" width="7.559055118110236" height="9.448818897637795" />
+
+        </parameter>
+         
+        <!-- 侧边尺寸 -->
+        <parameter id="sideInInch" keyPattern="deviceType">
+            <entry key="iPadmini2" left="0" top="0" right="0" bottom="0" />
+            <entry key="iPadmini4" left="0" top="0" right="0" bottom="0" />
+            <entry key="iPadAir" left="0" top="0" right="0" bottom="0" />
+            <entry key="iPadAir2" left="0" top="0" right="0" bottom="0" />
+        </parameter>
+         
+        <!-- 背面卷边尺寸 -->
+        <parameter id="edgeInInch" keyPattern="deviceType">
+            <entry key="*" left="0" top="0" right="0" bottom="0" />
+        </parameter>
+         
+        <!-- 出血尺寸 -->
+        <parameter id="bleedInInch" keyPattern="deviceType">
+            <!-- 目前统一为1.5mm -->
+            <entry key="*" left="0.0590551181102362" top="0.0590551181102362" right="0.0590551181102362" bottom="0.0590551181102362" />
+        </parameter>
+    </parameters>
+     
+    <variables>
+        <!-- 出于客户端异步加载资源的考虑，每个图片资源都应提供其尺寸信息，并因此不再集中于一个variable中 -->
+         
+         
+        <!-- 提供手机形象的蒙板前景图，用于编辑界面显示 -->
+        <variable id="foreground" keyPattern="deviceType">
+            <!-- paddingLeft、paddingTop、paddingRight、paddingBottom指图片边缘到图片上手机正面区域的距离 -->
+            <entry key="iPadmini2" image="/PadCase/assets/img/ipadcase/iPadmini2.png" width="1161" height="869" paddingLeft="492" paddingTop="40" paddingRight="60" paddingBottom="60" />
+            <entry key="iPadmini4" image="/PadCase/assets/img/ipadcase/iPadmini4.png" width="1146" height="874" paddingLeft="491" paddingTop="40" paddingRight="60" paddingBottom="60" />
+            <entry key="iPadAir" image="/PadCase/assets/img/ipadcase/iPadAir1.png" width="1137" height="797" paddingLeft="500" paddingTop="40" paddingRight="60" paddingBottom="60" />
+            <entry key="iPadAir2" image="/PadCase/assets/img/ipadcase/iPadAir2.png" width="1117" height="796" paddingLeft="500" paddingTop="40" paddingRight="60" paddingBottom="60" />
+        </variable>
+    </variables>
+</product-spec>

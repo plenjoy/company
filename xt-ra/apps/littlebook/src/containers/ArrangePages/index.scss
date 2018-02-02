@@ -1,0 +1,133 @@
+@import '../../../../common/styles/fonts';
+.arrange-pages {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 77px;
+  bottom: 0;
+  z-index: 20;
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+  overflow: auto;
+  user-select: none;
+
+  .wrap {
+    padding: 30px 0 30px 30px;
+    overflow-x: hidden;
+  }
+
+  .row {
+    position: relative;
+    width: 200vw;
+    padding-top: 7px;
+    .add-pages-button {
+      position: absolute;
+    }
+  }
+
+  .x-loading {
+    z-index: 1000;
+  }
+
+  .book-cover,
+  .book-sheet {
+    position: absolute;
+    margin: 0 30px 30px 0;
+    // overflow: inherit;
+  }
+
+  .cover-sheet {
+    overflow: hidden;
+  }
+
+  .element-container {
+    .element {
+      cursor: default;
+    }
+  }
+
+  .page-number {
+    position: absolute;
+    // bottom: -24px;
+    z-index: 100;
+
+    .page-item {
+      @include font-light();
+      font-size: 12px;
+      color: #7b7b7b;
+      cursor: default;
+      padding: 1px 0;
+      width: 50%;
+      box-sizing: border-box;
+
+      &.right{
+        text-align: right;
+      }
+
+      &.active {
+        border-color: transparent;
+      }
+    }
+  }
+
+  .swap-photo-hint {
+    pointer-events: none;
+    background: #f0f0f0 !important;
+    color: #3a3a3a !important;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.26);
+    border: 1px solid #d6d6d6;
+    font-size: 10px;
+    z-index: 100000;
+    opacity: 1 !important;
+    padding: 6px 10px;
+
+    &.place-bottom {
+      &:before {
+        border-bottom-color: #d6d6d6;
+        border-bottom-style: solid;
+        border-bottom-width: 8px;
+      }
+      &:after {
+        border-bottom-color: #f0f0f0 !important;
+        border-bottom-style: solid !important;
+      }
+    }
+
+    &.place-top {
+      &:before {
+        border-top-color: #d6d6d6;
+        border-top-style: solid;
+        border-top-width: 8px;
+      }
+      &:after {
+        border-top-color: #f0f0f0 !important;
+        border-top-style: solid !important;
+      }
+    }
+
+    &.place-left {
+      &:before {
+        border-left-color: #d6d6d6;
+        border-left-style: solid;
+        border-left-width: 8px;
+      }
+      &:after {
+        border-left-color: #f0f0f0 !important;
+        border-left-style: solid !important;
+      }
+    }
+
+    &.place-right {
+      &:before {
+        border-right-color: #d6d6d6;
+        border-right-style: solid;
+        border-right-width: 8px;
+      }
+      &:after {
+        border-right-color: #f0f0f0 !important;
+        border-right-style: solid !important;
+      }
+    }
+  }
+}

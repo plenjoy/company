@@ -1,0 +1,38 @@
+<svg id="Group_61" data-name="Group 61" xmlns="http://www.w3.org/2000/svg" viewBox="1175 93 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3a3a3a;
+        stroke: #3a3a3a;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Rectangle_47" data-name="Rectangle 47" class="cls-1" transform="translate(1175 93)">
+    <rect class="cls-3" width="20" height="20" rx="2"/>
+    <rect class="cls-4" x="0.5" y="0.5" width="19" height="19" rx="1.5"/>
+  </g>
+  <rect id="Rectangle_48" data-name="Rectangle 48" class="cls-2" width="12" height="1" transform="translate(1179 98)"/>
+  <rect id="Rectangle_49" data-name="Rectangle 49" class="cls-2" width="12" height="1" transform="translate(1179 104)"/>
+  <g id="Group_58" data-name="Group 58" transform="translate(-534 -76)">
+    <g id="Group_57" data-name="Group 57" transform="translate(1715 177)">
+      <rect id="Rectangle_50" data-name="Rectangle 50" class="cls-2" width="8" height="1"/>
+    </g>
+  </g>
+  <g id="Group_60" data-name="Group 60" transform="translate(-534 -70)">
+    <g id="Group_59" data-name="Group 59" transform="translate(1715 177)">
+      <rect id="Rectangle_51" data-name="Rectangle 51" class="cls-2" width="8" height="1"/>
+    </g>
+  </g>
+</svg>

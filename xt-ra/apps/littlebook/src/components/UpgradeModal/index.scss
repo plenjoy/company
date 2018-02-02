@@ -1,0 +1,120 @@
+@import "../../../../common/styles/fonts.scss";
+@import "../../../../common/styles/common.scss";
+
+.upgrade-wrap{
+  padding:40px;
+  box-sizing:border-box;
+
+  .upgrade-title{
+    @include font-light();
+    font-size:21px;
+    line-height: 28px;
+    color: #3a3a3a;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .text-center{
+    text-align: center;
+  }
+
+  .items-wrap{
+    position: absolute;
+    bottom: 0;
+  }
+
+  .upgrade-content{
+    font-size: 16px;
+    color: #3a3a3a;
+    margin: 40px auto 80px;
+    position: relative;
+    width: 100%;
+    margin-left: 43px;
+     .arrow-icon{
+        padding: 0 30px;
+     }
+
+    .upgrade-container{
+      text-align: left;
+
+      .options{
+        .title{
+          @include font-medium();
+          font-size: 13px;
+          color: #3a3a3a;
+        }
+
+        .additional{
+          @include font-medium();
+          font-size: 13px;
+          margin-top: 2px;
+          color: #3a3a3a;
+          float: right;
+        }
+      }
+
+      .description{
+        @include font-light();
+        color: #7b7b7b;
+        font-size: 12px;
+        margin-top: 3px;
+        line-height: 16px;
+        transform: scale(0.83);
+        margin-left: -40%;
+        margin-right: -40%;
+        text-align: center;
+      }
+    }
+  }
+
+  .upgrade-checked-items{
+    .x-checkbox{
+      background: #f6f6f6;
+      padding: 13px 20px 13px 12px;
+      margin-bottom: 5px;
+    }
+
+    .x-checkbox:last-child{
+      margin-bottom: 0;
+    }
+  }
+
+  .button-wrap{
+    margin-top:30px;
+    display: flex;
+    justify-content: space-around;
+
+    .button{
+      width: 260px;
+      padding: 0 60px;
+      font-size: 13px;
+      line-height: 16px;
+    }
+  }
+
+  .height-30{
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .button-white{
+    background:white;
+    margin-right:20px;
+    height: 30px;
+    line-height: 28px;
+    color:#393939;
+    border:1px solid #393939;
+
+    &:hover{
+      background: #f0f0f0;
+    }
+  }
+
+  .arrow-icon{
+    display: inline-block;
+  }
+}
+
+.hide{
+  display: none;
+}

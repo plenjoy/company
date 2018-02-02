@@ -1,0 +1,6 @@
+.font-option-disabled {
+  pointer-events: none;
+  > img {
+    opacity: 0.3;
+  }
+}

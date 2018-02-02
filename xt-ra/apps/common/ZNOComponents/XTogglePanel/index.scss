@@ -1,0 +1,53 @@
+.x-toggle-panel{
+  border-top: 1px solid #d6d6d6;
+
+  transition: height .5s;
+  overflow: hidden;
+
+  .icons-bar{
+    input{
+        display: none;
+    }
+
+    .icon{
+      width: 36px;
+      height: 22px;
+      background-size: 9px 9px;
+      display: inline-block;
+      cursor: pointer;
+      border:1px solid #d6d6d6;
+      border-top: none;
+      &:last-child {
+        border-left: none;
+      }
+    }
+
+    // more icon
+    .more-icon{
+      background: #fff url("./icons/more-normal.svg") center center no-repeat;
+
+      &:hover{
+        background-image: url("./icons/more-hover.svg");
+      }
+    }
+
+    input:disabled + .more-icon{
+      cursor: not-allowed;
+      background-image: url("./icons/more-disable.svg");
+    }
+
+    // less icon
+    .less-icon{
+      background: #fff url("./icons/less-normal.svg") center center no-repeat;
+
+      &:hover{
+        background-image: url("./icons/less-hover.svg");
+      }
+    }
+
+    input:disabled + .less-icon{
+      cursor: not-allowed;
+      background-image: url("./icons/less-disable.svg");
+    }
+  }
+}

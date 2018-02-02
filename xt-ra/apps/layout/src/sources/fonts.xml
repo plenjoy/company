@@ -1,0 +1,661 @@
+<fontConfig>
+<fontSize maximum="500" minimum="18" defaultValue="96" stepSize="1"/>
+<color defaultValue="0x000000"/>
+<fontFamilies>
+<fontFamily id="1942_report" name="1942 report" displayName="1942 Report">
+<font id="1942_report" displayName="Regular" fontFamily="1942 report" fontFace="1942 report" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="20db" name="20db" displayName="20DB">
+<font id="20db" displayName="Regular" fontFamily="20db" fontFace="20db" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="3dumb" name="3dumb" displayName="3dumb">
+<font id="3dumb" displayName="Regular" fontFamily="3dumb" fontFace="3dumb" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="akashi_regular" name="Akashi Regular" displayName="Akashi">
+<font id="akashi_regular" displayName="Regular" fontFamily="Akashi Regular" fontFace="Akashi Regular" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="font_alexbrush" name="Alex Brush" displayName="Alex Brush">
+<font id="AlexBrush_Regular" displayName="Normal" fontFamily="Alex Brush" fontFace="Alex Brush" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="amadeus_regular" name="Amadeus Regular" displayName="Amadeus">
+<font id="amadeus_regular" displayName="Regular" fontFamily="Amadeus Regular" fontFace="Amadeus Regular" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="amatic_sc" name="Amatic SC" displayName="Amatic SC">
+<font id="amatic_sc" displayName="Normal" fontFamily="Amatic SC" fontFace="Amatic SC" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="amatic_sc_bold" displayName="Bold" fontFamily="Amatic SC Bold" fontFace="Amatic SC Bold" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="anton" name="Anton" displayName="Anton">
+<font id="anton" displayName="Normal" fontFamily="Anton" fontFace="Anton" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="archistico_normal" name="Archistico Normal" displayName="Archistico">
+<font id="archistico_normal" displayName="Normal" fontFamily="Archistico Normal" fontFace="Archistico Normal" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="archistico_bold" displayName="Bold" fontFamily="Archistico Bold" fontFace="Archistico Bold" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="font_arial" name="Arial Narrow" displayName="Arial" isDefault="true">
+<font id="font_arial_narrow" displayName="Normal" fontFamily="Arial Narrow" fontFace="Arial Narrow" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="font_arial_narrow_bold" displayName="Bold" fontFamily="Arial Narrow Bold" fontFace="Arial Narrow Bold" weight="bold" suffix="ttf" category="all"/>
+<font id="font_arial_narrow_bold_italic" displayName="Italic" fontFamily="Arial Narrow Bold Italic" fontFace="Arial Narrow Bold Italic" weight="bold" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="arimo" name="Arimo" displayName="Arimo">
+<font id="arimo" displayName="Normal" fontFamily="Arimo" fontFace="Arimo" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="arimo_bold" displayName="Bold" fontFamily="Arimo Bold" fontFace="Arimo Bold" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="arimo_bold_italic" displayName="Bold Italic" fontFamily="Arimo Bold Italic" fontFace="Arimo Bold Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="arimo_italic" displayName="Normal Italic" fontFamily="Arimo Italic" fontFace="Arimo Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="arizonia" name="Arizonia" displayName="Arizonia">
+<font id="arizonia" displayName="Regular" fontFamily="Arizonia" fontFace="Arizonia" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="bearpaw" name="Bearpaw" displayName="Bearpaw" deprecated="true">
+<font id="bearpaw" displayName="Regular" fontFamily="Bearpaw" fontFace="Bearpaw" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="bebasneueregular" name="BebasNeueRegular" displayName="Bebas Neue">
+<font id="bebasneueregular" displayName="Regular" fontFamily="BebasNeueRegular" fontFace="BebasNeueRegular" weight="normal" isDefault="true" suffix="otf" category="all"/>
+<font id="bebasneuebold" displayName="Bold" fontFamily="BebasNeueBold" fontFace="BebasNeueBold" weight="normal" isDefault="false" suffix="otf" category="all"/>
+<font id="bebasneuebook" displayName="Book" fontFamily="BebasNeueBook" fontFace="BebasNeueBook" weight="normal" isDefault="false" suffix="otf" category="all"/>
+<font id="bebasneuelight" displayName="Light" fontFamily="BebasNeueLight" fontFace="BebasNeueLight" weight="normal" isDefault="false" suffix="otf" category="all"/>
+<font id="bebas_neue_thin" displayName="Thin" fontFamily="Bebas Neue Thin" fontFace="Bebas Neue Thin" weight="normal" isDefault="false" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="bentham" name="Bentham" displayName="Bentham">
+<font id="bentham" displayName="Regular" fontFamily="Bentham" fontFace="Bentham" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="blackout_2_am" name="Blackout 2 AM" displayName="Blackout 2 AM" deprecated="true">
+<font id="blackout_2_am" displayName="Regular" fontFamily="Blackout 2 AM" fontFace="Blackout 2 AM" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="blackout_midnight" name="Blackout Midnight" displayName="Blackout Midnight" deprecated="true">
+<font id="blackout_midnight" displayName="Regular" fontFamily="Blackout Midnight" fontFace="Blackout Midnight" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="bpscript" name="BPscript" displayName="BPscript">
+<font id="bpscript" displayName="Regular" fontFamily="BPscript" fontFace="BPscript" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="bpdots" name="BPdots" displayName="BPdots">
+<font id="bpdots" displayName="Regular" fontFamily="BPdots" fontFace="BPdots" weight="normal" isDefault="true" suffix="otf" category="all"/>
+<font id="bpdots-bold" displayName="Bold" fontFamily="BPdots-Bold" fontFace="BPdots-Bold" weight="normal" isDefault="false" suffix="otf" category="all"/>
+<font id="bpdots-light" displayName="Light" fontFamily="BPdots-Light" fontFace="BPdots-Light" weight="normal" isDefault="false" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="bpdotsdiamond" name="BPdotsDiamond" displayName="BPdots Diamond">
+<font id="bpdotsdiamond" displayName="Regular" fontFamily="BPdotsDiamond" fontFace="BPdotsDiamond" weight="normal" isDefault="true" suffix="otf" category="all"/>
+<font id="bpdotsdiamond-bold" displayName="Bold" fontFamily="BPdotsDiamond-Bold" fontFace="BPdotsDiamond-Bold" weight="normal" isDefault="false" suffix="otf" category="all"/>
+<font id="bpdotsdiamond-light" displayName="Light" fontFamily="BPdotsDiamond-Light" fontFace="BPdotsDiamond-Light" weight="normal" isDefault="false" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="bpdotsminus" name="BPdotsMinus" displayName="BPdots Minus">
+<font id="bpdotsminus" displayName="Regular" fontFamily="BPdotsMinus" fontFace="BPdotsMinus" weight="normal" isDefault="true" suffix="otf" category="all"/>
+<font id="bpdotsminus-bold" displayName="Bold" fontFamily="BPdotsMinus-Bold" fontFace="BPdotsMinus-Bold" weight="normal" isDefault="false" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="bpdotsplus" name="BPdotsPlus" displayName="BPdots Plus">
+<font id="bpdotsplus" displayName="Regular" fontFamily="BPdotsPlus" fontFace="BPdotsPlus" weight="normal" isDefault="true" suffix="otf" category="all"/>
+<font id="bpdotsplus-bold" displayName="Bold" fontFamily="BPdotsPlus-Bold" fontFace="BPdotsPlus-Bold" weight="normal" isDefault="false" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="bpdotssquares" name="BPdotsSquares" displayName="BPdots Squares">
+<font id="bpdotssquares" displayName="Regular" fontFamily="BPdotsSquares" fontFace="BPdotsSquares" weight="normal" isDefault="true" suffix="otf" category="all"/>
+<font id="bpdotssquares-bold" displayName="Bold" fontFamily="BPdotsSquares-Bold" fontFace="BPdotsSquares-Bold" weight="normal" isDefault="false" suffix="otf" category="all"/>
+<font id="bpdotssquares-light" displayName="Light" fontFamily="BPdotsSquares-Light" fontFace="BPdotsSquares-Light" weight="normal" isDefault="false" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="bpdotsvertical" name="BPdotsVertical" displayName="BPdots Vertical">
+<font id="bpdotsvertical" displayName="Regular" fontFamily="BPdotsVertical" fontFace="BPdotsVertical" weight="normal" isDefault="true" suffix="otf" category="all"/>
+<font id="bpdotsvertical-bold" displayName="Bold" fontFamily="BPdotsVertical-Bold" fontFace="BPdotsVertical-Bold" weight="normal" isDefault="false" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="broken_15" name="Broken 15" displayName="Broken 15">
+<font id="broken_15" displayName="Regular" fontFamily="Broken 15" fontFace="Broken 15" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="bubbler_one" name="Bubbler One" displayName="Bubbler One">
+<font id="bubbler_one" displayName="Normal" fontFamily="Bubbler One" fontFace="Bubbler One" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="cac_champagne" name="CAC Champagne" displayName="CAC Champagne">
+<font id="cac_champagne" displayName="Regular" fontFamily="CAC Champagne" fontFace="CAC Champagne" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="caesar_dressing" name="Caesar Dressing" displayName="Caesar Dressing">
+<font id="caesar_dressing" displayName="Normal" fontFamily="Caesar Dressing" fontFace="Caesar Dressing" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="calligraffitti" name="Calligraffitti" displayName="Calligraffitti">
+<font id="calligraffitti" displayName="Normal" fontFamily="Calligraffitti" fontFace="Calligraffitti" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="cantarell_regular" name="Cantarell Regular" displayName="Cantarell">
+<font id="cantarell_regular" displayName="Normal" fontFamily="Cantarell Regular" fontFace="Cantarell Regular" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="cantarell_bold" displayName="Bold" fontFamily="Cantarell Bold" fontFace="Cantarell Bold" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="cantarell_bold_oblique" displayName="Bold Italic" fontFamily="Cantarell Bold Oblique" fontFace="Cantarell Bold Oblique" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="cantarell_oblique" displayName="Normal Italic" fontFamily="Cantarell Oblique" fontFace="Cantarell Oblique" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="cardo" name="Cardo" displayName="Cardo">
+<font id="cardo" displayName="Normal" fontFamily="Cardo" fontFace="Cardo" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="cardo_bold" displayName="Bold" fontFamily="Cardo Bold" fontFace="Cardo Bold" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="cardo_italic" displayName="Normal Italic" fontFamily="Cardo Italic" fontFace="Cardo Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="caslon_initials" name="Caslon Initials" displayName="Caslon Initials" deprecated="true">
+<font id="caslon_initials" displayName="Regular" fontFamily="Caslon Initials" fontFace="Caslon Initials" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="caslon_calligraphic_initials" name="Caslon Calligraphic Initials" displayName="Caslon Calligraphic Initials" deprecated="true">
+<font id="caslon_calligraphic_initials" displayName="Regular" fontFamily="Caslon Calligraphic Initials" fontFace="Caslon Calligraphic Initials" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="clicker_script" name="Clicker Script" displayName="Clicker Script">
+<font id="clicker_script" displayName="Normal" fontFamily="Clicker Script" fontFace="Clicker Script" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="font_comfortaa" name="Comfortaa" displayName="Comfortaa">
+<font id="font_comfortaa" displayName="Normal" fontFamily="Comfortaa" fontFace="Comfortaa" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="font_comfortaa_thin" displayName="Thin" fontFamily="Comfortaa Thin" fontFace="Comfortaa Thin" weight="normal" suffix="ttf" category="all"/>
+<font id="font_comfortaa_bold" displayName="Bold" fontFamily="Comfortaa Bold" fontFace="Comfortaa Bold" weight="bold" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="coming_soon" name="Coming Soon" displayName="Coming Soon">
+<font id="coming_soon" displayName="Normal" fontFamily="Coming Soon" fontFace="Coming Soon" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="cookie-regular" name="Cookie-Regular" displayName="Cookie">
+<font id="cookie-regular" displayName="Normal" fontFamily="Cookie-Regular" fontFace="Cookie-Regular" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="crimson_text" name="Crimson Text" displayName="Crimson Text">
+<font id="crimson_text" displayName="Normal" fontFamily="Crimson Text" fontFace="Crimson Text" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="crimson_text_bold" displayName="Bold" fontFamily="Crimson Text Bold" fontFace="Crimson Text Bold" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="crimson_text_bold_italic" displayName="Bold Italic" fontFamily="Crimson Text Bold Italic" fontFace="Crimson Text Bold Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="crimson_text_italic" displayName="Normal Italic" fontFamily="Crimson Text Italic" fontFace="Crimson Text Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="crimson_text_semibold" displayName="Semi-Bold" fontFamily="Crimson Text Semibold" fontFace="Crimson Text Semibold" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="crimson_text_semibold_italic" displayName="Semi-Bold Italic" fontFamily="Crimson Text Semibold Italic" fontFace="Crimson Text Semibold Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="cutive_mono" name="Cutive Mono" displayName="Cutive Mono">
+<font id="cutive_mono" displayName="Normal" fontFamily="Cutive Mono" fontFace="Cutive Mono" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="dancing_script" name="Dancing Script" displayName="Dancing Script">
+<font id="dancing_script" displayName="Normal" fontFamily="Dancing Script" fontFace="Dancing Script" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="dancing_script_bold" displayName="Bold" fontFamily="Dancing Script Bold" fontFace="Dancing Script Bold" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="district" name="District" displayName="District" deprecated="true">
+<font id="district" displayName="Regular" fontFamily="District" fontFace="District" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="dj_gross" name="DJ Gross" displayName="DJ Gross" deprecated="true">
+<font id="dj_gross" displayName="Normal" fontFamily="DJ Gross" fontFace="DJ Gross" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="dosis_regular" name="Dosis Regular" displayName="Dosis">
+<font id="dosis_regular" displayName="Normal" fontFamily="Dosis Regular" fontFace="Dosis Regular" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="dosis_bold" displayName="Bold" fontFamily="Dosis Bold" fontFace="Dosis Bold" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="dosis_extrabold" displayName="ExtraBold" fontFamily="Dosis ExtraBold" fontFace="Dosis ExtraBold" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="dosis_extralight" displayName="ExtraLight" fontFamily="Dosis ExtraLight" fontFace="Dosis ExtraLight" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="dosis_light" displayName="Light" fontFamily="Dosis Light" fontFace="Dosis Light" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="dosis_medium" displayName="Medium" fontFamily="Dosis Medium" fontFace="Dosis Medium" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="dosis_semibold" displayName="Semi-Bold" fontFamily="Dosis SemiBold" fontFace="Dosis SemiBold" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="eagle_lake" name="Eagle Lake" displayName="Eagle Lake">
+<font id="eagle_lake" displayName="Normal" fontFamily="Eagle Lake" fontFace="Eagle Lake" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="eb_garamond" name="EB Garamond" displayName="EB Garamond">
+<font id="eb_garamond" displayName="Normal" fontFamily="EB Garamond" fontFace="EB Garamond" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="england_hand_db" name="England Hand DB" displayName="England Hand DB">
+<font id="england_hand_db" displayName="Regular" fontFamily="England Hand DB" fontFace="England Hand DB" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="exotica_medium" name="exotica Medium" displayName="Exotica" deprecated="true">
+<font id="exotica_medium" displayName="Medium" fontFamily="exotica Medium" fontFace="exotica Medium" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="fff_tusj_bold" name="FFF Tusj Bold" displayName="FFF Tusj">
+<font id="fff_tusj_bold" displayName="Bold" fontFamily="FFF Tusj Bold" fontFace="FFF Tusj Bold" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="fira_mono" name="Fira Mono" displayName="Fira Mono">
+<font id="fira_mono" displayName="Normal" fontFamily="Fira Mono" fontFace="Fira Mono" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="fira_mono_bold" displayName="Bold" fontFamily="Fira Mono Bold" fontFace="Fira Mono Bold" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="foglihten" name="Foglihten" displayName="Foglihten">
+<font id="foglihten" displayName="Regular" fontFamily="Foglihten" fontFace="Foglihten" weight="normal" isDefault="true" suffix="otf" category="all"/>
+<font id="foglihtenblackpcs" displayName="Black Petite Caps" fontFamily="FoglihtenBlackPcs" fontFace="FoglihtenBlackPcs" weight="normal" isDefault="false" suffix="otf" category="all"/>
+<font id="foglihtenno01" displayName="No01" fontFamily="FoglihtenNo01" fontFace="FoglihtenNo01" weight="normal" isDefault="false" suffix="otf" category="all"/>
+<font id="foglihtenno03" displayName="No03" fontFamily="FoglihtenNo03" fontFace="FoglihtenNo03" weight="normal" isDefault="false" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="frijole" name="Frijole" displayName="Frijole">
+<font id="frijole" displayName="Normal" fontFamily="Frijole" fontFace="Frijole" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="geotica2012-regular" name="Geotica2012-Regular" displayName="Geotica 2012">
+<font id="geotica2012-regular" displayName="Regular" fontFamily="Geotica2012-Regular" fontFace="Geotica2012-Regular" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="gesso" name="Gesso" displayName="Gesso">
+<font id="gesso" displayName="Regular" fontFamily="Gesso" fontFace="Gesso" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="gilda_display" name="Gilda Display" displayName="Gilda Display">
+<font id="gilda_display" displayName="Normal" fontFamily="Gilda Display" fontFace="Gilda Display" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="homemade_apple" name="Homemade Apple" displayName="Homemade Apple">
+<font id="homemade_apple" displayName="Normal" fontFamily="Homemade Apple" fontFace="Homemade Apple" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="indie_flower" name="Indie Flower" displayName="Indie Flower">
+<font id="indie_flower" displayName="Normal" fontFamily="Indie Flower" fontFace="Indie Flower" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="josefin_slab" name="Josefin Slab" displayName="Josefin Slab">
+<font id="josefin_slab" displayName="Normal" fontFamily="Josefin Slab" fontFace="Josefin Slab" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="josefin_slab_bold" displayName="Bold" fontFamily="Josefin Slab Bold" fontFace="Josefin Slab Bold" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="josefin_slab_bold_italic" displayName="Bold Italic" fontFamily="Josefin Slab Bold Italic" fontFace="Josefin Slab Bold Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="josefin_slab_italic" displayName="Normal Italic" fontFamily="Josefin Slab Italic" fontFace="Josefin Slab Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="josefin_slab_light" displayName="Light" fontFamily="Josefin Slab Light" fontFace="Josefin Slab Light" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="josefin_slab_light_italic" displayName="Light Italic" fontFamily="Josefin Slab Light Italic" fontFace="Josefin Slab Light Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="josefin_slab_semibold" displayName="Semi Bold" fontFamily="Josefin Slab SemiBold" fontFace="Josefin Slab SemiBold" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="josefin_slab_semibold_italic" displayName="Semi Bold Italic" fontFamily="Josefin Slab SemiBold Italic" fontFace="Josefin Slab SemiBold Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="josefin_slab_thin" displayName="Thin" fontFamily="Josefin Slab Thin" fontFace="Josefin Slab Thin" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="josefin_slab_thin_italic" displayName="Thin Italic" fontFamily="Josefin Slab Thin Italic" fontFace="Josefin Slab Thin Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="judson_regular" name="Judson Regular" displayName="Judson">
+<font id="judson_regular" displayName="Normal" fontFamily="Judson Regular" fontFace="Judson Regular" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="judson_bold" displayName="Bold" fontFamily="Judson Bold" fontFace="Judson Bold" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="judson_italic" displayName="Normal Italic" fontFamily="Judson Italic" fontFace="Judson Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="kaushan_script" name="Kaushan Script" displayName="Kaushan Script">
+<font id="kaushan_script" displayName="Normal" fontFamily="Kaushan Script" fontFace="Kaushan Script" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="lane_-_narrow" name="Lane Narrow" displayName="Lane">
+<font id="lane_-_narrow" displayName="Narrow Regular" fontFamily="Lane Narrow" fontFace="Lane Narrow" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="lane_-_posh" displayName="Posh Regular" fontFamily="Lane Posh" fontFace="Lane Posh" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="lane_-_upper" displayName="Upper Regular" fontFamily="Lane Upper" fontFace="Lane Upper" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="league_script" name="League Script" displayName="League Script">
+<font id="league_script" displayName="Normal" fontFamily="League Script" fontFace="League Script" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="librebaskerville-regular" name="LibreBaskerville-Regular" displayName="Libre Baskerville">
+<font id="librebaskerville-regular" displayName="Regular" fontFamily="LibreBaskerville-Regular" fontFace="LibreBaskerville-Regular" weight="normal" isDefault="true" suffix="otf" category="all"/>
+<font id="librebaskerville-bold" displayName="Bold" fontFamily="LibreBaskerville-Bold" fontFace="LibreBaskerville-Bold" weight="normal" isDefault="false" suffix="otf" category="all"/>
+<font id="librebaskerville-italic" displayName="Italic" fontFamily="LibreBaskerville-Italic" fontFace="LibreBaskerville-Italic" weight="normal" isDefault="false" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="lilly" name="Lilly" displayName="Lilly">
+<font id="lilly" displayName="Regular" fontFamily="Lilly" fontFace="Lilly" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="font_lobster" name="Lobster1.4" displayName="Lobster">
+<font id="font_lobster" displayName="Normal" fontFamily="Lobster1.4" fontFace="Lobster1.4" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="mclaren" name="McLaren" displayName="McLaren">
+<font id="mclaren" displayName="Normal" fontFamily="McLaren" fontFace="McLaren" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="monoton" name="Monoton" displayName="Monoton">
+<font id="monoton" displayName="Normal" fontFamily="Monoton" fontFace="Monoton" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="monsieur_la_doulaise_regular" name="Monsieur La Doulaise Regular" displayName="Monsieur La Doulaise">
+<font id="monsieur_la_doulaise_regular" displayName="Normal" fontFamily="Monsieur La Doulaise Regular" fontFace="Monsieur La Doulaise Regular" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="montserrat-regular" name="Montserrat-Regular" displayName="Montserrat">
+<font id="montserrat-regular" displayName="Normal" fontFamily="Montserrat-Regular" fontFace="Montserrat-Regular" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="montserrat-bold" displayName="Bold" fontFamily="Montserrat-Bold" fontFace="Montserrat-Bold" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="nothing_you_could_do" name="Nothing You Could Do" displayName="Nothing You Could Do">
+<font id="nothing_you_could_do" displayName="Normal" fontFamily="Nothing You Could Do" fontFace="Nothing You Could Do" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="nimbusmono-regular" name="NimbusMono-Regular" displayName="Numbus Mono">
+<font id="nimbusmono-regular" displayName="Regular" fontFamily="NimbusMono-Regular" fontFace="NimbusMono-Regular" weight="normal" isDefault="true" suffix="otf" category="all"/>
+<font id="nimbusmono-bold" displayName="Bold" fontFamily="NimbusMono-Bold" fontFace="NimbusMono-Bold" weight="normal" isDefault="false" suffix="otf" category="all"/>
+<font id="nimbusmono-boldoblique" displayName="Bold Italic" fontFamily="NimbusMono-BoldOblique" fontFace="NimbusMono-BoldOblique" weight="normal" isDefault="false" suffix="otf" category="all"/>
+<font id="nimbusmono-oblique" displayName="Italic" fontFamily="NimbusMono-Oblique" fontFace="NimbusMono-Oblique" weight="normal" isDefault="false" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="pacifico" name="Pacifico" displayName="Pacifico">
+<font id="pacifico" displayName="Regular" fontFamily="Pacifico" fontFace="Pacifico" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="parisienne" name="Parisienne" displayName="Parisienne">
+<font id="parisienne" displayName="Normal" fontFamily="Parisienne" fontFace="Parisienne" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="portersansblock" name="PorterSansBlock" displayName="Porter Sans">
+<font id="portersansblock" displayName="Block" fontFamily="PorterSansBlock" fontFace="PorterSansBlock" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="press_start_2p" name="Press Start 2P" displayName="Press Start 2P">
+<font id="press_start_2p" displayName="Normal" fontFamily="Press Start 2P" fontFace="Press Start 2P" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="printbold" name="PrintBold" displayName="Print Bold">
+<font id="printbold" displayName="Regular" fontFamily="PrintBold" fontFace="PrintBold" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="printclearly" name="PrintClearly" displayName="Print Clearly">
+<font id="printclearly" displayName="Regular" fontFamily="PrintClearly" fontFace="PrintClearly" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="printdashed" name="PrintDashed" displayName="Print Dashed">
+<font id="printdashed" displayName="Regular" fontFamily="PrintDashed" fontFace="PrintDashed" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="questrial" name="Questrial" displayName="Questrial">
+<font id="questrial" displayName="Normal" fontFamily="Questrial" fontFace="Questrial" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="raleway" name="Raleway" displayName="Raleway">
+<font id="raleway" displayName="Normal" fontFamily="Raleway" fontFace="Raleway" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="raleway_italic" displayName="Normal Italic" fontFamily="Raleway Italic" fontFace="Raleway Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="raleway_bold" displayName="Bold" fontFamily="Raleway Bold" fontFace="Raleway Bold" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="raleway_bold_italic" displayName="Bold Italic" fontFamily="Raleway Bold Italic" fontFace="Raleway Bold Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="raleway_extrabold" displayName="Extra-Bold" fontFamily="Raleway ExtraBold" fontFace="Raleway ExtraBold" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="raleway_extrabold_italic" displayName="Extra-Bold Italic" fontFamily="Raleway ExtraBold Italic" fontFace="Raleway ExtraBold Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="raleway_extralight" displayName="Extra-Light" fontFamily="Raleway ExtraLight" fontFace="Raleway ExtraLight" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="raleway_extralight_italic" displayName="Extra-Light Italic" fontFamily="Raleway ExtraLight Italic" fontFace="Raleway ExtraLight Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="raleway_light" displayName="Light" fontFamily="Raleway Light" fontFace="Raleway Light" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="raleway_light_italic" displayName="Light Italic" fontFamily="Raleway Light Italic" fontFace="Raleway Light Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="raleway_medium" displayName="Medium" fontFamily="Raleway Medium" fontFace="Raleway Medium" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="raleway_medium_italic" displayName="Medium Italic" fontFamily="Raleway Medium Italic" fontFace="Raleway Medium Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="raleway_black" displayName="Ultra-Bold" fontFamily="Raleway Black" fontFace="Raleway Black" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="raleway_black_italic" displayName="Ultra-Bold Italic" fontFamily="Raleway Black Italic" fontFace="Raleway Black Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="raleway_thin" displayName="Thin" fontFamily="Raleway Thin" fontFace="Raleway Thin" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="raleway_thin_italic" displayName="Thin Italic" fontFamily="Raleway Thin Italic" fontFace="Raleway Thin Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="roboto" name="Roboto" displayName="Roboto">
+<font id="roboto" displayName="Normal" fontFamily="Roboto" fontFace="Roboto" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="roboto_italic" displayName="Normal Italic" fontFamily="Roboto Italic" fontFace="Roboto Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="roboto_bold" displayName="Bold" fontFamily="Roboto Bold" fontFace="Roboto Bold" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="roboto_bold_italic" displayName="Bold Italic" fontFamily="Roboto Bold Italic" fontFace="Roboto Bold Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="roboto_light" displayName="Light" fontFamily="Roboto Light" fontFace="Roboto Light" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="roboto_light_italic" displayName="Light Italic" fontFamily="Roboto Light Italic" fontFace="Roboto Light Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="roboto_medium" displayName="Medium" fontFamily="Roboto Medium" fontFace="Roboto Medium" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="roboto_medium_italic" displayName="Medium Italic" fontFamily="Roboto Medium Italic" fontFace="Roboto Medium Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="roboto_thin" displayName="Thin" fontFamily="Roboto Thin" fontFace="Roboto Thin" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="roboto_thin_italic" displayName="Thin Italic" fontFamily="Roboto Thin Italic" fontFace="Roboto Thin Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="roboto_black" displayName="Ultra-Bold" fontFamily="Roboto Black" fontFace="Roboto Black" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="roboto_black_italic" displayName="Ultra-Bold Italic" fontFamily="Roboto Black Italic" fontFace="Roboto Black Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="rochester" name="Rochester" displayName="Rochester">
+<font id="rochester" displayName="Regular" fontFamily="Rochester" fontFace="Rochester" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="rye_regular" name="Rye Regular" displayName="Rye">
+<font id="rye_regular" displayName="Normal" fontFamily="Rye Regular" fontFace="Rye Regular" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="sacramento" name="Sacramento" displayName="Sacramento">
+<font id="sacramento" displayName="Normal" fontFamily="Sacramento" fontFace="Sacramento" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="sanchez" name="Sanchez" displayName="Sanchez">
+<font id="sanchez" displayName="Normal" fontFamily="Sanchez" fontFace="Sanchez" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="sanchez_italic" displayName="Normal Italic" fontFamily="Sanchez Italic" fontFace="Sanchez Italic" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="seaweed_script" name="Seaweed Script" displayName="Seaweed Script">
+<font id="seaweed_script" displayName="Normal" fontFamily="Seaweed Script" fontFace="Seaweed Script" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="shadows_into_light" name="Shadows Into Light" displayName="Shadows Into Light">
+<font id="shadows_into_light" displayName="Normal" fontFamily="Shadows Into Light" fontFace="Shadows Into Light" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="slackey" name="Slackey" displayName="Slackey">
+<font id="slackey" displayName="Normal" fontFamily="Slackey" fontFace="Slackey" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="sorts_mill_goudy" name="Sorts Mill Goudy" displayName="Sorts Mill Goudy">
+<font id="sorts_mill_goudy" displayName="Regular" fontFamily="Sorts Mill Goudy" fontFace="Sorts Mill Goudy" weight="normal" isDefault="true" suffix="otf" category="all"/>
+<font id="sorts_mill_goudy_italic" displayName="Italic" fontFamily="Sorts Mill Goudy Italic" fontFace="Sorts Mill Goudy Italic" weight="normal" isDefault="false" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="theano_didot_regular" name="Theano Didot Regular" displayName="Theano Didot">
+<font id="theano_didot_regular" displayName="Regular" fontFamily="Theano Didot Regular" fontFace="Theano Didot Regular" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="font_times_new_roman" name="Times New Roman" displayName="Times New Roman">
+<font id="font_times_new_roman" displayName="Normal" fontFamily="Times New Roman" fontFace="Times New Roman" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="font_times_new_roman_bold" displayName="Bold" fontFamily="Times New Roman Bold" fontFace="Times New Roman Bold" weight="bold" suffix="ttf" category="all"/>
+<font id="font_times_new_roman_italic" displayName="Italic" fontFamily="Times New Roman Italic" fontFace="Times New Roman Italic" weight="normal" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="uppereastside" name="UpperEastSide" displayName="UpperEastSide">
+<font id="uppereastside" displayName="Regular" fontFamily="UpperEastSide" fontFace="UpperEastSide" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="vast_shadow_regular" name="Vast Shadow Regular" displayName="Vast Shadow">
+<font id="vast_shadow_regular" displayName="Regular" fontFamily="Vast Shadow Regular" fontFace="Vast Shadow Regular" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="vidaloka" name="Vidaloka" displayName="Vidaloka">
+<font id="vidaloka" displayName="Normal" fontFamily="Vidaloka" fontFace="Vidaloka" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="volkhov_regular" name="Volkhov Regular" displayName="Volkhov">
+<font id="volkhov_regular" displayName="Normal" fontFamily="Volkhov Regular" fontFace="Volkhov Regular" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="volkhov_italic" displayName="Normal Italic" fontFamily="Volkhov Italic" fontFace="Volkhov Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="volkhov_bold" displayName="Bold" fontFamily="Volkhov Bold" fontFace="Volkhov Bold" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="volkhov_bold_italic" displayName="Bold Italic" fontFamily="Volkhov Bold Italic" fontFace="Volkhov Bold Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="waiting_for_the_sunrise" name="Waiting for the Sunrise" displayName="Waiting for the Sunrise">
+<font id="waiting_for_the_sunrise" displayName="Normal" fontFamily="Waiting for the Sunrise" fontFace="Waiting for the Sunrise" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="wcroughtradbta" name="WCROUGHTRADBta" displayName="WC RoughTrad">
+<font id="wcroughtradbta" displayName="Bold" fontFamily="WCROUGHTRADBta" fontFace="WCROUGHTRADBta" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="winterthurcondensed" name="WinterthurCondensed" displayName="Winterthur Condensed">
+<font id="winterthurcondensed" displayName="Regular" fontFamily="WinterthurCondensed" fontFace="WinterthurCondensed" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="winterthurcondensedoblique" displayName="Italic" fontFamily="WinterthurCondensedOblique" fontFace="WinterthurCondensedOblique" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="xenophone" name="Xenophone" displayName="Xenophone" deprecated="true">
+<font id="xenophone" displayName="Regular" fontFamily="Xenophone" fontFace="Xenophone" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="yantramanav" name="Yantramanav" displayName="Yantramanav">
+<font id="yantramanav" displayName="Normal" fontFamily="Yantramanav" fontFace="Yantramanav" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="yantramanav_thin" displayName="Thin" fontFamily="Yantramanav Thin" fontFace="Yantramanav Thin" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="yantramanav_light" displayName="Light" fontFamily="Yantramanav Light" fontFace="Yantramanav Light" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="yantramanav_medium" displayName="Medium" fontFamily="Yantramanav Medium" fontFace="Yantramanav Medium" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="yantramanav_bold" displayName="Bold" fontFamily="Yantramanav Bold" fontFace="Yantramanav Bold" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+<font id="yantramanav_black" displayName="Ultra-Bold" fontFamily="Yantramanav Black" fontFace="Yantramanav Black" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="font_brush_script_std" name="Brush Script Std" displayName="Brush Script" deprecated="true">
+<font id="font_brush_script_std" displayName="Normal" fontFamily="Brush Script Std" fontFace="Brush Script Std" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="font_chaparral_pro_light_italic" name="ChaparralPro-LightIt" displayName="Chaparral Pro Light" deprecated="true">
+<font id="font_chaparral_pro_light_italic" displayName="Normal" fontFamily="ChaparralPro-LightIt" fontFace="ChaparralPro-LightIt" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="font_charlemagne_std_bold" name="CharlemagneStd-Bold" displayName="Charlemagne Std" deprecated="true">
+<font id="font_charlemagne_std_bold" displayName="Bold" fontFamily="CharlemagneStd-Bold" fontFace="CharlemagneStd-Bold" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="font_courier_new" name="Courier New" displayName="Courier New" deprecated="true">
+<font id="font_courier_new" displayName="Normal" fontFamily="Courier New" fontFace="Courier New" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="font_courier_new_bold" displayName="Bold" fontFamily="Courier New Bold" fontFace="Courier New Bold" weight="bold" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="font_felix_titling" name="Felix Titling" displayName="Felix Titling" deprecated="true">
+<font id="font_felix_titling" displayName="Normal" fontFamily="Felix Titling" fontFace="Felix Titling" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="font_georgia" name="Georgia" displayName="Georgia" deprecated="true">
+<font id="font_georgia" displayName="Normal" fontFamily="Georgia" fontFace="Georgia" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="font_georgia_bold" displayName="Bold" fontFamily="Georgia Bold" fontFace="Georgia Bold" weight="bold" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="font_impact" name="Impact" displayName="Impact" deprecated="true">
+<font id="font_impact" displayName="Normal" fontFamily="Impact" fontFace="Impact" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="font_libertine" name="Linux Libertine" displayName="Libertine" deprecated="true">
+<font id="font_libertine" displayName="Normal" fontFamily="Linux Libertine" fontFace="Linux Libertine" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="font_lucida_calligraphy" name="Lucida Calligraphy Italic" displayName="Lucida Calligraphy" deprecated="true">
+<font id="font_lucida_calligraphy_italic" isDefault="true" displayName="Italic" fontFamily="Lucida Calligraphy Italic" fontFace="Lucida Calligraphy Italic" weight="normal" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="font_Lucida_console" name="Lucida Console" displayName="Lucida Console" deprecated="true">
+<font id="font_Lucida_console" displayName="Normal" fontFamily="Lucida Console" fontFace="Lucida Console" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="font_lucida_sans_unicode" name="Lucida Sans Unicode" displayName="Lucida Sans Unicode" deprecated="true">
+<font id="font_lucida_sans_unicode" displayName="Normal" fontFamily="Lucida Sans Unicode" fontFace="Lucida Sans Unicode" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="font_nueva_std_italic" name="NuevaStd-Italic" displayName="Nueva Std" deprecated="true">
+<font id="font_nueva_std_italic" displayName="Italic" fontFamily="NuevaStd-Italic" fontFace="NuevaStd-Italic" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="font_palatino_linotype" name="Palatino Linotype" displayName="Palatino Linotype" deprecated="true">
+<font id="font_palatino_linotype" displayName="Normal" fontFamily="Palatino Linotype" fontFace="Palatino Linotype" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="font_palatino_linotype_bold" displayName="Bold" fontFamily="Palatino Linotype Bold" fontFace="Palatino Linotype Bold" weight="bold" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="font_segoe_script" name="Segoe Script" displayName="Segoe Script" deprecated="true">
+<font id="font_segoe_script" displayName="Normal" fontFamily="Segoe Script" fontFace="Segoe Script" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="font_tahoma" name="Tahoma" displayName="Tahoma" deprecated="true">
+<font id="font_tahoma" displayName="Normal" fontFamily="Tahoma" fontFace="Tahoma" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="font_tahoma_bold" displayName="Bold" fontFamily="Tahoma Bold" fontFace="Tahoma Bold" weight="bold" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="font_verdana" name="Verdana" displayName="Verdana" deprecated="true">
+<font id="font_verdana" displayName="Normal" fontFamily="Verdana" fontFace="Verdana" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="font_verdana_bold" displayName="Bold" fontFamily="Verdana Bold" fontFace="Verdana Bold" weight="bold" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="font_bentham" name="Bentham" displayName="Bentham" deprecated="true">
+<font id="font_bentham" displayName="Normal" fontFamily="Bentham" fontFace="Bentham" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="font_bonvenocf" name="BonvenoCF" displayName="BonvenoCF" deprecated="true">
+<font id="font_bonvenocf" displayName="Normal" fontFamily="BonvenoCF" fontFace="BonvenoCF" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="font_canter" name="Canter" displayName="Canter" deprecated="true">
+<font id="font_canter" displayName="Normal" fontFamily="Canter" fontFace="Canter" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="font_learningcurvepro" name="Learning Curve Pro" displayName="Learning Curve Pro" deprecated="true">
+<font id="font_learningcurvepro" displayName="Normal" fontFamily="Learning Curve Pro" fontFace="Learning Curve Pro" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="font_josefinsans" name="Josefin Sans" displayName="Josefin Sans" deprecated="true">
+<font id="font_josefinsans" displayName="Normal" fontFamily="Josefin Sans" fontFace="Josefin Sans" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="font_pinyonscript" name="Pinyon Script" displayName="Pinyon Script" deprecated="true">
+<font id="font_pinyonscript" displayName="Normal" fontFamily="Pinyon Script" fontFace="Pinyon Script" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="font_playfairdisplay" name="Playfair Display" displayName="Playfair Display" deprecated="true">
+<font id="PlayfairDisplay_Regular" displayName="Normal" fontFamily="Playfair Display" fontFace="Playfair Display" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="font_chopinscript" name="Chopin Script" displayName="Chopin Script" deprecated="true">
+<font id="font_chopinscript" displayName="Normal" fontFamily="Chopin Script" fontFace="Chopin Script" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="font_aleo" name="Aleo" displayName="Aleo" deprecated="true">
+<font id="Aleo_Regular" displayName="Normal" fontFamily="Aleo" fontFace="Aleo" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="font_corki" name="Corki" displayName="Corki" deprecated="true">
+<font id="Corki_Regular" displayName="Normal" fontFamily="Corki" fontFace="Corki" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="font_latinmodernroman" name="LATIN MODERN ROMAN" displayName="LATIN MODERN ROMAN" deprecated="true">
+<font id="font_latinmodernroman" displayName="Normal" fontFamily="LATIN MODERN ROMAN" fontFace="LATIN MODERN ROMAN" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="font_nexarustscript" name="Nexa Rust Script" displayName="Nexa Rust Script" deprecated="true">
+<font id="font_nexarustscript" displayName="Normal" fontFamily="Nexa Rust Script" fontFace="Nexa Rust Script" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="Caudex" name="Caudex" displayName="Caudex" deprecated="true">
+<font id="Caudex_Regular" displayName="Normal" fontFamily="Caudex" fontFace="Caudex" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="Caudex_Bold" displayName="Bold" fontFamily="Caudex Bold" fontFace="Caudex Bold" weight="bold" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="LearningCurve" name="Learning Curve Pro" displayName="Learning Curve Pro" deprecated="true">
+<font id="LearningCurve_OT" displayName="Normal" fontFamily="Learning Curve Pro" fontFace="Learning Curve Pro" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="JosefinSlab" name="Josefin Slab" displayName="Josefin Slab" deprecated="true">
+<font id="JosefinSlab_Regular" displayName="Normal" fontFamily="Josefin Slab" fontFace="Josefin Slab" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="JosefinSlab_Bold" displayName="Bold" fontFamily="Josefin Slab Bold" fontFace="Josefin Slab Bold" weight="bold" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="Raleway" name="Raleway" displayName="Raleway" deprecated="true">
+<font id="Raleway_Regular" displayName="Normal" fontFamily="Raleway" fontFace="Raleway" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="OldStandard" name="Old Standard TT" displayName="Old Standard TT" deprecated="true">
+<font id="OldStandard_Regular" displayName="Normal" fontFamily="Old Standard TT" fontFace="Old Standard TT" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="OldStandard_Italic" displayName="Italic" fontFamily="Old Standard TT" fontFace="Old Standard TT Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="Exmouth" name="Exmouth" displayName="Exmouth" deprecated="true">
+<font id="exmouth_" displayName="Normal" fontFamily="Exmouth" fontFace="Exmouth" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="JosefinSans" name="Josefin Sans" displayName="Josefin Sans" deprecated="true">
+<font id="JosefinSans_Regular" displayName="Normal" fontFamily="Josefin Sans" fontFace="Josefin Sans" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="JosefinSans_Bold" displayName="Bold" fontFamily="Josefin Sans" fontFace="Josefin Sans Bold" weight="bold" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="DancingScript" name="Dancing Script" displayName="Dancing Script" deprecated="true">
+<font id="DancingScript_Regular" displayName="Normal" fontFamily="Dancing Script" fontFace="Dancing Script" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="FeENit27C" name="IM FELL English Pro Italic" displayName="IM FELL English Pro" deprecated="true">
+<font id="FeENit27C" displayName="Italic" fontFamily="IM FELL English Pro Italic" fontFace="IM FELL English Pro Italic" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="TypoSlabserif" name="TypoSlab Serif" displayName="TypoSlab Serif" deprecated="true">
+<font id="TypoSlabserif_Light" displayName="Normal" fontFamily="TypoSlab Serif" fontFace="TypoSlab Serif" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="Canter" name="Canter" displayName="Canter" deprecated="true">
+<font id="Canter_Bold_3D" displayName="Normal" fontFamily="Canter" fontFace="Canter" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="MASexy" name="MA Sexy" displayName="MA Sexy" deprecated="true">
+<font id="MA_Sexy" displayName="Normal" fontFamily="MA Sexy" fontFace="MA Sexy" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="FePIit27C" name="IM FELL DW PICA PRO" displayName="IM FELL DW PICA PRO" deprecated="true">
+<font id="FePIit27C" displayName="Normal" fontFamily="IM FELL DW PICA PRO" fontFace="IM FELL DW PICA PRO" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="BonvenoCF" name="Bonveno CF" displayName="Bonveno CF" deprecated="true">
+<font id="BonvenoCF_Light" displayName="Normal" fontFamily="Bonveno CF" fontFace="Bonveno CF" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="england" name="England Hand DB" displayName="England Hand DB" deprecated="true">
+<font id="england" displayName="Normal" fontFamily="England Hand DB" fontFace="England Hand DB" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="HomemadeApple" name="Homemade Apple" displayName="Homemade Apple" deprecated="true">
+<font id="HomemadeApple" displayName="Normal" fontFamily="Homemade Apple" fontFace="Homemade Apple" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="SpecialElite" name="Special Elite" displayName="Special Elite" deprecated="true">
+<font id="SpecialElite" displayName="Normal" fontFamily="Special Elite" fontFace="Special Elite" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="GreatVibes" name="Great Vibes" displayName="Great Vibes" deprecated="true">
+<font id="GreatVibes_Regular" displayName="Normal" fontFamily="Great Vibes" fontFace="Great Vibes" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="Charbold" name="Charrington" displayName="Charrington" deprecated="true">
+<font id="Charbold" displayName="Normal" fontFamily="Charrington" fontFace="Charrington" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="Sacramento" name="Sacramento" displayName="Sacramento" deprecated="true">
+<font id="Sacramento_Regular" displayName="Normal" fontFamily="Sacramento" fontFace="Sacramento" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="ostrich" name="Ostrich" displayName="Ostrich" deprecated="true">
+<font id="ostrich_regular" displayName="Normal" fontFamily="Ostrich" fontFace="Ostrich" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="FeDPit27C" name="IM FELL DOUBLE PICA PRO Italic" displayName="IM FELL DOUBLE PICA PRO" deprecated="true">
+<!--
+<font id="FeDPit27C" displayName="Normal" fontFamily="IM FELL DOUBLE      PICA PRO" fontFace="IM FELL DOUBLE PICA PRO" weight="normal" isDefault="true"       suffix="otf"  category="all" />
+-->
+<font id="FeDPit27C" displayName="Italic" fontFamily="IM FELL DOUBLE PICA PRO Italic" fontFace="IM FELL DOUBLE PICA PRO Italic" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="BEBAS" name="Bebas" displayName="Bebas" deprecated="true">
+<font id="BEBAS___" displayName="Normal" fontFamily="Bebas" fontFace="Bebas" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="PetitFormalScript" name="PetitFormalScript" displayName="PetitFormalScript" deprecated="true">
+<font id="PetitFormalScript_Regular" displayName="Normal" fontFamily="PetitFormalScript" fontFace="PetitFormalScript" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="Aleo" name="Aleo" displayName="Aleo" deprecated="true">
+<font id="Aleo_Regular" displayName="Normal" fontFamily="Aleo" fontFace="Aleo" weight="normal" isDefault="true" suffix="otf" category="all"/>
+<font id="Aleo_Bold" displayName="Bold" fontFamily="Aleo" fontFace="Aleo Bold" weight="bold" isDefault="false" suffix="otf" category="all"/>
+<font id="Aleo_Light" displayName="Light" fontFamily="Aleo" fontFace="Aleo Light" weight="normal" isDefault="false" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="Allura" name="Allura" displayName="Allura" deprecated="true">
+<font id="Allura_Regular" displayName="Normal" fontFamily="Allura" fontFace="Allura" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="Amatic" name="Amatic" displayName="Amatic" deprecated="true">
+<font id="AmaticSC_Regular" displayName="Normal" fontFamily="Amatic" fontFace="Amatic" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="Amatic_Bold" displayName="Bold" fontFamily="Amatic" fontFace="Amatic Bold" weight="bold" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="Bentham" name="Bentham" displayName="Bentham" deprecated="true">
+<font id="Bentham" displayName="Normal" fontFamily="Bentham" fontFace="Bentham" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="ChampagneAndLimousines" name="Champagne and Limousines" displayName="Champagne and Limousines" deprecated="true">
+<font id="Champagne_and_Limousines" displayName="Normal" fontFamily="Champagne and Limousines" fontFace="Champagne and Limousines" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="Champagne_and_Limousines_Bold" displayName="Bold" fontFamily="Champagne and Limousines" fontFace="Champagne and Limousines Bold" weight="bold" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="Corki" name="Corki" displayName="Corki" deprecated="true">
+<font id="Corki_Regular" displayName="Normal" fontFamily="Corki" fontFace="Corki" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="CrimsonText" name="Crimson" displayName="Crimson" deprecated="true">
+<font id="CrimsonText_Regular" displayName="Normal" fontFamily="Crimson" fontFace="Crimson" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="Diner" name="Diner" displayName="Diner" deprecated="true">
+<font id="Diner_Regular" displayName="Normal" fontFamily="Diner" fontFace="Diner" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="Dubiel" name="Dubiel" displayName="Dubiel" deprecated="true">
+<font id="Dubiel" displayName="Normal" fontFamily="Dubiel" fontFace="Dubiel" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="DubielItalic" displayName="Italic" fontFamily="Dubiel Italic" fontFace="Dubiel Italic" weight="normal" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="Elsie" name="Elsie" displayName="Elsie" deprecated="true">
+<font id="Elsie_Regular" displayName="Normal" fontFamily="Elsie" fontFace="Elsie" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="GoudyTrajan" name="Goudy Trajan" displayName="Goudy Trajan" deprecated="true">
+<font id="GoudyTrajan_Regular_trial" displayName="Normal" fontFamily="Goudy Trajan" fontFace="Goudy Trajan" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="HandyGeorge" name="HandyGeorge" displayName="HandyGeorge" deprecated="true">
+<font id="HandyGeorge" displayName="Normal" fontFamily="HandyGeorge" fontFace="HandyGeorge" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="KingthingsTrypewriter" name="Kingthings Trypewriter" displayName="Kingthings Trypewriter" deprecated="true">
+<font id="Kingthings_Trypewriter_2" displayName="Normal" fontFamily="Kingthings Trypewriter" fontFace="Kingthings Trypewriter" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="Landliebe" name="Landliebe" displayName="Landliebe" deprecated="true">
+<font id="Landliebe" displayName="Normal" fontFamily="Landliebe" fontFace="Landliebe" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="Lato" name="Lato" displayName="Lato" deprecated="true">
+<font id="Lato_Regular" displayName="Normal" fontFamily="Lato" fontFace="Lato" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+<font id="Lato_Bold" displayName="Bold" fontFamily="Lato Bold" fontFace="Lato Bold" weight="bold" isDefault="false" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="LifeSavers" name="Life Savers" displayName="Life Savers" deprecated="true">
+<font id="LifeSavers_Regular" displayName="Normal" fontFamily="Life Savers" fontFace="Life Savers" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="Otama_ep" name="Otama-ep" displayName="Otama-ep" deprecated="true">
+<font id="Otama_ep" displayName="Normal" fontFamily="Otama-ep" fontFace="Otama-ep" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="Parisienne" name="Parisienne" displayName="Parisienne" deprecated="true">
+<font id="Parisienne_Regular" displayName="Normal" fontFamily="Parisienne" fontFace="Parisienne" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="PlayfairDisplay" name="PlayfairDisplay" displayName="PlayfairDisplay" deprecated="true">
+<font id="PlayfairDisplay_Regular" displayName="Normal" fontFamily="PlayfairDisplay" fontFace="PlayfairDisplay" weight="normal" isDefault="true" suffix="otf" category="all"/>
+<font id="PlayfairDisplay_Italic" displayName="Italic" fontFamily="PlayfairDisplay" fontFace="PlayfairDisplay Italic" weight="normal" isDefault="false" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="Rochester" name="Rochester" displayName="Rochester" deprecated="true">
+<font id="Rochester_Regular" displayName="Normal" fontFamily="Rochester" fontFace="Rochester" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="ScriptinaPro" name="Scriptina Pro" displayName="Scriptina Pro" deprecated="true">
+<font id="Scriptina_Pro" displayName="Normal" fontFamily="Scriptina Pro" fontFace="Scriptina Pro" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="Weston" name="Weston" displayName="Weston" deprecated="true">
+<font id="Weston_Free" displayName="Normal" fontFamily="Weston" fontFace="Weston" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="Weston Light" name="Weston-Light" displayName="Weston-Light" deprecated="true">
+<font id="Weston_Light_Free" displayName="Normal" fontFamily="Weston-Light" fontFace="Weston-Light" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="FeENrm28C" name="IM FELL ENGLISH PRO" displayName="IM FELL ENGLISH PRO" deprecated="true">
+<font id="FeENrm28C" displayName="Normal" fontFamily="IM FELL ENGLISH PRO" fontFace="IM FELL ENGLISH PRO" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="HerrVonMuellerhoff" name="HERR VON MUELLERHOFF" displayName="HERR VON MUELLERHOFF" deprecated="true">
+<font id="HerrVonMuellerhoff_Regular" displayName="Normal" fontFamily="HERR VON MUELLERHOFF" fontFace="HERR VON MUELLERHOFF" weight="normal" isDefault="true" suffix="otf" category="all"/>
+</fontFamily>
+<fontFamily id="UCU charles script" name="UCU charles script" displayName="UCU charles script" deprecated="true">
+<font id="UCU_charles_script" displayName="Normal" fontFamily="UCU charles script" fontFace="UCU charles script" weight="normal" isDefault="true" suffix="ttf" category="all"/>
+</fontFamily>
+<fontFamily id="CanterLight" name="CanterLight" displayName="CanterLight" deprecated="true">
+<font id="CanterLight" displayName="Normal" fontFamily="CanterLight" fontFace="CanterLight" weight="normal" isDefault="true" suffix="otf" category="all"/>
+<font id="Canter_Bold_Strips" displayName="Strips" fontFamily="CanterLight" fontFace="CanterLight Bold Strips" weight="bold" isDefault="false" suffix="otf" category="all"/>
+</fontFamily>
+</fontFamilies>
+</fontConfig>

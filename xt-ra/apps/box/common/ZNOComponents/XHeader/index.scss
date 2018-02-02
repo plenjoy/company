@@ -1,0 +1,25 @@
+.mod-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 38px;
+
+  background: #3a3a3a;
+  background-size: auto 15px;
+  z-index: 49000;
+}
+
+.logo{
+  float:left;
+  width:83px;
+  height:15px;
+  //background: url("new-logo-white.svg") no-repeat;
+  background-size: auto 15px;
+  margin:12px 20px 12px 40px;
+  cursor:pointer;
+  user-select: none;
+}
+
+.header-area {
+  user-select: none;
+}

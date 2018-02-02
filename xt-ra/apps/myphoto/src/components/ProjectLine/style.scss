@@ -1,0 +1,55 @@
+@import '../../scss/index';
+
+.Project {
+  padding: 30px 30px 30px 0;
+  border-bottom: 1px solid #D6D6D6;
+  overflow: hidden;
+  &:first-child {
+    padding-top: 46px;
+  }
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.Project__head {
+  margin-bottom: 30px;
+}
+
+.Project__head--title {
+  @include font-family(400);
+  font-size: 18px;
+  color: #3A3A3A;
+  margin-bottom: 10px;
+}
+
+.Project__head--props {
+  margin-top: 10px;
+  display: table;
+  width: 100%;
+  .right {
+    display: table-cell;
+    text-align: right;
+  }
+
+  .left {
+    display: table-cell;
+    text-align: left;
+  }
+}
+
+.Project__head--prop {
+  @include font-family(300);
+  font-size: 12px;
+  display: inline-block;
+  border-right: 1px solid #7B7B7B;
+  padding: 0 5px;
+  color: #7B7B7B;
+  &:last-child {
+    border-right: 0;
+    padding-right: 0;
+  }
+  &:first-child {
+    padding-left: 0;
+  }
+}

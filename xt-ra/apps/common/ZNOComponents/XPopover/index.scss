@@ -1,0 +1,8 @@
+.x-popover{
+  position: fixed;
+  display: none;
+
+  &.show{
+    display: block;
+  }
+}

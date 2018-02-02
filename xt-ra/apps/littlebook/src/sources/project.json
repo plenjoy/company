@@ -1,0 +1,1200 @@
+{
+    "project": {
+        "userId": "252700",
+        "pages": [
+            {
+                "backend": {
+                    "isPrint": true,
+                    "slice": false
+                },
+                "x": 0,
+                "pw": 0,
+                "y": 0,
+                "width": 4204.704000000001,
+                "type": "Sheet",
+                "px": 0,
+                "bleed": {
+                    "bottom": 47.2441,
+                    "top": 47.2441,
+                    "left": 23.622,
+                    "right": 23.622
+                },
+                "py": 0,
+                "height": 1547.2382,
+                "elements": [
+                    {
+                        "rot": 0,
+                        "cropRLX": 1,
+                        "cropLUY": 0.05842650517135106,
+                        "dep": 0,
+                        "x": 0,
+                        "pw": 0.5,
+                        "imgRot": 0,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0,
+                        "imgFlip": false,
+                        "imageid": 379874,
+                        "cropLUX": 0,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "RaYf0Hdc9sk%3D",
+                        "cropRLY": 0.9415734948286489,
+                        "ph": 1
+                    },
+                    {
+                        "rot": 0,
+                        "cropRLX": 0.7731279436345276,
+                        "cropLUY": 0,
+                        "dep": 0,
+                        "x": 2102.352,
+                        "pw": 0.5,
+                        "imgRot": 0,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0.5,
+                        "imgFlip": false,
+                        "imageid": 379875,
+                        "cropLUX": 0.2268720563654724,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "FirYWI2pTFA%3D",
+                        "cropRLY": 1,
+                        "ph": 1
+                    }
+                ],
+                "ph": 0
+            },
+            {
+                "backend": {
+                    "isPrint": false,
+                    "slice": false
+                }
+            },
+            {
+                "backend": {
+                    "isPrint": true,
+                    "slice": false
+                },
+                "x": 0,
+                "pw": 0,
+                "y": 0,
+                "width": 4204.704000000001,
+                "type": "Sheet",
+                "px": 0,
+                "bleed": {
+                    "bottom": 47.2441,
+                    "top": 47.2441,
+                    "left": 23.622,
+                    "right": 23.622
+                },
+                "py": 0,
+                "height": 1547.2382,
+                "elements": [
+                    {
+                        "rot": 0,
+                        "cropRLX": 1,
+                        "cropLUY": 0.05035597132330782,
+                        "dep": 0,
+                        "x": 0,
+                        "pw": 0.5,
+                        "imgRot": 0,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0,
+                        "imgFlip": false,
+                        "imageid": 379876,
+                        "cropLUX": 0,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "wZLs7YARmvY%3D",
+                        "cropRLY": 0.9496440286766922,
+                        "ph": 1
+                    },
+                    {
+                        "rot": 0,
+                        "cropRLX": 1,
+                        "cropLUY": 0.01977418334284864,
+                        "dep": 0,
+                        "x": 2102.352,
+                        "pw": 0.5,
+                        "imgRot": 0,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0.5,
+                        "imgFlip": false,
+                        "imageid": 379877,
+                        "cropLUX": 0,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "lm5xuiYNuVA%3D",
+                        "cropRLY": 0.9802258166571514,
+                        "ph": 1
+                    }
+                ],
+                "ph": 0
+            },
+            {
+                "backend": {
+                    "isPrint": false,
+                    "slice": false
+                }
+            },
+            {
+                "backend": {
+                    "isPrint": true,
+                    "slice": false
+                },
+                "x": 0,
+                "pw": 0,
+                "y": 0,
+                "width": 4204.704000000001,
+                "type": "Sheet",
+                "px": 0,
+                "bleed": {
+                    "bottom": 47.2441,
+                    "top": 47.2441,
+                    "left": 23.622,
+                    "right": 23.622
+                },
+                "py": 0,
+                "height": 1547.2382,
+                "elements": [
+                    {
+                        "rot": 0,
+                        "cropRLX": 0.9679462320115195,
+                        "cropLUY": 0,
+                        "dep": 0,
+                        "x": 0,
+                        "pw": 0.5,
+                        "imgRot": 270,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0,
+                        "imgFlip": false,
+                        "imageid": 379878,
+                        "cropLUX": 0.03205376798848047,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "bhY03V68O1s%3D",
+                        "cropRLY": 1,
+                        "ph": 1
+                    },
+                    {
+                        "rot": 0,
+                        "cropRLX": 0.7183571844746013,
+                        "cropLUY": 0,
+                        "dep": 0,
+                        "x": 2102.352,
+                        "pw": 0.5,
+                        "imgRot": 270,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0.5,
+                        "imgFlip": false,
+                        "imageid": 379879,
+                        "cropLUX": 0.2816428155253987,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "2bkfR%2FS2O%2FM%3D",
+                        "cropRLY": 1,
+                        "ph": 1
+                    }
+                ],
+                "ph": 0
+            },
+            {
+                "backend": {
+                    "isPrint": false,
+                    "slice": false
+                }
+            },
+            {
+                "backend": {
+                    "isPrint": true,
+                    "slice": false
+                },
+                "x": 0,
+                "pw": 0,
+                "y": 0,
+                "width": 4204.704000000001,
+                "type": "Sheet",
+                "px": 0,
+                "bleed": {
+                    "bottom": 47.2441,
+                    "top": 47.2441,
+                    "left": 23.622,
+                    "right": 23.622
+                },
+                "py": 0,
+                "height": 1547.2382,
+                "elements": [
+                    {
+                        "rot": 0,
+                        "cropRLX": 0.6087021765620834,
+                        "cropLUY": 0,
+                        "dep": 0,
+                        "x": 0,
+                        "pw": 0.5,
+                        "imgRot": 270,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0,
+                        "imgFlip": false,
+                        "imageid": 379880,
+                        "cropLUX": 0.3912978234379166,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "mQDAoKDnW9k%3D",
+                        "cropRLY": 1,
+                        "ph": 1
+                    },
+                    {
+                        "rot": 0,
+                        "cropRLX": 1,
+                        "cropLUY": 0.04002760955349072,
+                        "dep": 0,
+                        "x": 2102.352,
+                        "pw": 0.5,
+                        "imgRot": 0,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0.5,
+                        "imgFlip": false,
+                        "imageid": 379881,
+                        "cropLUX": 0,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "1vDM63cblWI%3D",
+                        "cropRLY": 0.9599723904465093,
+                        "ph": 1
+                    }
+                ],
+                "ph": 0
+            },
+            {
+                "backend": {
+                    "isPrint": false,
+                    "slice": false
+                }
+            },
+            {
+                "backend": {
+                    "isPrint": true,
+                    "slice": false
+                },
+                "x": 0,
+                "pw": 0,
+                "y": 0,
+                "width": 4204.704000000001,
+                "type": "Sheet",
+                "px": 0,
+                "bleed": {
+                    "bottom": 47.2441,
+                    "top": 47.2441,
+                    "left": 23.622,
+                    "right": 23.622
+                },
+                "py": 0,
+                "height": 1547.2382,
+                "elements": [
+                    {
+                        "rot": 0,
+                        "cropRLX": 1,
+                        "cropLUY": 0.1291914883169679,
+                        "dep": 0,
+                        "x": 0,
+                        "pw": 0.5,
+                        "imgRot": 270,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0,
+                        "imgFlip": false,
+                        "imageid": 379882,
+                        "cropLUX": 0,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "pFFj1oAAq7k%3D",
+                        "cropRLY": 0.8708085116830322,
+                        "ph": 1
+                    },
+                    {
+                        "rot": 0,
+                        "cropRLX": 1,
+                        "cropLUY": 0.009935957842036769,
+                        "dep": 0,
+                        "x": 2102.352,
+                        "pw": 0.5,
+                        "imgRot": 0,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0.5,
+                        "imgFlip": false,
+                        "imageid": 379883,
+                        "cropLUX": 0,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "lTyV6rikSeM%3D",
+                        "cropRLY": 0.9900640421579632,
+                        "ph": 1
+                    }
+                ],
+                "ph": 0
+            },
+            {
+                "backend": {
+                    "isPrint": false,
+                    "slice": false
+                }
+            },
+            {
+                "backend": {
+                    "isPrint": true,
+                    "slice": false
+                },
+                "x": 0,
+                "pw": 0,
+                "y": 0,
+                "width": 4204.704000000001,
+                "type": "Sheet",
+                "px": 0,
+                "bleed": {
+                    "bottom": 47.2441,
+                    "top": 47.2441,
+                    "left": 23.622,
+                    "right": 23.622
+                },
+                "py": 0,
+                "height": 1547.2382,
+                "elements": [
+                    {
+                        "rot": 0,
+                        "cropRLX": 0.9246178771956381,
+                        "cropLUY": 0,
+                        "dep": 0,
+                        "x": 0,
+                        "pw": 0.5,
+                        "imgRot": 0,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0,
+                        "imgFlip": false,
+                        "imageid": 379884,
+                        "cropLUX": 0.0753821228043619,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "9wnWmHLkHDw%3D",
+                        "cropRLY": 1,
+                        "ph": 1
+                    },
+                    {
+                        "rot": 0,
+                        "cropRLX": 0.915931038181254,
+                        "cropLUY": 0,
+                        "dep": 0,
+                        "x": 2102.352,
+                        "pw": 0.5,
+                        "imgRot": 0,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0.5,
+                        "imgFlip": false,
+                        "imageid": 379885,
+                        "cropLUX": 0.08406896181874596,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "mZ4MRi%2B2Oxc%3D",
+                        "cropRLY": 1,
+                        "ph": 1
+                    }
+                ],
+                "ph": 0
+            },
+            {
+                "backend": {
+                    "isPrint": false,
+                    "slice": false
+                }
+            },
+            {
+                "backend": {
+                    "isPrint": true,
+                    "slice": false
+                },
+                "x": 0,
+                "pw": 0,
+                "y": 0,
+                "width": 4204.704000000001,
+                "type": "Sheet",
+                "px": 0,
+                "bleed": {
+                    "bottom": 47.2441,
+                    "top": 47.2441,
+                    "left": 23.622,
+                    "right": 23.622
+                },
+                "py": 0,
+                "height": 1547.2382,
+                "elements": [
+                    {
+                        "rot": 0,
+                        "cropRLX": 0.951793421336159,
+                        "cropLUY": 0,
+                        "dep": 0,
+                        "x": 0,
+                        "pw": 0.5,
+                        "imgRot": 0,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0,
+                        "imgFlip": false,
+                        "imageid": 379886,
+                        "cropLUX": 0.04820657866384104,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "DwJ2bPyWSbU%3D",
+                        "cropRLY": 1,
+                        "ph": 1
+                    },
+                    {
+                        "rot": 0,
+                        "cropRLX": 0.9960029116227309,
+                        "cropLUY": 0,
+                        "dep": 0,
+                        "x": 2102.352,
+                        "pw": 0.5,
+                        "imgRot": 0,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0.5,
+                        "imgFlip": false,
+                        "imageid": 379887,
+                        "cropLUX": 0.003997088377269142,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "an1CEts3TNY%3D",
+                        "cropRLY": 1,
+                        "ph": 1
+                    }
+                ],
+                "ph": 0
+            },
+            {
+                "backend": {
+                    "isPrint": false,
+                    "slice": false
+                }
+            },
+            {
+                "backend": {
+                    "isPrint": true,
+                    "slice": false
+                },
+                "x": 0,
+                "pw": 0,
+                "y": 0,
+                "width": 4204.704000000001,
+                "type": "Sheet",
+                "px": 0,
+                "bleed": {
+                    "bottom": 47.2441,
+                    "top": 47.2441,
+                    "left": 23.622,
+                    "right": 23.622
+                },
+                "py": 0,
+                "height": 1547.2382,
+                "elements": [
+                    {
+                        "rot": 0,
+                        "cropRLX": 0.9246178771956381,
+                        "cropLUY": 0,
+                        "dep": 0,
+                        "x": 0,
+                        "pw": 0.5,
+                        "imgRot": 0,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0,
+                        "imgFlip": false,
+                        "imageid": 379888,
+                        "cropLUX": 0.0753821228043619,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "HVSoI76f7P0%3D",
+                        "cropRLY": 1,
+                        "ph": 1
+                    },
+                    {
+                        "rot": 0,
+                        "cropRLX": 1,
+                        "cropLUY": 0.1267972491306212,
+                        "dep": 0,
+                        "x": 2102.352,
+                        "pw": 0.5,
+                        "imgRot": 0,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0.5,
+                        "imgFlip": false,
+                        "imageid": 379889,
+                        "cropLUX": 0,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "1L7NK08hDXk%3D",
+                        "cropRLY": 0.8732027508693787,
+                        "ph": 1
+                    }
+                ],
+                "ph": 0
+            },
+            {
+                "backend": {
+                    "isPrint": false,
+                    "slice": false
+                }
+            },
+            {
+                "backend": {
+                    "isPrint": true,
+                    "slice": false
+                },
+                "x": 0,
+                "pw": 0,
+                "y": 0,
+                "width": 4204.704000000001,
+                "type": "Sheet",
+                "px": 0,
+                "bleed": {
+                    "bottom": 47.2441,
+                    "top": 47.2441,
+                    "left": 23.622,
+                    "right": 23.622
+                },
+                "py": 0,
+                "height": 1547.2382,
+                "elements": [
+                    {
+                        "rot": 0,
+                        "cropRLX": 0.9966150323024383,
+                        "cropLUY": 0,
+                        "dep": 0,
+                        "x": 0,
+                        "pw": 0.5,
+                        "imgRot": 0,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0,
+                        "imgFlip": false,
+                        "imageid": 379890,
+                        "cropLUX": 0.003384967697561636,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "BnBhxd7L0is%3D",
+                        "cropRLY": 1,
+                        "ph": 1
+                    },
+                    {
+                        "rot": 0,
+                        "cropRLX": 0.9726181589655798,
+                        "cropLUY": 0,
+                        "dep": 0,
+                        "x": 2102.352,
+                        "pw": 0.5,
+                        "imgRot": 270,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0.5,
+                        "imgFlip": false,
+                        "imageid": 379891,
+                        "cropLUX": 0.02738184103442021,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "9gPP1lbX79Y%3D",
+                        "cropRLY": 1,
+                        "ph": 1
+                    }
+                ],
+                "ph": 0
+            },
+            {
+                "backend": {
+                    "isPrint": false,
+                    "slice": false
+                }
+            },
+            {
+                "backend": {
+                    "isPrint": true,
+                    "slice": false
+                },
+                "x": 0,
+                "pw": 0,
+                "y": 0,
+                "width": 4204.704000000001,
+                "type": "Sheet",
+                "px": 0,
+                "bleed": {
+                    "bottom": 47.2441,
+                    "top": 47.2441,
+                    "left": 23.622,
+                    "right": 23.622
+                },
+                "py": 0,
+                "height": 1547.2382,
+                "elements": [
+                    {
+                        "rot": 0,
+                        "cropRLX": 1,
+                        "cropLUY": 0.1111227335941073,
+                        "dep": 0,
+                        "x": 0,
+                        "pw": 0.5,
+                        "imgRot": 270,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0,
+                        "imgFlip": false,
+                        "imageid": 379892,
+                        "cropLUX": 0,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "h5AArym%2FRp8%3D",
+                        "cropRLY": 0.8888772664058926,
+                        "ph": 1
+                    },
+                    {
+                        "rot": 0,
+                        "cropRLX": 1,
+                        "cropLUY": 0.1025838546542159,
+                        "dep": 0,
+                        "x": 2102.352,
+                        "pw": 0.5,
+                        "imgRot": 270,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0.5,
+                        "imgFlip": false,
+                        "imageid": 379893,
+                        "cropLUX": 0,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "rfkMlqulGxc%3D",
+                        "cropRLY": 0.8974161453457841,
+                        "ph": 1
+                    }
+                ],
+                "ph": 0
+            },
+            {
+                "backend": {
+                    "isPrint": false,
+                    "slice": false
+                }
+            },
+            {
+                "backend": {
+                    "isPrint": true,
+                    "slice": false
+                },
+                "x": 0,
+                "pw": 0,
+                "y": 0,
+                "width": 4204.704000000001,
+                "type": "Sheet",
+                "px": 0,
+                "bleed": {
+                    "bottom": 47.2441,
+                    "top": 47.2441,
+                    "left": 23.622,
+                    "right": 23.622
+                },
+                "py": 0,
+                "height": 1547.2382,
+                "elements": [
+                    {
+                        "rot": 0,
+                        "cropRLX": 0.9246178771956381,
+                        "cropLUY": 0,
+                        "dep": 0,
+                        "x": 0,
+                        "pw": 0.5,
+                        "imgRot": 270,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0,
+                        "imgFlip": false,
+                        "imageid": 379894,
+                        "cropLUX": 0.07538212280436185,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "9eosmFAsvRQ%3D",
+                        "cropRLY": 1,
+                        "ph": 1
+                    },
+                    {
+                        "rot": 0,
+                        "cropRLX": 1,
+                        "cropLUY": 0.009362783523723384,
+                        "dep": 0,
+                        "x": 2102.352,
+                        "pw": 0.5,
+                        "imgRot": 270,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0.5,
+                        "imgFlip": false,
+                        "imageid": 379895,
+                        "cropLUX": 0,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "rnVJugFGKhE%3D",
+                        "cropRLY": 0.9906372164762767,
+                        "ph": 1
+                    }
+                ],
+                "ph": 0
+            },
+            {
+                "backend": {
+                    "isPrint": false,
+                    "slice": false
+                }
+            },
+            {
+                "backend": {
+                    "isPrint": true,
+                    "slice": false
+                },
+                "x": 0,
+                "pw": 0,
+                "y": 0,
+                "width": 4204.704000000001,
+                "type": "Sheet",
+                "px": 0,
+                "bleed": {
+                    "bottom": 47.2441,
+                    "top": 47.2441,
+                    "left": 23.622,
+                    "right": 23.622
+                },
+                "py": 0,
+                "height": 1547.2382,
+                "elements": [
+                    {
+                        "rot": 0,
+                        "cropRLX": 0.6685732972466684,
+                        "cropLUY": 0,
+                        "dep": 0,
+                        "x": 0,
+                        "pw": 0.5,
+                        "imgRot": 270,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0,
+                        "imgFlip": false,
+                        "imageid": 379896,
+                        "cropLUX": 0.3314267027533316,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "7dIAfu%2BcNZc%3D",
+                        "cropRLY": 1,
+                        "ph": 1
+                    },
+                    {
+                        "rot": 0,
+                        "cropRLX": 1,
+                        "cropLUY": 0.00936278352372344,
+                        "dep": 0,
+                        "x": 2102.352,
+                        "pw": 0.5,
+                        "imgRot": 270,
+                        "y": 0,
+                        "width": 2102.352,
+                        "type": "PhotoElement",
+                        "px": 0.5,
+                        "imgFlip": false,
+                        "imageid": 379897,
+                        "cropLUX": 0,
+                        "py": 0,
+                        "height": 1547.2382,
+                        "encImgId": "gE%2FHDhzsOT0%3D",
+                        "cropRLY": 0.9906372164762766,
+                        "ph": 1
+                    }
+                ],
+                "ph": 0
+            },
+            {
+                "backend": {
+                    "isPrint": false,
+                    "slice": false
+                }
+            }
+        ],
+        "createdDate": "2017-05-04 17:19:05",
+        "images": [
+            {
+                "height": 500,
+                "id": 379874,
+                "width": 600,
+                "encImgId": "RaYf0Hdc9sk%3D",
+                "guid": "BD705EE4-B9EF-47E6-A747-AD00117A8D76",
+                "shotTime": 1377531494000,
+                "name": "385C942A-E181-4299-88D1-89D4C7F8B8AA/L0/001"
+            },
+            {
+                "height": 199,
+                "id": 379875,
+                "width": 495,
+                "encImgId": "FirYWI2pTFA%3D",
+                "guid": "3E64D7AA-110D-4645-B753-946F16B67223",
+                "shotTime": 1377532908000,
+                "name": "EAFE22AE-096A-478C-8DC2-B4D49E280EDF/L0/001"
+            },
+            {
+                "height": 383,
+                "id": 379876,
+                "width": 468,
+                "encImgId": "wZLs7YARmvY%3D",
+                "guid": "FB1D08CE-11DC-4BA8-A356-58C723EB5799",
+                "shotTime": 1377531924000,
+                "name": "62431DB5-C407-4BD8-BC93-5CBAD84E4B98/L0/001"
+            },
+            {
+                "height": 377,
+                "id": 379877,
+                "width": 492,
+                "encImgId": "lm5xuiYNuVA%3D",
+                "guid": "D11E7ACD-333B-4CAD-8F63-7694C9FB4D32",
+                "shotTime": 1377532646000,
+                "name": "09266B69-B999-45F2-8D09-2D72AE0C8FA5/L0/001"
+            },
+            {
+                "height": 588,
+                "id": 379878,
+                "width": 405,
+                "encImgId": "bhY03V68O1s%3D",
+                "guid": "B899CA51-EA9F-46AE-B85F-9B44679D49CB",
+                "shotTime": 1377532836000,
+                "name": "317B3963-EF9D-4E70-9C2E-9B2C96EB7FDB/L0/001"
+            },
+            {
+                "height": 1369,
+                "id": 379879,
+                "width": 440,
+                "encImgId": "2bkfR%2FS2O%2FM%3D",
+                "guid": "75666C12-EAB4-4656-8CF3-4922A73422A8",
+                "shotTime": 1377531928000,
+                "name": "8E32D81B-97B4-4F98-A2A4-3E563F560643/L0/001"
+            },
+            {
+                "height": 1600,
+                "id": 379880,
+                "width": 256,
+                "encImgId": "mQDAoKDnW9k%3D",
+                "guid": "6AC25AEA-A523-455D-8CA1-AA886419B09C",
+                "shotTime": 1377531916000,
+                "name": "7DEC7CE6-EB43-45F1-A3C4-AB0EF58FBE68/L0/001"
+            },
+            {
+                "height": 1024,
+                "id": 379881,
+                "width": 1280,
+                "encImgId": "1vDM63cblWI%3D",
+                "guid": "5FEF7518-5175-403A-9DC5-F2BA7A3FA1C0",
+                "shotTime": 1377532454000,
+                "name": "3E1F4BF2-D7E7-46D6-99D1-D8642D985D9E/L0/001"
+            },
+            {
+                "height": 393,
+                "id": 379882,
+                "width": 390,
+                "encImgId": "pFFj1oAAq7k%3D",
+                "guid": "5A548466-073C-4076-8829-C0FC223ACED8",
+                "shotTime": 1377532646000,
+                "name": "ACD8CE3E-134E-474D-A69C-23237D4C7984/L0/001"
+            },
+            {
+                "height": 428,
+                "id": 379883,
+                "width": 570,
+                "encImgId": "lTyV6rikSeM%3D",
+                "guid": "1A88A799-740A-4078-B448-E4F87DCCD8EE",
+                "shotTime": 1377532836000,
+                "name": "06BEA551-EC86-465E-82D1-16E37DB99415/L0/001"
+            },
+            {
+                "height": 375,
+                "id": 379884,
+                "width": 600,
+                "encImgId": "9wnWmHLkHDw%3D",
+                "guid": "CA1E617F-65D4-4FD9-8C35-FDFC3EF4813A",
+                "shotTime": 1377531494000,
+                "name": "8DA6D79D-6FE1-48F8-9F1A-4D3040CA59F4/L0/001"
+            },
+            {
+                "height": 401,
+                "id": 379885,
+                "width": 655,
+                "encImgId": "mZ4MRi%2B2Oxc%3D",
+                "guid": "DA03DD9D-A94B-44AA-A005-CF60B0D9CBE7",
+                "shotTime": 1377532908000,
+                "name": "1C680E43-B6BB-4952-9A66-FE16FF35B147/L0/001"
+            },
+            {
+                "height": 133,
+                "id": 379886,
+                "width": 200,
+                "encImgId": "DwJ2bPyWSbU%3D",
+                "guid": "1A6B85C0-9405-47F6-BB0D-BC56EC9F2120",
+                "shotTime": 1377532980000,
+                "name": "2651F41F-AE98-44B2-A0B2-28725DE5209B/L0/001"
+            },
+            {
+                "height": 403,
+                "id": 379887,
+                "width": 552,
+                "encImgId": "an1CEts3TNY%3D",
+                "guid": "2C674ACB-7B6F-4994-9C5B-F2A9123929BB",
+                "shotTime": 1377532646000,
+                "name": "5EBF0305-F288-44B3-8C73-6E3FE0E4FFDA/L0/001"
+            },
+            {
+                "height": 800,
+                "id": 379888,
+                "width": 1280,
+                "encImgId": "HVSoI76f7P0%3D",
+                "guid": "F8BCBD23-9221-43D8-A88F-AE6A0C3C22B4",
+                "shotTime": 1377532908000,
+                "name": "DD14B83B-2B9C-466A-921F-DEAE421B8EF4/L0/001"
+            },
+            {
+                "height": 493,
+                "id": 379889,
+                "width": 500,
+                "encImgId": "1L7NK08hDXk%3D",
+                "guid": "CE9A79F3-DEC2-4CB2-9807-0CDF2B3FFBFA",
+                "shotTime": 1377531916000,
+                "name": "9093F262-B7CF-4233-AF9E-11C2242FBC93/L0/001"
+            },
+            {
+                "height": 413,
+                "id": 379890,
+                "width": 565,
+                "encImgId": "BnBhxd7L0is%3D",
+                "guid": "7733C135-1B7C-4298-928B-A38ECDC58C9D",
+                "shotTime": 1377532908000,
+                "name": "7397770A-548B-49EE-81A1-890A826EC5EB/L0/001"
+            },
+            {
+                "height": 1150,
+                "id": 379891,
+                "width": 800,
+                "encImgId": "9gPP1lbX79Y%3D",
+                "guid": "D830D998-D032-4ECE-8E81-47381A71915F",
+                "shotTime": 1377531924000,
+                "name": "FC7C2278-6C06-4FDD-9F26-5185AFE1D224/L0/001"
+            },
+            {
+                "height": 521,
+                "id": 379892,
+                "width": 493,
+                "encImgId": "h5AArym%2FRp8%3D",
+                "guid": "48A68D05-6FFD-4A30-A0C6-ECB59C417938",
+                "shotTime": 1377532646000,
+                "name": "90060858-4094-4680-BDA5-5BD02EB38F6F/L0/001"
+            },
+            {
+                "height": 540,
+                "id": 379893,
+                "width": 500,
+                "encImgId": "rfkMlqulGxc%3D",
+                "guid": "38D89BBD-1D70-4BD0-8F91-BBC230A6FA8F",
+                "shotTime": 1377531494000,
+                "name": "EC4775CD-5007-4792-B30F-AECE530F3D11/L0/001"
+            },
+            {
+                "height": 704,
+                "id": 379894,
+                "width": 440,
+                "encImgId": "9eosmFAsvRQ%3D",
+                "guid": "C8D6530C-37F4-4425-9626-2BBC8DD8226C",
+                "shotTime": 1377531924000,
+                "name": "2A010B3F-85A9-4C23-881B-7A7F71B2424F/L0/001"
+            },
+            {
+                "height": 800,
+                "id": 379895,
+                "width": 600,
+                "encImgId": "rnVJugFGKhE%3D",
+                "guid": "28ACFFAF-EAA0-4A4C-8590-1BFF50B4B9CB",
+                "shotTime": 1377532646000,
+                "name": "4B84AD37-5116-45E8-A916-A73A491009C5/L0/001"
+            },
+            {
+                "height": 1600,
+                "id": 379896,
+                "width": 397,
+                "encImgId": "7dIAfu%2BcNZc%3D",
+                "guid": "26951B7C-2469-4D37-BA2E-96525FB69F50",
+                "shotTime": 1377531916000,
+                "name": "1AA3A598-4055-466A-9CCA-632AB3671057/L0/001"
+            },
+            {
+                "height": 640,
+                "id": 379897,
+                "width": 480,
+                "encImgId": "gE%2FHDhzsOT0%3D",
+                "guid": "89B77AB1-8D18-4AE4-AD0A-10A847CE5FD2",
+                "shotTime": 1377531924000,
+                "name": "B26031F1-F071-4FE4-961B-0A5D088C851E/L0/001"
+            }
+        ],
+        "createAuthor": "mobile-iphone|1.8.6|98368F90-A3D1-48EB-B19C-EF544A4F5EF7",
+        "summary": {
+            "pageAdded": 0,
+            "pageCount": 24,
+            "editorSetting": {
+                "font": {
+                    "color": "#FEFEFE"
+                }
+            },
+            "pageBase": 24
+        },
+        "clientId": "mobile-iphone",
+        "updatedDate": "2017-05-04 17:19:09",
+        "spec": {
+            "product": "LB2",
+            "paper": "DP",
+            "paperThickness": "ExtraThin",
+            "size": "5X7",
+            "leatherColor": "none",
+            "cover": "LBPAC",
+            "colorScheme": "ColorScheme0"
+        },
+        "version": "1.0",
+        "cover": {
+            "bleed": {
+                "bottom": 47.2441,
+                "top": 47.2441,
+                "left": 23.622,
+                "right": 23.622
+            },
+            "containers": [
+                {
+                    "backend": {
+                        "isPrint": true,
+                        "slice": false
+                    },
+                    "x": 0,
+                    "pw": 1,
+                    "y": 0,
+                    "width": 4364.8615,
+                    "bgColor": "#000000",
+                    "type": "Full",
+                    "px": 0,
+                    "bleed": {
+                        "bottom": 47.2441,
+                        "top": 47.2441,
+                        "left": 23.622,
+                        "right": 23.622
+                    },
+                    "py": 0,
+                    "height": 1547.2382,
+                    "elements": [
+                        {
+                            "rot": 0,
+                            "cropRLX": 1,
+                            "cropLUY": 0.003787172645524473,
+                            "dep": 0,
+                            "x": 2416.052799999999,
+                            "pw": 0.446476640782302,
+                            "imgRot": 0,
+                            "y": 0,
+                            "width": 1948.8087,
+                            "type": "PhotoElement",
+                            "px": 0.5535233592176979,
+                            "imgFlip": false,
+                            "imageid": 379881,
+                            "cropLUX": 0,
+                            "py": 0,
+                            "height": 1547.2382,
+                            "encImgId": "1vDM63cblWI%3D",
+                            "cropRLY": 0.9962128273544755,
+                            "ph": 1
+                        }
+                    ],
+                    "ph": 1
+                },
+                {
+                    "backend": {
+                        "isPrint": false,
+                        "slice": false
+                    },
+                    "x": 2102.352,
+                    "pw": 0,
+                    "y": 0,
+                    "width": 160.1575,
+                    "bgColor": "#000000",
+                    "type": "Spine",
+                    "px": 0,
+                    "bleed": {
+                        "bottom": 47.2441,
+                        "top": 47.2441,
+                        "left": 0,
+                        "right": 0
+                    },
+                    "py": 0,
+                    "height": 1547.2382,
+                    "elements": [
+                        {
+                            "rot": 90,
+                            "fontFamily": "Roboto",
+                            "textVAlign": "middle",
+                            "dep": 300,
+                            "x": -693.5403499999999,
+                            "pw": 9.660728969920234,
+                            "y": 693.5403499999999,
+                            "width": 1547.2382,
+                            "fontWeight": "normal",
+                            "type": "TextElement",
+                            "px": -4.330364484960117,
+                            "textAutoWrap": "%7B%22autoWrapType%22%3A%22noWrap%22%2C%22autowrapPosition%22%3A%5B%5D%7D",
+                            "textAlign": "center",
+                            "py": 0.448244071274869,
+                            "height": 160.1575,
+                            "fontColor": "#FEFEFE",
+                            "fontSize": 0.05385940790069257,
+                            "ph": 0.103511857450262
+                        }
+                    ],
+                    "ph": 0
+                }
+            ]
+        }
+    }
+}

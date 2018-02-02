@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="62px" viewBox="0 0 70 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>noImage</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="managephotos-exclude-unchoose" transform="translate(-1381.000000, -174.000000)">
+            <g id="noImage" transform="translate(1384.000000, 177.000000)">
+                <rect id="Rectangle-path" stroke="#D9D9D9" stroke-width="4.40904385" transform="translate(30.944450, 27.788915) rotate(-21.340695) translate(-30.944450, -27.788915) " x="5.7953407" y="7.78962331" width="50.2982186" height="39.9985834"></rect>
+                <rect id="Rectangle-path" stroke="#D9D9D9" stroke-width="4.3248" fill="#F0F0F0" fill-rule="nonzero" x="15.7" y="16.3" width="48.4" height="40"></rect>
+                <path d="M27.9,35.1 L27.9,35.1 C25.6,35.1 23.7,33.2 23.7,30.9 L23.7,30.9 C23.7,28.6 25.6,26.7 27.9,26.7 L27.9,26.7 C30.2,26.7 32.1,28.6 32.1,30.9 L32.1,30.9 C32.1,33.2 30.2,35.1 27.9,35.1 Z" id="Shape" fill="#D9D9D9" fill-rule="nonzero"></path>
+                <path d="M21.6,50.2 L30.1,39.8 L35.7,43.9 L45.6,26.8 L48.6,35.3 L52.3,33 L58,50.2 C58.1,50.1 21.8,50 21.6,50.2 Z" id="Shape" fill="#D9D9D9" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

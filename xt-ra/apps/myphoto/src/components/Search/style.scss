@@ -1,0 +1,31 @@
+@import '../../scss/index';
+
+.Search {
+  @include font-family(300);
+  color: #3A3A3A;
+  font-size: 12px;
+  margin-right: 50px;
+  position: relative;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.Search__input {
+  margin-left: 10px;
+  width: 200px;
+  height: 24px;
+  box-sizing: border-box;
+  padding: 0 8px;
+}
+
+.Search__icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 8px;
+  width: 15px;
+  height: 15px;
+  background: url(./assets/img/Search-Normal.svg) no-repeat;
+  background-position: center center;
+}

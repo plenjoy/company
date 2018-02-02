@@ -1,0 +1,83 @@
+.PhotoTab {
+  text-align: center;
+  user-select: none;
+ .auth{
+  height:20px;
+  width:100%;
+  font-size:12px;
+  text-align: left;
+  padding-left: 10px;
+  .text {
+    line-height: 20px;
+    display: block;
+    margin-top: 1px;
+    float: left;
+  }
+  img{
+    display: block;
+    margin-left: 11px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    float: left;
+  }
+  margin-top:10px;
+ }
+  .add-photo {
+    height: 32px;
+    line-height: 30px;
+    width: 260px;
+    margin: 0 auto;
+  }
+
+  .x-alert{
+    width: 260px;
+    // height: 110px;
+    margin: 10px auto;
+    background-color: #fff;
+
+    padding: 20px 0;
+    text-align: center;
+    cursor:pointer;
+
+    .title{
+      font-size: 15px;
+      color: #3A3A3A;
+      // line-height: 18px;
+      // margin-bottom: 15px;
+    }
+
+    .text{
+      font-size: 13px;
+      color: #7B7B7B;
+      line-height: 16px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .empty-image-list{
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate3d(-50%, -50%, 0);
+      width: 100%;
+
+      .text{
+        color: #7B7B7B;
+        font-size: 12px;
+        line-height: 20px;
+        display: block;
+        padding: 0 40px;
+        font-weight: 300;
+      }
+
+      .empty-icon{
+        display: inline-block;
+        width: 55px;
+        margin-bottom: 10px;
+      }
+    }
+  .sidebar-google-icon {
+    transform: scale(1.25);
+  }
+}

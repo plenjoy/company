@@ -1,0 +1,10 @@
+@import "../../styles/fonts";
+
+.x-simple-price{
+  @include font-medium();
+
+  user-select: none;
+  font-size: 11px;
+  color: #3a3a3a;
+  line-height: 13px;
+}

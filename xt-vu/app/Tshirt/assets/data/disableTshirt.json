@@ -1,0 +1,36 @@
+{
+    "disable": [
+        {
+            "color": "White",
+            "measure": "S"
+        },
+        {
+            "color": "White",
+            "measure": "M"
+        },
+        {
+            "color": "White",
+            "measure": "L"
+        },
+        {
+            "color": "White",
+            "measure": "XL"
+        },
+        {
+            "color": "White",
+            "measure": "XXL"
+        },
+        {
+            "color": "Black",
+            "measure": "M"
+        },
+        {
+            "color": "SportGrey",
+            "measure": "M"
+        },
+        {
+            "color": "SportGrey",
+            "measure": "L"
+        }
+    ]
+}

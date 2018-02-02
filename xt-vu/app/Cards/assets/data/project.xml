@@ -1,0 +1,55 @@
+<project schemaVersion="1" clientId="web-flex" productType="FD">
+  <guid>131546</guid>
+  <userId>206250</userId>
+  <artisan>henry</artisan>
+  <title>Card-test200-20161027161305659</title>
+  <description/>
+  <createdDate>2016-10-27 16:13:05</createdDate>
+  <updatedDate>2016-11-04 16:35:05</updatedDate>
+  <card id="5E038D22-D1B0-3223-B7CA-9E7ABDC37E8F">
+    <spec version="1.0">
+      <option id="size" value="5X7"/>
+      <option id="paper" value="SP"/>
+      <option id="product" value="FD"/>
+      <option id="orientation" value="PO"/>
+    </spec>
+    <spreads>
+      <spread id="7EB7C46A-C6DB-9D54-EDF0-9E7ABDC75C95" width="1476.7559055" height="2067.6850395" bleedTop="24" bleedBottom="24" bleedLeft="24" bleedRight="24" type="frontPage" month="0" year="0" tplGuid="11b68cc7-5f52-471a-b7b5-6f8c4105fc8f" pageNumber="0" styleId="76" styleItemId="0" w="1476.7559055" h="2067.6850395">
+        <elements>
+          <element type="CalendarStyleElement" x="0" y="0" width="1476.7559055" height="2067.6850395" px="0" py="0" pw="1" ph="1" rot="0" dep="-999" styleId="76" styleItemId="0" styleGuid="2ce6c670-516c-4d45-9813-d714c1a3b304" imageId="0"/>
+          <element type="PhotoElement" x="309.3712651751373" y="1076.1261666329447" width="1111.1757140002178" height="892.1803298793436" px="0.2094938398572988" py="0.5204497522955283" pw="0.7524437246953118" ph="0.43148753936677287" rot="0" dep="2" imageid="285652" imgRot="0" imgFlip="false" cropLUX="0.11206937327534423" cropLUY="0" cropRLX="0.8879306267246557" cropRLY="1"/>
+          <element type="PhotoElement" x="72.57311682802714" y="302.5634318802484" width="890.0281029305353" height="716.4373169295592" px="0.04914361036765608" py="0.14632955508224463" pw="0.6026914127214474" ph="0.3464924798715018" rot="0" dep="1" imageid="285651" imgRot="0" imgFlip="false" cropLUX="0.11206937327534423" cropLUY="0" cropRLX="0.8879306267246557" cropRLY="1"/>
+          <element type="TextElement" x="526.4256193542343" y="113.1015153241865" width="443.02677164999994" height="71.35999287666198" px="0.35647436207542854" py="0.054699585847724795" pw="0.3" ph="0.03451202263083452" rot="10" dep="3" color="204" fontSize="0.024181632620455005" textAlign="left" fontWeight="normal" fontFamily="Segoe Script">sadfasdfagdfg</element>
+        </elements>
+      </spread>
+      <spread id="C0330DFC-B965-69F2-B0F2-9E7ABDC733AD" width="1476.7559055" height="2067.6850395" bleedTop="24" bleedBottom="24" bleedLeft="24" bleedRight="24" type="backPage" month="0" year="0" tplGuid="30db5565-15e7-4c3f-b259-3c48e494b49d" pageNumber="1" styleId="76" styleItemId="1" w="1476.7559055" h="2067.6850395">
+        <elements>
+          <element type="CalendarStyleElement" x="0" y="0" width="1476.7559055" height="2067.6850395" px="0" py="0" pw="1" ph="1" rot="0" dep="-999" styleId="76" styleItemId="1" styleGuid="2ce6c670-516c-4d45-9813-d714c1a3b304" imageId="1"/>
+          <element type="PhotoElement" x="154.99285284404115" y="122.28865118898693" width="1162.3720704872746" height="931.8167725584473" px="0.10495495719149583" py="0.059142784734061" pw="0.7871118484498077" ph="0.450657017271729" rot="0" dep="2" imageid="285650" imgRot="0" imgFlip="false" cropLUX="0.1101770287547362" cropLUY="0" cropRLX="0.8898229712452638" cropRLY="1"/>
+          <element type="PhotoElement" x="301.35159940045406" y="1078.0902603889658" width="1016.0133239308617" height="925.7314610551451" px="0.20406324313862992" py="0.521399652168333" pw="0.6880035625026737" ph="0.4477139619286514" rot="0" dep="1" imageid="285653" imgRot="0" imgFlip="false" cropLUX="0.15620519308234104" cropLUY="0" cropRLX="0.843794806917659" cropRLY="1"/>
+        </elements>
+      </spread>
+      <spread id="69D942B1-1959-403F-F2F9-9E7ABDC8DBBD" width="2953.511811" height="2067.6850395" bleedTop="24" bleedBottom="24" bleedLeft="24" bleedRight="24" type="insidePage" month="0" year="0" tplGuid="null" pageNumber="2" styleId="76" styleItemId="2" w="2953.511811" h="2067.6850395">
+        <elements>
+          <element type="TextElement" x="887.0856246690952" y="56.857651024971624" width="1087.8502444676096" height="359.82864508495385" px="0.3003494420998255" py="0.027498216574958018" pw="0.3683243251020843" ph="0.17402488203520894" rot="0" dep="1" color="3355647" fontSize="0.04836326524091001" textAlign="left" fontWeight="normal" fontFamily="Lobster1.4">sdadfgdfgdfgadgdfgdaf%0Afgadgfdfgfdgadfgadgfdfg%0Agdfgadfgadfgdfgsdfgsd</element>
+          <element type="PhotoElement" x="0" y="441.0483427390577" width="2953.511811" height="1523.2544372430466" px="0" py="0.21330537983952835" pw="1" ph="0.7366955837777858" rot="0" dep="2" imageid="285651" imgRot="0" imgFlip="false" cropLUX="0" cropLUY="0.08740522206280171" cropRLX="1" cropRLY="0.9125947779371985"/>
+        </elements>
+      </spread>
+    </spreads>
+    <cardSetting>
+      <styleId value="76"/>
+      <festival value="CH"/>
+      <trim value="S"/>
+    </cardSetting>
+  </card>
+  <images>
+    <image id="285648" guid="4f2aa69b-0550-4036-a47f-2ee5d707987e" order="1" name="1188260" width="1920" height="1200" shotTime="1432532572000"/>
+    <image id="285649" guid="8d4072d2-e4a7-4547-8275-ab91decd1532" order="2" name="1111253" width="1920" height="1200" shotTime="1412391450000"/>
+    <image id="285650" guid="3b58aeec-00d5-4ea0-9dcc-ecaf950cde29" order="3" name="1184427" width="1920" height="1200" shotTime="1432712554000"/>
+    <image id="285651" guid="4dad52e3-3b5b-44de-a5dd-f52db8a93cd7" order="4" name="1188260" width="1920" height="1200" shotTime="1432532572000"/>
+    <image id="285652" guid="43bf0453-bc03-4467-a704-8e1f0612ed6d" order="5" name="1188262" width="1920" height="1200"/>
+    <image id="285653" guid="a0a648df-d762-4996-96a6-327ff30f1065" order="6" name="1188264" width="1920" height="1200" shotTime="1432785578000"/>
+  </images>
+  <deletedPhoto>true</deletedPhoto>
+  <decorations/>
+</project>

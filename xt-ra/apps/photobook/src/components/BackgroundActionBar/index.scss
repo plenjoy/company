@@ -1,0 +1,10 @@
+@import "../../../../common/styles/common";
+.photo-action-bar {
+  @include action-bar;
+
+  width: 50px;
+
+  &.has-background {
+    width: 50px;
+  }
+}

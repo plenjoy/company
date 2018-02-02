@@ -1,0 +1,32 @@
+@import '../../../../common/styles/common.scss';
+@import '../../../../common/styles/fonts.scss';
+
+.text-position-tabs {
+  margin: 30px 0;
+  @include clearfix;
+
+  > li {
+    display: block;
+    float: left;
+    margin-right: 60px;
+
+
+    &.active {
+      border-bottom: 2px solid #3a3a3a;
+      > a {
+        color: #3a3a3a;
+        @include font-medium();
+      }
+    }
+
+    > a {
+      @include font-light();
+      font-size: 13px;
+      display: block;
+      cursor: pointer;
+      color: #7b7b7b;
+      text-decoration: none;
+      padding: 0 3px;
+    }
+  }
+}

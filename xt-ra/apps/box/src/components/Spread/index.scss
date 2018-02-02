@@ -1,0 +1,15 @@
+.spread{
+  position: relative;
+  overflow: hidden;
+  .x-photo-element,
+  .x-text-element,
+  .x-boxes,
+  .x-lines{
+    position: absolute;
+    top: 0;
+    background: transparent;
+  }
+  .hidden{
+    display: none;
+  }
+}

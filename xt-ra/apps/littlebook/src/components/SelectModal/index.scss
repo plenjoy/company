@@ -1,0 +1,131 @@
+$boxWidth: 960px;
+$boxHeight: 604px;
+$boxPadding: 80px 40px 27px;
+
+.select-upload-method {
+  width: $boxWidth;
+  height: $boxHeight;
+  padding: $boxPadding;
+  box-sizing: border-box;
+  .add-title {
+    text-align: center;
+    font-size: 30px;
+    color: #393939;
+    margin-bottom: 28px;
+    margin-top: 20px;
+    font-weight: 300;
+
+  }
+  .system-tip, .social-tip {
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    color: #393939;
+  }
+  .add-photo {
+    text-align:center;
+    img{
+      display:inline;
+      vertical-align: -4px;
+      margin-right: 12px;
+    }
+    font-size:15px;
+    height: 44px;
+    line-height: 44px;
+    width: 294px;
+    display: block;
+    margin: 33px auto 33px;
+    font-weight: 500;
+  }
+  .line{
+    width: 294px;
+    height:30px;
+    margin:auto;
+    box-sizing:content-box;
+    span{
+      display:block;
+      font-size:24px;
+      float:left;
+      margin-left: 14px;
+    }
+  }
+  .line-left{
+    margin-top:14px;
+    width:120px;
+    height:1px;
+    background:#ccc;
+    float:left;
+
+  }
+  .line-right{
+    margin-top:14px;
+    width:120px;
+    height:1px;
+    background:#ccc;
+    float: right;
+
+  }
+  .icons {
+    margin: 20px auto 0;
+    text-align: center;
+    img {
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+      &:not(:last-child) {
+        margin-right: 40px;
+      }
+    }
+  }
+  .text-content{
+    margin-top:27px;
+    .one-item{
+      background:#F6F6F6;
+      width: 294px;
+      height:44px;
+      margin:auto;
+      cursor:pointer;
+      margin-bottom:20px;
+      .item-content{
+        width:192px;
+        margin-left:54px;
+        height:100%;
+        img{
+          height:20px;
+          height:20px;
+          margin-top:12px;
+          margin-right:12px;
+          float:left;
+        }
+        span{
+          float:left;
+          display:block;
+          font-size: 15px;
+          color: #393939;
+          line-height:44px;
+          font-weight: 500;
+        }
+      }
+
+    }
+  }
+  .source-background {
+    background: #F6F6F6;
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+  }
+  .source-icon {
+    background: white;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0px 1px 2px #ccc;
+    img {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+<svg id="Group_36" data-name="Group 36" xmlns="http://www.w3.org/2000/svg" viewBox="1244 150 20 20">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #7b7b7b;
+      }
+
+      .cls-2 {
+        fill: #7b7b7b;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Rectangle_1" data-name="Rectangle 1" class="cls-1" transform="translate(1244 150)">
+    <rect class="cls-3" width="20" height="20" rx="2"/>
+    <rect class="cls-4" x="0.5" y="0.5" width="19" height="19" rx="1.5"/>
+  </g>
+  <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-2" width="12" height="1" transform="translate(1248 153)"/>
+  <g id="Group_3" data-name="Group 3" transform="translate(-467 -21)">
+    <g id="Group_2" data-name="Group 2" transform="translate(1715 177)">
+      <rect id="Rectangle_3" data-name="Rectangle 3" class="cls-2" width="12" height="1"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+.box-sheet-container {
+  &.hide {
+    display: none;
+  }
+
+  .box-sheet {
+    user-select: none;
+    background-size: cover;
+
+    .no-event {
+      pointer-events: none;
+    }
+    position: relative;
+    .inner-effect {
+      position: absolute;
+      left: 0;
+      top: 0;
+      user-select: none;
+      background-size: cover;
+      background-repeat: no-repeat;
+      pointer-events: none;
+
+      .effect-img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        user-select: none;
+        pointer-events: none;
+      }
+    }
+    .inner-sheet {
+      position: absolute;
+      overflow: hidden;
+      z-index: 100;
+      .inner-sheet-with-bleed {
+        position: absolute;
+      }
+      &:hover {
+        cursor: move;
+        .page-hover {
+          border-color: #4cc1fc;
+        }
+      }
+    }
+    .center-render-area{
+      position: absolute;
+    }
+  }
+}
+

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product-spec version="1.0">
+    <global>
+        <dpi>300</dpi>
+        <imageQualityBufferPercent>30</imageQualityBufferPercent>
+        <options>
+            <optionGroup id="product">
+               <option id="littleModernCanvas">
+                    <title><![CDATA[Little Modern Canvas]]></title>
+                </option>
+            </optionGroup>
+            <optionGroup id="frameStyle">
+                <option id="none">
+                    <title>None</title>
+                </option>
+            </optionGroup>
+            <optionGroup id="size">
+                <option id="8X10" name="8x10" aspectRatioType="Portrait" />
+                <option id="11X14" name="11x14" aspectRatioType="Portrait" />
+                <option id="10X10" name="10x10" aspectRatioType="Portrait" />
+                <option id="14X14" name="14x14" aspectRatioType="Portrait" />
+            </optionGroup>
+            <optionGroup id="color">
+                <option id="none">
+                    <title>None</title>
+                </option>
+            </optionGroup>
+            <optionGroup id="paper">
+                <option id="TP">
+                    <title><![CDATA[Canvas]]></title>
+                </option>
+            </optionGroup>
+            <optionGroup id="canvasBorder">
+                <option id="none">
+                    <title>None</title>
+                </option>
+                <option id="mirror">
+                    <title>Mirror Image</title>
+                </option>
+            </optionGroup>
+            <optionGroup id="canvasBorderSize">
+                <option id="none">
+                    <title>None</title>
+                </option>
+                <option id="thin">
+                    <title>0.75" (Thin Wrap)</title>
+                </option>
+            </optionGroup>
+            <optionGroup id="orientation">
+                <option id="Portrait" name="Portrait" />
+                <option id="Landscape" name="Landscape" />
+            </optionGroup>
+        </options>
+    </global>
+    <configurableOptionMap>
+        <optionMap id="frameStyle" keyPattern="product">
+            <entry key="littleModernCanvas" value="none" defaultValue="none"></entry>
+        </optionMap>
+        <optionMap id="size" keyPattern="product">
+            <entry key="littleModernCanvas" value="8X10,11X14,10X10,14X14" defaultValue="8X10"/>
+        </optionMap>
+        <optionMap id="color" keyPattern="product-frameStyle">
+            <entry key="littleModernCanvas-*" value="none" defaultValue="none"></entry>
+        </optionMap>
+        <optionMap id="paper" keyPattern="product">
+            <entry key="littleModernCanvas" value="TP" defaultValue="TP"></entry>
+        </optionMap>
+        <optionMap id="canvasBorder" keyPattern="product">
+            <entry key="littleModernCanvas" value="mirror" defaultValue="mirror"></entry>
+        </optionMap>
+        <optionMap id="canvasBorderSize" keyPattern="product">
+            <entry key="littleModernCanvas" value="thin" defaultValue="thin"></entry>
+        </optionMap>
+        <optionMap id="orientation" keyPattern="product">
+            <entry key="littleModernCanvas" value="Portrait,Landscape" defaultValue="Landscape"></entry>
+        </optionMap>
+    </configurableOptionMap>
+    <parameters>
+        <parameter id="frameBaseSize" keyPattern="product-frameStyle-size-orientation">
+            <entry key="littleModernCanvas-*-8X10-Portrait" heightInInch="10.03937007874016" widthInInch="8.031496062992126" />
+            <entry key="littleModernCanvas-*-8X10-Landscape" heightInInch="8.031496062992126" widthInInch="10.03937007874016" />
+            <entry key="littleModernCanvas-*-11X14-Portrait" heightInInch="14.01574803149606" widthInInch="11.02362204724409" />
+            <entry key="littleModernCanvas-*-11X14-Landscape" heightInInch="11.02362204724409" widthInInch="14.01574803149606" />
+            <entry key="littleModernCanvas-*-10X10-Portrait" heightInInch="10.03937007874016" widthInInch="10.03937007874016" />
+            <entry key="littleModernCanvas-*-10X10-Landscape" heightInInch="10.03937007874016" widthInInch="10.03937007874016" />
+            <entry key="littleModernCanvas-*-14X14-Portrait" heightInInch="14.01574803149606" widthInInch="14.01574803149606" />
+            <entry key="littleModernCanvas-*-14X14-Landscape" heightInInch="14.01574803149606" widthInInch="14.01574803149606" />
+        </parameter>
+
+        <parameter id="canvasBorderThickness" keyPattern="product-size-canvasBorderSize">
+            <entry key="littleModernCanvas-*-thin" top="236" bottom="236" left="236" right="236" />
+        </parameter>
+        <parameter id="bleed" keyPattern="product-frameStyle-size">
+            <entry key="littleModernCanvas-*-*" top="12" bottom="12" left="12" right="12" />
+        </parameter>
+    </parameters>
+    <variables>
+        <variable id="foreground" keyPattern="product-frameStyle-size-canvasBorderSize">
+            <!-- paddingLeft、paddingTop、paddingRight、paddingBottom指图片边缘到图片上frame边缘的距离 -->
+            <entry key="littleModernCanvas-*-8X10-thin" image="" width="822" height="1000" paddingLeft="40" paddingTop="58" paddingRight="60" paddingBottom="40" rWidth="1001" rHeight="820" rPaddingLeft="40" rPaddingTop="58" rPaddingRight="59" rPaddingBottom="40" />
+            <entry key="littleModernCanvas-*-11X14-thin" image="" width="828" height="1028" paddingLeft="40" paddingTop="55" paddingRight="55" paddingBottom="40" rWidth="1150" rHeight="924" rPaddingLeft="40" rPaddingTop="57" rPaddingRight="57" rPaddingBottom="40" />
+            <entry key="littleModernCanvas-*-10X10-thin" image="" width="1004" height="1001" paddingLeft="40" paddingTop="60" paddingRight="62" paddingBottom="40" rWidth="1004" rHeight="1001" rPaddingLeft="40" rPaddingTop="60" rPaddingRight="62" rPaddingBottom="40" />
+            <entry key="littleModernCanvas-*-14X14-thin" image="" width="1363" height="1360" paddingLeft="40" paddingTop="60" paddingRight="64" paddingBottom="40" rWidth="1363" rHeight="1360" rPaddingLeft="40" rPaddingTop="60" rPaddingRight="64" rPaddingBottom="40" />
+        </variable>
+    </variables>
+</product-spec>

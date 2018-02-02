@@ -1,0 +1,23 @@
+.x-alert {
+  position: relative;
+  border: 1px dashed #ccc;
+  min-width: 100px;
+  min-height: 30px;
+
+  &:after {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-top: 1px dashed #ccc;
+    border-left: 1px dashed #ccc;
+    transform: translateX(-50%) rotate(45deg);
+    top: -7px;
+    left: 50%;
+    position: absolute;
+    right: 13px;
+    z-index: 0;
+  }
+}

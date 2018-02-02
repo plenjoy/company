@@ -1,0 +1,11 @@
+.element {
+  position: absolute;
+  cursor: move;
+  box-sizing: border-box;
+
+  .element-content {
+    height: 100%;
+    cursor: default;
+    user-select: none;
+  }
+}

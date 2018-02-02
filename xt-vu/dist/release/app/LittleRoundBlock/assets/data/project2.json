@@ -1,0 +1,109 @@
+{
+  "project": {
+    "guid": "312961",
+    "version": "1.0",
+    "clientId": "web-h5",
+    "createAuthor": "web-h5|1.1|1",
+    "userId": "253061",
+    "artisan": "roger",
+    "createdDate": "2017-07-03 13:39:55",
+    "updatedDate": "2017-07-03 15:11:46",
+    "summary": {
+      "defaultSetting": {
+        "product": "LRB",
+        "size": "8X10",
+        "finish": "matte",
+        "orientation": "Landscape"
+      }
+    },
+    "pages": [
+      {
+        "id": "a2e83241-3ce2-4514-aed3-a2797a25430c",
+        "width": 3070.866,
+        "height": 2480.316,
+        "type": "Page",
+        "spec": {
+          "product": "LRB",
+          "size": "8X10",
+          "finish": "matte",
+          "orientation": "Landscape"
+        },
+        "bleed": {
+          "top": 35.433,
+          "right": 35.433,
+          "bottom": 35.433,
+          "left": 35.433
+        },
+        "elements": [
+          {
+            "x": 0,
+            "y": 0,
+            "px": 0,
+            "py": 0,
+            "width": 3070.866,
+            "height": 2480.316,
+            "pw": 1,
+            "ph": 1,
+            "dep": 0,
+            "rot": 0,
+            "type": "PhotoElement",
+            "imageid": "",
+            "imgRot": 0,
+            "imgFlip": false,
+            "cropLUX": "0",
+            "cropLUY": "0",
+            "cropRLX": "1",
+            "cropRLY": "1"
+          }
+        ],
+        "backend": {
+          "isPrint": true
+        }
+      },
+      {
+        "id": "888ac93e-e316-4263-8262-8ca95a56f5a8",
+        "width": 3070.866,
+        "height": 2480.316,
+        "type": "Page",
+        "spec": {
+          "product": "LRB",
+          "size": "8X10",
+          "finish": "matte",
+          "orientation": "Landscape"
+        },
+        "bleed": {
+          "top": 35.433,
+          "right": 35.433,
+          "bottom": 35.433,
+          "left": 35.433
+        },
+        "elements": [
+          {
+            "x": 0,
+            "y": 0,
+            "px": 0,
+            "py": 0,
+            "width": 3070.866,
+            "height": 2480.316,
+            "pw": 1,
+            "ph": 1,
+            "dep": 0,
+            "rot": 0,
+            "type": "PhotoElement",
+            "imageid": "",
+            "imgRot": 0,
+            "imgFlip": false,
+            "cropLUX": "0",
+            "cropLUY": "0",
+            "cropRLX": "1",
+            "cropRLY": "1"
+          }
+        ],
+        "backend": {
+          "isPrint": true
+        }
+      }
+    ],
+    "images": []
+  }
+}

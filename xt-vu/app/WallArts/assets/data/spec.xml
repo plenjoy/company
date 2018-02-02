@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product-spec version="4.1">
+    <global>
+        <!-- 精度 -->
+        <dpi>300</dpi>
+        <!-- 打印质量检测时容许的像素不足部分的百分比 -->
+        <imageQualityBufferPercent>30</imageQualityBufferPercent>
+        <!-- 有效的照片缩略图尺寸维度 -->
+        <imagedimenstions>
+            <imagedimenstion viewWidth="96" viewHeight="96">96x96
+            </imagedimenstion>
+            <imagedimenstion viewWidth="350" viewHeight="350">350x350
+            </imagedimenstion>
+            <imagedimenstion viewWidth="700" viewHeight="700">700x700
+            </imagedimenstion>
+            <imagedimenstion viewWidth="1000" viewHeight="1000">1000x1000
+            </imagedimenstion>
+            <imagedimenstion viewWidth="1500" viewHeight="1500">1500x1500
+            </imagedimenstion>
+        </imagedimenstions>
+        <options>
+            <!-- 相框产品 -->
+            <optionGroup id="category">
+                <option id="categoryCanvas">
+                    <title><![CDATA[Canvas]]></title>
+                </option>
+                <option id="categoryFrame">
+                    <title><![CDATA[Standard Frame]]></title>
+                </option>
+                 <option id="categoryFloatFrame">
+                    <title><![CDATA[Float Frame]]></title>
+                </option>
+                <option id="categoryWallarts">
+                    <title><![CDATA[Other]]></title>
+                </option>
+                <option id="categoryTableTop">
+                    <title><![CDATA[Table Top]]></title>
+                </option>
+            </optionGroup>
+            <!-- 相框产品 -->
+            <optionGroup id="product">
+                <option id="contemporary" default="true">
+                    <title><![CDATA[Modern Frame]]></title>
+                </option>
+                <option id="metal">
+                    <title><![CDATA[Metal Frame]]></title>
+                </option>
+                <option id="classicFrame">
+                    <title><![CDATA[Classic Frame]]></title>
+                </option>
+                <option id="canvas" default="true">
+                    <title><![CDATA[Canvas Print]]></title>
+                </option>
+                <option id="frameCanvas">
+                    <title><![CDATA[Framed Canvas]]></title>
+                </option>
+                <option id="flushMountCanvas">
+                    <title><![CDATA[Flush Mount Canvas]]></title>
+                </option>
+                <option id="rusticFrame">
+                    <title><![CDATA[Rustic Frame]]></title>
+                </option>
+                <option id="mountPrint">
+                    <title><![CDATA[Mounted Print]]></title>
+                </option>
+                <option id="acrylicPrint">
+                    <title><![CDATA[Acrylic Print]]></title>
+                </option>
+                <option id="metalPrint">
+                    <title><![CDATA[Metal Print]]></title>
+                </option>
+                <option id="woodPrint">
+                    <title><![CDATA[Wood Print]]></title>
+                </option>
+                <option id="table_classicFrame" >
+                    <title><![CDATA[Vintage Frame]]></title>
+                </option>
+                <option id="table_crystalPlaque">
+                    <title><![CDATA[Crystal Plaque]]></title>
+                </option>
+                <option id="table_modernFrame">
+                    <title><![CDATA[Contemporary Frame]]></title>
+                </option>
+                <option id="table_metalCube">
+                    <title><![CDATA[Metal Cube]]></title>
+                </option>
+                <option id="table_metalPlaque">
+                    <title><![CDATA[Metal Plaque]]></title>
+                </option>
+                <option id="table_woodPlaque">
+                    <title><![CDATA[Wood Plaque]]></title>
+                </option>
+                <option id="floatFrame">
+                    <title><![CDATA[Float Frame]]></title>
+                </option>
+            </optionGroup>
+            <!-- Style -->
+            <optionGroup id="frameStyle">
+                <option id="none">
+                    <title>None</title>
+                </option>
+                <option id="deep" default="true">
+                    <title>Deep</title>
+                </option>
+                <option id="wide">
+                    <title>Wide</title>
+                </option>
+                <option id="metalDeep">
+                    <title>Old Deep</title>
+                </option>
+                <option id="metalDeep2" default="true">
+                    <title>Deep</title>
+                </option>
+                <option id="baroqueFrame">
+                    <title>Baroque</title>
+                </option>
+                <option id="baroqueCanvas">
+                    <title>Baroque</title>
+                </option>
+                <option id="frameCanvasModernStyle">
+                    <title>Modern</title>
+                </option>
+                <option id="rusticWide">
+                    <title>Wide</title>
+                </option>
+                <option id="curveFrame">
+                    <title>Curve</title>
+                </option>
+                <option id="curveCanvas">
+                    <title>Curve</title>
+                </option>
+                <option id="chelseaFrame" default="true">
+                    <title>Chelsea</title>
+                </option>
+                <option id="newportFrame">
+                    <title>Newport</title>
+                </option>
+                <option id="hudsonFrame">
+                    <title>Hudson</title>
+                </option>
+            </optionGroup>
+            <!-- 相框尺寸 -->
+            <optionGroup id="size">
+                <option id="4X4" name="4x4" aspectRatioType="Square" />
+                <option id="5X7" name="5x7" aspectRatioType="Portrait" />
+                <option id="6X6" name="6x6" aspectRatioType="Square" />
+                <option id="6X8" name="6x8" aspectRatioType="Portrait" />
+                <option id="8X10" name="8x10" aspectRatioType="Portrait" />
+                <option id="11X14" name="11x14" aspectRatioType="Portrait" />
+                <option id="10X24" name="10x24" aspectRatioType="Portrait" />
+                <option id="12X12" name="12x12" aspectRatioType="Square" />
+                <option id="16X16" name="16x16" aspectRatioType="Square" />
+                <option id="16X20" name="16x20" aspectRatioType="Portrait" />
+                <option id="20X30" name="20x30" aspectRatioType="Portrait" />
+                <option id="24X36" name="24x36" aspectRatioType="Portrait" />
+            </optionGroup>
+            <!-- 相框类型 -->
+            <optionGroup id="color">
+                <option id="none">
+                    <title>None</title>
+                </option>
+                <option id="blackFM" default="true">
+                    <title>Black</title>
+                </option>
+                <option id="whiteFM">
+                    <title>White</title>
+                </option>
+                <option id="mapleFM">
+                    <title>Maple</title>
+                </option>
+                <option id="espressoFM">
+                    <title><![CDATA[Espresso]]></title>
+                </option>
+                <option id="metalBlack">
+                    <title><![CDATA[Black]]></title>
+                </option>
+                <option id="metalSilver">
+                    <title><![CDATA[Silver]]></title>
+                </option>
+                <option id="metalGold">
+                    <title><![CDATA[Gold]]></title>
+                </option>
+                <option id="gold">
+                    <title><![CDATA[Gold]]></title>
+                </option>
+                <option id="blackTT" default="true">
+                    <title>Black</title>
+                </option>
+                <option id="whiteTT">
+                    <title>White</title>
+                </option>
+                <option id="espressoTT">
+                    <title><![CDATA[Espresso]]></title>
+                </option>
+                <option id="mapleTT">
+                    <title><![CDATA[Maple]]></title>
+                </option>
+                <option id="blackCV" default="true">
+                    <title><![CDATA[Black]]></title>
+                </option>
+                <option id="whiteCV">
+                    <title><![CDATA[White]]></title>
+                </option>
+                <option id="mapleCV">
+                    <title><![CDATA[Maple]]></title>
+                </option>
+                <option id="espressoCV">
+                    <title><![CDATA[Espresso]]></title>
+                </option>
+                <option id="greyFM" default="true">
+                    <title><![CDATA[Grey]]></title>
+                </option>
+                <option id="brownFM">
+                    <title><![CDATA[Brown]]></title>
+                </option>
+                <option id="blackCurve" default="true">
+                    <title><![CDATA[Black]]></title>
+                </option>
+                <option id="whiteCurve">
+                    <title><![CDATA[White]]></title>
+                </option>
+                <option id="espressoCurve">
+                    <title><![CDATA[Espresso]]></title>
+                </option>
+                <option id="mapleCurve">
+                    <title><![CDATA[Maple]]></title>
+                </option>
+            </optionGroup>
+            <!-- 纸张类型 -->
+            <optionGroup id="paper">
+                <option id="none">
+                    <title>None</title>
+                </option>
+                <option id="TP">
+                    <title><![CDATA[Canvas]]></title>
+                </option>
+                <option id="EP" default="true">
+                    <title><![CDATA[Lustre]]></title>
+                </option>
+                <option id="MP">
+                    <title><![CDATA[Metallic]]></title>
+                </option>
+                <option id="RP">
+                    <title><![CDATA[Art Print]]></title>
+                </option>
+                <option id="CP">
+                    <title><![CDATA[Canvas]]></title>
+                </option>
+            </optionGroup>
+            <!-- 金属类型 -->
+            <optionGroup id="metalType">
+                <option id="none" default="true">
+                    <title>None</title>
+                </option>
+                <option id="TC">
+                    <title><![CDATA[White Base]]></title>
+                </option>
+                <option id="BM">
+                    <title><![CDATA[Metal Brush]]></title>
+                </option>
+            </optionGroup>
+            <!-- Matting -->
+            <optionGroup id="matte">
+                <option id="none">
+                    <title>None</title>
+                </option>
+                <option id="M" default="true">
+                    <title>Medium</title>
+                </option>
+            </optionGroup>
+            <!-- Matting Style-->
+            <optionGroup id="matteStyle">
+                <option id="none">
+                    <title>No Matting</title>
+                </option>
+                <option id="matteStyleWhite" default="true">
+                    <title>White Matting</title>
+                </option>
+                <option id="matteStyleBlack">
+                    <title>Black Matting</title>
+                </option>
+            </optionGroup>
+            <!-- Glass -->
+            <optionGroup id="glassStyle">
+                <option id="none">
+                    <title>Glassless</title>
+                </option>
+                <option id="glass" default="true">
+                    <title>Glass</title>
+                </option>
+                <option id="coating">
+                    <title>Glassless</title>
+                </option>
+            </optionGroup>
+            <!-- Canvas Border 油画布包边类型-->
+            <optionGroup id="canvasBorder">
+                <option id="none" default="true">
+                    <title>None</title>
+                </option>
+                <option id="mirror">
+                    <title>Mirror Image</title>
+                </option>
+                <option id="image">
+                    <title>Gallery Wrap</title>
+                </option>
+                <option id="color">
+                    <title>Border Color</title>
+                </option>
+            </optionGroup>
+            <!-- finish-->
+            <optionGroup id="finish">
+                <option id="none" default="true">
+                    <title>None</title>
+                </option>
+                <option id="matte">
+                    <title>Matte</title>
+                </option>
+                <option id="glossy">
+                    <title>Glossy</title>
+                </option>
+                <option id="natural">
+                    <title>Wood Grain</title>
+                </option>
+                <option id="white">
+                    <title>White Base</title>
+                </option>
+            </optionGroup>
+            <optionGroup id="canvasBorderSize">
+                <option id="none">
+                    <title>None</title>
+                </option>
+                <option id="thin">
+                    <title>0.75" (Thin Wrap)</title>
+                </option>
+                <option id="standard">
+                    <title>1.25" (Standard Wrap)</title>
+                </option>
+                <option id="thick">
+                    <title>1.5" (Thick Wrap)</title>
+                </option>
+            </optionGroup>
+        </options>
+    </global>
+    <disableOptionMap>
+        <optionMap id="product" keyPattern="category">
+            <entry key="*" value="flushMountCanvas,rusticFrame" />
+        </optionMap>
+        <optionMap id="frameStyle" keyPattern="product">
+            <entry key="classicFrame" value="baroqueFrame,curveFrame" />
+            <entry key="metal" value="metalDeep" />
+        </optionMap>
+        <optionMap id="color" keyPattern="product">
+            <entry key="classicFrame" value="mapleFM,mapleCV,mapleCurve" />
+            <entry key="contemporary" value="mapleFM" />
+        </optionMap>
+        <optionMap id="matteStyle" keyPattern="product">
+            <entry key="*" value="matteStyleBlack" />
+        </optionMap>
+    </disableOptionMap>
+    <configurableOptionMap>
+        <optionMap id="product" keyPattern="category">
+            <entry key="categoryFrame" value="contemporary,metal,classicFrame,tableTop,rusticFrame" defaultValue="contemporary"></entry>
+            <entry key="categoryCanvas" value="canvas,frameCanvas,flushMountCanvas" defaultValue="canvas" ></entry>
+            <entry key="categoryFloatFrame" value="floatFrame" defaultValue="floatFrame"></entry>
+            <entry key="categoryWallarts" value="metalPrint,acrylicPrint,mountPrint,woodPrint" defaultValue="metalPrint"></entry>
+            <entry key="categoryTableTop" value="table_crystalPlaque,table_metalPlaque,table_woodPlaque,table_metalCube,table_modernFrame,table_classicFrame" defaultValue="table_crystalPlaque"></entry>
+        </optionMap>
+        <optionMap id="frameStyle" keyPattern="product">
+            <entry key="[contemporary,floatFrame]" value="deep,wide" defaultValue="wide"></entry>
+            <entry key="metal" value="metalDeep,metalDeep2" defaultValue="metalDeep2"></entry>
+            <entry key="canvas" value="none" defaultValue="none"></entry>
+            <entry key="classicFrame" value="baroqueFrame,curveFrame,chelseaFrame,newportFrame,hudsonFrame" defaultValue="chelseaFrame"></entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque]" value="none" defaultValue="none"></entry>
+            <entry key="flushMountCanvas" value="baroqueCanvas,curveCanvas"></entry>
+            <entry key="frameCanvas" value="frameCanvasModernStyle" defaultValue="frameCanvasModernStyle"></entry>
+            <entry key="rusticFrame" value="rusticWide" defaultValue="rusticWide"></entry>
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]" value="none" defaultValue="none"></entry>
+        </optionMap>
+        <optionMap id="size" keyPattern="product">
+            <entry key="[contemporary,floatFrame]" value="8X10,10X24,11X14,12X12,16X16,16X20,20X30,24X36" defaultValue="8X10"/>
+            <entry key="canvas" value="8X10,10X24,11X14,12X12,16X16,16X20,20X30,24X36" defaultValue="8X10"/>
+            <entry key="classicFrame" value="8X10,10X24,11X14,12X12,16X16,16X20,20X30,24X36" defaultValue="8X10"/>
+            <entry key="metal" value="8X10,10X24,11X14,12X12,16X16,16X20,20X30,24X36" defaultValue="8X10"/>
+            <entry key="flushMountCanvas" value="16X16,16X20,20X30,24X36" defaultValue="16X16"/>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalPlaque,table_woodPlaque]" value="5X7,6X8,8X10" defaultValue="5X7"/>
+            <entry key="table_metalCube" value="4X4,5X7,6X6,6X8" defaultValue="4X4"/>
+            <entry key="frameCanvas" value="8X10,10X24,11X14,12X12,16X16,16X20,20X30,24X36" defaultValue="8X10"/>
+            <entry key="rusticFrame" value="8X10,10X24,11X14,12X12,16X16,16X20,20X30,24X36" defaultValue="8X10"/>
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]" value="8X10,10X24,11X14,12X12,16X16,16X20,20X30,24X36" defaultValue="8X10" />
+        </optionMap>
+        <optionMap id="color" keyPattern="product-frameStyle">
+            <entry key="contemporary-*" value="blackFM,whiteFM,mapleFM,espressoFM" defaultValue="blackFM"></entry>
+            <entry key="metal-*" value="metalBlack,metalSilver,metalGold" defaultValue="metalBlack"></entry>
+            <entry key="canvas-*" value="none" defaultValue="none"></entry>
+            <entry key="classicFrame-baroqueFrame" value="gold" defaultValue="gold"></entry>
+            <entry key="classicFrame-curveFrame" value="blackCurve,whiteCurve,espressoCurve,mapleCurve" defaultValue="blackCurve" ></entry>
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]" value="blackFM,whiteFM,espressoFM" defaultValue="blackFM" ></entry>
+            <entry key="table_classicFrame-none" value="blackTT,whiteTT,espressoTT,mapleTT" defaultValue="blackTT"></entry>
+            <entry key="[table_crystalPlaque,table_woodPlaque,table_metalPlaque]-none" value="none"></entry>
+            <entry key="table_modernFrame-none" value="blackFM,espressoFM,whiteFM,mapleFM" defaultValue="blackFM"></entry>
+            <entry key="table_metalCube-none" value="metalBlack,metalSilver" defaultValue="metalSilver"></entry>
+            <entry key="flushMountCanvas-baroqueCanvas" value="gold"></entry>
+            <entry key="flushMountCanvas-curveCanvas" value="blackCurve,whiteCurve,espressoCurve,mapleCurve"></entry>
+            <entry key="frameCanvas-frameCanvasModernStyle" value="blackCV,whiteCV,mapleCV,espressoCV" defaultValue="blackCV"></entry>
+            <entry key="rusticFrame-*" value="greyFM,brownFM" defaultValue="greyFM"></entry>
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*" value="none" defaultValue="none"></entry>
+            <entry key="floatFrame-*" value="blackFM,whiteFM,espressoFM" defaultValue="blackFM"></entry>
+        </optionMap>
+        <optionMap id="paper" keyPattern="product">
+            <entry key="[contemporary,metal,classicFrame,rusticFrame,floatFrame]" value="EP,MP,RP,CP" defaultValue="EP" />
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque]" value="EP" defaultValue="EP" />
+            <entry key="[canvas,flushMountCanvas,frameCanvas]" value="TP" defaultValue="TP"></entry>
+            <entry key="[mountPrint,acrylicPrint]" value="EP,MP,RP" defaultValue="EP"></entry>
+            <entry key="[metalPrint,woodPrint]" value="none" defaultValue="none"></entry>
+        </optionMap>
+        <optionMap id="metalType" keyPattern="product">
+            <entry key="[contemporary,metal,classicFrame,rusticFrame,floatFrame]" value="none" defaultValue="none" />
+            <entry key="[canvas,flushMountCanvas,frameCanvas]" value="none" defaultValue="none"></entry>
+            <entry key="[mountPrint,acrylicPrint]" value="none" defaultValue="none"></entry>
+            <entry key="metalPrint" value="TC,BM" defaultValue="TC"></entry>
+            <entry key="woodPrint" value="none" defaultValue="none"></entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_woodPlaque]" value="none" defaultValue="none"></entry>
+            <entry key="table_metalPlaque" value="TC,BM" defaultValue="TC"></entry>
+        </optionMap>
+        <!--
+        <optionMap id="matte" keyPattern="product">
+            <entry key="[contemporary,metal,classicFrame,rusticFrame]" value="none,M" defaultValue="M"></entry>
+            <entry key="[canvas,tableTop,flushMountCanvas,frameCanvas]" value="none" defaultValue="none"></entry>
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]" value="none" defaultValue="none"></entry>
+        </optionMap>
+        <optionMap id="matteStyle" keyPattern="product">
+            <entry key="[contemporary,metal,classicFrame,rusticFrame]" value="none,matteStyleWhite,matteStyleBlack" defaultValue="matteStyleWhite" ></entry>
+            <entry key="[canvas,tableTop,flushMountCanvas,frameCanvas]" value="none" defaultValue="none"></entry>
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]" value="none" defaultValue="none"></entry>
+        </optionMap>
+        <optionMap id="glassStyle" keyPattern="product-matteStyle-paper">
+            <entry key="[contemporary,metal,classicFrame,rusticFrame]-[matteStyleWhite,matteStyleBlack]-[EP,RP]" value="glass" defaultValue="glass"></entry>
+            <entry key="[contemporary,metal,classicFrame,rusticFrame]-none-[EP,RP]" value="coating,glass" defaultValue="glass"></entry>
+            <entry key="[contemporary,metal,classicFrame,rusticFrame]-*-CP" value="none" defaultValue="none"></entry>
+            <entry key="[contemporary,metal,classicFrame,rusticFrame]-none-MP" value="coating" defaultValue="coating"></entry>
+            <entry key="[canvas,tableTop,flushMountCanvas,frameCanvas]-*-*" value="none" defaultValue="none"></entry>
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-*" value="none" defaultValue="none"></entry>
+        </optionMap>
+        -->
+        <optionMap id="matteStyle" keyPattern="product-paper">
+            <entry key="[contemporary,metal,classicFrame,rusticFrame]-[CP,MP]" value="none" defaultValue="none" />
+            <entry key="[contemporary,metal,classicFrame,rusticFrame]-[EP,RP]" value="none,matteStyleWhite,matteStyleBlack" defaultValue="matteStyleWhite" />
+            <entry key="[canvas,table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque,flushMountCanvas,frameCanvas]-*" value="none" defaultValue="none" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint,floatFrame]-*" value="none" defaultValue="none" />
+        </optionMap>
+        <optionMap id="matte" keyPattern="matteStyle">
+            <entry key="[matteStyleWhite,matteStyleBlack]" value="M" defaultValue="M" />
+            <entry key="none" value="none" defaultValue="none" />
+        </optionMap>
+
+        <optionMap id="glassStyle" keyPattern="product-matteStyle-paper">
+            <entry key="[contemporary,metal,classicFrame,rusticFrame]-[matteStyleWhite,matteStyleBlack]-[EP,RP]" value="glass" defaultValue="glass"></entry>
+            <entry key="[contemporary,metal,classicFrame,rusticFrame]-none-[EP,RP]" value="coating,glass" defaultValue="glass"></entry>
+            <entry key="[contemporary,metal,classicFrame,rusticFrame]-*-CP" value="none" defaultValue="none"></entry>
+            <entry key="[contemporary,metal,classicFrame,rusticFrame]-none-MP" value="coating" defaultValue="coating"></entry>
+            <entry key="[canvas,table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque,flushMountCanvas,frameCanvas]-*-*" value="none" defaultValue="none"></entry>
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint,floatFrame]-*-*" value="none" defaultValue="none"></entry>
+        </optionMap>
+        <optionMap id="canvasBorder" keyPattern="product">
+            <entry key="[contemporary,metal,classicFrame,rusticFrame,table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque,flushMountCanvas,frameCanvas,floatFrame]" value="none" defaultValue="none"></entry>
+            <entry key="canvas" value="mirror,image,color" defaultValue="image"></entry>
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]" value="none" defaultValue="none"></entry>
+        </optionMap>
+        <optionMap id="canvasBorderSize" keyPattern="product">
+            <entry key="[contemporary,metal,classicFrame,rusticFrame,table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque,flushMountCanvas,floatFrame]" value="none" defaultValue="none"></entry>
+            <entry key="canvas" value="thin,standard,thick" defaultValue="standard"></entry>
+            <entry key="frameCanvas" value="standard" defaultValue="standard"></entry>
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]" value="standard" defaultValue="standard"></entry>
+        </optionMap>
+        <optionMap id="finish" keyPattern="product">
+            <entry key="[contemporary,metal,classicFrame,rusticFrame,flushMountCanvas,frameCanvas,floatFrame]" value="none" defaultValue="none"></entry>
+            <entry key="canvas" value="none" defaultValue="none"></entry>
+            <entry key="[mountPrint,acrylicPrint]" value="none" defaultValue="none"></entry>
+            <entry key="metalPrint" value="glossy,matte" defaultValue="glossy"></entry>
+            <!-- <entry key="woodPrint" value="natural,white" defaultValue="natural"></entry> -->
+            <entry key="woodPrint" value="glossy,matte" defaultValue="glossy"></entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube]" value="none" defaultValue="none"></entry>
+            <entry key="table_woodPlaque" value="glossy,matte" defaultValue="matte"></entry>
+            <entry key="table_metalPlaque" value="glossy,matte" defaultValue="glossy"></entry>
+        </optionMap>
+    </configurableOptionMap>
+    <parameters>
+        <!-- 相框板基础尺寸 -->
+        <parameter id="frameBaseSize" keyPattern="product-frameStyle-size">
+            <entry key="flushMountCanvas-baroqueCanvas-16X16" heightInInch="15.76377953" widthInInch="15.76377953" />
+            <entry key="flushMountCanvas-baroqueCanvas-16X20" heightInInch="19.76377953" widthInInch="15.76377953" />
+            <entry key="flushMountCanvas-baroqueCanvas-20X30" heightInInch="29.76377953" widthInInch="19.76377953" />
+            <entry key="flushMountCanvas-baroqueCanvas-24X36" widthInInch="23.77952756" heightInInch="35.7480315" />
+            <entry key="flushMountCanvas-curveCanvas-16X16" widthInInch="15.7480315" heightInInch="15.7480315" />
+            <entry key="flushMountCanvas-curveCanvas-16X20" widthInInch="15.7480315" heightInInch="19.76377953" />
+            <entry key="flushMountCanvas-curveCanvas-20X30" widthInInch="19.76377953" heightInInch="29.76377953" />
+            <entry key="flushMountCanvas-curveCanvas-24X36" widthInInch="23.77952756" heightInInch="35.7480315" />
+            <entry key="classicFrame-baroqueFrame-8X10" widthInInch="7.755905512" heightInInch="9.763779528" />
+            <entry key="classicFrame-baroqueFrame-11X14" widthInInch="10.7480315" heightInInch="13.77952756" />
+            <entry key="classicFrame-baroqueFrame-10X24" widthInInch="9.763779528" heightInInch="23.77952756" />
+            <entry key="classicFrame-baroqueFrame-12X12" widthInInch="11.77165354" heightInInch="11.77165354" />
+            <entry key="classicFrame-baroqueFrame-16X16" widthInInch="15.7480315" heightInInch="15.7480315" />
+            <entry key="classicFrame-baroqueFrame-16X20" widthInInch="15.7480315" heightInInch="19.76377953" />
+            <entry key="classicFrame-baroqueFrame-20X30" widthInInch="19.76377953" heightInInch="29.76377953" />
+            <entry key="classicFrame-baroqueFrame-24X36" widthInInch="23.77952756" heightInInch="35.7480315" />
+            <entry key="classicFrame-curveFrame-8X10" widthInInch="7.755905512" heightInInch="9.763779528" />
+            <entry key="classicFrame-curveFrame-11X14" widthInInch="10.7480315" heightInInch="13.77952756" />
+            <entry key="classicFrame-curveFrame-10X24" widthInInch="9.763779528" heightInInch="23.77952756" />
+            <entry key="classicFrame-curveFrame-12X12" widthInInch="11.77165354" heightInInch="11.77165354" />
+            <entry key="classicFrame-curveFrame-16X16" widthInInch="15.7480315" heightInInch="15.7480315" />
+            <entry key="classicFrame-curveFrame-16X20" widthInInch="15.7480315" heightInInch="19.76377953" />
+            <entry key="classicFrame-curveFrame-20X30" widthInInch="19.76377953" heightInInch="29.76377953" />
+            <entry key="classicFrame-curveFrame-24X36" widthInInch="23.77952756" heightInInch="35.7480315" />
+
+            <!-- Frame 2.0 -->
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-8X10" widthInInch="7.51968504" heightInInch="9.52755906" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-11X14" widthInInch="10.55118110" heightInInch="13.54330709" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-10X24" widthInInch="9.52755906" heightInInch="23.54330709" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-12X12" widthInInch="11.53543307" heightInInch="11.53543307" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-16X16" widthInInch="15.55118110" heightInInch="15.55118110" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-16X20" widthInInch="15.55118110" heightInInch="19.56692913" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-20X30" widthInInch="19.56692913" heightInInch="29.52755906" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-24X36" widthInInch="23.54330709" heightInInch="35.51181102" />
+
+            <entry key="[contemporary,metal,rusticFrame]-*-8X10" heightInInch="9.52755906" widthInInch="7.51968504" default="true" />
+            <entry key="[contemporary,metal,rusticFrame]-*-11X14" heightInInch="13.54330709" widthInInch="10.55118110" />
+            <entry key="[contemporary,metal,rusticFrame]-*-10X24" heightInInch="23.54330709" widthInInch="9.52755906" />
+            <entry key="[contemporary,metal,rusticFrame]-*-12X12" heightInInch="11.53543307" widthInInch="11.53543307" />
+            <entry key="[contemporary,metal,rusticFrame]-*-16X16" heightInInch="15.55118110" widthInInch="15.55118110" />
+            <entry key="[contemporary,metal,rusticFrame]-*-16X20" heightInInch="19.56692913" widthInInch="15.55118110" />
+            <entry key="[contemporary,metal,rusticFrame]-*-20X30" heightInInch="29.52755906" widthInInch="19.56692913" />
+            <entry key="[contemporary,metal,rusticFrame]-*-24X36" heightInInch="35.51181102" widthInInch="23.54330709" />
+            <!-- Frame 2.0  -->
+
+            <entry key="canvas-*-8X10" heightInInch="10.07874016" widthInInch="8.070866142" />
+            <entry key="canvas-*-11X14" heightInInch="14.09448819" widthInInch="11.06299213" />
+            <entry key="canvas-*-10X24" heightInInch="24.09448819" widthInInch="10.07874016" />
+            <entry key="canvas-*-12X12" heightInInch="12.08661417" widthInInch="12.08661417" />
+            <entry key="canvas-*-16X16" heightInInch="16.1023622" widthInInch="16.1023622" />
+            <entry key="canvas-*-16X20" heightInInch="20.11811024" widthInInch="16.1023622" />
+            <entry key="canvas-*-20X30" heightInInch="30.11811024" widthInInch="20.11811024" />
+            <entry key="canvas-*-24X36" heightInInch="36.1023622" widthInInch="24.13385827" />
+            <entry key="frameCanvas-*-8X10" widthInInch="7.755905512" heightInInch="9.763779528" />
+            <entry key="frameCanvas-*-11X14" widthInInch="10.7480315" heightInInch="13.77952756" />
+            <entry key="frameCanvas-*-10X24" widthInInch="9.763779528" heightInInch="23.77952756" />
+            <entry key="frameCanvas-*-12X12" widthInInch="11.77165354" heightInInch="11.77165354" />
+            <entry key="frameCanvas-*-16X16" widthInInch="15.7480315" heightInInch="15.7480315" />
+            <entry key="frameCanvas-*-16X20" widthInInch="15.7480315" heightInInch="19.76377953" />
+            <entry key="frameCanvas-*-20X30" widthInInch="19.76377953" heightInInch="29.76377953" />
+            <entry key="frameCanvas-*-24X36" widthInInch="23.77952756" heightInInch="35.7480315" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-8X10" widthInInch="8" heightInInch="10" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-10X24" widthInInch="10" heightInInch="24" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-11X14" widthInInch="11" heightInInch="14" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-12X12" widthInInch="12" heightInInch="12" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-16X16" widthInInch="16" heightInInch="16" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-16X20" widthInInch="16" heightInInch="20" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-20X30" widthInInch="20" heightInInch="30" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-24X36" widthInInch="24" heightInInch="36" />
+            <entry key="[table_classicFrame,table_modernFrame]-none-5X7" widthInInch="4.842519685" heightInInch="6.811023622" />
+            <entry key="[table_classicFrame,table_modernFrame]-none-6X8" widthInInch="5.826771654" heightInInch="7.834645669" />
+            <entry key="[table_classicFrame,table_modernFrame]-none-8X10" widthInInch="7.834645669" heightInInch="9.842519685" />
+            
+            <entry key="[table_metalPlaque,table_crystalPlaque]-none-5X7" widthInInch="5" heightInInch="6.968503937" />
+            <entry key="[table_metalPlaque,table_crystalPlaque]-none-6X8" widthInInch="5.984251969" heightInInch="7.992125984" />
+            <entry key="[table_metalPlaque,table_crystalPlaque]-none-8X10" widthInInch="7.992125984" heightInInch="10" />
+
+            <entry key="[table_woodPlaque]-none-5X7" widthInInch="5.157480315" heightInInch="7.125984252" />
+            <entry key="[table_woodPlaque]-none-6X8" widthInInch="6.141732283" heightInInch="8.149606299" />
+            <entry key="[table_woodPlaque]-none-8X10" widthInInch="8.149606299" heightInInch="10.15748031" />
+
+            <entry key="table_metalCube-none-4X4" widthInInch="3.858267717" heightInInch="3.858267717" />
+            <entry key="table_metalCube-none-5X7" widthInInch="4.842519685" heightInInch="6.811023622" />
+            <entry key="table_metalCube-none-6X6" widthInInch="5.826771654" heightInInch="5.826771654" />
+            <entry key="table_metalCube-none-6X8" widthInInch="5.826771654" heightInInch="7.834645669" />
+
+            <entry key="floatFrame-*-8X10" heightInInch="9.61007874" widthInInch="7.60220472" default="true" />
+            <entry key="floatFrame-*-11X14" heightInInch="13.62582677" widthInInch="10.63370079" />
+            <entry key="floatFrame-*-10X24" heightInInch="23.62582677" widthInInch="9.57070866" />
+            <entry key="floatFrame-*-12X12" heightInInch="11.61795275" widthInInch="11.61795275" />
+            <entry key="floatFrame-*-16X16" heightInInch="15.63370079" widthInInch="15.63370079" />
+            <entry key="floatFrame-*-16X20" heightInInch="19.64944882" widthInInch="15.63370079" />
+            <entry key="floatFrame-*-20X30" heightInInch="29.69007874" widthInInch="19.72944882" />
+            <entry key="floatFrame-*-24X36" heightInInch="35.67433071" widthInInch="23.70582677" />
+        </parameter>
+        <!-- 油画布包边厚度 -->
+        <parameter id="canvasBorderThickness" keyPattern="product-frameStyle-canvasBorderSize">
+            <entry key="[contemporary,metal,table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque,classicFrame,rusticFrame,floatFrame]-*-none" top="0" bottom="0" left="0" right="0" />
+            <entry key="canvas-*-standard" top="366" bottom="366" left="366" right="366" />
+            <entry key="canvas-*-thin" top="225" bottom="225" left="225" right="225" />
+            <entry key="canvas-*-thick" top="449" bottom="449" left="449" right="449" />
+            <entry key="frameCanvas-*-standard" top="225" bottom="225" left="225" right="225" />
+            <entry key="flushMountCanvas-baroqueCanvas-none" top="0" bottom="0" left="0" right="0" />
+            <entry key="flushMountCanvas-curveCanvas-none" top="0" bottom="0" left="0" right="0" />
+            <entry key="[metalPrint,woodPrint]-*-standard" top="36" bottom="36" left="36" right="36" />
+            <entry key="[mountPrint,acrylicPrint]-*-standard" top="18" bottom="18" left="18" right="18" />
+        </parameter>
+        <!-- 相框正面边框厚度 -->
+        <parameter id="frameBorderThickness" keyPattern="product-frameStyle">
+            <entry key="contemporary-deep" top="224" bottom="224" left="224" right="224" />
+            <entry key="contemporary-wide" top="375" bottom="375" left="375" right="375" />
+            <entry key="metal-[metalDeep,metalDeep2]" top="118" bottom="118" left="118" right="118" />
+            <entry key="table_classicFrame-none" top="330" bottom="330" left="330" right="330" />
+            <entry key="table_modernFrame-none" top="248" bottom="248" left="248" right="248" />
+            <entry key="[table_crystalPlaque,table_metalPlaque]-none" top="0" bottom="0" left="0" right="0" />
+            <entry key="table_woodPlaque-none" top="0" bottom="0" left="0" right="0" />
+            <entry key="table_metalCube-none" top="59" bottom="59" left="59" right="59" />
+            <entry key="classicFrame-baroqueFrame" top="685" bottom="685" left="685" right="685" />
+            <entry key="classicFrame-curveFrame" top="591" bottom="591" left="591" right="591" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]" top="425" bottom="425" left="425" right="425" />
+            <entry key="flushMountCanvas-baroqueCanvas" top="685" bottom="685" left="685" right="685" />
+            <entry key="flushMountCanvas-curveCanvas" top="591" bottom="591" left="591" right="591" />
+            <entry key="frameCanvas-frameCanvasModernStyle" top="154" bottom="154" left="154" right="154" />
+            <entry key="rusticFrame-rusticWide" top="650" bottom="650" left="650" right="650" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*" top="0" bottom="0" left="0" right="0" />
+            <entry key="*-none" top="0" bottom="0" left="0" right="0" />
+            <entry key="floatFrame-deep" top="224" bottom="224" left="224" right="224" />
+            <entry key="floatFrame-wide" top="366" bottom="366" left="366" right="366" />
+        </parameter>
+        <!-- 照片出血 -->
+        <parameter id="bleed" keyPattern="product-frameStyle-size">
+            <entry key="[flushMountCanvas]-*-*" top="36" bottom="36" left="36" right="36" />
+            <entry key="frameCanvas-*-*" top="59" bottom="59" left="59" right="59" />
+            <entry key="canvas-*-*" top="24" bottom="24" left="24" right="24" />
+            <entry key="[table_classicFrame,table_modernFrame,table_metalCube,table_woodPlaque]-*-*" top="0" bottom="0" left="0" right="0" />
+            <entry key="table_metalPlaque-*-*" top="18" bottom="18" left="18" right="18" />
+            <entry key="table_crystalPlaque-*-*" top="36" bottom="36" left="36" right="36" />
+            
+            <entry key="[contemporary,metal,rusticFrame,metalPrint,woodPrint]-*-*" top="0" bottom="0" left="0" right="0" />
+            <entry key="[mountPrint,acrylicPrint]-*-*" top="18" bottom="18" left="18" right="18" />
+            <entry key="classicFrame-[baroqueFrame,curveFrame]-*" top="36" bottom="36" left="36" right="36" />
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-*" top="0" bottom="0" left="0" right="0" />
+            <entry key="floatFrame-*-*" top="0" bottom="0" left="0" right="0" />
+        </parameter>
+        <!-- 照片板嵌入到相框里被遮住的尺寸 -->
+        <parameter id="boardInFrame" keyPattern="product-frameStyle-size">
+            <entry key="contemporary-*-[8X10,11X14,12X12,16X16,16X20,20X30,24X36]" top="24" right="24" bottom="24" left="24"></entry>
+            <entry key="contemporary-*-10X24" top="30" right="24" bottom="30" left="24"></entry>
+            <entry key="metal-*-*" top="59" right="59" bottom="59" left="59"></entry>
+            <entry key="canvas-*-*" top="0" bottom="0" left="0" right="0" />
+            <entry key="[table_classicFrame,table_modernFrame]-none-*" top="36" right="36" bottom="36" left="36" />
+            <entry key="[table_crystalPlaque,table_woodPlaque,table_metalPlaque]-none-*" top="0" right="0" bottom="0" left="0"/>
+            <entry key="table_woodPlaque-none-*" top="36" right="36" bottom="36" left="36"/>
+            <entry key="table_metalCube-none-*" top="36" right="36" bottom="36" left="36"/>
+            <entry key="classicFrame-baroqueFrame-*" top="83" bottom="83" left="83" right="83" />
+            <entry key="classicFrame-curveFrame-*" top="95" bottom="95" left="95" right="95" />
+            <entry key="classicFrame-[chelseaFrame,hudsonFrame]-*" top="76" bottom="76" left="76" right="76" />
+            <entry key="classicFrame-newportFrame-*" top="65" bottom="65" left="65" right="65" />
+            <entry key="flushMountCanvas-baroqueCanvas-*" top="83" bottom="83" left="83" right="83" />
+            <entry key="flushMountCanvas-curveCanvas-*" top="95" bottom="95" left="95" right="95" />
+            <entry key="frameCanvas-frameCanvasModernStyle-*" top="0" bottom="0" left="0" right="0" />
+            <entry key="rusticFrame-*-*" top="77" bottom="77" left="77" right="77" />
+            <entry key="[mountPrint,acrylicPrint,metalPrint,woodPrint]-*-*" top="0" bottom="0" left="0" right="0" />
+            <entry key="floatFrame-*-[8X10,11X14,10X24,12X12,16X16,16X20]" top="36" bottom="36" left="36" right="36" />
+            <entry key="floatFrame-*-[20X30,24X36]" top="48" bottom="48" left="48" right="48" />
+        </parameter>
+        <!-- 照片板嵌入到相框卡纸里被遮住的尺寸 -->
+        <parameter id="boardInMatting" keyPattern="product-frameStyle-size-matte">
+            <entry key="classicFrame-[baroqueFrame,curveFrame]-*-M" top="83" right="83" bottom="83" left="83"></entry>
+            <!-- Frame 2.0 -->
+            <entry key="[contemporary,metal,rusticFrame]-*-[8X10,11X14,10X24,12X12,16X16,16X20]-M" top="35" right="35" bottom="35" left="35"></entry>
+            <entry key="[contemporary,metal,rusticFrame]-*-[20X30,24X36]-M" top="47" right="47" bottom="47" left="47"></entry>
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-[8X10,11X14,10X24,12X12,16X16,16X20]-M" top="35" right="35" bottom="35" left="35"></entry>
+            <entry key="classicFrame-[chelseaFrame,newportFrame,hudsonFrame]-[20X30,24X36]-M" top="47" right="47" bottom="47" left="47"></entry>
+            <entry key="*-*-*-none" top="0" right="0" bottom="0" left="0"></entry>
+        </parameter>
+        <!-- 卡纸的尺寸 -->
+        <parameter id="matteSize" keyPattern="product-size-frameStyle-matte">
+            <entry key="classicFrame-8X10-[baroqueFrame,curveFrame]-M" top="265" bottom="265" left="265" right="265" width="486" height="612" rWidth="612" rHeight="486"></entry>
+            <entry key="classicFrame-11X14-[baroqueFrame,curveFrame]-M" top="565" bottom="565" left="415" right="415" width="674" height="864" rWidth="864" rHeight="674"></entry>
+            <entry key="classicFrame-10X24-[baroqueFrame,curveFrame]-M" top="565" bottom="565" left="265" right="265" width="612" height="1492" rWidth="1492" rHeight="612"></entry>
+            <entry key="classicFrame-12X12-[baroqueFrame,curveFrame]-M" top="415" bottom="415" left="415" right="415" width="745" height="744" rWidth="744" rHeight="745"></entry>
+            <entry key="classicFrame-16X16-[baroqueFrame,curveFrame]-M" top="565" bottom="565" left="565" right="565" width="987" height="987" rWidth="978" rHeight="987"></entry>
+            <entry key="classicFrame-16X20-[baroqueFrame,curveFrame]-M" top="865" bottom="865" left="715" right="715" width="987" height="1239" rWidth="1239" rHeight="987"></entry>
+            <entry key="classicFrame-20X30-[baroqueFrame,curveFrame]-M" top="865" bottom="865" left="565" right="565" width="1239" height="1866" rWidth="1866" rHeight="1239"></entry>
+            <entry key="classicFrame-24X36-[baroqueFrame,curveFrame]-M" top="865" bottom="865" left="565" right="565" width="1491" height="2241" rWidth="2241" rHeight="1491"></entry>
+
+            <!-- Frame 2.0 -->
+            <entry key="classicFrame-8X10-[chelseaFrame,newportFrame,hudsonFrame]-M" top="277" bottom="277" left="277" right="277" width="481" height="608" rWidth="610" rHeight="482"></entry>
+            <entry key="classicFrame-11X14-[chelseaFrame,newportFrame,hudsonFrame]-M" top="401" bottom="401" left="401" right="401" width="672" height="860" rWidth="858" rHeight="672"></entry>
+            <entry key="classicFrame-10X24-[chelseaFrame,newportFrame,hudsonFrame]-M" top="395" bottom="395" left="401" right="401" width="607" height="1487" rWidth="1485" rHeight="608"></entry>
+            <entry key="classicFrame-12X12-[chelseaFrame,newportFrame,hudsonFrame]-M" top="401" bottom="401" left="401" right="401" width="733" height="734" rWidth="733" rHeight="734"></entry>
+            <entry key="classicFrame-16X16-[chelseaFrame,newportFrame,hudsonFrame]-M" top="548" bottom="548" left="548" right="548" width="984" height="986" rWidth="984" rHeight="986"></entry>
+            <entry key="classicFrame-16X20-[chelseaFrame,newportFrame,hudsonFrame]-M" top="548" bottom="548" left="548" right="548" width="984" height="1237" rWidth="1236" rHeight="985"></entry>
+            <entry key="classicFrame-20X30-[chelseaFrame,newportFrame,hudsonFrame]-M" top="548" bottom="548" left="548" right="548" width="1236" height="1862" rWidth="1860" rHeight="1238"></entry>
+            <entry key="classicFrame-24X36-[chelseaFrame,newportFrame,hudsonFrame]-M" top="702" bottom="702" left="702" right="702" width="1485" height="2238" rWidth="2236" rHeight="1487"></entry>
+
+            <entry key="[contemporary,metal,rusticFrame]-8X10-*-M" top="277" bottom="277" left="277" right="277" width="481" height="608" rWidth="610" rHeight="482"></entry>
+            <entry key="[contemporary,metal,rusticFrame]-11X14-*-M" top="401" bottom="401" left="401" right="401" width="672" height="860" rWidth="858" rHeight="672"></entry>
+            <entry key="[contemporary,metal,rusticFrame]-10X24-*-M" top="395" bottom="395" left="401" right="401" width="607" height="1487" rWidth="1485" rHeight="608"></entry>
+            <entry key="[contemporary,metal,rusticFrame]-12X12-*-M" top="401" bottom="401" left="401" right="401" width="733" height="734" rWidth="733" rHeight="734"></entry>
+            <entry key="[contemporary,metal,rusticFrame]-16X16-*-M" top="548" bottom="548" left="548" right="548" width="984" height="986" rWidth="984" rHeight="986"></entry>
+            <entry key="[contemporary,metal,rusticFrame]-16X20-*-M" top="548" bottom="548" left="548" right="548" width="984" height="1237" rWidth="1236" rHeight="985"></entry>
+            <entry key="[contemporary,metal,rusticFrame]-20X30-*-M" top="548" bottom="548" left="548" right="548" width="1236" height="1862" rWidth="1860" rHeight="1238"></entry>
+            <entry key="[contemporary,metal,rusticFrame]-24X36-*-M" top="702" bottom="702" left="702" right="702" width="1485" height="2238" rWidth="2236" rHeight="1487"></entry>
+            <!-- Frame 2.0 -->
+            <entry key="*-*-*-none" top="0" bottom="0" left="0" right="0"></entry>
+        </parameter>
+        <parameter id="matteStyleColor" keyPattern="matteStyle">
+            <entry key="[none,matteStyleWhite]" color="0xffffff"></entry>
+            <entry key="matteStyleBlack" color="0"></entry>
+        </parameter>
+        <!--  装饰布的尺寸  -->
+        <parameter id="floatBgSize" keyPattern="product-size">
+            <entry key="contemporary,metal,classicFrame,rusticFrame,table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque,flushMountCanvas,frameCanvas,canvas,mountPrint,acrylicPrint,metalPrint,woodPrint]-*" top="0" bottom="0" left="0" right="0"></entry>
+            <entry key="floatFrame-8X10" top="236" bottom="236" left="236" right="236"></entry>
+            <entry key="floatFrame-11X14" top="360" bottom="360" left="360" right="360"></entry>
+            <entry key="floatFrame-10X24" top="354" bottom="354" left="354" right="354"></entry>
+            <entry key="floatFrame-12X12" top="360" bottom="360" left="360" right="360"></entry>
+            <entry key="floatFrame-16X16" top="508" bottom="508" left="508" right="508"></entry>
+            <entry key="floatFrame-16X20" top="508" bottom="508" left="508" right="508"></entry>
+            <entry key="floatFrame-20X30" top="508" bottom="508" left="508" right="508"></entry>
+            <entry key="floatFrame-24X36" top="661" bottom="661" left="661" right="661"></entry>
+        </parameter>
+    </parameters>
+    <variables>
+        <!-- 提供蒙板前景图，用于编辑界面显示 -->
+        <variable id="foreground" keyPattern="product-frameStyle-size-color-finish-canvasBorderSize">
+            <!-- paddingLeft、paddingTop、paddingRight、paddingBottom指图片边缘到图片上frame边缘的距离 -->
+            <entry key="classicFrame-baroqueFrame-8X10-*-*-none" image="" width="880" height="1005" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1000" rHeight="876" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-baroqueFrame-10X24-*-*-none" image="" width="1003" height="1863" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1863" rHeight="1004" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-baroqueFrame-11X14-*-*-none" image="" width="1064" height="1250" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1250" rHeight="1064" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-baroqueFrame-12X12-*-*-none" image="" width="1127" height="1127" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1127" rHeight="1127" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-baroqueFrame-16X16-*-*-none" image="" width="1311" height="1310" paddingLeft="50" paddingTop="50" paddingRight="50" paddingBottom="50" rWidth="1311" rHeight="1310" rPaddingLeft="50" rPaddingTop="50" rPaddingRight="50" rPaddingBottom="50" />
+            <entry key="classicFrame-baroqueFrame-16X20-*-*-none" image="" width="1312" height="1556" paddingLeft="50" paddingTop="50" paddingRight="50" paddingBottom="50" rWidth="1556" rHeight="1311" rPaddingLeft="50" rPaddingTop="50" rPaddingRight="50" rPaddingBottom="50" />
+            <entry key="classicFrame-baroqueFrame-20X30-*-*-none" image="" width="1617" height="2229" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2229" rHeight="1617" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-baroqueFrame-24X36-*-*-none" image="" width="1863" height="2596" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2596" rHeight="1863" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-8X10-blackCurve-*-none" image="" width="912" height="1051" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1051" rHeight="912" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-10X24-blackCurve-*-none" image="" width="1050" height="2006" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2007" rHeight="1054" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-11X14-blackCurve-*-none" image="" width="1117" height="1324" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1324" rHeight="1117" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-12X12-blackCurve-*-none" image="" width="1188" height="1187" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1188" rHeight="1187" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-16X16-blackCurve-*-none" image="" width="1458" height="1458" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1458" rHeight="1458" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-16X20-blackCurve-*-none" image="" width="1459" height="1732" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1733" rHeight="1459" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-20X30-blackCurve-*-none" image="" width="1734" height="2414" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2415" rHeight="1730" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-24X36-blackCurve-*-none" image="" width="2006" height="2822" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2822" rHeight="2004" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-8X10-whiteCurve-*-none" image="" width="884" height="1017" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1019" rHeight="885" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-10X24-whiteCurve-*-none" image="" width="1016" height="1935" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1935" rHeight="1014" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-11X14-whiteCurve-*-none" image="" width="1081" height="1280" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1278" rHeight="1084" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-12X12-whiteCurve-*-none" image="" width="1147" height="1148" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1147" rHeight="1148" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-16X16-whiteCurve-*-none" image="" width="1408" height="1429" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1408" rHeight="1429" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-16X20-whiteCurve-*-none" image="" width="1408" height="1673" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1670" rHeight="1410" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-20X30-whiteCurve-*-none" image="" width="1670" height="2325" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2325" rHeight="1673" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-24X36-whiteCurve-*-none" image="" width="1934" height="2721" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2718" rHeight="1934" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-8X10-espressoCurve-*-none" image="" width="880" height="1005" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1013" rHeight="880" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-10X24-espressoCurve-*-none" image="" width="1015" height="1927" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1928" rHeight="1016" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-11X14-espressoCurve-*-none" image="" width="1083" height="1279" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1275" rHeight="1079" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-12X12-espressoCurve-*-none" image="" width="1146" height="1144" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1146" rHeight="1144" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-16X16-espressoCurve-*-none" image="" width="1404" height="1403" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1404" rHeight="1403" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-16X20-espressoCurve-*-none" image="" width="1402" height="1747" paddingLeft="78" paddingTop="80" paddingRight="80" paddingBottom="162" rWidth="1667" rHeight="1403" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-20X30-espressoCurve-*-none" image="" width="1671" height="2319" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2317" rHeight="1672" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-24X36-espressoCurve-*-none" image="" width="1931" height="2710" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2713" rHeight="1930" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-8X10-mapleCurve-*-none" image="" width="880" height="1005" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1013" rHeight="885" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-10X24-mapleCurve-*-none" image="" width="1016" height="1934" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1936" rHeight="1023" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-11X14-mapleCurve-*-none" image="" width="1081" height="1277" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1278" rHeight="1077" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-12X12-mapleCurve-*-none" image="" width="1148" height="1145" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1148" rHeight="1145" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-16X16-mapleCurve-*-none" image="" width="1407" height="1404" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1407" rHeight="1404" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-16X20-mapleCurve-*-none" image="" width="1407" height="1669" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1665" rHeight="1404" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-20X30-mapleCurve-*-none" image="" width="1666" height="2319" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2326" rHeight="1668" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="classicFrame-curveFrame-24X36-mapleCurve-*-none" image="" width="1931" height="2711" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2713" rHeight="1941" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+
+            <!-- Frame 2.0  -->
+            <entry key="classicFrame-[chelseaFrame,hudsonFrame]-8X10-*-*-none" image="" width="696" height="825" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="946" rHeight="796" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="classicFrame-[chelseaFrame,hudsonFrame]-10X24-*-*-none" image="" width="508" height="1040" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1253" rHeight="605" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="classicFrame-[chelseaFrame,hudsonFrame]-11X14-*-*-none" image="" width="805" height="977" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1161" rHeight="952" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="classicFrame-[chelseaFrame,hudsonFrame]-12X12-*-*-none" image="" width="973" height="972" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="973" rHeight="972" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="classicFrame-[chelseaFrame,hudsonFrame]-16X16-*-*-none" image="" width="1015" height="1013" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1015" rHeight="1013" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="classicFrame-[chelseaFrame,hudsonFrame]-16X20-*-*-none" image="" width="854" height="1032" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1270" rHeight="1046" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="classicFrame-[chelseaFrame,hudsonFrame]-20X30-*-*-none" image="" width="731" height="1034" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1493" rHeight="1045" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="classicFrame-[chelseaFrame,hudsonFrame]-24X36-*-*-none" image="" width="800" height="1143" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1614" rHeight="1123" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+
+            <entry key="classicFrame-newportFrame-8X10-*-*-none" image="" width="695" height="822" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="910" rHeight="767" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="classicFrame-newportFrame-10X24-*-*-none" image="" width="521" height="1064" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1277" rHeight="618" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="classicFrame-newportFrame-11X14-*-*-none" image="" width="779" height="945" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1291" rHeight="1059" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="classicFrame-newportFrame-12X12-*-*-none" image="" width="1051" height="1050" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1051" rHeight="1050" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="classicFrame-newportFrame-16X16-*-*-none" image="" width="1103" height="1102" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1103" rHeight="1102" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="classicFrame-newportFrame-16X20-*-*-none" image="" width="891" height="1076" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1185" rHeight="979" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="classicFrame-newportFrame-20X30-*-*-none" image="" width="758" height="1073" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1620" rHeight="1132" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="classicFrame-newportFrame-24X36-*-*-none" image="" width="805" height="1148" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1693" rHeight="1176" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <!-- Frame 2.0  -->
+
+            <entry key="acrylicPrint-*-8X10-*-*-standard" image="" width="798" height="973" paddingLeft="50" paddingTop="50" paddingRight="50" paddingBottom="50" rWidth="972" rHeight="798" rPaddingLeft="50" rPaddingTop="50" rPaddingRight="50" rPaddingBottom="50" />
+            <entry key="acrylicPrint-*-10X24-*-*-standard" image="" width="466" height="977" paddingLeft="49" paddingTop="50" paddingRight="50" paddingBottom="50" rWidth="1246" rHeight="578" rPaddingLeft="50" rPaddingTop="50" rPaddingRight="50" rPaddingBottom="50" />
+            <entry key="acrylicPrint-*-11X14-*-*-standard" image="" width="787" height="976" paddingLeft="50" paddingTop="50" paddingRight="50" paddingBottom="50" rWidth="1199" rHeight="963" rPaddingLeft="50" rPaddingTop="50" rPaddingRight="50" rPaddingBottom="50" />
+            <entry key="acrylicPrint-*-12X12-*-*-standard" image="" width="833" height="833" paddingLeft="50" paddingTop="50" paddingRight="50" paddingBottom="50" rWidth="833" rHeight="833" rPaddingLeft="50" rPaddingTop="50" rPaddingRight="50" rPaddingBottom="50" />
+            <entry key="acrylicPrint-*-16X16-*-*-standard" image="" width="799" height="799" paddingLeft="50" paddingTop="50" paddingRight="50" paddingBottom="50" rWidth="799" rHeight="799" rPaddingLeft="50" rPaddingTop="50" rPaddingRight="50" rPaddingBottom="50" />
+            <entry key="acrylicPrint-*-16X20-*-*-standard" image="" width="806" height="982" paddingLeft="50" paddingTop="50" paddingRight="50" paddingBottom="50" rWidth="806" rHeight="665" rPaddingLeft="50" rPaddingTop="50" rPaddingRight="50" rPaddingBottom="50" />
+            <entry key="acrylicPrint-*-20X30-*-*-standard" image="" width="683" height="975" paddingLeft="50" paddingTop="50" paddingRight="50" paddingBottom="50" rWidth="971" rHeight="681" rPaddingLeft="50" rPaddingTop="50" rPaddingRight="50" rPaddingBottom="50" />
+            <entry key="acrylicPrint-*-24X36-*-*-standard" image="" width="679" height="968" paddingLeft="50" paddingTop="50" paddingRight="50" paddingBottom="50" rWidth="1090" rHeight="760" rPaddingLeft="50" rPaddingTop="50" rPaddingRight="50" rPaddingBottom="50" />
+
+            <entry key="canvas-*-8X10-*-*-standard" image="" width="820" height="977" paddingLeft="60" paddingTop="95" paddingRight="100" paddingBottom="60" rWidth="965" rHeight="792" rPaddingLeft="49" rPaddingTop="85" rPaddingRight="90" rPaddingBottom="50" />
+            <entry key="canvas-*-10X24-*-*-standard" image="" width="403" height="806" paddingLeft="50" paddingTop="61" paddingRight="63" paddingBottom="50" rWidth="971" rHeight="470" rPaddingLeft="50" rPaddingTop="63" rPaddingRight="66" rPaddingBottom="50" />
+            <entry key="canvas-*-11X14-*-*-standard" image="" width="653" height="794" paddingLeft="50" paddingTop="70" paddingRight="72" paddingBottom="50" rWidth="939" rHeight="763" rPaddingLeft="50" rPaddingTop="72" rPaddingRight="77" rPaddingBottom="50" />
+            <entry key="canvas-*-12X12-*-*-standard" image="" width="787" height="783" paddingLeft="50" paddingTop="71" paddingRight="74" paddingBottom="50" rWidth="787" rHeight="783" rPaddingLeft="50" rPaddingTop="71" rPaddingRight="74" rPaddingBottom="50" />
+            <entry key="canvas-*-16X16-*-*-standard" image="" width="784" height="781" paddingLeft="50" paddingTop="67" paddingRight="68" paddingBottom="50" rWidth="784" rHeight="781" rPaddingLeft="50" rPaddingTop="67" rPaddingRight="68" rPaddingBottom="50" />
+            <entry key="canvas-*-16X20-*-*-standard" image="" width="650" height="780" paddingLeft="50" paddingTop="64" paddingRight="66" paddingBottom="50" rWidth="945" rHeight="776" rPaddingLeft="50" rPaddingTop="66" rPaddingRight="68" rPaddingBottom="50" />
+            <entry key="canvas-*-20X30-*-*-standard" image="" width="562" height="785" paddingLeft="50" paddingTop="59" paddingRight="61" paddingBottom="50" rWidth="983" rHeight="692" rPaddingLeft="50" rPaddingTop="61" rPaddingRight="63" rPaddingBottom="50" />
+            <entry key="canvas-*-24X36-*-*-standard" image="" width="565" height="792" paddingLeft="50" paddingTop="58" paddingRight="60" paddingBottom="50" rWidth="1130" rHeight="789" rPaddingLeft="50" rPaddingTop="61" rPaddingRight="63" rPaddingBottom="50" />
+
+            <entry key="canvas-*-8X10-*-*-thin" image="" width="798" height="959" paddingLeft="60" paddingTop="78" paddingRight="80" paddingBottom="60" rWidth="962" rHeight="795" rPaddingLeft="60" rPaddingTop="78" rPaddingRight="80" rPaddingBottom="60" />
+            <entry key="canvas-*-10X24-*-*-thin" image="" width="418" height="813" paddingLeft="60" paddingTop="67" paddingRight="68" paddingBottom="60" rWidth="983" rHeight="484" rPaddingLeft="60" rPaddingTop="68" rPaddingRight="70" rPaddingBottom="60" />
+            <entry key="canvas-*-11X14-*-*-thin" image="" width="664" height="806" paddingLeft="60" paddingTop="72" paddingRight="73" paddingBottom="60" rWidth="951" rHeight="774" rPaddingLeft="60" rPaddingTop="74" rPaddingRight="76" rPaddingBottom="60" />
+            <entry key="canvas-*-12X12-*-*-thin" image="" width="798" height="795" paddingLeft="60" paddingTop="73" paddingRight="75" paddingBottom="60" rWidth="798" rHeight="795" rPaddingLeft="60" rPaddingTop="73" rPaddingRight="75" rPaddingBottom="60" />
+            <entry key="canvas-*-16X16-*-*-thin" image="" width="798" height="797" paddingLeft="60" paddingTop="70" paddingRight="71" paddingBottom="60" rWidth="798" rHeight="797" rPaddingLeft="60" rPaddingTop="70" rPaddingRight="71" rPaddingBottom="60" />
+            <entry key="canvas-*-16X20-*-*-thin" image="" width="665" height="797" paddingLeft="60" paddingTop="68" paddingRight="70" paddingBottom="60" rWidth="959" rHeight="791" rPaddingLeft="60" rPaddingTop="70" rPaddingRight="71" rPaddingBottom="60" />
+            <entry key="canvas-*-20X30-*-*-thin" image="" width="578" height="803" paddingLeft="60" paddingTop="66" paddingRight="66" paddingBottom="60" rWidth="998" rHeight="706" rPaddingLeft="60" rPaddingTop="67" rPaddingRight="68" rPaddingBottom="60" />
+            <entry key="canvas-*-24X36-*-*-thin" image="" width="584" height="810" paddingLeft="60" paddingTop="64" paddingRight="66" paddingBottom="60" rWidth="1145" rHeight="804" rPaddingLeft="60" rPaddingTop="68" rPaddingRight="67" rPaddingBottom="60" />
+
+            <entry key="canvas-*-8X10-*-*-thick" image="" width="821" height="979" paddingLeft="60" paddingTop="96" paddingRight="102" paddingBottom="60" rWidth="985" rHeight="813" rPaddingLeft="60" rPaddingTop="96" rPaddingRight="102" rPaddingBottom="60" />
+            <entry key="canvas-*-10X24-*-*-thick" image="" width="426" height="831" paddingLeft="60" paddingTop="73" paddingRight="76" paddingBottom="60" rWidth="993" rHeight="492" rPaddingLeft="60" rPaddingTop="77" rPaddingRight="79" rPaddingBottom="60" />
+            <entry key="canvas-*-11X14-*-*-thick" image="" width="678" height="820" paddingLeft="60" paddingTop="83" paddingRight="86" paddingBottom="61" rWidth="967" rHeight="786" rPaddingLeft="60" rPaddingTop="86" rPaddingRight="92" rPaddingBottom="60" />
+            <entry key="canvas-*-12X12-*-*-thick" image="" width="812" height="807" paddingLeft="60" paddingTop="85" paddingRight="89" paddingBottom="61" rWidth="812" rHeight="807" rPaddingLeft="60" rPaddingTop="85" rPaddingRight="89" rPaddingBottom="61" />
+            <entry key="canvas-*-16X16-*-*-thick" image="" width="808" height="806" paddingLeft="60" paddingTop="80" paddingRight="83" paddingBottom="61" rWidth="808" rHeight="806" rPaddingLeft="50" rPaddingTop="80" rPaddingRight="83" rPaddingBottom="61" />
+            <entry key="canvas-*-16X20-*-*-thick" image="" width="674" height="804" paddingLeft="60" paddingTop="76" paddingRight="79" paddingBottom="60" rWidth="970" rHeight="800" rPaddingLeft="60" rPaddingTop="80" rPaddingRight="83" rPaddingBottom="60" />
+            <entry key="canvas-*-20X30-*-*-thick" image="" width="585" height="809" paddingLeft="60" paddingTop="71" paddingRight="73" paddingBottom="60" rWidth="1005" rHeight="714" rPaddingLeft="59" rPaddingTop="73" rPaddingRight="75" rPaddingBottom="60" />
+            <entry key="canvas-*-24X36-*-*-thick" image="" width="588" height="814" paddingLeft="60" paddingTop="69" paddingRight="71" paddingBottom="60" rWidth="1153" rHeight="810" rPaddingLeft="60" rPaddingTop="72" rPaddingRight="75" rPaddingBottom="60" />
+
+            <entry key="mountPrint-*-8X10-*-*-standard" image="" width="867" height="1039" paddingLeft="60" paddingTop="80" paddingRight="88" paddingBottom="60" rWidth="1047" rHeight="859" rPaddingLeft="60" rPaddingTop="80" rPaddingRight="88" rPaddingBottom="60" />
+            <entry key="mountPrint-*-10X24-*-*-standard" image="" width="455" height="910" paddingLeft="60" paddingTop="67" paddingRight="70" paddingBottom="60" rWidth="1058" rHeight="516" rPaddingLeft="60" rPaddingTop="69" rPaddingRight="73" rPaddingBottom="60" />
+            <entry key="mountPrint-*-11X14-*-*-standard" image="" width="702" height="856" paddingLeft="60" paddingTop="73" paddingRight="77" paddingBottom="60" rWidth="1024" rHeight="831" rPaddingLeft="60" rPaddingTop="76" rPaddingRight="81" rPaddingBottom="60" />
+            <entry key="mountPrint-*-12X12-*-*-standard" image="" width="867" height="870" paddingLeft="60" paddingTop="75" paddingRight="80" paddingBottom="67" rWidth="867" rHeight="870" rPaddingLeft="60" rPaddingTop="75" rPaddingRight="80" rPaddingBottom="67" />
+            <entry key="mountPrint-*-16X16-*-*-standard" image="" width="883" height="879" paddingLeft="60" paddingTop="71" paddingRight="75" paddingBottom="60" rWidth="883" rHeight="879" rPaddingLeft="60" rPaddingTop="71" rPaddingRight="75" rPaddingBottom="60" />
+            <entry key="mountPrint-*-16X20-*-*-standard" image="" width="706" height="846" paddingLeft="60" paddingTop="69" paddingRight="71" paddingBottom="60" rWidth="1046" rHeight="861" rPaddingLeft="60" rPaddingTop="72" rPaddingRight="75" rPaddingBottom="60" />
+            <entry key="mountPrint-*-20X30-*-*-standard" image="" width="614" height="859" paddingLeft="60" paddingTop="66" paddingRight="68" paddingBottom="60" rWidth="1163" rHeight="818" rPaddingLeft="60" rPaddingTop="68" rPaddingRight="71" rPaddingBottom="60" />
+            <entry key="mountPrint-*-24X36-*-*-standard" image="" width="632" height="886" paddingLeft="60" paddingTop="67" paddingRight="69" paddingBottom="60" rWidth="1029" rHeight="733" rPaddingLeft="60" rPaddingTop="66" rPaddingRight="65" rPaddingBottom="63" />
+
+            <entry key="metalPrint-*-8X10-*-glossy-standard" image="" width="741" height="883" paddingLeft="92" paddingTop="92" paddingRight="92" paddingBottom="92" rWidth="883" rHeight="741" rPaddingLeft="92" rPaddingTop="92" rPaddingRight="92" rPaddingBottom="92" />
+            <entry key="metalPrint-*-10X24-*-glossy-standard" image="" width="546" height="1048" paddingLeft="92" paddingTop="92" paddingRight="92" paddingBottom="92" rWidth="1164" rHeight="593" rPaddingLeft="92" rPaddingTop="92" rPaddingRight="92" rPaddingBottom="92" />
+            <entry key="metalPrint-*-11X14-*-glossy-standard" image="" width="825" height="1001" paddingLeft="92" paddingTop="92" paddingRight="92" paddingBottom="92" rWidth="1004" rHeight="827" rPaddingLeft="92" rPaddingTop="92" rPaddingRight="92" rPaddingBottom="92" />
+            <entry key="metalPrint-*-12X12-*-glossy-standard" image="" width="905" height="905" paddingLeft="92" paddingTop="92" paddingRight="92" paddingBottom="92" rWidth="905" rHeight="905" rPaddingLeft="92" rPaddingTop="92" rPaddingRight="92" rPaddingBottom="92" />
+            <entry key="metalPrint-*-16X16-*-glossy-standard" image="" width="1027" height="1028" paddingLeft="92" paddingTop="92" paddingRight="92" paddingBottom="92" rWidth="1027" rHeight="1028" rPaddingLeft="92" rPaddingTop="92" rPaddingRight="92" rPaddingBottom="92" />
+            <entry key="metalPrint-*-16X20-*-glossy-standard" image="" width="872" height="1043" paddingLeft="92" paddingTop="92" paddingRight="92" paddingBottom="92" rWidth="1043" rHeight="871" rPaddingLeft="92" rPaddingTop="92" rPaddingRight="92" rPaddingBottom="92" />
+            <entry key="metalPrint-*-20X30-*-glossy-standard" image="" width="726" height="998" paddingLeft="92" paddingTop="92" paddingRight="92" paddingBottom="92" rWidth="1182" rHeight="849" rPaddingLeft="92" rPaddingTop="92" rPaddingRight="92" rPaddingBottom="92" />
+            <entry key="metalPrint-*-24X36-*-glossy-standard" image="" width="766" height="1054" paddingLeft="92" paddingTop="92" paddingRight="92" paddingBottom="92" rWidth="1175" rHeight="845" rPaddingLeft="92" rPaddingTop="92" rPaddingRight="92" rPaddingBottom="92" />
+
+
+            <entry key="metalPrint-*-8X10-*-matte-standard" image="" width="741" height="883" paddingLeft="92" paddingTop="92" paddingRight="92" paddingBottom="92" rWidth="883" rHeight="741" rPaddingLeft="92" rPaddingTop="92" rPaddingRight="92" rPaddingBottom="92" />
+            <entry key="metalPrint-*-10X24-*-matte-standard" image="" width="546" height="1048" paddingLeft="92" paddingTop="92" paddingRight="92" paddingBottom="92" rWidth="1164" rHeight="593" rPaddingLeft="92" rPaddingTop="92" rPaddingRight="92" rPaddingBottom="92" />
+            <entry key="metalPrint-*-11X14-*-matte-standard" image="" width="825" height="1001" paddingLeft="92" paddingTop="92" paddingRight="92" paddingBottom="92" rWidth="1004" rHeight="827" rPaddingLeft="92" rPaddingTop="92" rPaddingRight="92" rPaddingBottom="92" />
+            <entry key="metalPrint-*-12X12-*-matte-standard" image="" width="905" height="905" paddingLeft="92" paddingTop="92" paddingRight="92" paddingBottom="92" rWidth="905" rHeight="905" rPaddingLeft="92" rPaddingTop="92" rPaddingRight="92" rPaddingBottom="92" />
+            <entry key="metalPrint-*-16X16-*-matte-standard" image="" width="1027" height="1028" paddingLeft="92" paddingTop="92" paddingRight="92" paddingBottom="92" rWidth="1027" rHeight="1028" rPaddingLeft="92" rPaddingTop="92" rPaddingRight="92" rPaddingBottom="92" />
+            <entry key="metalPrint-*-16X20-*-matte-standard" image="" width="872" height="1043" paddingLeft="92" paddingTop="92" paddingRight="92" paddingBottom="92" rWidth="1043" rHeight="871" rPaddingLeft="92" rPaddingTop="92" rPaddingRight="92" rPaddingBottom="92" />
+            <entry key="metalPrint-*-20X30-*-matte-standard" image="" width="726" height="998" paddingLeft="92" paddingTop="92" paddingRight="92" paddingBottom="92" rWidth="1182" rHeight="849" rPaddingLeft="92" rPaddingTop="92" rPaddingRight="92" rPaddingBottom="92" />
+            <entry key="metalPrint-*-24X36-*-matte-standard" image="" width="766" height="1054" paddingLeft="92" paddingTop="92" paddingRight="92" paddingBottom="92" rWidth="1175" rHeight="845" rPaddingLeft="92" rPaddingTop="92" rPaddingRight="92" rPaddingBottom="92" />
+
+            <entry key="woodPrint-*-8X10-*-*-standard" image="" width="890" height="1070" paddingLeft="80" paddingTop="90" paddingRight="90" paddingBottom="80" rWidth="1070" rHeight="890" rPaddingLeft="80" rPaddingTop="90" rPaddingRight="90" rPaddingBottom="80" />
+            <entry key="woodPrint-*-10X24-*-*-standard" image="" width="1070" height="2330" paddingLeft="80" paddingTop="90" paddingRight="90" paddingBottom="80" rWidth="2330" rHeight="1070" rPaddingLeft="80" rPaddingTop="90" rPaddingRight="90" rPaddingBottom="80" />
+            <entry key="woodPrint-*-11X14-*-*-standard" image="" width="1160" height="1430" paddingLeft="80" paddingTop="90" paddingRight="90" paddingBottom="80" rWidth="1430" rHeight="1160" rPaddingLeft="80" rPaddingTop="90" rPaddingRight="90" rPaddingBottom="80" />
+            <entry key="woodPrint-*-12X12-*-*-standard" image="" width="1250" height="1250" paddingLeft="80" paddingTop="90" paddingRight="90" paddingBottom="80" rWidth="1250" rHeight="1250" rPaddingLeft="80" rPaddingTop="90" rPaddingRight="90" rPaddingBottom="80" />
+            <entry key="woodPrint-*-16X16-*-*-standard" image="" width="1610" height="1610" paddingLeft="80" paddingTop="90" paddingRight="90" paddingBottom="80" rWidth="1610" rHeight="1610" rPaddingLeft="80" rPaddingTop="90" rPaddingRight="90" rPaddingBottom="80" />
+            <entry key="woodPrint-*-16X20-*-*-standard" image="" width="1060" height="1285" paddingLeft="80" paddingTop="86" paddingRight="86" paddingBottom="80" rWidth="1173" rHeight="971" rPaddingLeft="80" rPaddingTop="86" rPaddingRight="86" rPaddingBottom="80" />
+            <entry key="woodPrint-*-20X30-*-*-standard" image="" width="791" height="1105" paddingLeft="80" paddingTop="83" paddingRight="83" paddingBottom="80" rWidth="1399" rHeight="988" rPaddingLeft="80" rPaddingTop="85" rPaddingRight="85" rPaddingBottom="80" />
+            <entry key="woodPrint-*-24X36-*-*-standard" image="" width="797" height="1113" paddingLeft="80" paddingTop="82" paddingRight="82" paddingBottom="80" rWidth="1417" rHeight="999" rPaddingLeft="80" rPaddingTop="84" rPaddingRight="84" rPaddingBottom="80" />
+
+            <entry key="contemporary-deep-8X10-blackFM-*-none" image="" width="1036" height="1266" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="968" rHeight="813" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-10X24-blackFM-*-none" image="" width="962" height="2010" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2010" rHeight="962" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-11X14-blackFM-*-none" image="" width="1036" height="1266" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1266" rHeight="1036" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-12X12-blackFM-*-none" image="" width="1118" height="1112" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1118" rHeight="1112" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-16X16-blackFM-*-none" image="" width="1408" height="1414" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1408" rHeight="1414" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-16X20-blackFM-*-none" image="" width="1408" height="1714" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1712" rHeight="1408" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-20X30-blackFM-*-none" image="" width="1706" height="2460" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2456" rHeight="1706" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-24X36-blackFM-*-none" image="" width="2003" height="2902" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2902" rHeight="2003" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+
+            <entry key="contemporary-deep-8X10-whiteFM-*-none" image="" width="811" height="965" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="966" rHeight="811" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-10X24-whiteFM-*-none" image="" width="960" height="2003" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2005" rHeight="959" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-11X14-whiteFM-*-none" image="" width="1033" height="1261" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1263" rHeight="1034" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-12X12-whiteFM-*-none" image="" width="1108" height="1113" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1108" rHeight="1113" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-16X16-whiteFM-*-none" image="" width="1405" height="1410" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1405" rHeight="1410" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-16X20-whiteFM-*-none" image="" width="1405" height="1706" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1708" rHeight="1405" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-20X30-whiteFM-*-none" image="" width="1702" height="2447" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2452" rHeight="1700" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-24X36-whiteFM-*-none" image="" width="1999" height="2893" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2895" rHeight="1995" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+
+            <entry key="contemporary-deep-8X10-mapleFM-*-none" image="" width="874" height="1044" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1043" rHeight="873" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-10X24-mapleFM-*-none" image="" width="1037" height="2181" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2181" rHeight="1037" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-11X14-mapleFM-*-none" image="" width="1117" height="1367" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1368" rHeight="1117" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-12X12-mapleFM-*-none" image="" width="1199" height="1205" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1199" rHeight="1205" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-16X16-mapleFM-*-none" image="" width="1525" height="1531" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1525" rHeight="1531" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-16X20-mapleFM-*-none" image="" width="1525" height="1856" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1856" rHeight="1524" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-20X30-mapleFM-*-none" image="" width="1850" height="2668" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2669" rHeight="1850" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-24X36-mapleFM-*-none" image="" width="2176" height="3156" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="3157" rHeight="2176" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+
+            <entry key="contemporary-deep-8X10-espressoFM-*-none" image="" width="813" height="968" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="968" rHeight="813" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-10X24-espressoFM-*-none" image="" width="962" height="2010" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2010" rHeight="962" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-11X14-espressoFM-*-none" image="" width="1036" height="1266" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1266" rHeight="1036" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-12X12-espressoFM-*-none" image="" width="1111" height="1117" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1111" rHeight="1117" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-16X16-espressoFM-*-none" image="" width="1408" height="1414" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1408" rHeight="1414" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-16X20-espressoFM-*-none" image="" width="1408" height="1714" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1712" rHeight="1408" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-20X30-espressoFM-*-none" image="" width="1706" height="2460" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2456" rHeight="1706" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-deep-24X36-espressoFM-*-none" image="" width="2003" height="2902" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2902" rHeight="2003" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+
+            <entry key="contemporary-wide-8X10-blackFM-*-none" image="" width="885" height="1032" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1033" rHeight="884" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-wide-10X24-blackFM-*-none" image="" width="1043" height="2078" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2078" rHeight="1043" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-wide-11X14-blackFM-*-none" image="" width="1118" height="1334" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1334" rHeight="1118" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-wide-12X12-blackFM-*-none" image="" width="1192" height="1186" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1192" rHeight="1186" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-wide-16X16-blackFM-*-none" image="" width="1489" height="1483" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1489" rHeight="1483" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-wide-16X20-blackFM-*-none" image="" width="1489" height="1780" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1780" rHeight="1489" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-wide-20X30-blackFM-*-none" image="" width="1786" height="2523" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2523" rHeight="1786" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-wide-24X36-blackFM-*-none" image="" width="2085" height="2972" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2972" rHeight="2085" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-wide-8X10-whiteFM-*-none" image="" width="891" height="1034" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1036" rHeight="891" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-wide-10X24-whiteFM-*-none" image="" width="1045" height="2073" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2076" rHeight="1040" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-wide-11X14-whiteFM-*-none" image="" width="1115" height="1330" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1331" rHeight="1114" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-wide-12X12-whiteFM-*-none" image="" width="1188" height="1186" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1088" rHeight="1186" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-wide-16X16-whiteFM-*-none" image="" width="1486" height="1478" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1486" rHeight="1478" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-wide-16X20-whiteFM-*-none" image="" width="1486" height="1774" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1777" rHeight="1485" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-wide-20X30-whiteFM-*-none" image="" width="1784" height="2516" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2520" rHeight="1782" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-wide-24X36-whiteFM-*-none" image="" width="2080" height="2962" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2959" rHeight="2080" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-wide-8X10-mapleFM-*-none" image="" width="899" height="1039" paddingLeft="88" paddingTop="80" paddingRight="80" paddingBottom="76" rWidth="1052" rHeight="896" rPaddingLeft="90" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="85" />
+            <entry key="contemporary-wide-10X24-mapleFM-*-none" image="" width="1058" height="2080" paddingLeft="90" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2083" rHeight="1055" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="90" />
+            <entry key="contemporary-wide-11X14-mapleFM-*-none" image="" width="1122" height="1340" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="86" rWidth="1333" rHeight="1118" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-wide-12X12-mapleFM-*-none" image="" width="1191" height="1185" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1191" rHeight="1185" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-wide-16X16-mapleFM-*-none" image="" width="1487" height="1491" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="88" rWidth="1487" rHeight="1491" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="88" />
+            <entry key="contemporary-wide-16X20-mapleFM-*-none" image="" width="1496" height="1791" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="90" rWidth="1782" rHeight="1491" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-wide-20X30-mapleFM-*-none" image="" width="1832" height="2527" paddingLeft="116" paddingTop="80" paddingRight="89" paddingBottom="80" rWidth="2526" rHeight="1797" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="94" />
+            <entry key="contemporary-wide-24X36-mapleFM-*-none" image="" width="2099" height="3020" paddingLeft="95" paddingTop="80" paddingRight="80" paddingBottom="127" rWidth="2999" rHeight="2110" rPaddingLeft="105" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="105" />
+            <entry key="contemporary-wide-8X10-espressoFM-*-none" image="" width="880" height="1005" paddingLeft="80" paddingTop="60" paddingRight="69" paddingBottom="70" rWidth="1208" rHeight="1036" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-wide-10X24-espressoFM-*-none" image="" width="1058" height="2080" paddingLeft="92" paddingTop="80" paddingRight="83" paddingBottom="82" rWidth="2076" rHeight="1042" rPaddingLeft="78" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="79" />
+            <entry key="contemporary-wide-11X14-espressoFM-*-none" image="" width="1122" height="1340" paddingLeft="81" paddingTop="80" paddingRight="83" paddingBottom="86" rWidth="1335" rHeight="1117" rPaddingLeft="81 " rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="contemporary-wide-12X12-espressoFM-*-none" image="" width="1202" height="1199" paddingLeft="88" paddingTop="80" paddingRight="83" paddingBottom="93" rWidth="1202" rHeight="1199" rPaddingLeft="88" rPaddingTop="80" rPaddingRight="83" rPaddingBottom="93" />
+            <entry key="contemporary-wide-16X16-espressoFM-*-none" image="" width="1504" height="1493" paddingLeft="92" paddingTop="80" paddingRight="83" paddingBottom="90" rWidth="1504" rHeight="1493" rPaddingLeft="92" rPaddingTop="80" rPaddingRight="83" rPaddingBottom="90" />
+            <entry key="contemporary-wide-16X20-espressoFM-*-none" image="" width="1496" height="1791" paddingLeft="84" paddingTop="80" paddingRight="83" paddingBottom="91" rWidth="1782" rHeight="1491" rPaddingLeft="81" rPaddingTop="81" rPaddingRight="81" rPaddingBottom="81" />
+            <entry key="contemporary-wide-20X30-espressoFM-*-none" image="" width="1832" height="2527" paddingLeft="117" paddingTop="81" paddingRight="89" paddingBottom="83" rWidth="2526" rHeight="1797" rPaddingLeft="83" rPaddingTop="77" rPaddingRight="80" rPaddingBottom="95" />
+            <entry key="contemporary-wide-24X36-espressoFM-*-none" image="" width="2087" height="2971" paddingLeft="79" paddingTop="79" paddingRight="83" paddingBottom="80" rWidth="2973" rHeight="2093" rPaddingLeft="79" rPaddingTop="88" rPaddingRight="82" rPaddingBottom="80" />
+            <entry key="metal-[metalDeep,metalDeep2]-8X10-metalBlack-*-none" image="" width="713" height="878" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="904" rHeight="733" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="metal-[metalDeep,metalDeep2]-10X24-metalBlack-*-none" image="" width="427" height="945" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1159" rHeight="516" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="metal-[metalDeep,metalDeep2]-11X14-metalBlack-*-none" image="" width="728" height="912" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1040" rHeight="830" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="metal-[metalDeep,metalDeep2]-12X12-metalBlack-*-none" image="" width="885" height="886" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="885" rHeight="886" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="metal-[metalDeep,metalDeep2]-16X16-metalBlack-*-none" image="" width="975" height="976" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="975" rHeight="976" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="metal-[metalDeep,metalDeep2]-16X20-metalBlack-*-none" image="" width="795" height="980" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1048" rHeight="847" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="metal-[metalDeep,metalDeep2]-20X30-metalBlack-*-none" image="" width="665" height="967" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1277" rHeight="872" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="metal-[metalDeep,metalDeep2]-24X36-metalBlack-*-none" image="" width="684" height="996" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1343" rHeight="915" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+
+            <entry key="metal-[metalDeep,metalDeep2]-8X10-metalSilver-*-none" image="" width="713" height="878" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="904" rHeight="733" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="metal-[metalDeep,metalDeep2]-10X24-metalSilver-*-none" image="" width="427" height="945" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1159" rHeight="516" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="metal-[metalDeep,metalDeep2]-11X14-metalSilver-*-none" image="" width="728" height="912" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1040" rHeight="830" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="metal-[metalDeep,metalDeep2]-12X12-metalSilver-*-none" image="" width="885" height="886" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="885" rHeight="886" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="metal-[metalDeep,metalDeep2]-16X16-metalSilver-*-none" image="" width="975" height="976" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="975" rHeight="976" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="metal-[metalDeep,metalDeep2]-16X20-metalSilver-*-none" image="" width="795" height="980" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1048" rHeight="847" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="metal-[metalDeep,metalDeep2]-20X30-metalSilver-*-none" image="" width="665" height="967" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1277" rHeight="872" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="metal-[metalDeep,metalDeep2]-24X36-metalSilver-*-none" image="" width="684" height="996" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1343" rHeight="915" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+
+            <entry key="metal-[metalDeep,metalDeep2]-8X10-metalGold-*-none" image="" width="713" height="878" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="904" rHeight="733" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="metal-[metalDeep,metalDeep2]-10X24-metalGold-*-none" image="" width="427" height="945" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1159" rHeight="516" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="metal-[metalDeep,metalDeep2]-11X14-metalGold-*-none" image="" width="728" height="912" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1040" rHeight="830" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="metal-[metalDeep,metalDeep2]-12X12-metalGold-*-none" image="" width="885" height="886" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="885" rHeight="886" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="metal-[metalDeep,metalDeep2]-16X16-metalGold-*-none" image="" width="975" height="976" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="975" rHeight="976" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="metal-[metalDeep,metalDeep2]-16X20-metalGold-*-none" image="" width="795" height="980" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1048" rHeight="847" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="metal-[metalDeep,metalDeep2]-20X30-metalGold-*-none" image="" width="665" height="967" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1277" rHeight="872" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="metal-[metalDeep,metalDeep2]-24X36-metalGold-*-none" image="" width="684" height="996" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1343" rHeight="915" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+
+            <entry key="frameCanvas-frameCanvasModernStyle-8X10-blackCV-*-standard" image="" width="906" height="1078" paddingLeft="76" paddingTop="79" paddingRight="80" paddingBottom="80" rWidth="1079" rHeight="907" rPaddingLeft="78" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-10X24-blackCV-*-standard" image="" width="1076" height="2272" paddingLeft="73" paddingTop="76" paddingRight="80" paddingBottom="80" rWidth="2271" rHeight="1077" rPaddingLeft="79" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-11X14-blackCV-*-standard" image="" width="1160" height="1421" paddingLeft="76" paddingTop="79" paddingRight="80" paddingBottom="80" rWidth="1420" rHeight="1161" rPaddingLeft="77" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-12X12-blackCV-*-standard" image="" width="1253" height="1250" paddingLeft="76" paddingTop="79" paddingRight="85" paddingBottom="80" rWidth="1253" rHeight="1250" rPaddingLeft="76" rPaddingTop="79" rPaddingRight="85" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-16X16-blackCV-*-standard" image="" width="1585" height="1588" paddingLeft="75" paddingTop="78" paddingRight="80" paddingBottom="80" rWidth="1585" rHeight="1588" rPaddingLeft="75" rPaddingTop="78" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-16X20-blackCV-*-standard" image="" width="1585" height="1930" paddingLeft="75" paddingTop="78" paddingRight="80" paddingBottom="80" rWidth="1929" rHeight="1586" rPaddingLeft="77" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-20X30-blackCV-*-standard" image="" width="1942" height="2782" paddingLeft="69" paddingTop="78" paddingRight="95" paddingBottom="80" rWidth="2780" rHeight="1928" rPaddingLeft="75" rPaddingTop="79" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-24X36-blackCV-*-standard" image="" width="2269" height="3292" paddingLeft="68" paddingTop="73" paddingRight="80" paddingBottom="80" rWidth="3290" rHeight="2270" rPaddingLeft="73" rPaddingTop="79" rPaddingRight="80" rPaddingBottom="80" />
+
+            <entry key="frameCanvas-frameCanvasModernStyle-8X10-whiteCV-*-standard" image="" width="906" height="1078" paddingLeft="79" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1079" rHeight="907" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-10X24-whiteCV-*-standard" image="" width="1076" height="2272" paddingLeft="76" paddingTop="79" paddingRight="80" paddingBottom="80" rWidth="2271" rHeight="1077" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-11X14-whiteCV-*-standard" image="" width="1160" height="1421" paddingLeft="77" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1420" rHeight="1161" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-12X12-whiteCV-*-standard" image="" width="1253" height="1250" paddingLeft="80" paddingTop="80" paddingRight="85" paddingBottom="80" rWidth="1253" rHeight="1250" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="85" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-16X16-whiteCV-*-standard" image="" width="1585" height="1588" paddingLeft="79" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1585" rHeight="1588" rPaddingLeft="79" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-16X20-whiteCV-*-standard" image="" width="1585" height="1930" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1929" rHeight="1586" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-20X30-whiteCV-*-standard" image="" width="1942" height="2782" paddingLeft="77" paddingTop="80" paddingRight="95" paddingBottom="80" rWidth="2780" rHeight="1928" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-24X36-whiteCV-*-standard" image="" width="2269" height="3292" paddingLeft="75" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="3290" rHeight="2270" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+
+            <entry key="frameCanvas-frameCanvasModernStyle-8X10-mapleCV-*-standard" image="" width="906" height="1078" paddingLeft="78" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1079" rHeight="907" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-10X24-mapleCV-*-standard" image="" width="1076" height="2272" paddingLeft="76" paddingTop="79" paddingRight="80" paddingBottom="80" rWidth="2271" rHeight="1077" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-11X14-mapleCV-*-standard" image="" width="1160" height="1421" paddingLeft="79" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1420" rHeight="1161" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-12X12-mapleCV-*-standard" image="" width="1253" height="1250" paddingLeft="80" paddingTop="80" paddingRight="86" paddingBottom="80" rWidth="1253" rHeight="1250" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="86" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-16X16-mapleCV-*-standard" image="" width="1585" height="1588" paddingLeft="79" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1585" rHeight="1588" rPaddingLeft="79" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-16X20-mapleCV-*-standard" image="" width="1585" height="1930" paddingLeft="78" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1929" rHeight="1586" rPaddingLeft="78" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-20X30-mapleCV-*-standard" image="" width="1942" height="2782" paddingLeft="77" paddingTop="80" paddingRight="95" paddingBottom="80" rWidth="2780" rHeight="1928" rPaddingLeft="77" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-24X36-mapleCV-*-standard" image="" width="2269" height="3292" paddingLeft="73" paddingTop="79" paddingRight="80" paddingBottom="80" rWidth="3290" rHeight="2270" rPaddingLeft="79" rPaddingTop="79" rPaddingRight="80" rPaddingBottom="80" />
+
+            <entry key="frameCanvas-frameCanvasModernStyle-8X10-espressoCV-*-standard" image="" width="906" height="1078" paddingLeft="78" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1079" rHeight="907" rPaddingLeft="79" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-10X24-espressoCV-*-standard" image="" width="1076" height="2272" paddingLeft="75" paddingTop="79" paddingRight="80" paddingBottom="80" rWidth="2271" rHeight="1077" rPaddingLeft="79" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-11X14-espressoCV-*-standard" image="" width="1160" height="1421" paddingLeft="77" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1420" rHeight="1161" rPaddingLeft="78" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-12X12-espressoCV-*-standard" image="" width="1253" height="1250" paddingLeft="77" paddingTop="80" paddingRight="86" paddingBottom="80" rWidth="1253" rHeight="1250" rPaddingLeft="77" rPaddingTop="80" rPaddingRight="86" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-16X16-espressoCV-*-standard" image="" width="1585" height="1588" paddingLeft="77" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1585" rHeight="1588" rPaddingLeft="77" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-16X20-espressoCV-*-standard" image="" width="1585" height="1930" paddingLeft="77" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1929" rHeight="1586" rPaddingLeft="78" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-20X30-espressoCV-*-standard" image="" width="1942" height="2782" paddingLeft="74" paddingTop="78" paddingRight="95" paddingBottom="80" rWidth="2780" rHeight="1928" rPaddingLeft="75" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="frameCanvas-frameCanvasModernStyle-24X36-espressoCV-*-standard" image="" width="2269" height="3292" paddingLeft="73" paddingTop="79" paddingRight="80" paddingBottom="80" rWidth="3290" rHeight="2270" rPaddingLeft="77" rPaddingTop="79" rPaddingRight="80" rPaddingBottom="80" />
+
+            <entry key="rusticFrame-*-8X10-brownFM-*-none" image="" width="880" height="1005" paddingLeft="83" paddingTop="85" paddingRight="88" paddingBottom="85" rWidth="995" rHeight="869" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="rusticFrame-*-10X24-brownFM-*-none" image="" width="997" height="1879" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1879" rHeight="998" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="rusticFrame-*-11X14-brownFM-*-none" image="" width="1060" height="1247" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="74" rWidth="1253" rHeight="1060" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="rusticFrame-*-12X12-brownFM-*-none" image="" width="1124" height="1126" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1124" rHeight="1126" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="rusticFrame-*-16X16-brownFM-*-none" image="" width="1373" height="1380" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="86" rWidth="1373" rHeight="1380" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="86" />
+            <entry key="rusticFrame-*-16X20-brownFM-*-none" image="" width="1373" height="1627" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1627" rHeight="1373" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="rusticFrame-*-20X30-brownFM-*-none" image="" width="1626" height="2255" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2255" rHeight="1626" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="rusticFrame-*-24X36-brownFM-*-none" image="" width="1876" height="2631" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2631" rHeight="1876" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+
+            <entry key="rusticFrame-*-8X10-greyFM-*-none" image="" width="880" height="1005" paddingLeft="83" paddingTop="85" paddingRight="88" paddingBottom="85" rWidth="995" rHeight="869" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="rusticFrame-*-10X24-greyFM-*-none" image="" width="997" height="1879" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1879" rHeight="998" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="rusticFrame-*-11X14-greyFM-*-none" image="" width="1060" height="1247" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="74" rWidth="1253" rHeight="1060" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="rusticFrame-*-12X12-greyFM-*-none" image="" width="1124" height="1126" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1124" rHeight="1126" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="rusticFrame-*-16X16-greyFM-*-none" image="" width="1373" height="1380" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="86" rWidth="1373" rHeight="1380" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="86" />
+            <entry key="rusticFrame-*-16X20-greyFM-*-none" image="" width="1373" height="1627" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1627" rHeight="1373" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="rusticFrame-*-20X30-greyFM-*-none" image="" width="1626" height="2255" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2255" rHeight="1626" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="rusticFrame-*-24X36-greyFM-*-none" image="" width="1876" height="2631" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2631" rHeight="1876" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+
+            <entry key="flushMountCanvas-baroqueCanvas-8X10-*-*-none" image="" width="880" height="1005" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1000" rHeight="876" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-baroqueCanvas-10X24-*-*-none" image="" width="1003" height="1863" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1863" rHeight="1004" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-baroqueCanvas-11X14-*-*-none" image="" width="1064" height="1250" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1250" rHeight="1064" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-baroqueCanvas-12X12-*-*-none" image="" width="1127" height="1127" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1127" rHeight="1127" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-baroqueCanvas-16X16-*-*-none" image="" width="1371" height="1370" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1371" rHeight="1370" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-baroqueCanvas-16X20-*-*-none" image="" width="1371" height="1616" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1616" rHeight="1371" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-baroqueCanvas-20X30-*-*-none" image="" width="1617" height="2229" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2229" rHeight="1617" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-baroqueCanvas-24X36-*-*-none" image="" width="1863" height="2596" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2596" rHeight="1863" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-8X10-blackCurve-*-none" image="" width="912" height="1051" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1051" rHeight="912" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-10X24-blackCurve-*-none" image="" width="1050" height="2006" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2007" rHeight="1054" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-11X14-blackCurve-*-none" image="" width="1117" height="1324" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1324" rHeight="1117" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-12X12-blackCurve-*-none" image="" width="1188" height="1187" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1188" rHeight="1187" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-16X16-blackCurve-*-none" image="" width="1458" height="1458" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1458" rHeight="1458" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-16X20-blackCurve-*-none" image="" width="1459" height="1732" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1733" rHeight="1459" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-20X30-blackCurve-*-none" image="" width="1734" height="2414" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2415" rHeight="1730" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-24X36-blackCurve-*-none" image="" width="2006" height="2822" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2822" rHeight="2004" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-8X10-whiteCurve-*-none" image="" width="884" height="1017" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1019" rHeight="885" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-10X24-whiteCurve-*-none" image="" width="1016" height="1935" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1935" rHeight="1014" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-11X14-whiteCurve-*-none" image="" width="1081" height="1280" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1278" rHeight="1084" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-12X12-whiteCurve-*-none" image="" width="1147" height="1148" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1147" rHeight="1148" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-16X16-whiteCurve-*-none" image="" width="1408" height="1429" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1408" rHeight="1429" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-16X20-whiteCurve-*-none" image="" width="1408" height="1673" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1670" rHeight="1410" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-20X30-whiteCurve-*-none" image="" width="1670" height="2325" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2325" rHeight="1673" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-24X36-whiteCurve-*-none" image="" width="1934" height="2721" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2718" rHeight="1934" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-8X10-espressoCurve-*-none" image="" width="880" height="1005" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1013" rHeight="880" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-10X24-espressoCurve-*-none" image="" width="1015" height="1927" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1928" rHeight="1016" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-11X14-espressoCurve-*-none" image="" width="1083" height="1279" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1275" rHeight="1079" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-12X12-espressoCurve-*-none" image="" width="1146" height="1144" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1146" rHeight="1144" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-16X16-espressoCurve-*-none" image="" width="1404" height="1403" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1404" rHeight="1403" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-16X20-espressoCurve-*-none" image="" width="1402" height="1747" paddingLeft="78" paddingTop="80" paddingRight="80" paddingBottom="162" rWidth="1667" rHeight="1403" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-20X30-espressoCurve-*-none" image="" width="1671" height="2319" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2317" rHeight="1672" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-24X36-espressoCurve-*-none" image="" width="1931" height="2710" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2713" rHeight="1930" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-8X10-mapleCurve-*-none" image="" width="880" height="1005" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1013" rHeight="885" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-10X24-mapleCurve-*-none" image="" width="1016" height="1934" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1936" rHeight="1023" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-11X14-mapleCurve-*-none" image="" width="1081" height="1277" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1278" rHeight="1077" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-12X12-mapleCurve-*-none" image="" width="1148" height="1145" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1148" rHeight="1145" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-16X16-mapleCurve-*-none" image="" width="1407" height="1404" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1407" rHeight="1404" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-16X20-mapleCurve-*-none" image="" width="1407" height="1669" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="1665" rHeight="1404" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-20X30-mapleCurve-*-none" image="" width="1666" height="2319" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2326" rHeight="1668" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+            <entry key="flushMountCanvas-curveCanvas-24X36-mapleCurve-*-none" image="" width="1931" height="2711" paddingLeft="80" paddingTop="80" paddingRight="80" paddingBottom="80" rWidth="2713" rHeight="1941" rPaddingLeft="80" rPaddingTop="80" rPaddingRight="80" rPaddingBottom="80" />
+
+            <!--tableTop 临时数据-->
+            <entry key="table_classicFrame-none-5X7-blackTT-*-none" image="" width="818" height="659" paddingLeft="170" paddingTop="20" paddingRight="170" paddingBottom="20" rWidth="1115" rHeight="656" rPaddingLeft="160" rPaddingTop="20" rPaddingRight="160" rPaddingBottom="20" />
+            <entry key="table_classicFrame-none-6X8-blackTT-*-none" image="" width="870" height="727" paddingLeft="160" paddingTop="20" paddingRight="160" paddingBottom="20" rWidth="1243" rHeight="747" rPaddingLeft="180" rPaddingTop="20" rPaddingRight="180" rPaddingBottom="20" />
+            <entry key="table_classicFrame-none-8X10-blackTT-*-none" image="" width="1047" height="867" paddingLeft="180" paddingTop="20" paddingRight="180" paddingBottom="20" rWidth="1462" rHeight="943" rPaddingLeft="200" rPaddingTop="30" rPaddingRight="200" rPaddingBottom="30" />
+            <entry key="table_classicFrame-none-5X7-whiteTT-*-none" image="" width="818" height="659" paddingLeft="170" paddingTop="20" paddingRight="170" paddingBottom="20" rWidth="1115" rHeight="656" rPaddingLeft="160" rPaddingTop="20" rPaddingRight="160" rPaddingBottom="20" />
+            <entry key="table_classicFrame-none-6X8-whiteTT-*-none" image="" width="870" height="727" paddingLeft="160" paddingTop="20" paddingRight="160" paddingBottom="20" rWidth="1243" rHeight="747" rPaddingLeft="180" rPaddingTop="20" rPaddingRight="180" rPaddingBottom="20" />
+            <entry key="table_classicFrame-none-8X10-whiteTT-*-none" image="" width="1047" height="867" paddingLeft="180" paddingTop="20" paddingRight="180" paddingBottom="20" rWidth="1462" rHeight="943" rPaddingLeft="200" rPaddingTop="30" rPaddingRight="200" rPaddingBottom="30" />
+            <entry key="table_classicFrame-none-5X7-mapleTT-*-none" image="" width="818" height="659" paddingLeft="170" paddingTop="20" paddingRight="170" paddingBottom="20" rWidth="1115" rHeight="656" rPaddingLeft="160" rPaddingTop="20" rPaddingRight="160" rPaddingBottom="20" />
+            <entry key="table_classicFrame-none-6X8-mapleTT-*-none" image="" width="870" height="727" paddingLeft="160" paddingTop="20" paddingRight="160" paddingBottom="20" rWidth="1243" rHeight="747" rPaddingLeft="180" rPaddingTop="20" rPaddingRight="180" rPaddingBottom="20" />
+            <entry key="table_classicFrame-none-8X10-mapleTT-*-none" image="" width="1047" height="867" paddingLeft="180" paddingTop="20" paddingRight="180" paddingBottom="20" rWidth="1462" rHeight="943" rPaddingLeft="200" rPaddingTop="30" rPaddingRight="200" rPaddingBottom="30" />
+            <entry key="table_classicFrame-none-5X7-espressoTT-*-none" image="" width="818" height="659" paddingLeft="170" paddingTop="20" paddingRight="170" paddingBottom="20" rWidth="1115" rHeight="656" rPaddingLeft="160" rPaddingTop="20" rPaddingRight="160" rPaddingBottom="20" />
+            <entry key="table_classicFrame-none-6X8-espressoTT-*-none" image="" width="870" height="727" paddingLeft="160" paddingTop="20" paddingRight="160" paddingBottom="20" rWidth="1243" rHeight="747" rPaddingLeft="180" rPaddingTop="20" rPaddingRight="180" rPaddingBottom="20" />
+            <entry key="table_classicFrame-none-8X10-espressoTT-*-none" image="" width="1047" height="867" paddingLeft="180" paddingTop="20" paddingRight="180" paddingBottom="20" rWidth="1462" rHeight="943" rPaddingLeft="200" rPaddingTop="30" rPaddingRight="200" rPaddingBottom="30" />
+            <entry key="table_crystalPlaque-none-5X7-none-*-none" image="" width="848" height="771" paddingLeft="170" paddingTop="30" paddingRight="170" paddingBottom="30" rWidth="1020" rHeight="575" rPaddingLeft="150" rPaddingTop="30" rPaddingRight="150" rPaddingBottom="30" />
+            <entry key="table_crystalPlaque-none-6X8-none-*-none" image="" width="866" height="730" paddingLeft="180" paddingTop="30" paddingRight="180" paddingBottom="30" rWidth="1034" rHeight="625" rPaddingLeft="140" rPaddingTop="30" rPaddingRight="140" rPaddingBottom="30" />
+            <entry key="table_crystalPlaque-none-8X10-none-*-none" image="" width="961" height="835" paddingLeft="170" paddingTop="30" paddingRight="170" paddingBottom="30" rWidth="1081" rHeight="685" rPaddingLeft="150" rPaddingTop="30" rPaddingRight="150" rPaddingBottom="30" />
+            <entry key="table_metalPlaque-none-5X7-*-*-none" image="" width="848" height="762" paddingLeft="170" paddingTop="30" paddingRight="170" paddingBottom="30" rWidth="1020" rHeight="575" rPaddingLeft="150" rPaddingTop="30" rPaddingRight="150" rPaddingBottom="30" />
+            <entry key="table_metalPlaque-none-6X8-*-*-none" image="" width="866" height="730" paddingLeft="180" paddingTop="30" paddingRight="180" paddingBottom="30" rWidth="1034" rHeight="625" rPaddingLeft="140" rPaddingTop="30" rPaddingRight="140" rPaddingBottom="30" />
+            <entry key="table_metalPlaque-none-8X10-*-*-none" image="" width="961" height="835" paddingLeft="170" paddingTop="30" paddingRight="170" paddingBottom="30" rWidth="1094" rHeight="685" rPaddingLeft="157" rPaddingTop="30" rPaddingRight="157" rPaddingBottom="30" />
+
+            <entry key="table_metalCube-none-4X4-metalBlack-*-none" image="" width="699" height="518" paddingLeft="110" paddingTop="73" paddingRight="177" paddingBottom="30" rWidth="699" rHeight="518" rPaddingLeft="110" rPaddingTop="73" rPaddingRight="177" rPaddingBottom="30" />
+            <entry key="table_metalCube-none-5X7-metalBlack-*-none" image="" width="841" height="833" paddingLeft="130" paddingTop="73" paddingRight="195" paddingBottom="30" rWidth="1129" rHeight="674" rPaddingLeft="130" rPaddingTop="77" rPaddingRight="202" rPaddingBottom="30" />
+            <entry key="table_metalCube-none-6X6-metalBlack-*-none" image="" width="946" height="723" paddingLeft="130" paddingTop="73" paddingRight="196" paddingBottom="30" rWidth="946" rHeight="723" rPaddingLeft="130" rPaddingTop="73" rPaddingRight="196" rPaddingBottom="30" />
+            <entry key="table_metalCube-none-6X8-metalBlack-*-none" image="" width="986" height="936" paddingLeft="150" paddingTop="73" paddingRight="217" paddingBottom="30" rWidth="1280" rHeight="787" rPaddingLeft="150" rPaddingTop="79" rPaddingRight="222" rPaddingBottom="30" />
+            <entry key="table_metalCube-none-4X4-metalSilver-*-none" image="" width="700" height="520" paddingLeft="110" paddingTop="73" paddingRight="177" paddingBottom="30" rWidth="700" rHeight="520" rPaddingLeft="110" rPaddingTop="73" rPaddingRight="177" rPaddingBottom="30" />
+            <entry key="table_metalCube-none-5X7-metalSilver-*-none" image="" width="842" height="837" paddingLeft="130" paddingTop="73" paddingRight="195" paddingBottom="30" rWidth="1130" rHeight="674" rPaddingLeft="130" rPaddingTop="77" rPaddingRight="202" rPaddingBottom="30" />
+            <entry key="table_metalCube-none-6X6-metalSilver-*-none" image="" width="947" height="726" paddingLeft="130" paddingTop="73" paddingRight="196" paddingBottom="30" rWidth="947" rHeight="726" rPaddingLeft="130" rPaddingTop="73" rPaddingRight="196" rPaddingBottom="30" />
+            <entry key="table_metalCube-none-6X8-metalSilver-*-none" image="" width="988" height="939" paddingLeft="150" paddingTop="73" paddingRight="217" paddingBottom="30" rWidth="1282" rHeight="787" rPaddingLeft="150" rPaddingTop="79" rPaddingRight="222" rPaddingBottom="30" />
+            <entry key="table_modernFrame-none-5X7-blackFM-*-none" image="" width="805" height="659" paddingLeft="170" paddingTop="20" paddingRight="170" paddingBottom="20" rWidth="1136" rHeight="656" rPaddingLeft="160" rPaddingTop="20" rPaddingRight="160" rPaddingBottom="20" />
+            <entry key="table_modernFrame-none-6X8-blackFM-*-none" image="" width="857" height="727" paddingLeft="160" paddingTop="20" paddingRight="160" paddingBottom="20" rWidth="1261" rHeight="747" rPaddingLeft="180" rPaddingTop="20" rPaddingRight="180" rPaddingBottom="20" />
+            <entry key="table_modernFrame-none-8X10-blackFM-*-none" image="" width="1037" height="867" paddingLeft="180" paddingTop="20" paddingRight="180" paddingBottom="20" rWidth="1478" rHeight="943" rPaddingLeft="200" rPaddingTop="30" rPaddingRight="200" rPaddingBottom="30" />
+            <entry key="table_modernFrame-none-5X7-whiteFM-*-none" image="" width="805" height="659" paddingLeft="170" paddingTop="20" paddingRight="170" paddingBottom="20" rWidth="1136" rHeight="656" rPaddingLeft="160" rPaddingTop="20" rPaddingRight="160" rPaddingBottom="20" />
+            <entry key="table_modernFrame-none-6X8-whiteFM-*-none" image="" width="857" height="727" paddingLeft="160" paddingTop="20" paddingRight="160" paddingBottom="20" rWidth="1261" rHeight="747" rPaddingLeft="180" rPaddingTop="20" rPaddingRight="180" rPaddingBottom="20" />
+            <entry key="table_modernFrame-none-8X10-whiteFM-*-none" image="" width="1037" height="867" paddingLeft="180" paddingTop="20" paddingRight="180" paddingBottom="20" rWidth="1478" rHeight="943" rPaddingLeft="200" rPaddingTop="30" rPaddingRight="200" rPaddingBottom="30" />
+            <entry key="table_modernFrame-none-5X7-mapleFM-*-none" image="" width="805" height="659" paddingLeft="170" paddingTop="20" paddingRight="170" paddingBottom="20" rWidth="1136" rHeight="656" rPaddingLeft="160" rPaddingTop="20" rPaddingRight="160" rPaddingBottom="20" />
+            <entry key="table_modernFrame-none-6X8-mapleFM-*-none" image="" width="857" height="727" paddingLeft="160" paddingTop="20" paddingRight="160" paddingBottom="20" rWidth="1261" rHeight="747" rPaddingLeft="180" rPaddingTop="20" rPaddingRight="180" rPaddingBottom="20" />
+            <entry key="table_modernFrame-none-8X10-mapleFM-*-none" image="" width="1037" height="867" paddingLeft="180" paddingTop="20" paddingRight="180" paddingBottom="20" rWidth="1478" rHeight="943" rPaddingLeft="200" rPaddingTop="30" rPaddingRight="200" rPaddingBottom="30" />
+            <entry key="table_modernFrame-none-5X7-espressoFM-*-none" image="" width="805" height="659" paddingLeft="170" paddingTop="20" paddingRight="170" paddingBottom="20" rWidth="1136" rHeight="656" rPaddingLeft="160" rPaddingTop="20" rPaddingRight="160" rPaddingBottom="20" />
+            <entry key="table_modernFrame-none-6X8-espressoFM-*-none" image="" width="857" height="727" paddingLeft="160" paddingTop="20" paddingRight="160" paddingBottom="20" rWidth="1261" rHeight="747" rPaddingLeft="180" rPaddingTop="20" rPaddingRight="180" rPaddingBottom="20" />
+            <entry key="table_modernFrame-none-8X10-espressoFM-*-none" image="" width="1037" height="867" paddingLeft="180" paddingTop="20" paddingRight="180" paddingBottom="20" rWidth="1478" rHeight="943" rPaddingLeft="200" rPaddingTop="30" rPaddingRight="200" rPaddingBottom="30" />
+            <entry key="table_woodPlaque-none-5X7-none-*-none" image="" width="848" height="762" paddingLeft="170" paddingTop="30" paddingRight="170" paddingBottom="30" rWidth="1069" rHeight="574" rPaddingLeft="160" rPaddingTop="20" rPaddingRight="160" rPaddingBottom="20" />
+            <entry key="table_woodPlaque-none-6X8-none-*-none" image="" width="866" height="730" paddingLeft="180" paddingTop="30" paddingRight="180" paddingBottom="30" rWidth="1033" rHeight="627" rPaddingLeft="140" rPaddingTop="30" rPaddingRight="140" rPaddingBottom="30" />
+            <entry key="table_woodPlaque-none-8X10-none-*-none" image="" width="980" height="835" paddingLeft="180" paddingTop="30" paddingRight="180" paddingBottom="30" rWidth="1081" rHeight="685" rPaddingLeft="150" rPaddingTop="30" rPaddingRight="150" rPaddingBottom="30" />
+
+            <entry key="floatFrame-deep-8X10-blackFM-*-none" image="" width="676" height="816" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="815" rHeight="676" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-deep-10X24-blackFM-*-none" image="" width="487" height="1043" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1278" rHeight="590" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-deep-11X14-blackFM-*-none" image="" width="762" height="940" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1072" rHeight="870" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-deep-12X12-blackFM-*-none" image="" width="909" height="910" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="909" rHeight="910" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-deep-16X16-blackFM-*-none" image="" width="1013" height="1014" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1013" rHeight="1014" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-deep-16X20-blackFM-*-none" image="" width="803" height="980" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1107" rHeight="906" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-deep-20X30-blackFM-*-none" image="" width="703" height="1010" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1425" rHeight="985" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-deep-24X36-blackFM-*-none" image="" width="792" height="1145" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1557" rHeight="1072" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+
+            <entry key="floatFrame-deep-8X10-whiteFM-*-none" image="" width="676" height="816" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="815" rHeight="676" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-deep-10X24-whiteFM-*-none" image="" width="487" height="1043" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1278" rHeight="590" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-deep-11X14-whiteFM-*-none" image="" width="762" height="940" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1072" rHeight="870" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-deep-12X12-whiteFM-*-none" image="" width="909" height="910" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="909" rHeight="910" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-deep-16X16-whiteFM-*-none" image="" width="1013" height="1014" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1013" rHeight="1014" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-deep-16X20-whiteFM-*-none" image="" width="803" height="980" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1107" rHeight="906" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-deep-20X30-whiteFM-*-none" image="" width="703" height="1010" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1425" rHeight="985" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-deep-24X36-whiteFM-*-none" image="" width="792" height="1145" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1557" rHeight="1072" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+
+            <entry key="floatFrame-deep-8X10-espressoFM-*-none" image="" width="676" height="816" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="815" rHeight="676" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-deep-10X24-espressoFM-*-none" image="" width="487" height="1043" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1278" rHeight="590" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-deep-11X14-espressoFM-*-none" image="" width="762" height="940" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1072" rHeight="870" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-deep-12X12-espressoFM-*-none" image="" width="909" height="910" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="909" rHeight="910" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-deep-16X16-espressoFM-*-none" image="" width="1013" height="1014" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1013" rHeight="1014" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-deep-16X20-espressoFM-*-none" image="" width="803" height="980" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1107" rHeight="906" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-deep-20X30-espressoFM-*-none" image="" width="703" height="1010" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1425" rHeight="985" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-deep-24X36-espressoFM-*-none" image="" width="792" height="1145" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1557" rHeight="1072" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+
+            <entry key="floatFrame-wide-8X10-blackFM-*-none" image="" width="735" height="873" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="888" rHeight="746" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-wide-10X24-blackFM-*-none" image="" width="532" height="1096" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1331" rHeight="638" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-wide-11X14-blackFM-*-none" image="" width="819" height="993" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1139" rHeight="935" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-wide-12X12-blackFM-*-none" image="" width="975" height="977" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="975" rHeight="977" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-wide-16X16-blackFM-*-none" image="" width="1066" height="1069" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1066" rHeight="1069" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-wide-16X20-blackFM-*-none" image="" width="846" height="1022" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1155" rHeight="953" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-wide-20X30-blackFM-*-none" image="" width="736" height="1043" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1467" rHeight="1025" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-wide-24X36-blackFM-*-none" image="" width="827" height="1184" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1604" rHeight="1114" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+
+            <entry key="floatFrame-wide-8X10-whiteFM-*-none" image="" width="735" height="873" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="888" rHeight="746" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-wide-10X24-whiteFM-*-none" image="" width="532" height="1096" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1331" rHeight="638" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-wide-11X14-whiteFM-*-none" image="" width="819" height="993" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1139" rHeight="935" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-wide-12X12-whiteFM-*-none" image="" width="975" height="977" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="975" rHeight="977" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-wide-16X16-whiteFM-*-none" image="" width="1066" height="1069" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1066" rHeight="1069" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-wide-16X20-whiteFM-*-none" image="" width="846" height="1022" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1155" rHeight="953" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-wide-20X30-whiteFM-*-none" image="" width="736" height="1043" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1467" rHeight="1025" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-wide-24X36-whiteFM-*-none" image="" width="827" height="1184" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1604" rHeight="1114" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+
+            <entry key="floatFrame-wide-8X10-espressoFM-*-none" image="" width="735" height="873" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="888" rHeight="746" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-wide-10X24-espressoFM-*-none" image="" width="532" height="1096" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1331" rHeight="638" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-wide-11X14-espressoFM-*-none" image="" width="819" height="993" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1139" rHeight="935" rPaddingLeft="30 " rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-wide-12X12-espressoFM-*-none" image="" width="975" height="977" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="975" rHeight="977" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-wide-16X16-espressoFM-*-none" image="" width="1066" height="1069" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1066" rHeight="1069" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-wide-16X20-espressoFM-*-none" image="" width="846" height="1022" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1155" rHeight="953" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-wide-20X30-espressoFM-*-none" image="" width="736" height="1043" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1467" rHeight="1025" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+            <entry key="floatFrame-wide-24X36-espressoFM-*-none" image="" width="827" height="1184" paddingLeft="30" paddingTop="30" paddingRight="30" paddingBottom="30" rWidth="1604" rHeight="1114" rPaddingLeft="30" rPaddingTop="30" rPaddingRight="30" rPaddingBottom="30" />
+        </variable>
+        <variable id="frameBorderAsset" keyPattern="product-color">
+            <entry key="contemporary-blackFM" assetUpUrl="/template-resources/images/bigNewPhotoFrame/black.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/black.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/black.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/black.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/black_texture.jpg">
+            </entry>
+            <entry key="contemporary-whiteFM" assetUpUrl="/template-resources/images/bigNewPhotoFrame/white_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/white_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/white_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/white_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/white_texture.jpg">
+            </entry>
+            <entry key="contemporary-mapleFM" assetUpUrl="/template-resources/images/bigNewPhotoFrame/maple_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/maple_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/maple_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/maple_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/maple_texture.jpg">
+            </entry>
+            <entry key="contemporary-espressoFM" assetUpUrl="/template-resources/images/bigNewPhotoFrame/espresso.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/espresso.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/espresso.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/espresso.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/espresso_texture.jpg">
+            </entry>
+            <entry key="metal-metalBlack" assetUpUrl="/template-resources/images/bigNewPhotoFrame/metal_black.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/metal_black.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/metal_black.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/metal_black.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/m_black.jpg">
+            </entry>
+            <entry key="metal-metalSilver" assetUpUrl="/template-resources/images/bigNewPhotoFrame/metal_silver_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/metal_silver_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/metal_silver_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/metal_silver_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/m_silver.jpg">
+            </entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque]-whiteTT" assetUpUrl="/template-resources/images/bigNewPhotoFrame/white_classic_up.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/white_classic_down.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/white_classic_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/white_classic_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/whiteTT.jpg">
+            </entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque]-blackTT" assetUpUrl="/template-resources/images/bigNewPhotoFrame/black_classic_up.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/black_classic_down.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/black_classic_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/black_classic_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/blackTT.jpg">
+            </entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque]-espressoTT" assetUpUrl="/template-resources/images/bigNewPhotoFrame/espresso_classic_up.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/espresso_classic_down.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/espresso_classic_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/espresso_classic_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/espressoTT.jpg">
+            </entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque]-mapleFM" assetUpUrl="/template-resources/images/bigNewPhotoFrame/maple_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/maple_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/maple_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/maple_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/maple_texture.jpg">
+            </entry>
+            <entry key="classicFrame-gold" assetUpUrl="/template-resources/images/bigNewPhotoFrame/baroque_gold_up.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/baroque_gold_down.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/baroque_gold_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/baroque_gold_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/baroqueFM.jpg">
+            </entry>
+            <entry key="flushMountCanvas-gold" assetUpUrl="/template-resources/images/bigNewPhotoFrame/baroque_gold_up.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/baroque_gold_down.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/baroque_gold_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/baroque_gold_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/baroqueFM.jpg">
+            </entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque]-blackFM" assetUpUrl="/template-resources/images/bigNewPhotoFrame/black.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/black.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/black.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/black.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/black_texture.jpg">
+            </entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque]-whiteFM" assetUpUrl="/template-resources/images/bigNewPhotoFrame/white_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/white_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/white_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/white_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/white_texture.jpg">
+            </entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque]-mapleTT" assetUpUrl="/template-resources/images/bigNewPhotoFrame/classic_maple_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/classic_maple_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/classic_maple_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/classic_maple_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/mapleTT.jpg">
+            </entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque]-espressoFM" assetUpUrl="/template-resources/images/bigNewPhotoFrame/espresso.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/espresso.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/espresso.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/espresso.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/espresso_texture.jpg">
+            </entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque]-metalBlack" assetUpUrl="/template-resources/images/bigNewPhotoFrame/metal_black.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/metal_black.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/metal_black.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/metal_black.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/m_black.jpg">
+            </entry>
+            <entry key="[table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque]-metalSilver" assetUpUrl="/template-resources/images/bigNewPhotoFrame/metal_silver_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/metal_silver_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/metal_silver_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/metal_silver_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/m_silver.jpg">
+            </entry>
+            <entry key="frameCanvas-blackCV" assetUpUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_black_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_black_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_black_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_black_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/black_texture.jpg">
+            </entry>
+            <entry key="frameCanvas-whiteCV" assetUpUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_white_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_white_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_white_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_white_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/white_texture.jpg">
+            </entry>
+            <entry key="frameCanvas-mapleCV" assetUpUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_maple_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_maple_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_maple_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_maple_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/maple_texture.jpg">
+            </entry>
+            <entry key="frameCanvas-espressoCV" assetUpUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_espresso_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_espresso_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_espresso_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/frameCanvas_espresso_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/espresso_texture.jpg">
+            </entry>
+            <entry key="rusticFrame-brownFM" assetUpUrl="/template-resources/images/bigNewPhotoFrame/rustic_brown_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/rustic_brown_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/rustic_brown_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/rustic_brown_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/brownFM.jpg">
+            </entry>
+            <entry key="rusticFrame-greyFM" assetUpUrl="/template-resources/images/bigNewPhotoFrame/rustic_grey_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/rustic_grey_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/rustic_grey_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/rustic_grey_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/greyFM.jpg">
+            </entry>
+            <entry key="classicFrame-blackCurve" assetUpUrl="/template-resources/images/bigNewPhotoFrame/curve_black_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/curve_black_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/curve_black_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/curve_black_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/blackCurve.jpg">
+            </entry>
+            <entry key="classicFrame-whiteCurve" assetUpUrl="/template-resources/images/bigNewPhotoFrame/curve_white_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/curve_white_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/curve_white_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/curve_white_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/whiteCurve.jpg">
+            </entry>
+            <entry key="classicFrame-mapleCurve" assetUpUrl="/template-resources/images/bigNewPhotoFrame/curve_maple_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/curve_maple_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/curve_maple_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/curve_maple_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/mapleCurve.jpg">
+            </entry>
+            <entry key="classicFrame-espressoCurve" assetUpUrl="/template-resources/images/bigNewPhotoFrame/curve_espresso_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/curve_espresso_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/curve_espresso_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/curve_espresso_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/espressoCurve.jpg">
+            </entry>
+            <entry key="flushMountCanvas-blackCurve" assetUpUrl="/template-resources/images/bigNewPhotoFrame/curve_black_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/curve_black_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/curve_black_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/curve_black_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/blackCurve.jpg">
+            </entry>
+            <entry key="flushMountCanvas-whiteCurve" assetUpUrl="/template-resources/images/bigNewPhotoFrame/curve_white_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/curve_white_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/curve_white_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/curve_white_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/whiteCurve.jpg">
+            </entry>
+            <entry key="flushMountCanvas-mapleCurve" assetUpUrl="/template-resources/images/bigNewPhotoFrame/curve_maple_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/curve_maple_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/curve_maple_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/curve_maple_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/mapleCurve.jpg">
+            </entry>
+            <entry key="flushMountCanvas-espressoCurve" assetUpUrl="/template-resources/images/bigNewPhotoFrame/curve_espresso_top.jpg" assetDownUrl="/template-resources/images/bigNewPhotoFrame/curve_espresso_bottom.jpg" assetLeftUrl="/template-resources/images/bigNewPhotoFrame/curve_espresso_left.jpg" assetRightUrl="/template-resources/images/bigNewPhotoFrame/curve_espresso_right.jpg" thumbnailUrl="/template-resources/images/bigNewPhotoFrame/espressoCurve.jpg">
+            </entry>
+        </variable>
+        <variable id="sizeRatioType" keyPattern="size">
+            <entry key="[5X7,6X8,8X10,11X14,16X20,20X30,24X36]" supportRatioType="Portrait,Landscape" defaultRatioType="Landscape" />
+            <entry key="[4X4,6X6,12X12,16X16]" supportRatioType="Square" defaultRatioType="Square" />
+            <entry key="10X24" supportRatioType="Portrait,Landscape" defaultRatioType="Landscape" />
+        </variable>
+        <variable id="availableOperation" keyPattern="product-frameStyle">
+            <entry key="contemporary-*" supportMatte="true" supportFrameStyle="true" supportColor="true" supportCanvasBorder="false" supportGlassStyle="true" />
+            <entry key="metal-*" supportMatte="true" supportFrameStyle="true" supportColor="true" supportCanvasBorder="false" supportGlassStyle="true" />
+            <entry key="canvas-*" supportMatte="false" supportFrameStyle="false" supportColor="false" supportCanvasBorder="true" supportGlassStyle="false" />
+            <entry key="table_classicFrame-none" supportMatte="false" supportFrameStyle="true" supportColor="true" supportCanvasBorder="false" supportGlassStyle="false" />
+            <entry key="table_metalCube-none" supportMatte="false" supportFrameStyle="true" supportColor="true" supportCanvasBorder="false" supportGlassStyle="false" />
+            <entry key="table_modernFrame-none" supportMatte="false" supportFrameStyle="true" supportColor="true" supportCanvasBorder="false" supportGlassStyle="false" />
+            <entry key="table_crystalPlaque-none" supportMatte="false" supportFrameStyle="true" supportColor="false" supportCanvasBorder="false" supportGlassStyle="false" />
+            <entry key="table_woodPlaque-none" supportMatte="false" supportFrameStyle="true" supportColor="false" supportCanvasBorder="false" supportGlassStyle="false" />
+            <entry key="classicFrame-baroqueFrame" supportMatte="true" supportFrameStyle="true" supportColor="true" supportCanvasBorder="false" supportGlassStyle="true" />
+            <entry key="classicFrame-curveFrame" supportMatte="true" supportFrameStyle="true" supportColor="true" supportCanvasBorder="false" supportGlassStyle="true" />
+            <entry key="flushMountCanvas-baroqueCanvas" supportMatte="false" supportFrameStyle="true" supportColor="true" supportCanvasBorder="false" supportGlassStyle="false" />
+            <entry key="flushMountCanvas-curveCanvas" supportMatte="false" supportFrameStyle="true" supportColor="true" supportCanvasBorder="false" supportGlassStyle="false" />
+            <entry key="frameCanvas-frameCanvasModernStyle" supportMatte="false" supportFrameStyle="true" supportColor="true" supportCanvasBorder="false" supportGlassStyle="false" />
+            <entry key="rusticFrame-*" supportMatte="true" supportFrameStyle="true" supportColor="true" supportCanvasBorder="false" supportGlassStyle="true" />
+            <entry key="floatFrame-*" supportMatte="false" supportFrameStyle="true" supportColor="true" supportCanvasBorder="false" supportGlassStyle="false" />
+        </variable>
+        <variable id="viewVariable" keyPattern="product-frameStyle">
+            <entry key="[contemporary,metal,floatFrame]-*" showFrameBorder="true" showFoldLine="false" showBleedLine="false" />
+            <entry key="canvas-*" showFrameBorder="false" showFoldLine="true" showBleedLine="false" />
+            <entry key="table_classicFrame-none" showFrameBorder="true" showFoldLine="false" showBleedLine="false" />
+            <entry key="table_metalCube-none" showFrameBorder="true" showFoldLine="false" showBleedLine="false" />
+            <entry key="table_modernFrame-none" showFrameBorder="true" showFoldLine="false" showBleedLine="false" />
+            <entry key="table_crystalPlaque-none" showFrameBorder="false" showFoldLine="false" showBleedLine="true" />
+            <entry key="table_woodPlaque-none" showFrameBorder="false" showFoldLine="false" showBleedLine="true" />
+            <entry key="classicFrame-baroqueFrame" showFrameBorder="true" showFoldLine="false" showBleedLine="false" />
+            <entry key="classicFrame-curveFrame" showFrameBorder="true" showFoldLine="false" showBleedLine="false" />
+            <entry key="flushMountCanvas-baroqueCanvas" showFrameBorder="true" showFoldLine="false" showBleedLine="false" />
+            <entry key="flushMountCanvas-curveCanvas" showFrameBorder="true" showFoldLine="false" showBleedLine="false" />
+            <entry key="frameCanvas-frameCanvasModernStyle" showFrameBorder="true" showFoldLine="false" showBleedLine="false" />
+            <entry key="rusticFrame-*" showFrameBorder="true" showFoldLine="false" showBleedLine="false" />
+        </variable>
+        <variable id="productNameInView" keyPattern="product">
+            <entry key="[contemporary,metal,table_classicFrame,table_crystalPlaque,table_modernFrame,table_metalCube,table_metalPlaque,table_woodPlaque,classicFrame,rusticFrame,floatFrame]" productNameUpperCase="Frame" productNameLowerCase="frame" productNameUpperCasePlural="Frames" productNameLowerCasePlural="frames" />
+            <entry key="[canvas,flushMountCanvas,frameCanvas]" productNameUpperCase="Canvas Print" productNameLowerCase="canvas print" productNameUpperCasePlural="Canvas Prints" productNameLowerCasePlural="canvas prints" />
+        </variable>
+    </variables>
+</product-spec>

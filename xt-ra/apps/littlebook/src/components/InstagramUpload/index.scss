@@ -1,0 +1,240 @@
+@import "../../../../common/styles/fonts";
+
+.instagramPhotos{
+   .is_download{
+    pointer-events:none;
+    opacity:0.5
+  }
+ .head{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: center;
+  height:24px;
+  .albums-tap{
+    cursor:pointer;
+  }
+  span{
+    font-size:10px;
+    line-height: 10px;
+    color:#7B7B7B;
+    font-family:'Gotham-Book';
+    &.active{
+     color:#1B1B1B;
+    }
+  }
+  .select-all{
+    font-family:'Gotham-Medium';
+    font-size:13px;
+    color:#3A3A3A;
+    line-height: 13px;
+    cursor:pointer;
+    display:block;
+    height:20px;
+    img{
+      width:20px;
+      height:20px;
+    }
+    span{
+      vertical-align: 7px;
+      font-size:12px;
+      line-height:20px;
+    }
+  }
+
+ }
+ .albums{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  overflow: auto;
+  flex-wrap: 1;
+  width:562px;
+  height:270px;
+
+  .item{
+    padding-left: 4px;
+    padding-top:4px;
+    cursor:pointer;
+    height:120px;
+    width:90px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    // &:nth-child(5n) {
+    //   margin-right: 0;
+    // }
+    .img-box{
+       box-shadow: -5px -4px 5px #8C8C8C;
+      width:90px;
+      height:90px;
+      display:flex;
+      flex-direction: row;
+      justify-content:center;
+      align-items: center;
+
+        img{
+           max-width:90px;
+           max-height: 90px;
+        }
+    }
+    .title{
+    @include font-normal();
+    height:30px;
+    text-align: center;
+    font-size:12px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    padding: 0 5px;
+
+  }
+  }
+ }
+ .imgs{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow: auto;
+    flex-wrap: 1;
+    width:100%;
+    height:366px;
+    position:relative;
+    .notice-text {
+      text-align:center;
+      margin: auto;
+    }
+    .item{
+    cursor:pointer;
+    width:120px;
+    height:120px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    position:relative;
+    // &:nth-child(6n) {
+    //   margin-right: 0;
+    // }
+    .img-box{
+       width:120px;
+       height:120px;
+      display:flex;
+      flex-direction: row;
+      justify-content:center;
+      align-items: center;
+      div{
+        &:hover {
+          .selectedHover-icon{
+            display:block;
+          }
+        }
+        position: relative;
+         max-width:120px;
+        max-height: 120px;
+      .each-photo{
+         max-width:120px;
+         max-height: 120px;
+      }
+      .selected-icon{
+          height:20px;
+          width:20px;
+          position:absolute;
+          bottom: 5px;
+          right:5px;
+        }
+      .selectedHover-icon{
+          display:none;
+          height:20px;
+          width:20px;
+          position:absolute;
+          bottom: 5px;
+          right:5px;
+      }
+      }
+    }
+  }
+ }
+ .upload-wrap{
+  background: #F6F6F6;
+  margin-left: -40px;
+  width: 960px;
+  height:45px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 13px;
+  align-items: center;
+  .count{
+    @include font-normal();
+    font-weight: 400;
+    color: #3A3A3A;
+    margin-left:15px;
+  }
+  .upload{
+    height:24px;
+    background: #393939;
+    width:140px;
+    color:#fff;
+    text-align:center;
+    line-height:24px;
+    cursor:pointer;
+    margin-right:10px;
+  }
+ }
+ .selected-photos{
+    background: #F6F6F6;
+    height: 106px;
+    width: 960px;
+    overflow: auto;
+    margin-left: -40px;
+  .item-wrap{
+    display: inline-block;
+    white-space: nowrap;
+    height:100%;
+    vertical-align: middle;
+    margin-left: 7px;
+    .item{
+      display: inline-block;
+      margin-left:10px;
+      vertical-align: middle;
+        .img-box{
+
+        width:86px;
+        height:86px;
+        position:relative;
+        overflow:hidden;
+         &:hover{
+          .selectedHover-icon{
+              display:block;
+             }}
+         .selectedHover-icon{
+          display:none;
+          height:20px;
+          width:20px;
+          position:absolute;
+          bottom: 5px;
+          right:5px;
+         }
+         img{
+          width:100%;
+          height:100%;
+         }
+        .each-photo{
+          position:absolute;
+           cursor:pointer;
+           &:hover{
+            opacity: 0.5;
+           }
+        }
+      }
+    }
+  }
+  .no-select{
+    @include font-normal();
+    font-size: 13px;
+    color: #3A3A3A;
+    line-height:60px;
+    display:inline-block;
+  }
+}
+}

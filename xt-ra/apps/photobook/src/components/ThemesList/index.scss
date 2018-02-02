@@ -1,0 +1,35 @@
+.themes-list{
+  padding: 30px;
+
+  // display: flex;
+  // flex-wrap: wrap;
+  overflow: auto;
+
+  .row{
+    overflow: hidden;
+
+    .theme-item{
+      display: inline-block;
+
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+  }
+  .empty-theme{
+    width: 150px;
+    margin: auto;
+    height: 115px;
+    margin-top: 18%;
+    img,div{
+      margin: auto;
+      text-align: center;
+    }
+    .text{
+       margin-left: -16px;
+       font-size: 14px;
+       color: #7B7B7B;
+       line-height: 38px;
+    }
+  }
+}

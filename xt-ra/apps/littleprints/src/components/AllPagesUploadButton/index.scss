@@ -1,0 +1,44 @@
+.add-photo-button-wrap {
+  width: 300px;
+  height: 300px;
+
+  &.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &.float {
+    position: relative;
+    float: left;
+  }
+
+  .inner-container {
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    border-radius: 12px;
+    box-sizing: border-box;
+    border: 1px dashed #969696;
+  }
+
+  .add-photo-content {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+    img {
+      display: block;
+      margin: 0 auto 25px;
+    }
+    span {
+      font-size: 14px;
+    }
+  }
+}
+

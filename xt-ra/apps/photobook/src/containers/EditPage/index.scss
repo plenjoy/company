@@ -1,0 +1,140 @@
+@import '../../../../common/styles/fonts';
+@import '../../../../common/styles/common';
+
+.edit-page {
+  position: relative;
+
+  &.hide {
+    display: none;
+  }
+  ul.action-bar {
+    position: relative;
+    z-index: 40000;
+    margin: 12px auto 0;
+  }
+  ul.spreads-list {
+    margin: 0 auto;
+  }
+
+  .x-loading {
+    z-index: 1000;
+  }
+
+  .btns-list {
+    position: relative;
+    text-align: center;
+    // z-index: 99;
+
+    .hide {
+      display: none;
+    }
+
+    .cameo-painted-btns {
+      // margin: 0 auto;
+    }
+  }
+
+  .x-simple-pagination {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 99;
+
+    .previous-icon {
+      float: left;
+      margin-left: 10px;
+    }
+
+    .next-icon {
+      float: right;
+      margin-right: 10px;
+    }
+  }
+
+  .x-toggle-panel {
+    width: calc(100% - 280px);
+    position: fixed;
+    overflow: hidden;
+    overflow-x: auto;
+    bottom: 0;
+    z-index: 0;
+    background-color: #f6f6f6;
+    .tab-nav {
+      position: absolute;
+      top: 2px;
+      left: 74px;
+      li {
+        display: inline-block;
+        padding: 0 10px;
+        font-size: 12px;
+        &.active {
+          font-weight: 500;
+        }
+      }
+    }
+    .ReactTabs__TabList {
+      position: absolute;
+      top: 23px;
+      left: 0;
+      height: calc(100% - 24px);
+      width: 74px;
+      text-align: center;
+      li {
+        height: 53px;
+        line-height: 53px;
+        width: 100%;
+        text-align: center;
+        background-color: #fff;
+        color: #7b7b7b;
+        box-sizing: border-box;
+        border-right: 1px solid #d6d6d6;
+        border-top: 1px solid #d6d6d6;
+        font-size: 12px;
+        &:first-child {
+          border-bottom: 1px solid #d6d6d6;
+          border-top: none;
+        }
+        &:focus {
+          outline: none;
+        }
+        &.active {
+          color: #3a3a3a;
+          border-bottom: none;
+          background-color: #f6f6f6;
+          border: none;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  .drop-external-files {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(240, 240, 240, 0.9);
+    z-index: 1000000;
+    display: none;
+
+    &.active {
+      display: block;
+    }
+
+    .text {
+      color: #3a3a3a;
+      font-size: 40px;
+      line-height: 48px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate3d(-50%, -50%, 0);
+      @include font-medium();
+    }
+  }
+
+  .hover-tooltip {
+    @include hover-tooltip;
+  }
+}

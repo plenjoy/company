@@ -1,0 +1,23 @@
+.popup-wrap{
+  width:510px;
+  text-align:center;
+
+  .popup-mes{
+    line-height:25px;
+    padding:60px 10px 35px;
+    text-align:center;
+    font-size:16px;
+    color:#3a3a3a;
+  }
+
+  .button-wrap{
+    margin-bottom:50px;
+  }
+
+  .button-white{
+  background:white;
+  margin-left:20px;
+  color:#393939;
+  border:1px solid #393939;
+  }
+}

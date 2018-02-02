@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="行间距" transform="translate(-1275.000000, -320.000000)">
+            <g id="Group-15" transform="translate(1275.000000, 320.000000)">
+                <g id="Group-15-Copy"></g>
+                <rect id="Rectangle-3-Copy-2" fill="#3A3A3A" x="0" y="0" width="20" height="20" rx="1"></rect>
+                <path d="M4,4 L16,4" id="Line-Copy-15" stroke="#FFFFFF" stroke-linecap="square"></path>
+                <path d="M4,16 L16,16" id="Line-Copy-16" stroke="#FFFFFF" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

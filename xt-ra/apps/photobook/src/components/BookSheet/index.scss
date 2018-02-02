@@ -1,0 +1,57 @@
+.book-sheet {
+  user-select: none;
+  position: relative;
+
+  .no-event {
+    pointer-events: none;
+  }
+
+  .left-page-drop-target {
+    margin-left: -1em;
+    padding-right: 1em;
+    padding-bottom: 1.625em;
+    z-index: 200000000;
+    opacity: 0;
+  }
+
+  .right-page-drop-target {
+    margin-right: -1em;
+    padding-left: 1em;
+    padding-bottom: 1.625em;
+    z-index: 200000000;
+    opacity: 0;
+  }
+
+  .inner-effect {
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .effect-img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      user-select: none;
+      position: absolute;
+    }
+  }
+
+  .inner-sheet {
+    position: absolute;
+    overflow: hidden;
+    .inner-sheet-with-bleed {
+      position: absolute;
+    }
+    // &:hover {
+    //   .page-hover {
+    //     border-color: #4CC1FC;
+    //   }
+    // }
+  }
+
+  .x-delete-icon {
+    position: absolute;
+    right: -9px;
+    top: -9px;
+    z-index: 1000;
+  }
+}

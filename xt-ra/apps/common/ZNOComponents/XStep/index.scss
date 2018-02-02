@@ -1,0 +1,40 @@
+@import "../../styles/fonts";
+
+.x-step{
+  margin: 22px 20px;
+  max-width: 400px;
+
+  .steps-btns{
+    text-align: right;
+    margin-top: 22px;
+
+    .step-btn{
+      @include font-light();
+      color: #7b7b7b;
+      font-size: 14px;
+      cursor: pointer;
+      line-height: 20px;
+
+      margin-right: 20px;
+
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+
+    .skip{
+    }
+
+    .previous{
+      @include font-medium();
+      font-size: 16px;
+      color: #45C0FF;
+    }
+
+    .next{
+      @include font-medium();
+      font-size: 16px;
+      color: #45C0FF;
+    }
+  }
+}

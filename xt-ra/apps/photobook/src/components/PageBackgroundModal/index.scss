@@ -1,0 +1,118 @@
+@import "../../../../common/styles/fonts.scss";
+.page-background-modal {
+  width: 500px;
+  padding: 40px;
+  box-sizing:border-box;
+  margin-left: -250px;
+  margin-top: -120px;
+  -webkit-transform: none!important;
+  transform: none!important;
+
+  .modal-title{
+    @include font-light();
+    font-size:24px;
+    color:#3a3a3a;
+    margin:0;
+  }
+
+  .setting-box {
+    background-color: #f6f6f6;
+    padding-left: 10px;
+    height: 50px;
+    margin-top: 20px;
+
+    > span {
+      display: inline-block;
+      margin-right: 25px;
+      line-height: 50px;
+      vertical-align: middle;
+    }
+    .select-container {
+      width: 150px;
+      display: inline-block;
+      line-height: 50px;
+      font-size: 13px;
+      vertical-align: middle;
+
+
+      .Select-control {
+        height: 20px;
+        border: 1px solid #d6d6d6;
+        border-radius: 4px;
+        background-color: #fff;
+
+        .Select-clear-zone {
+          display: none;
+        }
+        .Select-value,
+        .Select-clear-zone,
+        .Select-arrow-zone,
+        .Select-input,
+        .Select-placeholder {
+          height: 20px;
+          line-height: 20px;
+        }
+
+        .Select-menu-outer {
+          font-size: 12px;
+        }
+      }
+    }
+
+    .slider-container {
+      display: inline-block;
+      width: 250px;
+      margin: 0 18px 0 3px;
+
+      .rc-slider {
+        background-color: #ccc;
+
+        .rc-slider-track {
+          background-color: #3a3a3a;
+        }
+        .rc-slider-handle {
+          background-color: #fff;
+          border: 1px solid #3a3a3a;
+        }
+      }
+    }
+
+    .size-input {
+      @include font-normal();
+      width: 40px;
+      box-sizing: border-box;
+      padding: 2px 4px;
+      border: 1px solid #d6d6d6;
+      font-size: 13px;
+      color: #3a3a3a;
+      text-align: center;
+    }
+
+    .color-picker {
+      margin-left: -4px;
+    }
+  }
+
+  .button-wrap{
+    margin-top:30px;
+    text-align:center;
+
+    .little-button{
+      height:30px;
+      font-size:13px;
+      line-height:30px;
+    }
+
+    .white{
+      @include font-normal();
+      color:#3a3a3a;
+      margin:0 40px 0 0;
+      background:white;
+      border:1px solid #7b7b7b;
+      line-height: 28px;
+      &:hover{
+        background:#f0f0f0;
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+$size-10: 10px;
+$size-12: 12px;
+
+.todo-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li{
+    padding: $size-10 $size-12;
+  }
+}

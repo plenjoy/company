@@ -1,0 +1,39 @@
+.upload-status {
+  font-size: 12px;
+  display: none;
+  color: #3a3a3a;
+  text-align: left;
+  padding: 14px 12px 14px 2px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #fff;
+  margin-top: 10px;
+  &.isShown {
+    display: block;
+  }
+  .left {
+    img {
+      vertical-align: middle;
+      position: relative;
+      top: -2px;
+    }
+    b {
+      color: #EF5222;
+      font-weight: normal;
+      display: inline-block;
+      margin-top: 12px;
+      margin-left: 21px;
+      &.only {
+        margin-top: 3px;
+        margin-left: 10px;
+      }
+    }
+  }
+  .right {
+    line-height: 20px;
+    a {
+      color: #3a3a3a;
+      font-weight: 500;
+    }
+  }
+}

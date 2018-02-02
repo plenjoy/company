@@ -1,0 +1,17 @@
+$width: 1250px;
+#app{
+  width: $width;
+  margin: 0 auto;
+  padding-top: 10px;
+  border: 1px solid rgba(214, 214, 214, 1);
+  box-shadow: 0 0 2px 1px rgba(0,0,0,.35);
+}
+
+.app-container {
+  position: relative;
+
+  .side-bar {
+    position: absolute;
+    right: -130px;
+  }
+}

@@ -1,0 +1,32 @@
+.cover-bgcolor-changer {
+  position: absolute;
+  width: 24px;
+  height: 444px;
+  right: 46px;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
+  justify-content: center;
+  .color-control {
+    display: inline-block;
+    border: 1px solid transparent;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+
+    &.selected {
+      border-color: #7b7b7b;
+    }
+
+    .color-icon {
+      display: block;
+      width: 18px;
+      height: 18px;
+      margin: 1px;
+      border: 1px solid transparent;
+      border-radius: 50%;
+    }
+  }
+}

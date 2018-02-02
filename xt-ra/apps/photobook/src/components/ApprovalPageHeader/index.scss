@@ -1,0 +1,25 @@
+@import "../../../../common/styles/fonts.scss";
+
+.approval-header-cancel, .approval-header-approve {
+  @include font-medium();
+  position: absolute;
+  top: 4px;
+  width: 120px;
+  height: 30px;
+  color: #fff;
+  border:none;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.approval-header-cancel {
+  right: 200px;
+  background-color: #de3418;
+}
+
+.approval-header-approve {
+  right: 40px;
+  background-color: #50df68;
+}

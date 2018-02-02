@@ -1,0 +1,54 @@
+@import '../../scss/index';
+
+.DateLine {
+  padding: 30px 30px 20px 0;
+  border-bottom: 1px solid #D6D6D6;
+  overflow: hidden;
+  &:first-child {
+    padding-top: 46px;
+  }
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.DateLine__head {
+  margin-bottom: 5px;
+}
+
+.DateLine__head--title {
+  @include font-family(500);
+  font-size: 13px;
+  color: #3A3A3A;
+}
+
+.DateLine__head--props {
+  margin-top: 10px;
+  display: table;
+  width: 100%;
+  .right {
+    display: table-cell;
+    text-align: right;
+  }
+
+  .left {
+    display: table-cell;
+    text-align: left;
+  }
+}
+
+.DateLine__head--prop {
+  @include font-family(300);
+  font-size: 12px;
+  display: inline-block;
+  border-right: 1px solid #7B7B7B;
+  padding: 0 5px;
+  color: #7B7B7B;
+  &:last-child {
+    border-right: 0;
+    padding-right: 0;
+  }
+  &:first-child {
+    padding-left: 0;
+  }
+}

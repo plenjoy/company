@@ -1,0 +1,29 @@
+.book-page {
+  position: absolute;
+  overflow: hidden;
+
+  &:focus {
+    outline: 0;
+  }
+
+  .box {
+    box-sizing: border-box;
+    pointer-events: none;
+    &.hover {
+      border: 1px solid #0090e9;
+      background: rgba(79, 173, 242, 0.3);
+    }
+  }
+
+  &.pressbook.inner.disabled {
+    .element-container {
+      .backgorund-element {
+        background-color: #c1c1c1;
+
+        .tip {
+          color: #000;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.photo-element-thumbnail {
+  background-color:#fff;
+
+  .box {
+    box-sizing: border-box;
+    pointer-events: none;
+    border: 2px solid transparent;
+  }
+
+  &.has-image{
+    background-color: transparent;
+  }
+
+  .layer-image {
+    border: none;
+    outline: none;
+  }
+
+  .x-loading.show{
+    position: absolute;
+    z-index: 9999;
+  }
+
+  .photo-img{
+    font-size: 0;
+    user-drag: none;
+    user-select: none;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}

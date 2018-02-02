@@ -1,0 +1,9 @@
+module.exports={
+	dpi:300,
+	imageQualityBufferPercent:30,
+	products:[],
+	colors:[],
+	sizes:[],
+	measures:[],
+	specXml:''
+}

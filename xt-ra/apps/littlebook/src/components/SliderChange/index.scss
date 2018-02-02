@@ -1,0 +1,65 @@
+.change-value {
+  background: #f6f6f6;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  // overflow: hidden;
+  position: relative;
+  label {
+    float: left;
+    width: 61px;
+  }
+  input[type='number'] {
+    width: 45px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #d6d6d6;
+    box-sizing: border-box;
+    position: relative;
+    top: 15px;
+    left: 10px;
+    float: left;
+    outline: none;
+    padding: 0 3px;
+    text-align: center;
+    font-size: 12px;
+  }
+  .show-value {
+    position: absolute;
+    margin-left: 40px;
+    top: -15px;
+    background: #3a3a3a;
+    padding: 4px;
+    border-radius: 4px;
+    color: #fff;
+    line-height: 16px;
+    transform: translate3d(-50%, 0, 0);
+  }
+  .show-value:before {
+     content: '';
+     position: absolute;
+     width: 10px;
+     height: 10px;
+     background:#3a3a3a;
+     top: 100%;
+     left: 50%;
+     transform: translate3d(-50%, -5px, 0) rotate(-45deg);
+  }
+  .rc-slider {
+    top: 23px;
+    width: 170px;
+    float: left;
+    margin-left: 15px;
+    .rc-slider-track {
+      background-color: #3a3a3a;
+    }
+    .rc-slider-handle {
+      background-color: #fff;
+      border: 1px solid #3a3a3a;
+    }
+    .rc-slider-mark {
+      top: 0!important;
+    }
+  }
+}

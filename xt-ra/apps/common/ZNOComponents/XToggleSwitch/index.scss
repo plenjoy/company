@@ -1,0 +1,44 @@
+@import '../../styles/common.scss';
+@import '../../styles/fonts.scss';
+
+.x-toggle-switch {
+  @include clearfix();
+
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  display: inline-block;
+
+  .icon{
+    width: 40px;
+    height: 30px;
+    display: inline-block;
+    float: left;
+
+    background: url("./icons/close.svg") center 1px no-repeat;
+    background-size: 40px 30px;
+  }
+
+  .native-checkbox{
+    position: absolute;
+    top: -50px;
+
+    &:checked + .icon{
+      background: url("./icons/open.svg") center 1px no-repeat;
+    }
+  }
+
+  &.lg{
+    .icon{
+      width: 60px;
+      height: 45px;
+      background-size: 60px 45px;
+    }
+
+    .native-checkbox{
+      &:checked + .icon{
+        background-size: 60px 45px;
+      }
+    }
+  }
+}

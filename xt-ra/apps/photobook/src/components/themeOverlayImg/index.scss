@@ -1,0 +1,24 @@
+.show-refresh{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #F6F6F6;
+  z-index: 9999;
+  margin: auto;
+  background: url('./icons/refresh.svg') no-repeat center;
+  cursor:pointer;
+  .failed-text{
+    font-family: Gotham-Book;
+    height:32px;
+    width:200px;
+    text-align:center;
+    margin-top: 207px;
+    margin-left:50%;
+    transform:translate(-50%);
+    font-size: 12px;
+    color: #7B7B7B;
+    letter-spacing: 0;
+    line-height: 16px;
+  }
+}
+

@@ -1,0 +1,7 @@
+.book-page-thumbnail {
+  position: absolute;
+
+  &.flip {
+    transform: scale(-1, 1);
+  }
+}

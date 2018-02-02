@@ -1,0 +1,6 @@
+[
+  {"id": 1, "text": "leaning react", "completed": false},
+  {"id": 2, "text": "less", "completed": false},
+  {"id": 3, "text": "redux", "completed": false},
+  {"id": 4, "text": "es2015", "completed": false}
+]

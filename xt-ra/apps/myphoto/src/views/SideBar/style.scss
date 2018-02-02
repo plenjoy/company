@@ -1,0 +1,35 @@
+@import '../../scss/index';
+
+.SideBar {
+  position: fixed;
+  width: $Sidebar-width;
+  height: 100%;
+  padding-top: $Header-height;
+  background: white;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.SideBar__item {
+  margin: 26px 0 26px 30px;
+  position: relative;
+  &:first-child {
+    margin-top: 40px;
+  }
+}
+
+.SideBar__item--link {
+  @include font-family(400);
+  cursor: pointer;
+  font-size: 14px;
+  color: #3A3A3A;
+  input {
+    margin: 0 13px 0 0;
+    transform: translateY(13%);
+  }
+  &.active {
+    color: black;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product-spec version="1.1">
+    <global>
+        <dpi>300</dpi>
+
+        <options>
+            <optionGroup id="product">
+                <option id="LRB">
+                    <title><![CDATA[Little Round Block]]></title>
+                </option>
+            </optionGroup>
+            <optionGroup id="size">
+                <option id="8X10" name="8x10" />
+                <option id="11X14" name="11x14" />
+                <option id="10X10" name="10x10" />
+                <option id="14X14" name="14x14" />
+            </optionGroup>
+            <optionGroup id="finish">
+                <option id="Matte" name="Matte" />
+            </optionGroup>
+            <optionGroup id="orientation">
+                <option id="Portrait" name="Portrait" />
+                <option id="Landscape" name="Landscape" />
+            </optionGroup>
+            <optionGroup id="shape">
+                <option id="Rect" name="Rect" />
+                <option id="Round" name="Round" />
+                <option id="Square" name="Square" />
+            </optionGroup>
+        </options>
+    </global>
+    <parameters>
+        <!-- 面板尺寸／英寸 -->
+        <parameter id="baseSizeInInch" keyPattern="product-size-orientation-shape">
+            <!-- 204mm * 254mm -->
+            <entry key="LRB-8X10-Portrait-Rect" width="8.03150" height="10.0000" />
+
+            <!-- 254mm * 204mm -->
+            <entry key="LRB-8X10-Landscape-Rect" width="10.0000" height="8.03150" />
+
+            <!-- 280mm * 356mm -->
+            <entry key="LRB-11X14-Portrait-Rect" width="11.023622" height="14.015748" />
+
+            <!-- 356mm * 280mm -->
+            <entry key="LRB-11X14-Landscape-Rect" width="14.015748" height="11.023622" />
+
+            <!-- 255mm * 255mm -->
+            <entry key="LRB-10X10-*-Square" width="10.03937007874016" height="10.03937007874016" />
+
+            <!-- 356mm * 356mm -->
+            <entry key="LRB-14X14-*-Square" width="14.01574803149606" height="14.01574803149606" />
+
+            <!-- 255mm * 255mm -->
+            <entry key="LRB-10X10-*-Round" width="10.03937007874016" height="10.03937007874016" />
+
+            <!-- 356mm * 356mm -->
+            <entry key="LRB-14X14-*-Round" width="14.01574803149606" height="14.01574803149606" />
+
+        </parameter>
+
+        <!-- 出血／英寸 -->
+        <parameter id="bleedInInch" keyPattern="product-size">
+            <!-- 3mm -->
+            <entry key="LRB-[8X10,11X14,10X10,14X14]" left="0.118110" top="0.118110" right="0.118110" bottom="0.118110" />
+        </parameter>
+
+        <!-- 圆角半径／英寸 -->
+        <parameter id="cornerRadiusInInch" keyPattern="product-size">
+            <!-- 4mm -->
+            <entry key="LRB-8X10" value="0.157480" />
+            <entry key="LRB-11X14" value="0.31496" />
+            <!-- 8mm -->
+            <entry key="LRB-10X10" value="0.3149606299212598" />
+            <entry key="LRB-14X14" value="0.3149606299212598" />
+        </parameter>
+
+        <!-- 厚度／英寸 -->
+        <parameter id="thicknessInInch" keyPattern="product-size">
+            <!-- 不明 -->
+            <entry key="LRB-[8X10,11X14,10X10,14X14]" value="0" />
+        </parameter>
+    </parameters>
+
+    <configurableOptionMap>
+        <optionMap id="shape" keyPattern="product">
+            <entry key="LRB" value="Rect,Square,Round" defaultValue="Square"></entry>
+        </optionMap>
+        <optionMap id="finish" keyPattern="product">
+            <entry key="LRB" value="Matte" defaultValue="Matte"></entry>
+        </optionMap>
+        <optionMap id="orientation" keyPattern="product">
+            <entry key="LRB" value="Portrait,Landscape" defaultValue="Landscape"></entry>
+        </optionMap>
+        <optionMap id="size" keyPattern="shape">
+            <entry key="Rect" value="8X10,11X14" defaultValue="8X10"></entry>
+            <entry key="Square" value="10X10,14X14" defaultValue="10X10"></entry>
+            <entry key="Round" value="10X10,14X14" defaultValue="10X10"></entry>
+        </optionMap>
+    </configurableOptionMap>
+
+    <variables>
+        <variable id="foreground" keyPattern="product-size-shape">
+           <entry key="LRB-8X10-Rect"  width="649" height="769" paddingLeft="40" paddingTop="52" paddingRight="65" paddingBottom="41" rWidth="864" rHeight="709" rPaddingLeft="37" rPaddingTop="52" rPaddingRight="63" rPaddingBottom="41" />
+           <entry key="LRB-11X14-Rect"  width="1238" height="1505" paddingLeft="50" paddingTop="70" paddingRight="100" paddingBottom="50" rWidth="1321" rHeight="1039" rPaddingLeft="50" rPaddingTop="70" rPaddingRight="100" rPaddingBottom="50" />
+           
+           <entry key="LRB-10X10-Square"  width="776" height="776" paddingLeft="40" paddingTop="60" paddingRight="60" paddingBottom="40" rWidth="776" rHeight="776" rPaddingLeft="40" rPaddingTop="60" rPaddingRight="60" rPaddingBottom="40" />
+           <entry key="LRB-14X14-Square"  width="1048" height="1048" paddingLeft="40" paddingTop="60" paddingRight="60" paddingBottom="40" rWidth="1048" rHeight="1048" rPaddingLeft="40" rPaddingTop="60" rPaddingRight="60" rPaddingBottom="40" />
+
+           <entry key="LRB-10X10-Round"  width="788" height="779" paddingLeft="40" paddingTop="52" paddingRight="61" paddingBottom="40" rWidth="788" rHeight="779" rPaddingLeft="40" rPaddingTop="52" rPaddingRight="61" rPaddingBottom="40" />
+           <entry key="LRB-14X14-Round"  width="938" height="925" paddingLeft="40" paddingTop="51" paddingRight="64" paddingBottom="40" rWidth="938" rHeight="925" rPaddingLeft="40" rPaddingTop="51" rPaddingRight="64" rPaddingBottom="40" />
+        </variable>
+    </variables>
+
+</product-spec>

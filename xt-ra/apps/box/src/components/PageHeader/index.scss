@@ -1,0 +1,33 @@
+@import "../../../common/styles/fonts";
+
+.logo img{
+  height:100%;
+}
+
+.project-title{
+  display: inline-block;
+  margin-top: 10px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.head-nav{
+  float:right;
+  height: 38px;
+}
+
+.nav-item{
+  font-weight: 500;
+  margin-right: 50px;
+  display: inline-block;
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+  line-height: 38px;
+
+  &:last-child {
+    margin-right: 30px;
+  }
+}

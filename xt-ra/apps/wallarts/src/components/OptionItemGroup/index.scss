@@ -1,0 +1,70 @@
+@import "../../../../common/styles/fonts.scss";
+.OptionItemGroup {
+	text-align: left;
+	user-select: none;
+	border-bottom: 1px solid #d6d6d6;
+	padding: 20px 0 20px 26px;
+
+  &:nth-of-type(1){
+    padding-top: 0;
+  }
+  &.hide {
+    display: none;
+  }
+
+    .option-item-title {
+      @include font-medium();
+      font-size: 14px;
+      color: #3a3a3a;
+    }
+    .item{
+	    display:inline-block;
+	    vertical-align:middle;
+       
+	    .item-span{
+	    	display: inline-block;
+        margin-top: 14px;
+        min-width:148px;
+        max-width:200px;
+        line-height: 1;
+        &:nth-of-child(even) {
+          background: red;
+        }
+
+        input, label{
+          cursor: pointer;
+  	      vertical-align:middle;
+  	    }
+        input {
+          width: 14px;
+          height: 14px;
+        }
+  	    label{
+  	      @include font-light();
+  	      font-size:12px;
+  	      color:#7b7b7b;
+  	      margin-left:4px;
+  	    }
+
+        &.selected label {
+          @include font-normal();
+          color:#3a3a3a;
+        }
+      }
+    }
+
+}
+
+.colorPick {
+  margin-right: 5px;
+}
+
+.color-picker{
+  .popover {
+    position: fixed;
+    left: 162px;
+    bottom: 107px;
+    top: auto;
+  }
+}
+

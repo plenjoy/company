@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project clientId="web-h5" createAuthor="web-h5|1.0|1">
+  <guid>1437527</guid>
+  <userId>988732</userId>
+  <artisan/>
+  <title>rewafwsfew</title>
+  <description/>
+  <createdDate/>
+  <updatedDate>2016-09-26 20:29:49</updatedDate>
+  <imageBox>
+    <spec version="1.0">
+      <option id="product" value="IB"/>
+      <option id="type" value="IW"/>
+      <option id="size" value="8X11"/>
+      <option id="thickness" value="T"/>
+      <option id="paper" value="EP"/>
+    </spec>
+    <imageBoxSetting/>
+    <spreads>
+      <spread id="UNIQUE-0" type="coverPage" w="12236.220472440944" h="4913.385826771653" bleedTop="35.43307086614173"
+              bleedBottom="35.43307086614173" bleedLeft="35.43307086614173" bleedRight="35.43307086614173"
+              spineThicknessWidth="826.7716535433071"
+              wrapSize="330.7086614173228"
+              pageNumber="0">
+        <elements>
+          <element type="PhotoElement" elType="background" x="0" y="0" width="12236.220472440944"
+                   height="4913.385826771653" px="0" py="0" pw="1" ph="1" rot="0" dep="0" imageid="279827" imgRot="0"
+                   imgFlip="false" cropLUX="0" cropLUY="0.19827454573217287" cropRLX="1" cropRLY="0.8017254542678272"/>
+        </elements>
+      </spread>
+      <spread id="UNIQUE-1" type="innerPage" w="4051.1811023622045" h="3106.299212598425" bleedTop="35.43307086614173"
+              bleedBottom="35.43307086614173" bleedLeft="35.43307086614173" bleedRight="35.43307086614173"
+              wrapSize="177.1653543307087"
+              pageNumber="1">
+        <elements>
+          <element type="PhotoElement" elType="background" x="0" y="0" width="5586.614173228347"
+                   height="4346.456692913386" px="0" py="0" pw="1" ph="1" rot="0" dep="0" imageid="279826" imgRot="0"
+                   imgFlip="false" cropLUX="0.07134375" cropLUY="0" cropRLX="0.9286562500000001" cropRLY="1"/>
+        </elements>
+      </spread>
+    </spreads>
+  </imageBox>
+  <mergeInfo>
+    <mergedMobileImages/>
+  </mergeInfo>
+  <images>
+    <image id="279827" guid="7e703951-1df5-4dff-bd94-2231f7cd4e5d" encImgId="kHMbOciZnRE%3D" order="0"
+           name="U401P1T117D780385F2577DT20130515193129" width="4256" height="2832" shotTime=""/>
+    <image id="279826" guid="5eb753f7-2cfb-4864-a685-3b228b7b3a32" encImgId="g7WxZJ2vhq0%3D" order="1" name="surface"
+           width="5000" height="3335" shotTime=""/>
+    <image id="279830" guid="9422fe11-5aec-455f-afc0-cf2e99624979" encImgId="AQZmM4GyFJ8%3D" order="2"
+           name="BM783Q2200AJ0003" width="3648" height="5472" shotTime=""/>
+    <image id="279828" guid="a59f8531-30d9-4991-a272-65e10423a304" encImgId="JbnbgsdAwFg%3D" order="3"
+           name="20160603110031377" width="5616" height="3744" shotTime=""/>
+    <image id="279829" guid="49185610-1d9a-430f-a634-a06ddac61b0b" encImgId="Po132vmTw8A%3D" order="4"
+           name="201603091457506270" width="5760" height="3840" shotTime=""/>
+  </images>
+  <designImages/>
+</project>

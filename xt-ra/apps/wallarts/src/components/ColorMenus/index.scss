@@ -1,0 +1,48 @@
+.color-menu {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  .menu-item {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid transparent;
+    margin-bottom: 6px;
+    &:hover {
+      border-color: #cccccc;
+    }
+
+    &.selected {
+      border: 1px solid #7B7B7B;
+  
+      .color-menu-item {
+        cursor: default;
+      }
+    }
+  }
+  .color-menu-item {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+
+    img {
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      // top: 50%;
+      // left: 50%;
+      // transform: translate(-50%, -50%);
+    }
+  }
+
+  .hide {
+    display: none;
+  }
+}

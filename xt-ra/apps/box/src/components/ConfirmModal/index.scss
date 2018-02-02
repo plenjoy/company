@@ -1,0 +1,38 @@
+.confirm-wrap{
+  width:510px;
+  padding:40px;
+  text-align:center;
+  box-sizing: border-box;
+
+  .confirm-title{
+    font-size:24px;
+    line-height: 1;
+    color: #3a3a3a;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .confirm-mes{
+    line-height:25px;
+    // padding:20px 0px 35px;
+    text-align:center;
+    font-size:16px;
+    color:#3a3a3a;
+  }
+
+  .button-wrap{
+    margin-top:30px;
+    // margin-bottom:50px;
+  }
+
+  .button-white{
+  background:white;
+  margin-left:20px;
+  color:#393939;
+  border:1px solid #393939;
+  }
+}
+
+.hide{
+  display: none;
+}

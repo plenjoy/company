@@ -1,0 +1,17 @@
+.text-element {
+  position: absolute;
+  overflow: hidden;
+  opacity: 0.9;
+  .text-element-content {
+    font-family: Roboto-Light;
+    transform-origin: left top;
+    position: absolute;
+    top: 50%;
+    padding: 0 17px;
+    box-sizing: border-box;
+  }
+  .emoji {
+    width: 44px;
+    vertical-align: middle;
+  }
+}

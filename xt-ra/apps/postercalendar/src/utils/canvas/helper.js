@@ -1,0 +1,227 @@
+import { sortBy, max } from 'lodash';
+import { backgroundTextElementName, defaultTextColor } from '../../constants/canvas';
+import { inPointInBox } from '../point';
+import { shapeType, ignoreShapes, elementTypes } from '../../constants/strings';
+
+/**
+ * 根据elements的zindex进行升序排序.
+ * @param  {Immutable.List}  elements 待排序的elements集合
+ */
+export const sortElementsByZIndex = (elements) => {
+  const newElements = setSpineMaxDep(elements);
+  return newElements.sort((e1, e2) => {
+    const zIndex1 = e1.get('dep');
+    const zIndex2 = e2.get('dep');
+
+    if (zIndex1 > zIndex2) {
+      return 1;
+    } else if (zIndex1 < zIndex2) {
+      return -1;
+    }
+    return 0;
+  });
+};
+
+/**
+ * 解析元素渲染时, 要用到的所有参数.
+ * @param  {Immutable.Map} element
+ */
+export const getRenderElementOptions = (element) => {
+  const computed = element.get('computed');
+
+  const offset = {
+    x: computed ? Math.round(computed.get('width') / 2) : 0,
+    y: computed ? Math.round(computed.get('height') / 2) : 0
+  };
+
+  const imgUrl = computed ? computed.get('imgUrl') : '';
+  const x = computed ? computed.get('left') + offset.x : 0;
+  const y = computed ? computed.get('top') + offset.y : 0;
+  const width = computed ? Math.floor(computed.get('width')) : 0;
+  const height = computed ? Math.floor(computed.get('height')) : 0;
+  const zIndex = element ? element.get('dep') : 0;
+
+
+  const rot = element.get('rot');
+  const id = element.get('id');
+
+  return {
+    imgUrl,
+    offset,
+    x,
+    y,
+    width,
+    height,
+    zIndex,
+    rot,
+    id
+  };
+};
+
+/**
+ * 获取绘制页面上提示文本的参数.
+ * @param  {[type]} that
+ * @param  {[type]} text
+ * @param  {String} color  默认值为: #b7b7b7
+ * @param  {Number} fontSize 默认值为14
+ */
+export const getBackgroundElementOptions = (that, text, color = defaultTextColor, fontSize = 14) => {
+  const { data } = that.props;
+  const { ratio, page } = data;
+
+  const pageWidth = page ? (page.get('width') * ratio.workspace) : 0;
+  const pageHeight = page ? (page.get('height') * ratio.workspace) : 0;
+  const padding = 20;
+
+  return {
+    x: 0,
+    y: (pageHeight / 2) - padding,
+    fill: color,
+    fontFamily: 'Gotham SSm A',
+
+    // 设置一下文本容器的大小. 以至于我们可以设置align做水平居中.
+    width: pageWidth,
+    align: 'center',
+    id: shapeType.backgroundElement,
+
+    padding,
+    text,
+    fontSize,
+
+
+    // konva上的默认名称
+    name: backgroundTextElementName
+  };
+};
+
+/**
+ * 取得元素数据
+ * @param  {[type]} that [description]
+ * @param  {[type]} id   [description]
+ * @return {[type]}      [description]
+ */
+export const findElementData = (that, id) => {
+  const { elementArray } = that.state;
+
+  if (elementArray) {
+    return elementArray.find(ele => ele.get('id') === id);
+  }
+
+  return null;
+};
+
+/**
+ * 取得天窗数据
+ * @param  {[type]} that [description]
+ * @return {[type]}      [description]
+ */
+export const findCameoElementData = (that) => {
+  const { elementArray } = that.state;
+
+  if (elementArray) {
+    return elementArray.find(ele => ele.get('type') === elementTypes.cameo);
+  }
+
+  return null;
+};
+
+/**
+ * 找到鼠标当前位置的元素
+ * @param  {[type]} layer [description]
+ * @param  {[type]} ex    [description]
+ * @param  {[type]} ey    [description]
+ * @return {[type]}       [description]
+ */
+// export const getIntersection = (that, layer, ex, ey) => {
+//   const shape = layer.getIntersection({
+//     x: ex,
+//     y: ey
+//   });
+
+//   if (shape) {
+//     // 忽略: controlelement
+//     // 判断当前坐标下, 找到的元素是不是需要忽略的元素.
+//     // 如果不是就表示找到了期望的元素.
+//     const shapeId = shape.id();
+//     if (ignoreShapes.indexOf(shapeId) === -1) {
+//       return shape;
+//     }
+//   }
+
+//   // 如果找到的是忽略的元素. 就返回layer中的第一个不是忽略的元素.
+//   const shapes = layer.getAllIntersections({
+//     x: ex,
+//     y: ey
+//   });
+
+//   // 去掉只包含element的shape
+//   const elementShapes = shapes.filter((sp) => {
+//     const spId = sp.id();
+//     const newIgnoreShapes = ignoreShapes.concat([shapeType.backgroundRect]);
+//     return (
+//       newIgnoreShapes.indexOf(spId) === -1 && spId
+//     );
+//   });
+
+//   const sortedElementShapes = sortBy(elementShapes, (konvaObject) => {
+//     const element = findElementData(that, konvaObject.id());
+
+//     if (element) {
+//       return -element.get('dep');
+//     }
+//   });
+
+//   return sortedElementShapes[0];
+// };
+
+export const getIntersection = (point, elements) => {
+  const sortedElements = elements.sort((e1, e2) => {
+    return e2.get('dep') - e1.get('dep');
+  });
+
+  return sortedElements.find((ele) => {
+    const computed = ele.get('computed');
+
+    if (!computed) {
+      return false;
+    }
+
+    const degree = ele.get('rot') || 0;
+
+    return inPointInBox(point, {
+      x: computed.get('left'),
+      y: computed.get('top'),
+      width: computed.get('width'),
+      height: computed.get('height'),
+      degree
+    });
+  });
+};
+
+export const setSpineMaxDep = (elementArray) => {
+  const allDep = [];
+  let newElementArray = null;
+  let spineTextelemet = null;
+
+  elementArray.forEach((ele, index) => {
+    // 获取所有元素的dep.
+    allDep[index] = ele.get('dep');
+
+    // 查找spine上的text element.
+    if (ele.get('isSpineText')) {
+      spineTextelemet = ele;
+    }
+  });
+
+  // 找到最大的dep+1 赋值到spinetexteleme 保证选择到该元素
+  if (spineTextelemet) {
+    const maxDep = max(allDep);
+    const index = elementArray.findIndex(ele => ele.get('isSpineText'));
+
+    newElementArray = elementArray.setIn([String(index), 'dep'], maxDep + 1);
+
+    return newElementArray;
+  }
+
+  return elementArray;
+};

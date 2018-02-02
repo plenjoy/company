@@ -1,0 +1,56 @@
+.select-themes{
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 77px;
+  bottom: 0;
+  z-index: 20;
+  background-color: #f6f6f6;
+  box-sizing: border-box;
+  overflow: auto;
+  user-select: none;
+  overflow: hidden;
+
+  .theme-categories{
+    background-color: #f6f6f6;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border-right: 1px solid #e8e8e8;
+    padding: 30px 50px;
+    overflow-y: auto;
+    width: 280px;
+    box-sizing: border-box;
+
+    .x-radio{
+      margin-bottom: 20px;
+    }
+  }
+
+  .themes-list{
+    background-color: #F0F0F0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 281px;
+    right: 0;
+  }
+
+  .no-image {
+    width: 170px;
+    font-size: 14px;
+    color: #7b7b7b;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    img {
+      display: block;
+      margin: 0 auto 15px;
+    }
+    p {
+      padding-left: 20px;
+    }
+  }
+}

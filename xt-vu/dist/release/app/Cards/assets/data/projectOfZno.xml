@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?><resultData state="success"> <code>200</code>  <info>save success</info><project schemaVersion="1" clientId="web-flex" productType="FD">
+  <guid>1513374</guid>
+  <userId>209460</userId>
+  <artisan>henry</artisan>
+  <title>Card-Family Stars-20161102011402512</title>
+  <description/>
+  <createdDate>2016-11-2 1:14:03</createdDate>
+  <updatedDate>2016-11-02 18:36:55</updatedDate>
+  <card id="87DD0174-2196-C8FD-BA68-F0CDDE13DE0B">
+    <spec version="1.0">
+      <option id="size" value="5X7"/>
+      <option id="paper" value="SP"/>
+      <option id="product" value="FD"/>
+      <option id="orientation" value="LA"/>
+    </spec>
+    <spreads>
+      <spread id="C490CC1F-ACD6-9569-D64A-F0CDDE1FF480" width="2067.6850395" height="1476.7559055" bleedTop="24" bleedBottom="24" bleedLeft="24" bleedRight="24" type="frontPage" month="0" year="0" tplGuid="93e35169-2c2a-4e3f-a4b2-f859f6c053f2" pageNumber="0" styleId="119" styleItemId="0" w="2067.6850395" h="1476.7559055">
+        <elements>
+          <element type="CalendarStyleElement" x="0" y="0" width="2067.6850395" height="1476.7559055" px="0" py="0" pw="1" ph="1" rot="0" dep="-999" styleId="119" styleItemId="0" styleGuid="4227c714-85ba-439e-b958-a479c75d6bd6" imageId="0"/>
+          <element type="PhotoElement" x="-3.687392943087697" y="199.20915533998172" width="2080.3443356602043" height="964.5595298948575" px="-0.0017833436295401008" py="0.1348964677222899" pw="1.006122448979592" ph="0.6531611123425825" rot="0" dep="1" imageid="67013745" imgRot="0" imgFlip="false" cropLUX="0" cropLUY="0.03634621280676051" cropRLX="1" cropRLY="0.9636537871932396"/>
+          <element type="DecorationElement" x="68.62241586522056" y="691.8769581278906" width="1848.7773168824604" height="315.260978544458" px="0.03318804099961693" py="0.4685113873938665" pw="0.8941290774776437" ph="0.21348211804693407" rot="-25" dep="1" decorationid="9efe32c5-a051-440b-a546-8f639a0f08bc" decorationtype="sticker"/>
+          <element type="DecorationElement" x="68.62241586522056" y="1025.7958814273238" width="1945.3129254646772" height="355.6109785444579" px="0.03318804099961693" py="0.6946279189450811" pw="0.9408168499081879" ph="0.24080552325541923" rot="-12" dep="1" decorationid="cf49225c-a8d3-4463-ae59-4e1f915e3243" decorationtype="sticker"/>
+        </elements>
+      </spread>
+      <spread id="8E83871A-AA90-6C8B-E6FD-F0CDDE1F3EC8" width="2067.6850395" height="1476.7559055" bleedTop="24" bleedBottom="24" bleedLeft="24" bleedRight="24" type="backPage" month="0" year="0" tplGuid="89e4d618-87f7-4ca6-a982-835986e2c3b5" pageNumber="1" styleId="119" styleItemId="1" w="2067.6850395" h="1476.7559055">
+        <elements>
+          <element type="CalendarStyleElement" x="0" y="0" width="2067.6850395" height="1476.7559055" px="0" py="0" pw="1" ph="1" rot="0" dep="-999" styleId="119" styleItemId="1" styleGuid="4227c714-85ba-439e-b958-a479c75d6bd6" imageId="1"/>
+          <element type="PhotoElement" x="295.87003095640256" y="285.14176817176855" width="717.360115744898" height="859.0851260849531" px="0.14309240783980753" py="0.19308659414178897" pw="0.3469387755102041" ph="0.5817380671276775" rot="0" dep="2" imageid="67013746" imgRot="0" imgFlip="false" cropLUX="0.2912430055057315" cropLUY="0" cropRLX="0.7087569944942684" cropRLY="1"/>
+          <element type="PhotoElement" x="1084.3496001831274" y="286.9309450854429" width="713.1403503581632" height="856.9897965091361" px="0.5244268732753131" py="0.19429815314555576" pw="0.34489795918367344" ph="0.5803191937932197" rot="0" dep="1" imageid="67013747" imgRot="0" imgFlip="false" cropLUX="0.2919635819285508" cropLUY="0" cropRLX="0.7080364180714491" cropRLY="1"/>
+          <element type="TextElement" x="706.3605896344092" y="1346.168233466748" width="708.4431968311205" height="77.70506104457981" px="0.3416190455221452" py="0.9115712545676006" pw="0.342626262364617" ph="0.0526187576126675" rot="0" dep="3" color="15655077" fontSize="0.03385799901918862" textAlign="left" fontWeight="normal" fontFamily="Dubiel Italic">Anna%2C%20Brian%2C%20Jacob%20%26%20Olivia</element>
+          <element type="TextElement" x="708.9232682383872" y="1484.4577199417279" width="712.0406533609622" height="115.45898437499999" px="0.3428584405726592" py="1.00521536051628" pw="0.34436610980807075" ph="0.07818420359450527" rot="-35" dep="4" color="15655077" fontSize="0.03385799901918862" textAlign="left" fontWeight="normal" fontFamily="Dubiel">THE%20WALKER%20FAMILY%20%202015</element>
+          <element type="TextElement" x="325.6541545152906" y="184.76480160683766" width="1528.820495710386" height="758.5238281249999" px="0.15749698251627292" py="0.12511532943169779" pw="0.7393875113978092" ph="0.5136419805737489" rot="12" dep="5" color="0" fontSize="0.11240855674370621" textAlign="center" fontWeight="normal" fontFamily="Dubiel">lgjhkglkghjkgkjgjhkghjkghjk</element>
+          <element type="DecorationElement" x="725.0633426043997" y="1012.1337018051287" width="264" height="54.99999999999999" px="0.3506643075483739" py="0.6853764376601159" pw="0.12767902023600242" ph="0.03724379892110748" rot="-45" dep="6" decorationid="bd8a7d0c-d58f-4dc9-a88a-3c97d9051f56" decorationtype="sticker"/>
+          <element type="DecorationElement" x="145.41281374598447" y="750.9551549008044" width="554" height="89" px="0.07032638480624091" py="0.5085167779617215" pw="0.2679324894346415" ph="0.060267238254155746" rot="-33" dep="7" decorationid="715d2ca4-3abe-4ca5-80af-79433cdc9f0e" decorationtype="sticker"/>
+          <element type="DecorationElement" x="102.30010090527847" y="872.0465626726162" width="695" height="351" px="0.04947566914253841" py="0.5905150332731249" pw="0.3361246934243246" ph="0.23768315311470412" rot="-24" dep="8" decorationid="72493485-00b9-4095-bb59-bf0e248fe479" decorationtype="sticker"/>
+        </elements>
+      </spread>
+      <spread id="CFCDE9B4-0EB0-B77F-6859-F0CDDE20FFA8" width="2067.6850395" height="2953.511811" bleedTop="24" bleedBottom="24" bleedLeft="24" bleedRight="24" type="insidePage" month="0" year="0" tplGuid="null" pageNumber="2" styleId="119" styleItemId="2" w="2067.6850395" h="2953.511811">
+        <elements>
+          <element type="PhotoElement" x="656.9133250459139" y="307.75526021543703" width="984.503937" height="492.2519685" px="0.31770473379483666" py="0.10419977298524405" pw="0.4761382503585116" ph="0.16666666666666666" rot="0" dep="2" imageid="67013744" imgRot="0" imgFlip="false" cropLUX="0" cropLUY="0" cropRLX="1" cropRLY="1"/>
+          <element type="PhotoElement" x="248.41682769023842" y="1860.4442446248013" width="984.503937" height="492.2519685" px="0.12014248927888439" py="0.6299091940976164" pw="0.4761382503585116" ph="0.16666666666666666" rot="0" dep="3" imageid="67013743" imgRot="0" imgFlip="false" cropLUX="0" cropLUY="0" cropRLX="1" cropRLY="1"/>
+          <element type="PhotoElement" x="935.1730858556882" y="992.77831386534" width="984.503937" height="492.2519685" px="0.4522802399739896" py="0.3361348717712441" pw="0.4761382503585116" ph="0.16666666666666666" rot="19" dep="4" imageid="67013746" imgRot="0" imgFlip="false" cropLUX="0" cropLUY="0" cropRLX="1" cropRLY="1"/>
+          <element type="DecorationElement" x="406.27821967232575" y="351.2802238520844" width="292" height="54" px="0.19648941299617395" py="0.11893645474644234" pw="0.14122073450345723" ph="0.018283319470361856" rot="-54" dep="5" decorationid="b4f2b8f6-988c-4af5-82a0-f71ea359aa36" decorationtype="sticker"/>
+          <element type="DecorationElement" x="76.0172722398603" y="835.5295357730902" width="1561.4091806878546" height="376.5736144494892" px="0.036764435002268295" py="0.2828935820270841" pw="0.755148463551987" ph="0.1275002906868312" rot="-37" dep="6" decorationid="f0a55ec5-829e-4897-8f0e-98485df3fe8b" decorationtype="sticker"/>
+          <element type="DecorationElement" x="1432.9082906000024" y="804.1333721295867" width="378" height="306" px="0.6930012372418688" py="0.27226346924860384" pw="0.18281314261063986" ph="0.10360547699871718" rot="-40" dep="7" decorationid="af638c34-8eb6-433d-8c6a-e7eaecb09a1e" decorationtype="sticker"/>
+        </elements>
+      </spread>
+    </spreads>
+    <cardSetting >
+      <styleId value="119"/>
+      <festival value="CH"/>
+      <trim value="S"/>
+    </cardSetting>
+  </card>
+  <images>
+    <image id="67013743" guid="45ce468c-0c2a-4370-91e8-b9e8609d2375" order="1" name="002" width="800" height="400"/>
+    <image id="67013744" guid="afdf77f6-61bd-4c70-98c7-abd2f87dbcc7" order="2" name="003" width="800" height="400"/>
+    <image id="67013745" guid="9fff3b82-d154-4e2f-85d0-0035c71384e8" order="3" name="004" width="800" height="400"/>
+    <image id="67013746" guid="c0aa5dcf-0970-4d43-af37-bd31222b32dd" order="4" name="005" width="800" height="400"/>
+    <image id="67013747" guid="3d073218-2da0-4224-960c-2209dd62e6f7" order="5" name="006" width="800" height="400"/>
+    <image id="67013748" guid="054b4845-e3d8-45ae-9297-9534fd1f6744" order="6" name="138-140H1114912" width="1920" height="1200"/>
+    <image id="67013749" guid="029fc76d-20e4-428e-b3c4-b195a29544f1" order="7" name="140-150104092607-50" width="1680" height="1050"/>
+  </images>
+  <deletedPhoto>true</deletedPhoto>
+  <decorations>
+    <decoration guid="9efe32c5-a051-440b-a546-8f639a0f08bc" name="OtoStudio_ChristmasCard_84_sticker02" type="sticker" count="1" displayRatio="1" width="1110" height="189"/>
+    <decoration guid="cf49225c-a8d3-4463-ae59-4e1f915e3243" name="OtoStudio_ChristmasCard_84_sticker" type="sticker" count="1" displayRatio="1" width="1256" height="230"/>
+    <decoration guid="bd8a7d0c-d58f-4dc9-a88a-3c97d9051f56" name="OtoStudio_ChristmasCard_76_front2" type="sticker" count="1" displayRatio="1" width="264" height="55"/>
+    <decoration guid="715d2ca4-3abe-4ca5-80af-79433cdc9f0e" name="OtoStudio_ChristmasCard_73_back" type="sticker" count="1" displayRatio="1" width="554" height="89"/>
+    <decoration guid="b4f2b8f6-988c-4af5-82a0-f71ea359aa36" name="OtoStudio_ChristmasCard_76_back2" type="sticker" count="1" displayRatio="1" width="292" height="54"/>
+    <decoration guid="f0a55ec5-829e-4897-8f0e-98485df3fe8b" name="OtoStudio_ChristmasCard_76_front1" type="sticker" count="1" displayRatio="1" width="1139" height="276"/>
+    <decoration guid="af638c34-8eb6-433d-8c6a-e7eaecb09a1e" name="Decoration1" type="sticker" count="1" displayRatio="1" width="378" height="306"/>
+    <decoration guid="72493485-00b9-4095-bb59-bf0e248fe479" name="OtoStudio_ChristmasCard_40_front" type="sticker" count="1" displayRatio="1" width="695" height="351"/>
+  </decorations>
+</project></resultData>

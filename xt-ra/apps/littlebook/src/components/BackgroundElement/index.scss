@@ -1,0 +1,24 @@
+.backgorund-element {
+  &.element {
+    .x-handler{
+      border: 0;
+    }
+  }
+  .vertical-middle-line {
+    top:0;
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    width: 1px;
+    background: #B7B7B7;
+    transform: translate3d(-50%, 0, 0);
+  }
+  .tip {
+    position: absolute;
+    color: #B7B7B7;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}

@@ -1,0 +1,23 @@
+@import '../../scss/index';
+
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.App {
+  min-height: 100%;
+  padding: $Header-height 0 0 $Sidebar-width;
+  box-sizing: border-box;
+}

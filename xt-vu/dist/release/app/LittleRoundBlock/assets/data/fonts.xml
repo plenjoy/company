@@ -1,0 +1,73 @@
+<fontFamilies>
+    <fontFamily id="font_arial" name="Arial" displayName="Arial">
+        <font id="font_arial_narrow" displayName="Normal" fontFamily="Arial Narrow" fontFace="Arial Narrow" weight="normal" isDefault="true" />
+        <font id="font_arial_narrow_bold" displayName="Bold" fontFamily="Arial Narrow Bold" fontFace="Arial Narrow Bold" weight="bold" />
+        <font id="font_arial_narrow_bold_italic" displayName="Italic" fontFamily="Arial Narrow Bold Italic" fontFace="Arial Narrow Bold Italic" weight="bold" />
+    </fontFamily>
+    <fontFamily id="font_brush_script_std" name="Brush Script Std" displayName="Brush Script">
+        <font id="font_brush_script_std" displayName="Normal" fontFamily="Brush Script Std" fontFace="Brush Script Std" weight="normal" isDefault="true" />
+    </fontFamily>
+    <fontFamily id="font_chaparral_pro_light_italic" name="ChaparralPro-LightIt" displayName="Chaparral Pro Light">
+        <font id="font_chaparral_pro_light_italic" displayName="Normal" fontFamily="ChaparralPro-LightIt" fontFace="ChaparralPro-LightIt" weight="normal" isDefault="true" />
+    </fontFamily>
+    <fontFamily id="font_charlemagne_std_bold" name="CharlemagneStd-Bold" displayName="Charlemagne Std">
+        <font id="font_charlemagne_std_bold" displayName="Bold" fontFamily="CharlemagneStd-Bold" fontFace="CharlemagneStd-Bold" weight="normal" isDefault="true" />
+    </fontFamily>
+    <fontFamily id="font_comfortaa" name="Comfortaa" displayName="Comfortaa">
+        <font id="font_comfortaa" displayName="Normal" fontFamily="Comfortaa" fontFace="Comfortaa" weight="normal" isDefault="true" />
+        <font id="font_comfortaa_thin" displayName="Thin" fontFamily="Comfortaa Thin" fontFace="Comfortaa Thin" weight="normal" />
+        <font id="font_comfortaa_bold" displayName="Bold" fontFamily="Comfortaa Bold" fontFace="Comfortaa Bold" weight="bold" />
+    </fontFamily>
+    <fontFamily id="font_courier_new" name="Courier New" displayName="Courier New">
+        <font id="font_courier_new" displayName="Normal" fontFamily="Courier New" fontFace="Courier New" weight="normal" isDefault="true" />
+        <font id="font_courier_new_bold" displayName="Bold" fontFamily="Courier New Bold" fontFace="Courier New Bold" weight="bold" />
+    </fontFamily>
+    <fontFamily id="font_felix_titling" name="Felix Titling" displayName="Felix Titling">
+        <font id="font_felix_titling" displayName="Normal" fontFamily="Felix Titling" fontFace="Felix Titling" weight="normal" isDefault="true" />
+    </fontFamily>
+    <fontFamily id="font_georgia" name="Georgia" displayName="Georgia">
+        <font id="font_georgia" displayName="Normal" fontFamily="Georgia" fontFace="Georgia" weight="normal" isDefault="true" />
+        <font id="font_georgia_bold" displayName="Bold" fontFamily="Georgia Bold" fontFace="Georgia Bold" weight="bold" />
+    </fontFamily>
+    <fontFamily id="font_impact" name="Impact" displayName="Impact">
+        <font id="font_impact" displayName="Normal" fontFamily="Impact" fontFace="Impact" weight="normal" isDefault="true" />
+    </fontFamily>
+    <fontFamily id="font_libertine" name="Linux Libertine" displayName="Linux Libertine">
+        <font id="font_libertine" displayName="Normal" fontFamily="Linux Libertine" fontFace="Linux Libertine" weight="normal" isDefault="true" />
+    </fontFamily>
+    <fontFamily id="font_lobster" name="Lobster" displayName="Lobster">
+        <font id="font_lobster" displayName="Normal" fontFamily="Lobster1.4" fontFace="Lobster1.4" weight="normal" isDefault="true" />
+    </fontFamily>
+    <fontFamily id="font_lucida_calligraphy" name="Lucida Calligraphy" displayName="Lucida Calligraphy">
+        <font id="font_lucida_calligraphy_italic" isDefault="true"
+              displayName="Italic" fontFamily="Lucida Calligraphy Italic" fontFace="Lucida Calligraphy Italic" weight="normal" />
+    </fontFamily>
+    <fontFamily id="font_Lucida_console" name="Lucida Console" displayName="Lucida Console">
+        <font id="font_Lucida_console" displayName="Normal" fontFamily="Lucida Console" fontFace="Lucida Console" weight="normal" isDefault="true" />
+    </fontFamily>
+    <fontFamily id="font_lucida_sans_unicode" name="Lucida Sans Unicode" displayName="Lucida Sans Unicode">
+        <font id="font_lucida_sans_unicode" displayName="Normal" fontFamily="Lucida Sans Unicode" fontFace="Lucida Sans Unicode" weight="normal" isDefault="true" />
+    </fontFamily>
+    <fontFamily id="font_nueva_std_italic" name="NuevaStd-Italic" displayName="Nueva Std">
+        <font id="font_nueva_std_italic" displayName="Italic" fontFamily="NuevaStd-Italic" fontFace="NuevaStd-Italic" weight="normal" isDefault="true" />
+    </fontFamily>
+    <fontFamily id="font_palatino_linotype" name="Palatino Linotype" displayName="Palatino Linotype">
+        <font id="font_palatino_linotype" displayName="Normal" fontFamily="Palatino Linotype" fontFace="Palatino Linotype" weight="normal" isDefault="true" />
+        <font id="font_palatino_linotype_bold" displayName="Bold" fontFamily="Palatino Linotype Bold" fontFace="Palatino Linotype Bold" weight="bold" />
+    </fontFamily>
+    <fontFamily id="font_segoe_script" name="Segoe Script" displayName="Segoe Script">
+        <font id="font_segoe_script" displayName="Normal" fontFamily="Segoe Script" fontFace="Segoe Script" weight="normal" isDefault="true" />
+    </fontFamily>
+    <fontFamily id="font_tahoma" name="Tahoma" displayName="Tahoma">
+        <font id="font_tahoma" displayName="Normal" fontFamily="Tahoma" fontFace="Tahoma" weight="normal" isDefault="true" />
+        <font id="font_tahoma_bold" displayName="Bold" fontFamily="Tahoma Bold" fontFace="Tahoma Bold" weight="bold" />
+    </fontFamily>
+    <fontFamily id="font_times_new_roman" name="Times New Roman" displayName="Times New Roman">
+        <font id="font_times_new_roman" displayName="Normal" fontFamily="Times New Roman" fontFace="Times New Roman" weight="normal" isDefault="true" />
+        <font id="font_times_new_roman_bold" displayName="Bold" fontFamily="Times New Roman Bold" fontFace="Times New Roman Bold" weight="bold" />
+    </fontFamily>
+    <fontFamily id="font_verdana" name="Verdana" displayName="Verdana">
+        <font id="font_verdana" displayName="Normal" fontFamily="Verdana" fontFace="Verdana" weight="normal" isDefault="true" />
+        <font id="font_verdana_bold" displayName="Bold" fontFamily="Verdana Bold" fontFace="Verdana Bold" weight="bold" />
+    </fontFamily>
+</fontFamilies>

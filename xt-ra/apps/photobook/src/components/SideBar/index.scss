@@ -1,0 +1,53 @@
+@import '../../../../common/styles/fonts.scss';
+@import '../../../../common/styles/common.scss';
+
+.side-bar {
+  @include font-normal();
+  @include reset-list();
+
+  border-right: 1px solid rgba(232, 232, 232, 1);
+  background: #f6f6f6;
+  width: 280px;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  .list {
+    overflow: hidden;
+    display: flex;
+    .item {
+      @include font-normal();
+      font-weight: 300;
+      flex: 1 1 auto;
+      justify-content: flex-start;
+      height: 34px;
+      padding: 10px 0;
+      text-align: center;
+      background-color: #fff;
+      float: left;
+      color: #7b7b7b;
+      box-sizing: border-box;
+      border-left: 1px solid #d6d6d6;
+      border-bottom: 1px solid #d6d6d6;
+      font-size: 13px;
+      line-height: 16px;
+      cursor: pointer;
+
+      &.active {
+        color: #3a3a3a;
+        font-weight: 500;
+        border-bottom: none;
+        background-color: rgba(246, 246, 246, 1);
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .ReactTabs__TabPanel {
+    padding: 10px;
+    box-sizing: border-box;
+    left: 0;
+  }
+}

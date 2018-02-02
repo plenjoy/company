@@ -1,0 +1,9 @@
+.todo{
+   &:before{
+     content: '';
+     width: 32px;
+     height: 32px;
+
+     background: url("icon.png") no-repeat center;
+   }
+}

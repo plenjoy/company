@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 153 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-53.8%" y="-38.5%" width="207.7%" height="207.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="8x8paper-upgrade" transform="translate(-688.000000, -586.000000)" fill-rule="nonzero">
+            <g id="Group-153-Copy-2" filter="url(#filter-1)" transform="translate(692.000000, 588.000000)">
+                <g id="Group" fill="#7B7B7B">
+                    <rect id="Rectangle_138-2" x="0" y="0" width="13" height="13" rx="2"></rect>
+                </g>
+                <g id="Group" transform="translate(2.000000, 2.000000)" fill="#FFFFFF">
+                    <path d="M2.98,8.3 C2.83522828,8.30135154 2.69591141,8.24483281 2.593,8.143 L0.179,5.656 C-0.0403255743,5.4384307 -0.0451100372,5.08532278 0.168240158,4.86189091 C0.381590353,4.63845903 0.734542968,4.6269464 0.962,4.836 L2.731,6.098 C2.77978117,6.14153272 2.84472518,6.16235481 2.90972486,6.15530206 C2.97472454,6.14824931 3.03369114,6.11398237 3.072,6.061 L7.263,0.884 C7.37871436,0.706720032 7.58368874,0.608836155 7.79430243,0.630280776 C8.00491613,0.651725397 8.1859556,0.788913087 8.26356454,0.985877173 C8.34117348,1.18284126 8.30237608,1.40665036 8.163,1.566 L3.428,8.066 C3.33059879,8.19394158 3.18329748,8.27432081 3.023,8.287 C3.01013412,8.29520351 2.9952558,8.29970161 2.98,8.3 Z" id="下载_1_2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

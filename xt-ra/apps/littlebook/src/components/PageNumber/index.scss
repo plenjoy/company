@@ -1,0 +1,87 @@
+@import "../../../../common/styles/fonts";
+@import "../../../../common/styles/common";
+.page-number {
+  @include clearfix;
+  margin: 0 auto 5px;
+
+  .full-page-number{
+    &.keep-same:hover{
+      &.disable{
+        .page-item,
+        .page-item.blue,
+        .page-item.blue.active,
+        .page-item.active {
+         @include font-normal();
+         font-size: 12px;
+         color: #7b7b7b !important;
+         background-color: transparent;
+        }
+      }
+
+      .page-item.blue {
+        @include font-medium();
+        color: #45C0FF !important;
+        background-color: transparent;
+        cursor: pointer !important;
+      }
+
+      .page-item {
+        @include font-medium();
+        color: #fff !important;
+        background-color: #3a3a3a;
+      }
+    }
+
+    .page-item{
+      width: auto;
+    }
+  }
+
+  .page-item {
+    @include font-normal();
+    color: #7b7b7b;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    // width: 50%;
+    box-sizing: border-box;
+    font-size: 12px;
+    padding: 1px 11px 0;
+    border-radius: 2px;
+
+    &.disable,
+    &.disable:hover{
+      color: #7b7b7b;
+      cursor: not-allowed;
+    }
+
+    &.blue:hover,
+    &.blue.active {
+      @include font-medium();
+      font-size: 13px;
+      color: #45C0FF !important;
+      background-color: transparent;
+      cursor: pointer !important;
+    }
+
+    &:hover,
+    &.active {
+      @include font-medium();
+      color: #fff !important;
+      font-size: 13px;
+      background-color: #3a3a3a;
+    }
+
+    &.cursor-p{
+      cursor: pointer;
+    }
+
+    &.left-item {
+      float: left;
+      text-align: left;
+    }
+    &.right-item {
+      float: right;
+      text-align: right;
+    }
+  }
+}

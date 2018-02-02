@@ -1,0 +1,48 @@
+@import "../../../../common/styles/fonts.scss";
+.decoration-filter {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+  .filter-content {
+    // width: 420px;
+    margin: 0 auto;
+  }
+  .clear {
+    height: 0;
+    line-height: 0;
+    clear: both;
+  }
+  label {
+    @include font-normal();
+    float: left;
+    font-size: 13px;
+    color: #7b7b7b;
+    line-height: 22px;
+  }
+  .Select {
+    float: left;
+  }
+  .Select-control{
+    border: 1px solid #C5C5C5;
+    border-radius: 4px;
+    height: 18px;
+    width: 130px;
+    background: #fff;
+    color: #7B7B7B;
+    font-size: 12px;
+    word-spacing: 2px;
+    .Select-clear-zone{
+      display: none;
+    }
+    .Select-value,.Select-clear-zone,.Select-arrow-zone,.Select-input{
+      height: 18px;
+      line-height: 18px;
+       .Select-value-label {
+          word-spacing: -1px;
+          color: #7B7B7B !important;
+        }
+    }
+  }
+  .Select-menu-outer{
+    font-size: 12px;
+  }
+}

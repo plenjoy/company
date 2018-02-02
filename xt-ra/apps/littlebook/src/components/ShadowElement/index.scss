@@ -1,0 +1,13 @@
+.shadow-element{
+  pointer-events: none;
+  z-index: 30000;
+
+  &.element{
+    background-color: transparent;
+  }
+
+  img{
+    position:absolute;
+    display: block;
+  }
+}

@@ -1,0 +1,6 @@
+.bleed-container {
+  position: absolute;
+  pointer-events: none;
+  z-index: 9;
+  border: 1px dashed red;
+}

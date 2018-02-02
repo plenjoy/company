@@ -1,0 +1,25 @@
+@mixin font-family($weight:300){
+  font-family: "Gotham SSm A", "Gotham SSm B", Arial;
+  font-style: normal;
+  font-weight: $weight;
+}
+
+@mixin font-light() {
+  @include font-family(300);
+}
+
+@mixin font-normal() {
+  @include font-family(400);
+}
+
+@mixin font-medium() {
+  @include font-family(500);
+}
+
+@mixin font-lightBlack() {
+  @include font-family(600);
+}
+
+@mixin font-black() {
+  @include font-family(800);
+}

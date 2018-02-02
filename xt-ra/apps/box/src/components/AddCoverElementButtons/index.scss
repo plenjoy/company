@@ -1,0 +1,70 @@
+@import '../../../common/styles/fonts';
+@import '../../../common/styles/common';
+.cameo-painted-btns {
+  // height: 24px;
+  // @include clearfix();
+  .cp-btn {
+    @include font-medium();
+    display: none;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 4px;
+    line-height: 24px;
+    height: 24px;
+    width: 120px;
+    padding: 0;
+    text-align: center;
+    float: right;
+    margin-left: 16px;
+  }
+  .cameo-btn {}
+  .painted-text-btn {
+    position:relative;
+    cursor:pointer;
+    display:block;
+    font-family: "Gotham SSm A", "Gotham SSm B", Arial;
+    font-style: normal;
+    font-weight: 500;
+    display: none;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 4px;
+    line-height: 24px;
+    height: 24px;
+    width: 120px;
+    padding: 0;
+    text-align: center;
+    float: right;
+    margin-left: 16px;
+    box-sizing: border-box;
+    background: #393939;
+    border: none
+  }
+ .top-panel{
+  position:absolute;
+  left:0px;
+  top:-48px;
+  // height:49px;
+  width:120px;
+  z-index:1000;
+  display:none;
+  font-size: 12px;
+  background:#fff;
+  li{
+    height:24px;
+    width:174px;
+    background:#3a3a3a;
+    color:#fff;
+    text-align:left;
+    padding-left: 17px;
+    cursor:pointer;
+    box-sizing: border-box;
+    &:hover{
+      background:#000;
+    }
+  }
+}
+  .show {
+    display: block;
+  }
+}

@@ -1,0 +1,64 @@
+@import '../../scss/index';
+
+.ImageGrid {
+  display: inline-block;
+  margin: 0px 30px 10px 0 ;
+}
+
+.ImageGrid__cover {
+  position: relative;
+  width: $ImageGrid__image-width;
+  height: $ImageGrid__image-height;
+  box-sizing: border-box;
+  padding: 7px 15px;
+  cursor: pointer;
+  &.active {
+    background-color: #E8E8E8;
+  }
+}
+
+.ImageGrid__imageContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.ImageGrid__image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  &.show {
+    opacity: 1;
+  }
+}
+
+.ImageGrid__loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 0;
+}
+
+.ImageGrid__name {
+  @include font-family(300);
+  width: $ImageGrid__image-width;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  padding: 0 20px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 5px 0 0 0;
+  font-size: 12px;
+  color: #7B7B7B;
+}

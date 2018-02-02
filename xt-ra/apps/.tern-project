@@ -1,0 +1,22 @@
+{
+  "ecmaVersion": 7,
+  "libs": [
+    "browser"
+  ],
+  "loadEagerly": [
+    "imagebox/**/*.js",
+    "common/**/*.js"
+  ],
+  "dontLoad": [
+    "node_modules/**/*"
+  ],
+  "plugins": {
+    "complete_strings": {
+      "maxLength": 15
+    },
+    "doc_comment": {
+      "fullDocs": true,
+      "strong": false
+    }
+  }
+}

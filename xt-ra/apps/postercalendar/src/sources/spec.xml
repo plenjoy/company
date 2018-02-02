@@ -1,0 +1,170 @@
+<product-spec version="2.0">
+  <global>
+    <dpi>300</dpi>
+    <imageQualityBufferPercent>30</imageQualityBufferPercent>
+    <imagedimenstions>
+      <imagedimenstion viewWidth="96" viewHeight="96">96x96</imagedimenstion>
+      <imagedimenstion viewWidth="350" viewHeight="350">350x350</imagedimenstion>
+      <imagedimenstion viewWidth="700" viewHeight="700">700x700</imagedimenstion>
+      <imagedimenstion viewWidth="1000" viewHeight="1000">1000x1000</imagedimenstion>
+      <imagedimenstion viewWidth="1500" viewHeight="1500">1500x1500</imagedimenstion>
+    </imagedimenstions>
+    <options>
+      <!-- 台历、挂历产品 -->
+      <optionGroup id="product">
+        <option id="DC">
+          <title><![CDATA[Desk Calendar]]></title>
+        </option>
+        <option id="WC" >
+          <title><![CDATA[Wall Calendar]]></title>
+        </option>
+        <option id="PC">
+          <title><![CDATA[Poster Calendar]]></title>
+        </option>
+        <option id="LC">
+          <title><![CDATA[Little Moments Calendar]]></title>
+        </option>
+      </optionGroup>
+
+      <!-- 尺寸 -->
+      <optionGroup id="size">
+        <option id="7X5" name="7X5"/>
+        <option id="6X11" name="6X11"/>
+        <option id="8X11" name="8X11"/>
+        <option id="12X12" name="12X12"/>
+        <option id="16X20" name="16X20"/>
+        <option id="20X30" name="20X30"/>
+      </optionGroup>
+      <!--支持几个月份-->
+      <optionGroup id="numberOfMonth">
+        <option id="none" name="None"/>
+        <option id="12" name="12"/>
+        <option id="18" name="18"/>
+      </optionGroup>
+
+      <!--日期样式-->
+
+      <optionGroup id="dateStyle">
+        <option id="none" name="None"/>
+        <option id="modern" name="Modern"/>
+        <option id="classic" name="Classic"/>
+      </optionGroup>
+
+      <!-- 旋转方向 -->
+      <optionGroup id="orientation">
+          <option id="Portrait" name="Portrait" />
+          <option id="Landscape" name="Landscape" />
+      </optionGroup>
+    </options>
+  </global>
+
+  <configurableOptionMap>
+    <optionMap id="size" keyPattern="product">
+      <entry key="DC" value="6X11" />
+      <entry key="WC" value="8X11,12X12"/>
+      <entry key="PC" value="16X20,20X30" />
+      <entry key="LC" value="7X5" />
+    </optionMap>
+    <optionMap id="numberOfMonth" keyPattern="product-size">
+      <entry key="DC-*" value="12" />
+      <entry key="WC-*" value="12"/>
+      <entry key="PC-*" value="12" />
+      <entry key="LC-*" value="12" />
+    </optionMap>
+    <optionMap id="dateStyle" keyPattern="product">
+      <entry key="DC" value="modern,classic" />
+      <entry key="WC" value="modern,classic" />
+      <entry key="PC" value="modern,classic" />
+      <entry key="LC" value="modern,classic" />
+    </optionMap>
+    <optionMap id="orientation" keyPattern="product">
+        <entry key="DC" value="Portrait,Landscape" defaultValue="Landscape"></entry>
+        <entry key="WC" value="Portrait,Landscape" defaultValue="Landscape"></entry>
+        <entry key="PC" value="Portrait,Landscape" defaultValue="Landscape"></entry>
+        <entry key="LC" value="Portrait,Landscape" defaultValue="Landscape"></entry>
+    </optionMap>
+  </configurableOptionMap>
+
+  <parameters>
+    <!-- 基础尺寸 -->
+    <parameter id="baseSize" keyPattern="product-size-orientation">
+      <entry key="DC-6X11-Landscape" widthInInch="10.78740157" heightInInch="5.47244094"/>
+      <entry key="DC-6X11-Portrait" widthInInch="5.47244094" heightInInch="10.78740157"/>
+      <entry key="WC-8X11-Landscape" widthInInch="10.82677165" heightInInch="8.42519685" />
+      <entry key="WC-8X11-Portrait" widthInInch="8.42519685" heightInInch="10.82677165" />
+      <entry key="WC-12X12-Landscape" widthInInch="11.73228346" heightInInch="11.73228346" default="true" />
+      <entry key="WC-12X12-Portrait" widthInInch="11.73228346" heightInInch="11.73228346" default="true" />
+      <entry key="PC-16X20-Landscape"  widthInInch="19.527559" heightInInch="15.511811" default="true" />
+      <entry key="PC-16X20-Portrait"  widthInInch="15.511811" heightInInch="19.527559" default="true" />
+      <entry key="PC-20X30-Landscape"  widthInInch="29.527559" heightInInch="19.527559"/>
+      <entry key="PC-20X30-Portrait"  widthInInch="19.527559" heightInInch="29.527559"/>
+      <entry key="LC-7X5-Landscape" widthInInch="5" heightInInch="7.440944881889764" />
+      <entry key="LC-7X5-Portrait" widthInInch="7.440944881889764" heightInInch="5" />
+    </parameter>
+
+    <!-- 出血 -->
+    <parameter id="pageBleed" keyPattern="product-size-orientation">
+      <entry key="DC-6X11-[Landscape,Portrait]" top="24" bottom="24" left="24" right="24" />
+      <entry key="WC-[8X11,12X12]-[Landscape,Portrait]" top="24" bottom="24" left="24" right="24" />
+      <entry key="PC-[16X20,20X30]-[Landscape,Portrait]" top="72" bottom="72" left="72" right="72" />
+      <entry key="LC-7X5-[Landscape,Portrait]" top="36" bottom="36" left="36" right="36" />
+    </parameter>
+
+    <!-- 日历日期区域尺寸 -->
+    <parameter id="calendarArea" keyPattern="product-size-orientation">
+      <entry key="DC-6X11-[Landscape,Portrait]" x="2067" y="24" width="1122" height="1654" />
+      <entry key="WC-8X11-[Landscape,Portrait]" x="189" y="260" width="2918" height="2127" />
+      <entry key="WC-12X12-[Landscape,Portrait]" x="189" y="260" width="3190" height="3119" />
+      <entry key="PC-16X20-Landscape" x="3540" y="581" width="2110" height="3632" />
+      <entry key="PC-16X20-Portrait" x="293" y="3708" width="4203" height="1846" />
+      <entry key="PC-20X30-Landscape" x="5437" y="525" width="2879" height="4955" />
+      <entry key="PC-20X30-Portrait" x="365" y="5778" width="5258" height="2303" />
+      <entry key="LC-7X5-[Landscape,Portrait]" x="36" y="1535" width="1500" height="590" />
+    </parameter>
+
+  </parameters>
+
+  <variables>
+    <variable id="coverForeground" keyPattern="product-size-orientation">
+      <entry key="WC-8X11-[Landscape,Portrait]" width="999" height="791" left="30" top="30" right="30" bottom="30" />
+      <entry key="WC-12X12-[Landscape,Portrait]" width="760" height="760" left="30" top="30" right="30" bottom="30" />
+      <entry key="DC-6X11-[Landscape,Portrait]" width="1394" height="829" left="40" top="60" right="110" bottom="138" />
+      <entry key="PC-16X20-Landscape" width="2102" height="1728" left="92" top="92" right="92" bottom="92" />
+      <entry key="PC-16X20-Portrait" width="1728" height="2099" left="90" top="90" right="90" bottom="90" />
+      <entry key="PC-20X30-Landscape" width="2592" height="1781" left="92" top="92" right="92" bottom="92" />
+      <entry key="PC-20X30-Portrait" width="1782" height="2592" left="92" top="92" right="92" bottom="92" />
+      <entry key="LC-7X5-[Landscape,Portrait]" width="577" height="920" left="40" top="40" right="40" bottom="142" />
+    </variable>
+    <variable id="innerForeground" keyPattern="product-size-orientation">
+      <entry key="WC-8X11-[Landscape,Portrait]" width="810" height="1233" topPageLeft="30" topPageTop="30" topPageRight="30" topPageBottom="614" bottomPageLeft="30" bottomPageTop="620" bottomPageRight="30" bottomPageBottom="30" />
+      <entry key="WC-12X12-[Landscape,Portrait]" width="643" height="1229" topPageLeft="30" topPageTop="30" topPageRight="30" topPageBottom="617" bottomPageLeft="30" bottomPageTop="617" bottomPageRight="30" bottomPageBottom="30" />
+      <entry key="DC-6X11-[Landscape,Portrait]" width="1394" height="829" bottomPageLeft="40" bottomPageTop="60" bottomPageRight="110" bottomPageBottom="138" />
+      <entry key="LC-7X5-[Landscape,Portrait]" width="577" height="920" bottomPageLeft="40" bottomPageTop="40" bottomPageRight="40" bottomPageBottom="142" />
+      <entry key="PC-16X20-Landscape" width="2102" height="1728" bottomPageLeft="92" bottomPageTop="92" bottomPageRight="92" bottomPageBottom="92" />
+      <entry key="PC-16X20-Portrait" width="1728" height="2099" bottomPageLeft="90" bottomPageTop="90" bottomPageRight="90" bottomPageBottom="90" />
+      <entry key="PC-20X30-Landscape" width="2592" height="1781" bottomPageLeft="92" bottomPageTop="92" bottomPageRight="92" bottomPageBottom="92" />
+      <entry key="PC-20X30-Portrait" width="1782" height="2592" bottomPageLeft="92" bottomPageTop="92" bottomPageRight="92" bottom="92" />
+    </variable>
+    <variable id="allPageCoverForeground" keyPattern="product-size-orientation">
+      <entry key="WC-8X11-[Landscape,Portrait]" width="999" height="791" left="30" top="30" right="30" bottom="30" />
+      <entry key="WC-12X12-[Landscape,Portrait]" width="760" height="760" left="30" top="30" right="30" bottom="30" />
+      <entry key="DC-6X11-[Landscape,Portrait]" width="332" height="170" left="3" top="3" right="3" bottom="3" />
+      <entry key="PC-16X20-Landscape" width="2102" height="1728" left="92" top="92" right="92" bottom="92" />
+      <entry key="PC-16X20-Portrait" width="1728" height="2099" left="90" top="90" right="90" bottom="90" />
+      <entry key="PC-20X30-Landscape" width="2592" height="1781" left="92" top="92" right="92" bottom="92" />
+      <entry key="PC-20X30-Portrait" width="1782" height="2592" left="92" top="92" right="92" bottom="92" />
+      <entry key="LC-7X5-[Landscape,Portrait]" width="257" height="372" left="10" top="10" right="10" bottom="10" />
+    </variable>
+    <variable id="allPageInnerForeground" keyPattern="product-size-orientation">
+      <entry key="WC-8X11-[Landscape,Portrait]" width="810" height="1233" topPageLeft="30" topPageTop="30" topPageRight="30" topPageBottom="614" bottomPageLeft="30" bottomPageTop="620" bottomPageRight="30" bottomPageBottom="30" />
+      <entry key="WC-12X12-[Landscape,Portrait]" width="643" height="1229" topPageLeft="30" topPageTop="30" topPageRight="30" topPageBottom="617" bottomPageLeft="30" bottomPageTop="617" bottomPageRight="30" bottomPageBottom="30" />
+      <entry key="DC-6X11-[Landscape,Portrait]" width="332" height="170" bottomPageLeft="3" bottomPageTop="3" bottomPageRight="3" bottomPageBottom="3" />
+      <entry key="LC-7X5-[Landscape,Portrait]" width="257" height="372" bottomPageLeft="10" bottomPageTop="10" bottomPageRight="10" bottomPageBottom="10" />
+      <entry key="PC-16X20-Landscape" width="2102" height="1728" bottomPageLeft="92" bottomPageTop="92" bottomPageRight="92" bottomPageBottom="92" />
+      <entry key="PC-16X20-Portrait" width="1728" height="2099" bottomPageLeft="90" bottomPageTop="90" bottomPageRight="90" bottomPageBottom="90" />
+      <entry key="PC-20X30-Landscape" width="2592" height="1781" bottomPageLeft="92" bottomPageTop="92" bottomPageRight="92" bottomPageBottom="92" />
+      <entry key="PC-20X30-Portrait" width="1782" height="2592" bottomPageLeft="92" bottomPageTop="92" bottomPageRight="92" bottom="92" />
+    </variable>
+
+  </variables>
+</product-spec>

@@ -1,0 +1,154 @@
+@import '../../../../common/styles/fonts.scss';
+
+.book-setting-modal {
+  box-sizing: border-box;
+  padding: 40px;
+  width: 500px;
+  height: 700px;
+  margin: auto !important;
+  top: 0 !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  transform: none !important;
+
+  .modal-title {
+    @include font-light();
+    font-size: 24px;
+    color: #3A3A3A;
+    margin-bottom: 6px;
+  }
+
+  .setting-panel {
+    margin-top: 30px;
+
+    .panel-title {
+      @include font-medium();
+      font-size: 14px;
+      color: #3A3A3A;
+    }
+
+    .setting-box {
+      background-color: #f6f6f6;
+      padding: 16px 10px;
+
+      .setting-item {
+        & + .setting-item {
+          margin-top: 10px;
+        }
+
+        > span {
+          display: inline-block;
+          margin-right: 35px;
+          line-height: 22px;
+
+          &.opacity{
+            margin-right: 8px;
+          }
+        }
+
+        .select-container {
+          width: 150px;
+          display: inline-block;
+          margin-right: 10px;
+          font-size: 13px;
+          vertical-align: middle;
+
+
+          .Select-control {
+            height: 20px;
+            border: 1px solid #d6d6d6;
+            border-radius: 4px;
+            background-color: #fff;
+
+            .Select-clear-zone {
+              display: none;
+            }
+            .Select-value,
+            .Select-clear-zone,
+            .Select-arrow-zone,
+            .Select-input,
+            .Select-placeholder {
+              height: 20px;
+              line-height: 20px;
+            }
+
+            .Select-menu-outer {
+              font-size: 12px;
+            }
+          }
+        }
+
+        .slider-container {
+          display: inline-block;
+          width: 241px;
+          margin: 0 18px 0 3px;
+
+          .rc-slider {
+            background-color: #ccc;
+
+            .rc-slider-track {
+              background-color: #3a3a3a;
+            }
+            .rc-slider-handle {
+              background-color: #fff;
+              border: 1px solid #3a3a3a;
+            }
+          }
+        }
+
+        .size-input {
+          @include font-normal();
+          width: 49px;
+          box-sizing: border-box;
+          padding: 2px 4px;
+          border: 1px solid #d6d6d6;
+          font-size: 13px;
+          color: #3a3a3a;
+          text-align: center;
+        }
+
+        .color-picker {
+          margin-left: -4px;
+        }
+      }
+    }
+  }
+
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+
+    .white{
+      margin-right: 40px;
+      &:hover{
+        background-color: #f0f0f0;
+      }
+    }
+    > button {
+      @include font-normal();
+      font-size: 13px;
+      box-sizing: border-box;
+      width: 216px;
+      height: 30px;
+      line-height: 30px;
+    }
+  }
+
+  .check-box-btn{
+    float: right;
+
+    .check-box{
+      float: left;
+    }
+
+    .tip{
+      @include font-light();
+      font-size: 13px;
+      color: #7b7b7b;
+      margin-left: 5px;
+      user-select: none;
+      float: left;
+    }
+  }
+}

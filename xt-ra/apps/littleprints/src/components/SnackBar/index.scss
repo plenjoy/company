@@ -1,0 +1,70 @@
+.snack-bar {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 13.5px 0px;
+  position: absolute;
+  box-sizing: border-box;
+  cursor: default;
+
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+
+  &.show {
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  &.mini {
+    .action-buttons > li > a > span {
+      display: none;
+    }
+  }
+
+  .action-buttons {
+    display: block;
+    text-align: center;
+    > li {
+      display: inline-block;
+
+      & + li {
+        margin-left: 30px;
+      }
+
+      > a {
+        display: block;
+        font-size: 12px;
+        line-height: 15px;
+        color: #fff;
+        cursor: pointer;
+
+        .icon {
+          display: inline-block;
+          width: 15px;
+          height: 15px;
+          vertical-align: -3px;
+          margin-right: 4px;
+
+          &.edit-image {
+            background: url('./icons/icon-edit-image.svg') center no-repeat;
+          }
+          &.switch-layout-full {
+            background: url('./icons/icon-switch-layout-full.svg') center no-repeat;
+          }
+          &.switch-layout-square {
+            background: url('./icons/icon-switch-layout-landscape.svg') center no-repeat;
+          }
+          &.switch-layout-portrait {
+            background: url('./icons/icon-switch-laytou-portrait.svg') center no-repeat;
+          }
+          &.delete-image{
+            background: url('./icons/Delete.svg') center no-repeat;
+          }
+          &.replace-image{
+            background: url('./icons/replace.svg') center no-repeat;
+          }
+        }
+      }
+    }
+  }
+}

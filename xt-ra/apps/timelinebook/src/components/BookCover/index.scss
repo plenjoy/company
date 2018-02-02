@@ -1,0 +1,43 @@
+@import "../../../../common/styles/fonts";
+
+.book-cover-spread {
+  float: left;
+  .book-cover-container {
+    position: relative;
+  }
+  .book-cover-background {
+    display: block;
+    position: absolute;
+    pointer-events: none;
+  }
+  .book-cover-photo-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .book-cover-background-color {
+    position: absolute;
+    background: white;
+    pointer-events: none;
+  }
+  .book-cover-footer {
+    overflow: hidden;
+  }
+  .book-cover-left,
+  .book-cover-right {
+    @include font-light();
+    font-size: 12px;
+    color: #7B7B7B;
+  }
+  .book-cover-left {
+    float: left;
+  }
+  .book-cover-right {
+    float: right;
+  }
+  .book-cover-handlers {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+}

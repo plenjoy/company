@@ -1,0 +1,48 @@
+@import "../../../../common/styles/fonts";
+
+.book-sheet-spread {
+  float: left;
+  .book-sheet-container {
+    position: relative;
+  }
+  .book-sheet-background {
+    display: block;
+    position: absolute;
+    pointer-events: none;
+  }
+  .book-sheet-photo-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .book-sheet-background-color {
+    position: absolute;
+    background: white;
+    pointer-events: none;
+  }
+  .book-sheet-footer {
+    overflow: hidden;
+  }
+  .book-sheet-left,
+  .book-sheet-right {
+    @include font-light();
+    font-size: 12px;
+    color: #7B7B7B;
+  }
+  .book-sheet-left {
+    float: left;
+  }
+  .book-sheet-right {
+    float: right;
+  }
+  .book-sheet-handlers {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  // .book-sheet-right-handler {
+  //   top: 0;
+  //   right: 0;
+  //   position: absolute;
+  // }
+}

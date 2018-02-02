@@ -1,0 +1,28 @@
+.layout-item {
+  display: inline-block;
+  height: 32px;
+  min-width: 64px;
+  box-sizing: border-box;
+  margin-right: 15px;
+  padding: 3px;
+  border: 1px solid transparent;
+  cursor: pointer;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &.selected {
+    border-color: #7b7b7b;
+
+    .layout-img {
+      border: none;
+    }
+  }
+  .layout-img {
+    height: 100%;
+    border: 1px solid #bfbfbf;
+    box-sizing: border-box;
+  }
+}
+

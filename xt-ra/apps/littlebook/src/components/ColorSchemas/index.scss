@@ -1,0 +1,22 @@
+.color-schema{
+  .color-wrap{
+    display: inline-block;
+    border: 1px solid transparent;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 50%;
+
+    &.selected{
+      border-color: #7B7B7B;
+    }
+  }
+
+  .color-item {
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin: 1px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+  }
+}

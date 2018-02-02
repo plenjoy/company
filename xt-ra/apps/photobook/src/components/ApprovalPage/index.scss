@@ -1,0 +1,35 @@
+.approval-page {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 49999;
+  user-select: none;
+  background-color: #fff;
+
+  .approval-preview{
+    position: fixed;
+    top: 38px;
+    bottom: 160px;
+    left: 0;
+    right: 380px;
+    transform: translate3d(0, 0, 0);
+    background-color: #f0f0f0;
+  }
+  .approval-actionbar {
+    position: fixed;
+    left: 0;
+    right: 380px;
+    bottom: 0;
+    height: 160px;
+  }
+
+  .approval-right-content {
+    position: fixed;
+    right: 0;
+    top: 38px;
+    bottom: 0;
+    width: 380px;
+  }
+}

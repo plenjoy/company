@@ -1,0 +1,20 @@
+.title {
+  margin: 25px;
+  font-size: 20px;
+}
+
+.basic-info {
+  margin: 0 25px;
+  .text-right{
+    text-transform: capitalize;
+  }
+}
+
+.color-highlight {
+  color: rgba(191, 52, 29, 1);
+}
+
+
+.canvas-panel {
+  margin: 25px;
+}

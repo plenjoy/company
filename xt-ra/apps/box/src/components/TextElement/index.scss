@@ -1,0 +1,189 @@
+.x-text-element {
+  &.no-text {
+    // border: 1px dashed rgb(123, 123, 123);
+
+    .XHandler__border-noText {
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      top: -1px;
+      left: -1px;
+      position: absolute;
+
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3) 50%, rgba(0, 0, 0, 0.3) 50%), linear-gradient(to right, rgba(255, 255, 255, 0.3) 50%, rgba(0, 0, 0, 0.3) 50%), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 50%, rgba(0, 0, 0, 0.3) 50%), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 50%, rgba(0, 0, 0, 0.3) 50%);
+      padding: 1px;
+      background-size: 10px 1px, 10px 1px, 1px 10px, 1px 10px;
+      background-position: 0 0, 0 100%, 0 0, 100% 0;
+      background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    }
+  }
+
+  .text-img {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .XHandler__border {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #4cc1fc;
+    pointer-events: none;
+    top: -2px;
+    left: -2px;
+    position: absolute;
+    display: none;
+    z-index: 1;
+  }
+
+  .topLeft,
+  .topRight,
+  .bottomLeft,
+  .bottomRight,
+  .left,
+  .right,
+  .top,
+  .bottom {
+    position: absolute;
+    border: 1px solid #4cc1fc;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 9000;
+    pointer-events: auto;
+    display: none;
+  }
+
+  .topLeft {
+    top: -7px;
+    left: -7px;
+    touch-action: none;
+    cursor: nwse-resize;
+  }
+
+  .topRight {
+    top: -7px;
+    right: -7px;
+    touch-action: none;
+    cursor: nesw-resize;
+  }
+
+  .bottomLeft {
+    bottom: -7px;
+    left: -7px;
+    touch-action: none;
+    cursor: nesw-resize;
+  }
+
+  .bottomRight {
+    bottom: -7px;
+    right: -7px;
+    touch-action: none;
+    cursor: nwse-resize;
+  }
+
+  .left {
+    top: 50%;
+    left: -7px;
+    transform: translate3d(0,-50%,0);
+    touch-action: none;
+    cursor: ew-resize;
+  }
+
+  .right {
+    top: 50%;
+    right: -7px;
+    transform: translate3d(0,-50%,0);
+    touch-action: none;
+    cursor: ew-resize;
+  }
+
+  .top {
+    top: -7px;
+    left: 50%;
+    transform: translate3d(-50%,0,0);
+    touch-action: none;
+    cursor: ns-resize;
+  }
+
+  .bottom {
+    bottom: -7px;
+    left: 50%;
+    transform: translate3d(-50%,0,0);
+    touch-action: none;
+    cursor: ns-resize;
+  }
+
+  canvas {
+    display: block;
+  }
+
+  .ActionBar {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate3d(-50%, 140%, 0);
+    background-color: #393939;
+    border-radius: 4px;
+    line-height: initial;
+    display: none;
+    height: 26px;
+    width: 100px;
+  }
+
+  .ActionBar__clear {
+    display: inline-block;
+    width: 50px;
+    height: 26px;
+    position: relative;
+    a {
+      height: 26px;
+      cursor: pointer;
+      display: block;
+      background: url("icons/clear.png") center center no-repeat;
+      background-size: contain;
+    }
+  }
+
+  .ActionBar__edit {
+    display: inline-block;
+    width: 50px;
+    height: 26px;
+    position: relative;
+    a {
+      height: 26px;
+      cursor: pointer;
+      display: block;
+      background: url("icons/edit.png") center center no-repeat;
+      background-size: contain;
+    }
+
+    &:after {
+      position: absolute;
+      display: block;
+      right: 0;
+      top: 3px;
+      width: 1px;
+      height: 20px;
+      background: #7b7b7b;
+      content: "";
+      cursor: default;
+    }
+  }
+
+  &.selected {
+    .topLeft,
+    .topRight,
+    .bottomLeft,
+    .bottomRight,
+    .left,
+    .right,
+    .top,
+    .bottom,
+    .XHandler__border,
+    .ActionBar {
+      display: block;
+    }
+  }
+}

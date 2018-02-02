@@ -1,0 +1,43 @@
+@import "../../../../common/styles/fonts.scss";
+
+.alert-wrap{
+  width:500px;
+  padding:40px;
+  box-sizing:border-box;
+
+  .alert-title{
+    @include font-light();
+    font-size:24px;
+    line-height: 1;
+    color: #3a3a3a;
+    margin-bottom: 20px;
+  }
+
+  .alert-mes{
+    @include font-light();
+    font-size:14px;
+    font-size:16px;
+    color:#3a3a3a;
+  }
+
+  .button-wrap{
+    margin-top: 30px;
+    text-align: center;
+
+    .little-button{
+      height: 30px;
+      line-height: 28px;
+    }
+  }
+
+  .button-white{
+    background:white;
+    margin-left:20px;
+    color:#393939;
+    border:1px solid #393939;
+  }
+}
+
+.hide{
+  display: none;
+}

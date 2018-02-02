@@ -1,0 +1,53 @@
+@import "../../../../common/styles/common";
+
+.layout-list {
+  margin: 0 auto;
+  .button {
+    width: 100%;
+    height: 35px;
+    line-height: 33px;
+    margin: 15px 0 0;
+    &.hide {
+      display: none;
+    }
+  }
+  .list {
+    width: calc(100% - 76px);
+    height: calc(100% - 24px);
+    position: absolute;
+    top: 24px;
+    left: 76px;
+    padding: 0 10px;
+    overflow: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    box-sizing: border-box;
+    &.display-flex{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
+
+    .layout-row{
+      display: inline-block;
+    }
+  }
+  .no-layouts {
+    align-self: center;
+    @include empty-text();
+  }
+  .lazy-item {
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+    &.selected .layout-img{
+      border-color: #3a3a3a;
+      border-width: 2px;
+    }
+  }
+  .layout-filter {
+    position: absolute;
+    top: 2px;
+    left: 76px;
+  }
+}

@@ -1,0 +1,18 @@
+@import "../../../../common/styles/fonts.scss";
+@import "../../../../common/styles/common.scss";
+
+.auto-upgrade-wrap{
+  box-sizing:border-box;
+  min-width:650px;
+  min-height:605px;
+  padding: 40px 40px 0 40px;
+  .title{
+    height:24px;
+    text-align: left;
+    font-size: 24px;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    color: #393939;
+    line-height: 24px;
+  }
+}
+

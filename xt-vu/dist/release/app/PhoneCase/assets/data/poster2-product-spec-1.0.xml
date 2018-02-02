@@ -1,0 +1,119 @@
+﻿<product-spec version="2.0">
+	<global>
+		<dpi>300</dpi>
+		<imageQualityBufferPercent>30</imageQualityBufferPercent>
+		<imagedimenstions>
+			<imagedimenstion viewWidth="96" viewHeight="96">96x96</imagedimenstion>
+			<imagedimenstion viewWidth="350" viewHeight="350">350x350</imagedimenstion>
+			<imagedimenstion viewWidth="700" viewHeight="700">700x700</imagedimenstion>
+			<imagedimenstion viewWidth="1000" viewHeight="1000">1000x1000</imagedimenstion>
+			<imagedimenstion viewWidth="1500" viewHeight="1500">1500x1500</imagedimenstion>
+		</imagedimenstions>
+		<options>
+			<!-- Poster, Large Prints, Art Prints产品 -->
+			<optionGroup id="product">
+				<option id="PO">
+					<title><![CDATA[Poster]]></title>
+				</option>
+				<option id="LPR">
+					<title><![CDATA[Large Photo Print]]></title>
+				</option>
+				<option id="AR">
+					<title><![CDATA[Art Prints]]></title>
+				</option>
+			</optionGroup>
+
+			<!-- 尺寸 -->
+			<optionGroup id="size">
+				<option id="10X10" name="10X10"/>
+				<option id="10X24" name="10X24"/>
+				<option id="11X14" name="11X14"/>
+				<option id="11X17" name="11X17"/>
+				<option id="12X12" name="12X12"/>
+				<option id="12X24" name="12X24"/>
+				<option id="12X36" name="12X36"/>
+				<option id="16X16" name="16X16"/>
+				<option id="16X20" name="16X20" default="true"/>
+				<option id="16X24" name="16X24"/>
+				<option id="18X24" name="18X24"/>
+				<option id="20X20" name="20X20"/>
+				<option id="20X24" name="20X24"/>
+				<option id="20X30" name="20X30"/>
+				<option id="22X28" name="22X28"/>
+				<option id="24X24" name="24X24"/>
+				<option id="24X30" name="24X30"/>
+				<option id="24X36" name="24X36"/>
+				<option id="30X30" name="30X30"/>
+				<option id="30X40" name="30X40"/>
+			</optionGroup>
+
+			<optionGroup id="paper">
+				<option id="EP_LPR">
+					<title>Lustre</title>
+				</option>
+				<option id="MP">
+					<title>Metallic</title>
+				</option>
+				<option id="EP_PO">
+					<title>Matte</title>
+				</option>
+				<option id="GP">
+					<title>Glossy</title>
+				</option>
+				<option id="AR">
+					<title>Art</title>
+				</option>
+			</optionGroup>
+		</options>
+	</global>
+
+	<configurableOptionMap>
+		<optionMap id="size" keyPattern="product">
+			<entry key="LPR" value="10X10,10X24,11X14,12X12,12X24,12X36,16X16,16X20,16X24,18X24,20X20,20X24,20X30,24X24,24X30,24X36,30X30,30X40" />
+			<entry key="PO" value="11X17,16X20,18X24,22X28,24X36,30X40"/>
+			<entry key="AR" value="10X10,10X24,11X14,12X12,12X24,12X36,16X16,16X20,16X24,18X24,20X20,20X24,20X30,24X24,24X30,24X36,30X30,30X40" />
+		</optionMap>
+		<optionMap id="paper" keyPattern="product">
+			<entry key="LPR" value="EP_LPR,MP" defaultValue="EP_LPR" />
+			<entry key="PO" value="EP_PO,GP" defaultValue="EP_PO" />
+			<entry key="AR" value="AR" defaultValue="AR" />
+		</optionMap>
+	</configurableOptionMap>
+
+	<parameters>
+		<!-- 基础尺寸 -->
+		<parameter id="baseSize" keyPattern="size">
+			<entry key="10X10" widthInInch="10" heightInInch="10"/>
+			<entry key="10X24" widthInInch="10" heightInInch="24"/>
+			<entry key="11X14" widthInInch="11" heightInInch="14"/>
+			<entry key="11X17" widthInInch="11" heightInInch="17"/>
+			<entry key="12X12" widthInInch="12" heightInInch="12"/>
+			<entry key="12X24" widthInInch="12" heightInInch="24"/>
+			<entry key="12X36" widthInInch="12" heightInInch="36"/>
+			<entry key="16X16" widthInInch="16" heightInInch="16"/>
+			<entry key="16X20" widthInInch="16" heightInInch="20" default="true"/>
+			<entry key="16X24" widthInInch="16" heightInInch="24"/>
+			<entry key="18X24" widthInInch="18" heightInInch="24"/>
+			<entry key="20X20" widthInInch="20" heightInInch="20"/>
+			<entry key="20X24" widthInInch="20" heightInInch="24"/>
+			<entry key="20X30" widthInInch="20" heightInInch="30"/>
+			<entry key="22X28" widthInInch="22" heightInInch="28"/>
+			<entry key="24X24" widthInInch="24" heightInInch="24"/>
+			<entry key="24X30" widthInInch="24" heightInInch="30"/>
+			<entry key="24X36" widthInInch="24" heightInInch="36"/>
+			<entry key="30X30" widthInInch="30" heightInInch="30"/>
+			<entry key="30X40" widthInInch="30" heightInInch="40"/>
+		</parameter>
+
+		<!-- 出血 -->
+		<parameter id="pageBleed" keyPattern="product-size">
+			<entry key="LPR-*" top="24" bottom="24" left="24" right="24" />
+			<entry key="PO-*" top="24" bottom="24" left="24" right="24" />
+			<entry key="AR-*" top="24" bottom="24" left="24" right="24" />
+		</parameter>
+
+	</parameters>
+
+	<variables>
+	</variables>
+</product-spec>

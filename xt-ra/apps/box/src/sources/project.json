@@ -1,0 +1,245 @@
+{
+  "project": {
+    "version": "4.0",
+    "clientId": "web-h5",
+    "createAuthor": "web-h5|1.1|1",
+    "userId": 224604,
+    "artisan": 111111,
+    "createdDate": "2017-03-23 19:07:20",
+    "updatedDate": "2017-03-24 11:10:41",
+    "guid": 338273,
+    "summary": {
+      "useCameo": false,
+      "cameoDirection": "Square",
+      "dvdNumber": 0,
+      "printNumber":0,
+      "useTextPrinting": false,
+      "rotated": false,
+      "editorSetting": {
+        "applyBackground": true,
+        "applyFont": false,
+        "background": {
+          "color": "#FFFFFF"
+        },
+        "font": {
+          "fontSize": 23,
+          "color": "#000000",
+          "fontFamilyId": "roboto",
+          "fontId": "roboto"
+        }
+      }
+    },
+    "spec": {
+      "product": "dvdCase",
+      "type": "IW",
+      "size": "6.5X6.5",
+      "cover": "LC",
+      "finish": "none",
+      "leatherColor": "black",
+      "spineThickness": "N",
+      "paper": "EP",
+      "cameo": "Box_M",
+      "cameoShape": "Box_Rect",
+      "dvdType": "one",
+      "dvdPrinted": "customerPrinted",
+      "usbColor": "none",
+      "usbCapacities": "none"
+    },
+    "cover": {
+      "id": "5d72b116-9d49-952c-6b0a-964ef95b3a11",
+      "width": 5480,
+      "height": 2850,
+      "bgColor": "#FFFFFF",
+      "bgImageUrl": "",
+      "containers": [
+        {
+          "id": "17f00e5d-3ff4-876c-12ec-6d9366aad4cf",
+          "width": 5480,
+          "height": 2850,
+          "type": "Full",
+          "bgColor": "#FFFFFF",
+          "backend": {
+            "isPrint": true
+          },
+          "elements": [
+            {
+              "id": "9bb56a69-d955-4948-255e-b6ec956cb081",
+              "imageid": 478606,
+              "encImgId": "qvDNuBAkEnM%3D",
+              "elType": "image",
+              "type": "CameoElement",
+              "width": 5563.877551020409,
+              "height": 2882.142857142857,
+              "x": -16.0765306122449,
+              "y": 0,
+              "pw": 1.0153061224489797,
+              "ph": 1.0112781954887218,
+              "px": -0.002933673469387755,
+              "py": 0,
+              "cropRLX": 1,
+              "cropRLY": 0.8924316339494419,
+              "cropLUX": 0,
+              "cropLUY": 0.1075683660505581,
+              "dep": 1,
+              "imgFlip": false,
+              "imgRot": 0,
+              "rot": 0,
+              "border": {
+                "color": "#000000",
+                "size": 0,
+                "opacity": 100
+              },
+              "bleed": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": "9d6c22a7-af80-5455-3c8e-5ce1d7e3021e",
+          "width": 550,
+          "height": 2850,
+          "type": "Spine",
+          "bgColor": "#FFFFFF",
+          "backend": {
+            "isPrint": false
+          },
+          "elements": []
+        }
+      ]
+    },
+    "pages": [
+      {
+        "id": "ede35c06-154b-888c-6ff2-b8c1a238aeff",
+        "width": 2475,
+        "height": 2400,
+        "type": "Page",
+        "bgColor": "#FFFFFF",
+        "bleed": {
+          "top": 75,
+          "bottom": 75,
+          "left": 75,
+          "right": 75
+        },
+        "backend": {
+          "isPrint": true
+        },
+        "elements": [
+          {
+            "id": "7ff68f8e-56e9-3874-d98d-3bd548239ec7",
+            "imageid": 478595,
+            "encImgId": "Plp6hqCpKek%3D",
+            "elType": "image",
+            "type": "PhotoElement",
+            "width": 2475,
+            "height": 2400,
+            "x": 0,
+            "y": 0,
+            "pw": 1,
+            "ph": 1,
+            "px": 0,
+            "py": 0,
+            "cropRLX": 0.846328125,
+            "cropRLY": 1,
+            "cropLUX": 0.153671875,
+            "cropLUY": 0,
+            "dep": 1,
+            "imgFlip": false,
+            "imgRot": 0,
+            "rot": 0,
+            "border": {
+              "color": "#000000",
+              "size": 0,
+              "opacity": 100
+            },
+            "bleed": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "fea35725-13fd-0eca-dad8-4bb5eb185fb3",
+        "width": 2475,
+        "height": 2400,
+        "type": "Page",
+        "bgColor": "#FFFFFF",
+        "bleed": {
+          "top": 75,
+          "bottom": 75,
+          "left": 75,
+          "right": 75
+        },
+        "backend": {
+          "isPrint": true
+        },
+        "elements": [
+          {
+            "id": "42b9fcb2-f562-e23b-b6e7-3b80bac372d4",
+            "imageid": 478602,
+            "encImgId": "yZTz6mRgJ9c%3D",
+            "elType": "image",
+            "type": "PhotoElement",
+            "width": 1588.8888888888887,
+            "height": 1622.2222222222222,
+            "x": 518.1344420077972,
+            "y": 401.0916179337237,
+            "pw": 0.6419753086419753,
+            "ph": 0.6759259259259259,
+            "px": 0.2093472492960797,
+            "py": 0.16712150747238486,
+            "cropRLX": 0.7754708904109588,
+            "cropRLY": 1,
+            "cropLUX": 0.22452910958904107,
+            "cropLUY": 0,
+            "dep": 1,
+            "imgFlip": false,
+            "imgRot": 0,
+            "rot": 0,
+            "border": {
+              "color": "#000000",
+              "size": 0,
+              "opacity": 100
+            },
+            "bleed": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        ]
+      }
+    ],
+    "images": [
+      {
+        "guid": "00b4f458-c881-4b3b-8f7c-728f2b7d80f9",
+        "id": 478610,
+        "encImgId": "fcJ6czF4Cng%3D",
+        "name": "008.PNG",
+        "width": 750,
+        "height": 500,
+        "shotTime": 0,
+        "uploadTime": 1490267269000,
+        "order": 36
+      },
+      {
+        "guid": "f61b332d-adb7-4eab-aace-d0a888e12295",
+        "id": 478611,
+        "encImgId": "i8aydd2IVn4%3D",
+        "name": "4ren.jpg",
+        "width": 7560,
+        "height": 5040,
+        "shotTime": 1427279698000,
+        "uploadTime": 1490267272000,
+        "order": 37
+      }
+    ]
+  }
+}

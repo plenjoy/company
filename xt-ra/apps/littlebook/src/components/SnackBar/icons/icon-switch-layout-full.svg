@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="10px" viewBox="0 0 15 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>SwitchLayout-FullFile</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="14.3823523" height="9.64285714"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LBB-AddedPhotos" transform="translate(-1514.000000, -630.000000)">
+            <g id="SwitchLayout-FullFile" transform="translate(1514.000000, 630.000000)">
+                <g id="Group-4">
+                    <g id="Rectangle-23">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect stroke="#FFFFFF" stroke-width="1.2" x="0.6" y="0.6" width="13.1823523" height="8.44285714"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,41 @@
+@import '../../../../common/styles/fonts.scss';
+.decoration-tab {
+  .decoration-filter {
+    width: 250px;
+    margin: 0 auto;
+
+    .Select {
+      float: right;
+    }
+  }
+  .list {
+    .item {
+      @include font-normal();
+      text-align: left !important;
+      border: none !important;
+      background: transparent !important;
+      color: #7b7b7b;
+      font-size: 12px;
+
+      &.active {
+        @include font-medium();
+        color: #3a3a3a;
+        border-bottom: none;
+        background-color: transparent !important;
+        span {
+          display: inline-block;
+          border-bottom: 2px solid #3a3a3a;
+        }
+      }
+    }
+  }
+  .ReactTabs__TabPanel {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    top: 85px;
+    bottom: 0;
+    overflow-y: auto;
+  }
+}

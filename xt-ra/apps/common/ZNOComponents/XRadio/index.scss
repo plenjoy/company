@@ -1,0 +1,39 @@
+.x-radio {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+
+  .icon{
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    float: left;
+
+    background: url("./icons/unselect.svg") center center no-repeat;
+    background-size: 22px 22px;
+  }
+
+  .text{
+    display: inline-block;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    font-size: 13px;
+    color: #3a3a3a;
+    // width:200px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .native-radio{
+    position: absolute;
+    top: -50px;
+
+    &:checked + .icon{
+      background: url("./icons/selected.svg") center center no-repeat;
+      background-size: 22px 22px;
+    }
+  }
+}

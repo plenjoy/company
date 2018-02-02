@@ -1,0 +1,40 @@
+<project clientId="web-h5" createAuthor="web-h5|1.0|1">
+    <guid>1074788</guid>
+    <userId>489651</userId>
+    <artisan/>
+    <title>panlei--panlei</title>
+    <description/>
+    <createdDate/>
+    <updatedDate>2016-03-06 22:22:56</updatedDate>
+    <tshirts>
+        <tshirt id="tshirt-01">
+            <spec version="1.0">
+                <option id="product" value="TS" />
+                <option id="color" value="White" />
+                <option id="size" value="14X16" />
+                <option id="measure" value="M" />
+            </spec>
+            <tshirtSetting>
+            	<setting id="count" value="1"/>
+                <setting id="pages" value="true,false"/>
+            </tshirtSetting>
+            <contents>
+                <content type="front" width="7346.456692913386" hight="3744.0944881889764">
+                    <elements>
+                        <element type="PhotoElement" elType="image"  x="0" y="0" width="7346.456692913386" height="3744.0944881889764" px="0" py="0" pw="1" ph="1" rot="0" dep="0" imageid="" imgRot="0" imgFlip="false" cropLUX="0" cropLUY="0" cropRLX="1" cropRLY="1" />
+                        <element type="LogoElement" elType="logo"  x="0" y="0" width="7346.456692913386" height="3744.0944881889764" px="0" py="0" pw="1" ph="1" rot="0" dep="0" imageid="" imgRot="0" imgFlip="false" cropLUX="0" cropLUY="0" cropRLX="1" cropRLY="1" />
+                        <element type="TextElement" dep="1" rot="0" ph="0.028845427787467223" pw="0.08929474864274674" py="0.13354364159989032" px="0.06806002313049071" height="108.00000718850917" width="656.0000038085253" y="500.0000124468334" x="500.0000124468334" elType="text" textAlign="left" fontWeight="normal" fontFamily="Comfortaa" fontSize="0.0256403785488959" color="0"/>
+                    </elements>
+                </content>
+                <content type="back" width="7346.456692913386" hight="3744.0944881889764">
+                    <elements>
+                        <element type="PhotoElement" elType="image"  x="0" y="0" width="7346.456692913386" height="3744.0944881889764" px="0" py="0" pw="1" ph="1" rot="0" dep="0" imageid="" imgRot="0" imgFlip="false" cropLUX="0" cropLUY="0" cropRLX="1" cropRLY="1" />
+                        <element type="LogoElement" elType="logo"  x="0" y="0" width="7346.456692913386" height="3744.0944881889764" px="0" py="0" pw="1" ph="1" rot="0" dep="0" imageid="" imgRot="0" imgFlip="false" cropLUX="0" cropLUY="0" cropRLX="1" cropRLY="1" />
+                        <element type="TextElement" dep="1" rot="0" ph="0.028845427787467223" pw="0.08929474864274674" py="0.13354364159989032" px="0.06806002313049071" height="108.00000718850917" width="656.0000038085253" y="500.0000124468334" x="500.0000124468334" elType="text" textAlign="left" fontWeight="normal" fontFamily="Comfortaa" fontSize="0.0256403785488959" color="0"/>
+                    </elements>
+                </content>
+            </contents>
+        </tshirt>
+    </tshirts>
+    <images/>
+</project>

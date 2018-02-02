@@ -1,0 +1,112 @@
+locale: "en"
+
+WorkSpace:
+  ADD_TEXT: "Add Text"
+  COUNT: "{{n}} item"
+
+UploadModal:
+  UPLOAD_IMAGES: "Upload Images"
+  COMPLETE_COUNT: "{{n}} Complete"
+  FILED_COUNT: "{{n}} Failed"
+  ADD_MORE_PHOTOS: "Add More Photos"
+  CANCELL_ALL: "Cancel All"
+  DONE: "DONE"
+
+ItemList:
+  FILE: "File"
+  FILE_PROGRESS: "File Progress"
+
+XLoginModal:
+  LOGIN_TITLE: "ZNO"
+  USERNAME: "User Name"
+  USERNAME_PLACEHOLDER: "Type your user name here"
+  PASSWORD: "Password"
+  PASSWORD_PLACEHOLDER: "Type your password here"
+  LOGIN: "Login"
+
+Spread:
+  CLICK_TO_ADD_PHOTO: "Click To Add Photo"
+  BEYOND_SIZE_TIP: "Image is enlarged {{n}}% beyond original size, most images print well up to {{m}}% beyond original size."
+
+ItemPrice:
+  CAMEO: "Cameo: "
+  PAINTEDTEXT: "Painted Text: "
+  USB: "USB Text: "
+  BOX: "Box: "
+  TOTAL: "Total: "
+  DISCOUNT: "Discount: "
+  GET_FREE_TRIAL: "You can get a FREE trial"
+  FRONT_COVER: "Front Cover Text: "
+  BACK_COVER: "Back Cover Text: "
+  SPINE_COVER: "Spine Text: "
+
+PreviewModal:
+  OUTSIDE: "Outside"
+  INSIDE: "Inside"
+  CLICK_TO_ADD_PHOTO: ""
+
+SortAndFilter:
+  DATE_TOKEN_O_T_N: "Date Taken (oldest to newest)"
+  DATE_TOKEN_N_T_O: "Date Taken (newest to oldest)"
+  UPLOAD_TIME_O_T_N: "Upload Time (oldest to newest)"
+  UPLOAD_TIME_N_T_O: "Upload Time (newest to oldest)"
+  TITLE_A_Z: "Title (A - Z)"
+  TITLE_Z_A: "Title (Z - A)"
+  HIDE_USED: "Hide Used"
+  SORT_BY: "Sort By:"
+
+SideBar:
+  ADD_PHOTOS: "Add Photos"
+
+Tab:
+  IMAGES: "Images"
+  OPTIONS: "Options"
+
+TextEditor:
+  TEXT_EDITOR: "Text Editor"
+  FONT_FAMILY: "Font Family: "
+  FONT_STYLE: "Font Style: "
+  FONT_SIZE: "Font Size: "
+  FONT_COLOR: "Font Color: "
+  DONE: "Done"
+
+OutInSide:
+  OUTSIDE: "Outside"
+  INSIDE: "Inside"
+
+OperationPanel:
+  CROPIMAGE: "Crop Image"
+  ROTATEIMAGE: "Rotate Image"
+  REMOVEIMAGE: "Remove Image"
+
+PhotoElement:
+  BEYOND_SIZE_TIP: "Image is enlarged {{n}}% beyond original size, most images print well up to {{m}}% beyond original size."
+DvdElement:
+  BEYOND_SIZE_TIP: "Image is enlarged {{n}}% beyond original size, most images print well up to {{m}}% beyond original size."
+CameoElement:
+  BEYOND_SIZE_TIP: "Image is enlarged {{n}}% beyond original size, most images print well up to {{m}}% beyond original size."
+
+PaintedTextButtons:
+  ADD_CAMEO: "Add Cameo"
+  REMOVE_CAMEO: "Remove Cameo"
+  PAINTED_TEXT: "Painted Text"
+  SPINE_TEXT: "Add Spine Text"
+  FRONT_COVER_TEXT: "Add Front Cover Text"
+  BACK_COVER_TEXT: "Add Back Cover Text"
+
+CameoActionBar:
+  CROP_ITEM: "Crop Image"
+  ROTATE_ITEM: "Rotate Image"
+  FLIP_ITEM: "Flip Image"
+  RECT_ITEM: "Rectangle Cameo"
+  ROUND_ITEM: "Round Cameo"
+  SMALL_ITEM: "Small Cameo"
+  MIDDLE_ITEM: "Medium Cameo"
+  LARGE_ITEM: "Large Cameo"
+  CLEAR_ITEM: "Remove Cameo"
+  OVAL_ITEM: "Oval Cameo"
+  CLEAR_IMAGE: "Remove Image"
+
+BookCover:
+  FRONT_COVER: "Front Cover"
+  BACK_COVER: "Back Cover"

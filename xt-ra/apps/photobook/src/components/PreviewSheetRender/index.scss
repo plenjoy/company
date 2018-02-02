@@ -1,0 +1,43 @@
+.preview-sheet-render {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  .book-cover .cover-effect{
+    background-color: transparent;
+  }
+
+  &.mobile .cover-sheet{
+    // z-index: -1;
+  }
+
+  .pagination-wrap{
+      background: #f0f0f0;
+
+      padding: 10px 0;
+      margin: -10px auto 0;
+
+    .x-pagination{
+      margin: 0 auto;
+    }
+  }
+
+  .pagination-wrap-simple{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+
+    .previous{
+      float: left;
+      margin-left: -34px;
+    }
+
+    .next{
+      float: right;
+      margin-right: -34px;
+    }
+  }
+}

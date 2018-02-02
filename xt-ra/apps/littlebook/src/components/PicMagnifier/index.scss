@@ -1,0 +1,37 @@
+.PicMagnifier {
+  padding: 10px;
+  background: #fff;
+  border:  1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 6px 10px 12px rgba(0, 0, 0, 0.16);
+  position: fixed;
+  left:  0;
+  top: 0;
+  display: none;
+  transform: translate(0, -50%);
+  z-index: 1000;
+
+  .arrow {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    left: -3px;
+    top: 50%;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    transform: rotate(-45deg) translate(0, -50%);
+  }
+  img{
+    max-width: 320px;
+    max-height: 480px;
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    left: 10px;
+    &.fill{
+      position: static;
+    }
+  }
+}

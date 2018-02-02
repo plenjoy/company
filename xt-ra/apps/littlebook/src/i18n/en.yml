@@ -1,0 +1,436 @@
+locale: "en"
+
+App:
+ CONFIRM_PARENT_BOOK_BODY: "Your cover page design has been scaled down proportionally to fit with the parent book size. This operation may have affected your cover layout. Please review your cover layout carefully and make necessary adjustments if needed."
+ CONFIRM_PARENT_BOOK_TITLE: "INFO"
+ CONFIRM_PARENT_BOOK_BTN: "OK"
+ NETWORK_DISCONNECT: "No interenet connection, please check your network and try again."
+
+Modals:
+  TITLE: "TEST"
+
+XPagination:
+  COVER: "Cover"
+  SHEET: "Sheet"
+  PAGE: "Page"
+  OF: "of"
+
+ConfirmModal:
+  DONE: "Done"
+
+PageHeader:
+  FEEDBACK: "Feedback"
+  CLONE: "Clone"
+  HELP: "Help"
+  PREVIEW: "Preview"
+  SAVE: "Save"
+  SHARE: "Share"
+  ORDER: "Order"
+  QUICK_START: "Quick Start"
+  HOW_THIS_WORKS: "How This Works"
+  FAQ: "FAQ"
+  CONTACT_US: "Contact Us"
+  ORDER_ERROR_TITLE: "ERROR"
+  ORDER_ERROR_EMPTYBOOK_MESSAGE: "There’s no photo or text element in your book, please add at least one photo to make your book."
+  ORDER_ERROR_EMPTYCAMEO_MESSAGE: "You added a cameo window in your book, please place image in it."
+  ORDER_ERROR_EMPTYCAMEO_BUTTONTEXT: "Back to edit"
+  ORDER_ERROR_CONTENT: "The album you are ordering can contain up to 24 images. Currently it contains only {{imageCount}}. You have {{blankImageCount}}. Click Continue for album to be printed with blank pages?"
+  CANCEL: "Cancel"
+  CONTINUE: "Continue"
+  SUBMIT: "Submit"
+  SUBMIT_PROJECT_SUCCESS: "Submit successfully!"
+  SUBMIT_PROJECT_FAILED: "Submit failed, please try again or contact us."
+  UPGRADE_PROJECT_FAILED: "No interenet connection, please check your network and try again."
+
+UpgradeModal:
+  UPGRADE_COMMON_TITLE: "Would you like to upgrade your Little Black Book?"
+  UPGRADE_HARD_COVER_TITLE: "An extra sturdy and hardwearing cover for just $5 extra"
+  UPGRADE_TO_8X8_TITLE: "Twice the size of a regular LBB for just $10 extra"
+  UPGRADE_TO_8X8_HARD_COVER_TITLE: "A larger, more hardwearing book for just $15 extra"
+  CHECKOUT: "Add to Cart"
+
+SortAndFilter:
+  HIDE_USED: "Hide Used"
+  SORT_BY: "Sort By"
+
+SideBar:
+  PHOTOS: "Photos"
+  OPTIONS: "Options"
+  ADD_PHOTOS: "Add Photos"
+
+PageNav:
+  EDITPAGE: "Edit Page"
+  ARRANGEPAGES: "Arrange Pages"
+
+PhotoElement:
+  BEYOND_SIZE_TIP_OLD: "Image is enlarged {{n}}% beyond original size, most images print well up to {{m}}% beyond original size."
+  BEYOND_SIZE_TIP: "Photo has low resolution and may look poor in print."
+  DRAG_IMAGE_HERE: "Drag photo from photo tray"
+
+ActionBar:
+  DESIGN_SETTING: "Book Settings"
+  AUTO_FILL: "Auto Fill"
+  CHANGE_BACKGROUND_COLOR: 'Change Background Color'
+  ADD_TEXT: "Add Text"
+  ADD_FRAME: "Add Frame"
+  FLIP_LAYOUT: "Flip Layout"
+  FLIP_HORIZONTALLY: "Flip horizontally"
+  FLIP_VERTICALLY: "Flip vertically"
+  UNDO: "Undo"
+  REDO: "Redo"
+  CLEAN_UP: "Clean Up"
+  CLEAN_ALL_IMAGES: "Clear All Images"
+  REMOVE_ALL_FRAMES: "Clear Sheet"
+  REMOVE_SHEET: "Remove Sheet"
+  REMOVE_PAGE: "Remove Page"
+  RESTART: "Restart"
+  ADD_SHEET: "Add Sheet"
+  ADD_TO_FRONT: "Add to front"
+  ADD_TO_BACK: "Insert to the end of the book"
+  ADD_AFTER_THIS_PAGE: "Insert after the current sheet"
+  ADD_BEFORE_THIS_PAGE: "Insert before the current sheet"
+  SAVE_LAYOUT: "Save Layout"
+
+CameoActionBar:
+  CROP_ITEM: "Crop Image"
+  ROTATE_ITEM: "Rotate Image"
+  FLIP_ITEM: "Flip Image"
+  RECT_ITEM: "Rectangle Cameo"
+  ROUND_ITEM: "Round Cameo"
+  SMALL_ITEM: "Small Cameo"
+  MIDDLE_ITEM: "Medium Cameo"
+  LARGE_ITEM: "Large Cameo"
+  CLEAR_ITEM: "Remove Cameo"
+  OVAL_ITEM: "Oval Cameo"
+
+EditPage:
+  SAVE_EMPTY_LAYOUT_ERROR: "ERROR"
+  SAVE_EMPTY_LAYOUT_MESSAGE: "Please drag at least 1 frame to save your layout."
+  SAVE_LAYOUT_SUCCESSFULLY_MESSAGE: "Layout saved successfully!"
+  SAVE_LAYOUT_SUCCESSFULLY_LEVEL: "success"
+  SAVE_LAYOUT_FAIL_MESSAGE: "Layout saved failed! Please try again later."
+  SAVE_LAYOUT_FAIL_LEVEL: "error"
+  TEST: "TEST"
+  AUTOFILL_FAILED: "Auto Fill failed!"
+  UPGRADE_PROJECT_FAILED: "No interenet connection, please check your network and try again."
+  ADD_IMAGE_TO_SHEET_FAILED: "No interenet connection, please check your network and try again."
+
+CameoPaintedButtons:
+  ADD_CAMEO: "Add Cameo"
+  REMOVE_CAMEO: "Remove Cameo"
+  PAINTED_TEXT: "Painted Text"
+  SAVE_TEMPLATE: "Save Layout"
+  COVER_TEXT: "Add Cover Text"
+  SPINE_TEXT: "Add Spine Text"
+
+CameoElement:
+ DRAG_AND_DROP_TIP : "Drag and drop your photo here"
+ BEYOND_SIZE_TIP: "Photo has low resolution and may look poor in print."
+
+BookPage:
+  EDIT: "Edit"
+  ROTATE: "Rotate"
+  FLIP: "Flip"
+  EXPAND: "Expand"
+  EXPAND_TO_FULL_SHEET: "Expand to full sheet"
+  EXPAND_TO_LEFT_PAGE: "Expand to left page"
+  EXPAND_TO_RIGHT_SHEET: "Expand to right page"
+  REMOVE: "Remove"
+  UPLOAD_IMAGE: "Upload Image"
+  CROP_ITEM: "Crop Image"
+  EDIT_ITEM: "Edit Image"
+  ROTATE_ITEM: "Rotate Image"
+  FLIP_ITEM: "Flip Image"
+  EXPAND_ITEM: "Expand"
+  EXPAND_TO_FULLPAGE: "Expand To Fullpage"
+  EXPAND_TO_LEFTPAGE: "Expand To Leftpage"
+  EXPAND_TO_RIGHTPAGE: "Expand To Rightpage"
+  LAYER_ITEM: "Layer"
+  BRING_TO_FRONT: "Bring To Front"
+  SEND_TO_BACK: "Send To Back"
+  BRING_FORWARD: "Bring Forward"
+  SEND_BACKWARD: "Send Backward"
+  CLEAR_ITEM: "Delete"
+  UPLOAD_FILES: "Upload Image"
+  FILTER_ITEM: "Properties"
+  EDIT_TEXT: "Edit Text"
+  ENABLED_BACKGROUND_TIP: "Drag photo from photo tray"
+  DISABLED_BACKGROUND_TIP: "This area will be blank in your printed book"
+  CLICK_TO_EDIT_TEXT: "Click to edit text"
+  CLEAR_TEXT: "Remove Text Frame"
+  ALIGN_LEFT: "Align Left"
+  ALIGN_CENTER: "Align Center"
+  ALIGN_RIGHT: "Align Right"
+  ALIGN_TOP: "Align Top"
+  ALIGN_MIDDLE: "Align Middle"
+  ALIGN_BOTTOM: "Align Bottom"
+  SPACE_NEED_THREE_MORE_ELEMENTS: "Select 3 or more elements"
+  SPACE_HORIZONAL: "Space Evenly Horizontally"
+  SPACE_VERTICAL: "Space Evenly Vertically"
+  CLEAR_ALL: "Remove All"
+
+BookSheet:
+  TEST: "TEST"
+
+BookCover:
+  TEST: "TEST"
+
+ArrangePages:
+  DRAG_TO_SWAP: "Drag photo to move"
+
+PhotoTab:
+  ADD_PHOTOS: "Add Photos"
+  CLICK_HERE_TO_SELECT_24_PHOTOS: "Click here to select photos"
+  AUTOFILL_YOUR_PICTURES: "We will autofill photos you select"
+  DATE_TOKEN_O_T_N: "Date Taken (oldest to newest)"
+  DATE_TOKEN_N_T_O: "Date Taken (newest to oldest)"
+  UPLOAD_TIME_O_T_N: "Upload Time (oldest to newest)"
+  UPLOAD_TIME_N_T_O: "Upload Time (newest to oldest)"
+  TITLE_A_Z: "Title (A - Z)"
+  TITLE_Z_A: "Title (Z - A)"
+  EMPTY_IMAGE_LIST_TIP: "Or Drag & Drop your photos to screen to upload."
+
+UploadModal:
+  UPLOAD_IMAGES: "Upload Images"
+  COMPLETE_COUNT: "{{n}} Complete"
+  FILED_COUNT: "{{n}} Failed"
+  ADD_MORE_PHOTOS: "Add More Photos"
+  CANCELL_ALL: "Cancel All"
+  DONE: "DONE"
+  EXCEEDS_SIZE: "File exceeds maximum size of 100M"
+  FILE_EMPTY: "Invalid image file, please select another file"
+  COLOR_SPACE_ERROR: "File has invalid color space, Please select another file"
+  TYPE_CONFLICT: "Only .jpg .jpeg and .png files are supported"
+  FILE_EXCEEDS_MAXIMUM_SIZE: "File exceeds maximum size of 100M"
+  CLOSE_PROMPT: 'Your image has not been uploaded. Click "Continue" to cancel upload or "Cancel" to continue uploading.'
+  ERROR: "An unexpected error occurred. Try again"
+  TIMEOUT: "Session time expired. Try again?"
+  ATTENTION: "Still need to upload {{count}} photo(s), click here to continue"
+
+ItemList:
+  FILE: "File"
+  FILE_PROGRESS: "File Progress"
+
+LayoutList:
+  GET_MORE_LAYOUTS: "+ Get More Layouts"
+  NO_LAYOUTS: "No Available Layout!"
+  NO_LAYOUTS_INNER: "No Available Layout!"
+
+BackgroundElement:
+  DRAG_AND_DROP_TIP: "Drag photo from photo tray"
+
+OptionsBar:
+  TITLE: "WARNING"
+  SAVE: "Save"
+  CANCEL: "Cancel"
+  CONTINUE: "Continue"
+  DONE: "Done"
+  CHANGE: "Change"
+  PRODUCT: "Product"
+  COVER: "Cover"
+  COLOR: "Color"
+  SIZE: "Size"
+  PAPER: "Paper"
+  THICKNESS: "Thickness"
+  GILDING: "Gilding"
+  DOWNLOAD: "Download"
+  DOWNLOAD_BOOK_SPEC: "Download Book Spec"
+  CONFIRM_MESSAGE_RESTART: "This operation will initialize your book layout, would you like to continue?"
+  CONFIRM_MESSAGE_REMAKEBOOKLAYOUT: "This operation will remake your book layout, would you like to continue?"
+  CONFIRM_MESSAGE_REMAKE: "This operation will remake your layout design, would you like to continue?"
+  CONFIRM_MESSAGE_RESETCOVER: "This operation will reset your cover design, would you like to continue?"
+  CONFIRM_MESSAGE_2: "Some change is not saved in book options, would you like to save it or not?"
+
+AddPagesButton:
+  ADD_PAGES: "Add Pages"
+
+DecorationFilter:
+  FILTER_BY_THEME: "Filter By Theme: "
+  EVERY_DAY: "Every Day"
+  THEME_NAME: "Theme Name"
+
+DecorationTab:
+  PAGES: "Pages"
+  BACKGROUND: "Background"
+  STICKERS: "Stickers"
+  BORDERS: "Borders"
+
+StickerList:
+  NO_STICKERS: "No Stickers"
+  GET_MORE: "+ Get More Stickers"
+
+ItemPrice:
+  CAMEO: "Cameo: "
+  GILDING: "Gilding: "
+  PAGEADDED: "Additional Pages: "
+  PAINTEDTEXT: "Painted Text: "
+  BOOK: "Book: "
+  TOTAL: "Total: "
+  DISCOUNT: "Discount: "
+  GET_FREE_TRIAL: "You can get a FREE trial"
+
+ContactUsModal:
+  TITLE: "Contact Us"
+  QUESTION_TITLE: "Have a question?"
+  REQUEST_TITLE: "Have a feature request?"
+  BUG_TITLE: "Want to report a bug?"
+  CANCEL: "Cancel"
+  SUBMIT: "Submit"
+  QUESTION_PLACEHOLDER: "Input your question here"
+  REQUEST_PLACEHOLDER: "Input your feature request here"
+  BUG_PLACEHOLDER: "Input the bug description here"
+
+ShareModal:
+  TITLE: "Share Project"
+  SHAREURL: "Share URL"
+  EMBEDCODE: "Embed Code"
+  ZNO_URL: "Zno URL:"
+  ANONYMOUS_URL: "Anonymous URL:"
+  COPY: "Copy"
+  CLOSE: "Close"
+  LARGE: "Large"
+  SMALL: "Small"
+  MEDIUM: "Medium"
+  EMBEDCODE_TITLE: "Embed Code:"
+
+HowThisWorksModal:
+  TITLE: "How This Works"
+  DESCRIPTION: "Congratulations on starting a book! You have two ways to make your book."
+  STEP_1: "1. Use drag and drop templates"
+  STEP_1_CONTENT: "Our software now boasts upwards of 650 pre-made templates.Just pick a template and drag photos into the empty frames. You can be done with a book in minutes!"
+  STEP_2: "2. Upload finished spreads from 3rd party design programs"
+  STEP_2_CONTENT: "Want to use a 3rd party design program to design your albums? Then click “Book Spec”. A .jpg and .psd file for the current cover and size selected will download to your desktop. You can open the .psd in Photoshop and create your spreads there or read the size specs off the document and recreate the layout in any other program. Once you are finished designing your book in either Photoshop or another external program you can upload spreads as .jpg images. This can be done by locating the original book you started and clicking “Upload Images”."
+  BUTTON_TEXT: "OK"
+
+QuickStartModal:
+  TITLE: "Quick Start"
+  STEP_1: "Regular users："
+  STEP_1_CONTENT1: "1. Upload photos"
+  STEP_1_CONTENT2: "2. Select or change layout on page"
+  STEP_1_CONTENT3: "3. Drag & drop Images on page"
+  STEP_2: "Using Third-party design tool:"
+  STEP_2_CONTENT1: "1. Download .psd & .jpg design spec"
+  STEP_2_CONTENT2: "2. Use spec in a third party tool"
+  STEP_2_CONTENT3: "3. Upload finished spreads as images"
+  STEP_2_CONTENT4: "4. Drag & drop spreads onto book"
+  BUTTON_TEXT: "OK"
+
+PropertyModal:
+    X: "X"
+    W: "W"
+    Y: "Y"
+    H: "H"
+    FILTER: "Filter"
+    BALANCE: "Balance"
+    OPACITY: "Opacity"
+    CANCEL: "Cancel"
+    DONE: "Done"
+    IMAGE: "Image"
+    BORDER: "Border"
+    STROKE: "Stroke"
+    SIZE: "Size"
+    COLOR: "Color"
+    PROPERTIES: "Properties"
+
+FilterImage:
+  NO_FILTER: "No Filter"
+  BLACK_WHITE: "Black & White"
+  SEPIA: "Sepia"
+  MONO_CHROME: "Mono Chrome"
+  PAINT: "Paint"
+  SPREAD: "Spread"
+
+PageBackgroundModal:
+  TITLE: "Page Background"
+  CONTENT_LABEL: "Background Color:"
+  CANCEL: "Cancel"
+  DONE: "Done"
+
+ApprovalPageHeader:
+  CANCEL: "Cancel"
+  APPROVE: "Approve"
+  CONTINUE: "Continue"
+  ORDER_ERROR_EMPTYCOVER_MESSAGE: "There is a blank cover in your book."
+  ORDER_ERROR_EMPTYCOVER_1EMPTYSHEET_MESSAGE: "There is a blank sheet and a blank cover in your book."
+  ORDER_ERROR_EMPTYCOVER_EMPTYSHEETS_MESSAGE: "There are {{blankSheetNum}} blank sheets and a blank cover in your book."
+  ORDER_ERROR_1EMPTYSHEET_MESSAGE: "There is a blank sheet in your book."
+  ORDER_ERROR_EMPTYSHEETS_MESSAGE: "There are {{blankSheetNum}} blank sheets in your book."
+  PS_ORDER_ERROR_EMPTYCOVER_1EMPTYPAGE_MESSAGE: "There is a blank page and a blank cover in your book."
+  PS_ORDER_ERROR_EMPTYCOVER_EMPTYPAGES_MESSAGE: "There are {{blankPageNum}} blank pages and a blank cover in your book."
+  PS_ORDER_ERROR_1EMPTYPAGE_MESSAGE: "There is a blank page in your book."
+  PS_ORDER_ERROR_EMPTYPAGES_MESSAGE: "There are {{blankPageNum}} blank pages in your book."
+  FULL_ERROR_MESSAGE: "{{preMessage}} We will print and assemble your blank pages into your book. Would you like to continue?"
+
+ApprovalPageActionBar:
+  PAGE_NUMBER: "Page Number"
+  WARNING_MESSAGE: "Warning Message"
+  ACTIONS: "Actions"
+  IGNORE: "Ignore"
+  IGNORE_TITLE: "Don't show this warning."
+  AUTOFIX: "Autofix"
+  AUTOFIX_TITLE: "Delete this blank element."
+  REVIEW: "Review"
+  REVIEW_TITLE: "Jump to the corresponding page for reviewing."
+
+ApprovalPageSideBar:
+  PARAGRAPH1_WARNING1: "Please review your book carefully. Order cannot be cancelled after one hour."
+  PARAGRAPH1_WARNING2: "We are not responsible for any user errors such as typos, blank pages, or low image quality. No changes are allowed after completing checkout."
+  PARAGRAPH1_TITLE: "Check for these errors"
+  PARAGRAPH1_TEXT1: "- Photoshop bleed layer left on"
+  PARAGRAPH1_TEXT2: "- Typos"
+  PARAGRAPH1_TEXT3: "- Cut off images"
+  PARAGRAPH1_TEXT4: "- Blank pages"
+  PARAGRAPH2_TITLE: "Confirm these options"
+  PARAGRAPH2_TEXT1: "Cover"
+  PARAGRAPH2_TEXT2: "Size"
+  PARAGRAPH2_TEXT3: "Paper"
+  PARAGRAPH2_TEXT4: "Thickness"
+  PARAGRAPH2_TEXT5: "Gilding"
+  PARAGRAPH3_TITLE: "About this book view"
+  PARAGRAPH3_TEXT1: "Page edge trimmed"
+  PARAGRAPH3_TEXT2: "Center line removed"
+  PARAGRAPH3_TEXT3: "Final book view"
+
+BookSettingsModal:
+  SAVE_SETTING_SUCCESS: "Setting saved successfully!"
+  BOOK_SETTING: "Book Settings"
+  DEFAULT_BACKGROUND: "Default Background"
+  DEFAULT_FONT: "Default Font"
+  DEFAULT_BORDER: "Default Border"
+  DEFAULT_LAYOUT: "Default Layout"
+  APPLY_TO_EXISTING: "Apply to existing"
+  AUTO_LAYOUT: "Auto Layout"
+  COLOR: "Color"
+  FONT: "Font"
+  SIZE: "Size"
+  OPACITY: "Opacity"
+  TOGGLE_ON: "On"
+  TOGGLE_OFF: "Off"
+  CANCEL: "Cancel"
+  DONE: "Done"
+
+CoverTypesSwitch:
+  SWITCH_TO_TEXT_COVER: "Switch to Text Cover"
+  SWITCH_TO_IMAGE_COVER: "Switch to Photo Cover"
+
+PaperTypesSwitch:
+  UPGRADE_TO_HARD_COVER: "Upgrade to Hard Cover"
+  SWITCH_TO_PAPER_COVER: "Switch to Paper Cover"
+
+UploadItem:
+  FAILED: "Failed"
+  RETRY: "Retry"
+  HELP: "Help"
+
+SelectModal:
+  SELECT_TITLE: "Upload your photos"
+  SELECT_TIP: "You can add photos from your computer."
+  ADD_PHOTOS: "Add from Computer"
+  ADD_FACEBOOK: "Add from Facebook"
+  ADD_INST: "Add from Instagram"
+  ADD_GOOGLE: "Add from Google"
+  SOCIAL_TIP: "Or select photos from your social network"
+
+FacebookUpload:
+  DATE_TOKEN_O_T_N: "Date Modified (oldest to newest)"
+  DATE_TOKEN_N_T_O: "Date Modified (newest to oldest)"

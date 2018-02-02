@@ -1,0 +1,103 @@
+@import "../../../common/styles/fonts.scss";
+$height: 40px;
+.item-price {
+  position: absolute;
+  left: 0px;
+  top: 38px;
+  background: white;
+  width: 100%;
+  height: 38px;
+  border-bottom: 1px solid rgb(214, 214, 214);
+  z-index: 1200;
+  user-select: none;
+
+  span {
+    display: inline-block;
+    &.discount {
+      position: relative;
+      left: -10px;
+    }
+  }
+  .label {
+    font-size: 12px;
+    color: #7b7b7b;
+    margin-right: 6px;
+  }
+  .item-price-container {
+    float: right;
+    margin-right: 20px;
+  }
+  .price {
+    @include font-medium();
+    font-size: 13px;
+    color: #3a3a3a;
+    line-height: 38px;
+    span {
+      display: inline-block;
+      text-decoration: line-through;
+      margin-right: 18px;
+      font-size: 13px;
+      color: #7b7b7b;
+      font-weight: normal;
+    }
+  }
+  img {
+    margin-left: 8px;
+    vertical-align: middle;
+    margin-top: -2px;
+  }
+  a {
+    color: #7b7b7b;
+  }
+  .detail {
+    display: none;
+    padding: 16px 20px;
+    background: #fff;
+    border: 1px solid #d6d6d6;
+    position: absolute;
+    top: 38px;
+    right: 6px;
+    cursor: default;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    font-size: 15px;
+    width: 180px;
+    line-height: 22px;
+    &:focus {
+      outline: none;
+    }
+    label {
+      width: 69%;
+      display: inline-block;
+      text-align: left;
+      color: #3a3a3a;
+      font-size: 12px;
+    }
+    span {
+      width: 30%;
+      text-align: left;
+      white-space: nowrap;
+      font-size: 12px;
+      font-weight: 500;
+      color: #3a3a3a;
+    }
+    &:after {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background: #fff;
+      border-top: 1px solid #d8d8d8;
+      border-left: 1px solid #d8d8d8;
+      transform: rotate(45deg);
+      top: -7px;
+      position: absolute;
+      right: 13px;
+      z-index: 2;
+    }
+  }
+  &.active {
+    .detail {
+      display: block;
+    }
+  }
+}

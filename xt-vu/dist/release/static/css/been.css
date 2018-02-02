@@ -1,0 +1,592 @@
+
+/* common been style */
+.been-face-default {
+	color: rgba(230,230,230,1);
+}
+
+.been-pair-default {
+	color: rgba(0,0,0,1);
+	/*background-color: rgba(230,230,230,1);*/
+	background: -webkit-linear-gradient(rgba(230,230,230,1), rgba(210,209,208,1)); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(rgba(230,230,230,1), rgba(210,209,208,1)); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(rgba(230,230,230,1), rgba(210,209,208,1)); /* Firefox 3.6 - 15 */
+  background: linear-gradient(rgba(230,230,230,1), rgba(210,209,208,1)); /* 标准的语法 */
+}
+
+.been-face-info {
+	color: rgba(71,150,215,1);
+}
+
+.been-pair-info {
+	color: rgba(255,255,255,1);
+	/*background-color: rgba(47,136,209,1);*/
+	background: -webkit-linear-gradient(rgba(71,150,215,1), rgba(51,129,193,1)); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(rgba(71,150,215,1), rgba(51,129,193,1)); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(rgba(71,150,215,1), rgba(51,129,193,1)); /* Firefox 3.6 - 15 */
+  background: linear-gradient(rgba(71,150,215,1), rgba(51,129,193,1)); /* 标准的语法 */
+}
+
+.been-face-primary {
+  color: rgba(72,81,154,1);
+}
+
+.been-pair-primary {
+	color: rgba(255,255,255,1);
+  /*background-color: rgba(72,81,154,1);*/
+  background: -webkit-linear-gradient(rgba(72,81,154,1), rgba(52,60,133,1)); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(rgba(72,81,154,1), rgba(52,60,133,1)); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(rgba(72,81,154,1), rgba(52,60,133,1)); /* Firefox 3.6 - 15 */
+  background: linear-gradient(rgba(72,81,154,1), rgba(52,60,133,1)); /* 标准的语法 */
+}
+
+.been-face-success {
+	color: rgba(35,169,50,1);
+}
+
+.been-pair-success {
+	color: rgba(255,255,255,1);
+	/*background-color: rgba(35,169,50,1);*/
+	background: -webkit-linear-gradient(rgba(35,169,50,1), rgba(15,148,28,1)); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(rgba(35,169,50,1), rgba(15,148,28,1)); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(rgba(35,169,50,1), rgba(15,148,28,1)); /* Firefox 3.6 - 15 */
+  background: linear-gradient(rgba(35,169,50,1), rgba(15,148,28,1)); /* 标准的语法 */
+}
+
+.been-face-warning {
+  color: rgba(254,171,137,1);
+}
+
+.been-pair-warning {
+	color: rgba(255,255,255,1);
+	/*background-color: rgba(254,171,137,1);*/
+	background: -webkit-linear-gradient(rgba(254,171,137,1), rgba(234,150,115,1)); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(rgba(254,171,137,1), rgba(234,150,115,1)); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(rgba(254,171,137,1), rgba(234,150,115,1)); /* Firefox 3.6 - 15 */
+  background: linear-gradient(rgba(254,171,137,1), rgba(234,150,115,1)); /* 标准的语法 */
+}
+
+.been-face-fail {
+  color: rgba(254,99,34,1);
+}
+
+.been-pair-fail {
+	color: rgba(255,255,255,1);
+	/*background-color: rgba(254,99,34,1);*/
+	background: -webkit-linear-gradient(rgba(254,99,34,1), rgba(234,78,12,1)); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(rgba(254,99,34,1), rgba(234,78,12,1)); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(rgba(254,99,34,1), rgba(234,78,12,1)); /* Firefox 3.6 - 15 */
+  background: linear-gradient(rgba(254,99,34,1), rgba(234,78,12,1)); /* 标准的语法 */
+}
+
+
+/* message */
+#been-msg-box {
+	position: fixed;
+	top:100px;
+	left:100px;
+	width: 400px;
+	height: 250px;
+
+	/*border:1px solid rgba(80,80,80,1);*/
+	border-radius: 4px;
+
+	box-shadow: 0 0 4px rgba(90,90,90,1);
+
+	z-index: 9990;
+}
+
+#been-msg-title {
+  height: 30px;
+  line-height: 30px;
+
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+
+  /*color: rgba(255,255,255,1);
+  background-color: rgba(80,80,80,1);*/
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+#been-msg-title a {
+	float:right;
+	
+	/*color:rgba(255,0,0,1);*/
+	padding-right:10px;
+}
+
+#been-msg-body {
+	height: 220px;
+
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+
+	background-color: rgba(245,245,245,1);
+}
+
+#been-msg-content {
+	position: relative;
+	top: 60px;
+
+	height: 60px;
+
+
+	/*background-color: rgba(255,255,255,1);*/
+	font-size: 14px;
+	padding: 0 10px;
+	text-align: center;
+}
+
+#been-msg-btns {
+	position: relative;
+	top: 80px;
+
+	height: 30px;
+
+	/*background-color: rgba(255,0,0,1);*/
+
+}
+
+#been-msg-btns div{
+	display: inline-block;
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+
+	border:1px solid rgba(220,220,220,1);
+	border-radius: 3px;
+
+	/*background-color: rgba(255,255,255,1);*/
+	background: -webkit-linear-gradient(rgba(255,255,255,1), rgba(239,238,237,1)); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(rgba(255,255,255,1), rgba(239,238,237,1)); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(rgba(255,255,255,1), rgba(239,238,237,1)); /* Firefox 3.6 - 15 */
+  background: linear-gradient(rgba(255,255,255,1), rgba(239,238,237,1)); /* 标准的语法 */
+	font-size: 13px;
+	text-align: center;
+}
+
+#been-msg-btns div:hover{	
+  background: -webkit-linear-gradient(rgba(199,199,199,1), rgba(230,230,230,1)); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(rgba(199,199,199,1), rgba(230,230,230,1)); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(rgba(199,199,199,1), rgba(230,230,230,1)); /* Firefox 3.6 - 15 */
+  background: linear-gradient(rgba(199,199,199,1), rgba(230,230,230,1)); /* 标准的语法 */
+}
+
+/* fast message */
+.been-fastmsg-top {
+	position: fixed;
+	display: none;
+	top: 15px;
+	/*left: -455px;*/
+
+	/*min-width: 50px;*/
+	width: 450px;
+	height: 60px;
+	line-height: 60px;
+
+	border-radius: 2px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 8px;
+	padding-right: 8px;
+
+	box-shadow: 1px 1px 2px rgba(90,90,90,1);
+	z-index: 9995;
+
+	/*transition: top .5s;
+	-moz-transition: top .5s;	
+	-webkit-transition: top .5s;	
+	-o-transition: top .5s; */
+}
+
+.been-fastmsg-tl {
+	position: fixed;
+	top: 40px;
+	left: -455px;
+
+	min-width: 50px;
+	max-width: 450px;
+	height: 30px;
+	line-height: 30px;
+
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 8px;
+	padding-right: 8px;
+
+	box-shadow: 1px 1px 2px rgba(90,90,90,1);
+	z-index: 9995;
+
+	transition: left .5s;
+	-moz-transition: left .5s;	
+	-webkit-transition: left .5s;	
+	-o-transition: left .5s;
+}
+
+.been-fastmsg-tr {
+	position: fixed;
+	top: 40px;
+	right: -455px;
+
+	min-width: 50px;
+	max-width: 450px;
+	height: 30px;
+	line-height: 30px;
+
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 8px;
+	padding-right: 8px;
+
+	box-shadow: 1px 1px 2px rgba(90,90,90,1);
+	z-index: 9995;
+
+	transition: right .5s;
+	-moz-transition: right .5s;	
+	-webkit-transition: right .5s;	
+	-o-transition: right .5s;
+}
+
+.been-fastmsg-bl {
+	position: fixed;
+	bottom: 50px;
+	left: -455px;
+
+	min-width: 50px;
+	max-width: 450px;
+	height: 30px;
+	line-height: 30px;
+
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 8px;
+	padding-right: 8px;
+
+	box-shadow: 1px 1px 2px rgba(90,90,90,1);
+	z-index: 9995;
+
+	transition: left .5s;
+	-moz-transition: left .5s;	
+	-webkit-transition: left .5s;	
+	-o-transition: left .5s;
+}
+
+.been-fastmsg-br {
+	position: fixed;
+	bottom: 50px;
+	right: -455px;
+
+	min-width: 50px;
+	max-width: 450px;
+	height: 30px;
+	line-height: 30px;
+
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 8px;
+	padding-right: 8px;
+
+	box-shadow: 1px 1px 2px rgba(90,90,90,1);
+	z-index: 9995;
+
+	transition: right .5s;
+	-moz-transition: right .5s;	
+	-webkit-transition: right .5s;	
+	-o-transition: right .5s;
+}
+
+/*topo tip*/
+#been-topotip-box {
+	display: none;
+	position: fixed;
+	left: 50px;
+	top: 100px;
+	min-width: 150px;
+	max-width: 300px;
+
+
+	border:2px solid rgba(220,220,220,1);
+	border-radius: 4px;
+	background-color: rgba(255,255,255,1);
+
+	box-shadow: 0 0 1px rgba(90,90,90,1);
+}
+
+#been-topotip-body {
+	width: 100%;
+	height: 100%;
+
+	border-radius: 4px;
+	background-color: rgba(255,255,255,1);
+}
+
+.been-topotip-item {
+	/*width: 100%;*/
+	/*height: 20px;*/
+
+}
+
+.been-topotip-item-name {
+/*	float: left;*/
+	margin: 3px 0;
+	/*width: 30%;*/
+	/*height: 20px;*/
+	/*line-height: 20px;*/
+
+	background-color: rgba(255,255,255,1);
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 5px;
+	/*text-align: right;*/
+}
+
+.been-topotip-item-desc {
+	/*float: left;*/
+	margin: 5px 0;
+	/*width: 70%;*/
+	/*height: 20px;*/
+	/*line-height: 20px;*/
+
+	background-color: rgba(255,255,255,1);
+	font-size: 12px;
+	padding-left: 8px;
+	/*text-align: left;*/
+}
+
+/*been date picker*/
+#been-datepicker-box {
+	/*position: fixed;*/
+	/*display: none;*/
+	top: 100px;
+	left:200px;
+
+	padding: 2px;
+
+	border: 2px solid rgba(71,150,215,1);
+	border-radius: 4px;
+	background-color: rgba(255,255,255,1);
+
+	box-shadow: 1px 1px 3px rgba(190,190,190,1);
+}
+
+#been-datepicker-head {
+	border: 1px solid rgba(91,170,235,1);
+}
+
+#been-datepicker-body {
+	/*border: 1px dashed rgba(220,220,220,1);*/
+}
+
+#been-datepicker-foot {
+
+}
+
+#been-datepicker-nyear {
+	display: inline-block;
+	margin: 1px;
+	width: 38px;
+	height: 20px;
+	line-height: 20px;
+	
+	text-align: center;
+	font-size: 13px;
+}
+
+#been-datepicker-nyear:hover {
+	color: rgba(255,255,255,1);
+	background-color: rgba(71,150,215,1);
+	cursor: pointer;
+}
+
+.been-datepicker-yearitem {
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 2px;
+	width: 38px;
+	height: 20px;
+	line-height: 20px;
+	
+	text-align: center;
+	font-size: 13px;
+}
+
+.been-datepicker-yearitem:hover {
+	color: rgba(255,255,255,1);
+	background-color: rgba(71,150,215,1);
+	cursor: pointer;
+}
+
+.been-datepicker-monthitem {
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 2px;
+	width: 38px;
+	height: 20px;
+	line-height: 20px;
+	
+	text-align: center;
+	font-size: 13px;
+}
+
+.been-datepicker-monthitem:hover {
+	color: rgba(255,255,255,1);
+	background-color: rgba(71,150,215,1);
+	cursor: pointer;
+}
+
+#been-datepicker-nmonth {
+	display: inline-block;
+	margin: 1px;
+	width: 30px;
+	height: 20px;
+	line-height: 20px;
+	
+	text-align: center;
+	font-size: 13px;
+}
+
+#been-datepicker-nmonth:hover {
+	color: rgba(255,255,255,1);
+	background-color: rgba(71,150,215,1);
+	cursor: pointer;
+}
+
+.been-datepicker-arrow {
+	display: inline-block;
+	margin: 1px;
+	width: 16px;
+	height: 20px;
+	line-height: 20px;
+	
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+
+	color: rgba(90,90,90,1);
+}
+
+.been-datepicker-arrow:hover {
+	color: rgba(255,255,255,1);
+	background-color: rgba(71,150,215,1);
+	cursor: pointer;
+}
+
+#been-datepicker-weekday {
+	width: 154px;
+	height: 22px;
+	border-bottom: 1px dashed rgba(220,220,220,1);
+
+}
+
+.been-datepicker-row {
+	width: 154px;
+	height: 22px;
+	border: 1px dashed rgba(220,220,220,0);
+}
+
+.been-datepicker-weekitem {
+	/*position: absolute;*/
+	display: inline-block;
+	margin: 1px;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	
+	text-align: center;
+	font-size: 13px;
+	/*font-weight: bold;*/
+
+	color: rgba(90,90,90,1);
+	/*background-color: rgba(220,220,220,1);*/
+}
+
+.been-datepicker-item {
+	display: inline-block;
+	margin: 1px;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	
+	text-align: center;
+	font-size: 13px;
+	color: rgba(0,0,0,1);
+	background-color: rgba(255,255,255,1);
+
+	border: 1px dotted rgba(240,240,240,1);
+}
+
+.been-datepicker-fadeitem {
+	display: inline-block;
+	margin: 1px;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	
+	text-align: center;
+	font-size: 13px;
+	color: rgba(190,190,190,1);
+	background-color: rgba(255,255,255,1);
+
+	border: 1px dotted rgba(240,240,240,1);
+}
+
+.been-datepicker-item:hover {
+	color: rgba(255,255,255,1);
+	background-color: rgba(71,150,215,1);
+	cursor: pointer;
+}
+
+.been-datepicker-fadeitem:hover {
+	color: rgba(255,255,255,1);
+	background-color: rgba(71,150,215,1);
+	cursor: pointer;
+}
+
+/* time picker */
+#been-timepicker-box {
+	padding: 2px;
+
+	border: 2px solid rgba(71,150,215,1);
+	border-radius: 4px;
+	background-color: rgba(255,255,255,1);
+
+	box-shadow: 1px 1px 3px rgba(190,190,190,1);
+
+	cursor: pointer;
+}
+
+#been-timepicker-body {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.been-timepicker-timebox {
+	display: inline-block;
+	width: 30px;
+}
+
+.been-timepicker-sepbox {
+	display: inline-block;
+	width: 12px;
+}
+
+#been-timepicker-houritem2, #been-timepicker-minuteitem2, #been-timepicker-seconditem2 {
+	text-align: center;
+	font-size: 22px;
+}
+
+#been-timepicker-houritem1, #been-timepicker-minuteitem1, #been-timepicker-seconditem1, #been-timepicker-houritem3, #been-timepicker-minuteitem3, #been-timepicker-seconditem3 {
+	color: rgba(130,130,130,1);
+
+	text-align: center;
+	font-size: 16px;
+}
+
+#been-timepicker-houritem0, #been-timepicker-minuteitem0, #been-timepicker-seconditem0, #been-timepicker-houritem4, #been-timepicker-minuteitem4, #been-timepicker-seconditem4 {
+	color: rgba(190,190,190,1);
+
+	text-align: center;
+	font-size: 10px;
+}

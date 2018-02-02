@@ -1,0 +1,24 @@
+.button{
+  cursor: pointer;
+  border: none;
+  width: 160px;
+  height: 40px;
+  outline: none;
+  line-height: 38px;
+  box-sizing: border-box;
+  background: #393939;
+  color: #fff;
+  vertical-align: middle;
+  &:hover{
+    background: #000;
+  }
+  &.white{
+    background: #fff;
+    color: #000;
+    border: 1px solid #cbcbcb;
+  }
+  &.disabled{
+    opacity: 0.4;
+    pointer-events: none;
+  }
+}

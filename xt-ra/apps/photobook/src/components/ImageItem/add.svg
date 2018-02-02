@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 12</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BookEditor-Phototree" transform="translate(-254.000000, -203.000000)" fill-rule="nonzero">
+            <g id="Group-12" transform="translate(254.000000, 203.000000)">
+                <g id="Group_6" fill="#3A97F9">
+                    <g id="Group">
+                        <path d="M8,0 C12.418278,2.22044605e-16 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 C3.581722,16 4.4408921e-16,12.418278 0,8 C-5.55111512e-16,3.581722 3.581722,8.8817842e-16 8,0 Z" id="ellipse-2-2"></path>
+                    </g>
+                </g>
+                <path d="M7.157,11.7 L7.157,8.7 L4.157,8.7 C3.84606369,8.7 3.594,8.44793631 3.594,8.137 C3.594,7.82606369 3.84606369,7.574 4.157,7.574 L7.157,7.574 L7.157,4.574 C7.157,4.26306369 7.40906369,4.011 7.72,4.011 C8.03093631,4.011 8.283,4.26306369 8.283,4.574 L8.283,7.574 L11.283,7.574 C11.5939363,7.57400001 11.846,7.82606369 11.846,8.137 C11.846,8.44793631 11.5939363,8.69999999 11.283,8.7 L8.283,8.7 L8.283,11.7 C8.283,12.0109363 8.03093631,12.263 7.72,12.263 C7.40906369,12.263 7.157,12.0109363 7.157,11.7 Z" id="Union_1" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

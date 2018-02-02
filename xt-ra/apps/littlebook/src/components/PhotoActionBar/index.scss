@@ -1,0 +1,53 @@
+@import "../../../../common/styles/common";
+.photo-action-bar {
+  @include action-bar;
+
+  // width: 100px;
+
+  &.has-image {
+  }
+  // upload
+  .item-upload a {
+    background: url("./icons/upload.png") center center no-repeat;
+  }
+  // crop
+  .item-crop a {
+    background: url("./icons/crop.png") center center no-repeat;
+  }
+  // rotate
+  .item-rotate a {
+    background: url("./icons/rotate.png") center center no-repeat;
+  }
+  // flip
+  .item-flip a {
+    background: url("./icons/flip.png") center center no-repeat;
+  }
+  // expand
+  .item-expand a {
+    background: url("./icons/expand.png") center center no-repeat;
+  }
+  // expand-to-fullpage
+  .item-expand-full a {
+    background: url("./icons/expand-to-full.png") center center no-repeat;
+  }
+  // expand-to-leftpage
+  .item-expand-left a {
+    background: url("./icons/expand-to-left.png") center center no-repeat;
+  }
+  // expand-to-rightpage
+  .item-expand-right a {
+    background: url("./icons/expand-to-right.png") center center no-repeat;
+  }
+  // layer
+  .item-layer > a {
+    background: url("./icons/layer.png") center center no-repeat;
+  }
+  // property
+  .item-property a {
+    background: url("./icons/properties.png") center center no-repeat;
+  }
+  // clear
+  .item-clear a {
+    background: url("./icons/clear.png") center center no-repeat;
+  }
+}

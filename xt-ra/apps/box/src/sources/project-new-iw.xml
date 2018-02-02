@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project clientId="web-h5" createAuthor="web-h5|1.0|1">
+  <guid>1437562</guid>
+  <userId>988732</userId>
+  <artisan/>
+  <title>sasfwerw</title>
+  <description/>
+  <createdDate/>
+  <updatedDate>2016-09-26 20:43:11</updatedDate>
+  <imageBox>
+    <spec version="1.0">
+      <option id="product" value="IB"/>
+      <option id="type" value="IW"/>
+      <option id="size" value="8X11"/>
+      <option id="thickness" value="T"/>
+      <option id="paper" value="EP"/>
+    </spec>
+    <imageBoxSetting/>
+    <spreads>
+      <spread id="UNIQUE-0" type="coverPage" w="9165.354330708662" h="3673.228346456693" bleedTop="35.43307086614173"
+              bleedBottom="35.43307086614173" bleedLeft="35.43307086614173" bleedRight="35.43307086614173"
+              spineThicknessWidth="826.7716535433071"
+              wrapSize="330.7086614173228"
+              pageNumber="0">
+        <elements>
+          <element id="aaa" type="PhotoElement" elType="background" x="0" y="0" width="9165.354330708662"
+                   height="3673.2283464566935" px="0" py="0" pw="1" ph="1.0000000000000002" rot="0" dep="0" imageid=""
+                   imgRot="0" imgFlip="false" cropLUX="0" cropLUY="0" cropRLX="1" cropRLY="1"/>
+        </elements>
+      </spread>
+      <spread id="UNIQUE-1" type="innerPage" w="4051.1811023622045" h="3106.299212598425" bleedTop="35.43307086614173"
+              bleedBottom="35.43307086614173" bleedLeft="35.43307086614173" bleedRight="35.43307086614173"
+              wrapSize="177.1653543307087"
+              pageNumber="1">
+        <elements>
+          <element id="bbb" type="PhotoElement" elType="background" x="0" y="0" width="4051.1811023622045"
+                   height="3106.299212598425" px="0" py="0" pw="1" ph="1" rot="0" dep="0" imageid="" imgRot="0"
+                   imgFlip="false" cropLUX="0" cropLUY="0" cropRLX="1" cropRLY="1"/>
+        </elements>
+      </spread>
+    </spreads>
+  </imageBox>
+  <mergeInfo>
+    <mergedMobileImages/>
+  </mergeInfo>
+  <images/>
+  <designImages/>
+</project>

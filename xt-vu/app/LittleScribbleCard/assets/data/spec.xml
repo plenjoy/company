@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product-spec version="1.0">
+    <global>
+        <dpi>300</dpi>
+
+        <options>
+            <optionGroup id="product">
+                <option id="LRB" name="Little Round Block" />
+                <option id="LSC" name="Little Scribble Card" />
+            </optionGroup>
+
+            <optionGroup id="size">
+                <option id="8X10" name="8x10" />
+                <option id="4X6" name="4x6" />
+            </optionGroup>
+
+            <optionGroup id="finish">
+                <option id="Matte" name="Matte" />
+            </optionGroup>
+
+            <optionGroup id="orientation">
+                <option id="Portrait" name="Portrait" />
+                <option id="Landscape" name="Landscape" />
+            </optionGroup>
+        </options>
+    </global>
+
+    <parameters>
+        <!-- 面板尺寸／英寸 -->
+        <parameter id="baseSizeInInch" keyPattern="product-size-orientation">
+            <!-- 204mm * 254mm -->
+            <entry key="LRB-8X10-Portrait" width="8.03150" height="10.0000" />
+
+            <!-- 254mm * 204mm -->
+            <entry key="LRB-8X10-Landscape" width="10.0000" height="8.03150" />
+
+            <!-- 102mm * 152mm -->
+            <entry key="LSC-4X6-Portrait" width="4.01575" height="5.98425" />
+
+            <!-- 152mm * 102mm -->
+            <entry key="LSC-4X6-Landscape" width="5.98425" height="4.01575" />
+        </parameter>
+
+        <!-- 出血／英寸 -->
+        <parameter id="bleedInInch" keyPattern="product-size">
+            <!-- 3mm -->
+            <entry key="LRB-8X10" left="0.118110" top="0.118110" right="0.118110" bottom="0.118110" />
+            <entry key="LSC-4X6" left="0.0787402" top="0.0787402" right="0.0787402" bottom="0.0787402" />
+        </parameter>
+
+        <!-- 圆角半径／英寸 -->
+        <parameter id="cornerRadiusInInch" keyPattern="product-size">
+            <!-- 4mm -->
+            <entry key="LRB-8X10" value="0.157480" />
+            <entry key="LSC-4X6" value="0.195850" />
+        </parameter>
+
+        <!-- 厚度／英寸 -->
+        <parameter id="thicknessInInch" keyPattern="product-size">
+            <!-- 不明 -->
+            <entry key="LRB-8X10" value="0" />
+            <entry key="LSC-4X6" value="0" />
+        </parameter>
+    </parameters>
+
+    <configurableOptionMap>
+        <optionMap id="size" keyPattern="product">
+            <entry key="LRB" value="8X10" defaultValue="8X10"/>
+            <entry key="LSC" value="4X6" defaultValue="4X6"/>
+        </optionMap>
+        <optionMap id="finish" keyPattern="product">
+            <entry key="LRB" value="matte" defaultValue="matte"></entry>
+            <entry key="LSC" value="matte" defaultValue="matte"></entry>
+        </optionMap>
+        <optionMap id="orientation" keyPattern="product">
+            <entry key="LRB" value="Portrait,Landscape" defaultValue="Landscape"></entry>
+            <entry key="LSC" value="Portrait,Landscape" defaultValue="Landscape"></entry>
+        </optionMap>
+    </configurableOptionMap>
+
+    <variables>
+        <variable id="foreground" keyPattern="product-size">
+           <entry key="LRB-8X10"  width="649" height="769" paddingLeft="40" paddingTop="52" paddingRight="65" paddingBottom="41" rWidth="864" rHeight="709" rPaddingLeft="37" rPaddingTop="52" rPaddingRight="63" rPaddingBottom="41" />
+           <entry key="LSC-4X6"  width="686" height="964" paddingLeft="60" paddingTop="60" paddingRight="60" paddingBottom="60" rWidth="964" rHeight="686" rPaddingLeft="60" rPaddingTop="60" rPaddingRight="60" rPaddingBottom="60" />
+        </variable>
+    </variables>
+
+</product-spec>

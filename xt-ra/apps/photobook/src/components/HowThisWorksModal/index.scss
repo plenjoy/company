@@ -1,0 +1,54 @@
+@import "../../../../common/styles/fonts.scss";
+@import "../../../../common/styles/common.scss";
+
+.how-this-work-modal{
+  width:500px;
+  padding:40px;
+  box-sizing:border-box;
+
+  .content-wrap{
+  }
+  p{
+    margin:0;
+    padding:0;
+    line-height:1;
+  }
+
+  .modal-title{
+    @include font-light();
+    font-size:24px;
+    color:#3a3a3a;
+  }
+
+  .modal-welcome{
+    @include font-normal();
+    margin-top:26px;
+    font-size:13px;
+    color:#3a3a3a;
+  }
+
+  .modal-step{
+    @include font-medium();
+    margin-top:30px;
+    font-size:18px;
+    color:#3a3a3a;
+  }
+
+  .modal-text{
+    @include font-normal();
+    margin-top:10px;
+    margin-bottom:26px;
+    font-size:12px;
+    line-height:1.5;
+  }
+
+  .button-wrap{
+    text-align:center;
+
+    .little-button{
+      height:30px;
+      font-size:13px;
+      line-height:30px;
+    }
+  }
+}

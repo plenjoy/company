@@ -1,0 +1,14 @@
+$Header-height: 50px;
+$Header__menuItem-width: 100px;
+$Header__menuItem-height: $Header-height;
+
+$based-font: Arial;
+$font-GothamSSmA: 'Gotham SSm A', 'Gotham SSm B', #{$based-font};
+
+$Sidebar-width: 200px;
+
+$ImageGrid-width: 200px;
+$ImageGrid__name-height: 50px;
+$ImageGrid__image-height: 200px;
+$ImageGrid__image-width: $ImageGrid-width;
+$ImageGrid-height: $ImageGrid__image-height + $ImageGrid__name-height;

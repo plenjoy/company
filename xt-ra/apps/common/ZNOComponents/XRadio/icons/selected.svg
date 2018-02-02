@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="6025.5 405.5 23 23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #adadad;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        filter: url(#ellipse-6);
+      }
+
+      .cls-4 {
+        filter: url(#ellipse-5);
+      }
+    </style>
+    <filter id="ellipse-5" x="6025.5" y="405.5" width="23" height="23" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse-6" x="6030.5" y="410.5" width="13" height="13" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_244" data-name="Group 244" transform="translate(6000)">
+    <g id="group-32" transform="translate(-113 231)">
+      <g class="cls-4" transform="matrix(1, 0, 0, 1, -5887, -231)">
+        <circle id="ellipse-5-2" data-name="ellipse-5" class="cls-1" cx="7" cy="7" r="7" transform="translate(6030 409)"/>
+      </g>
+      <g class="cls-3" transform="matrix(1, 0, 0, 1, -5887, -231)">
+        <circle id="ellipse-6-2" data-name="ellipse-6" class="cls-2" cx="2" cy="2" r="2" transform="translate(6035 414)"/>
+      </g>
+    </g>
+  </g>
+</svg>

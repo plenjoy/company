@@ -1,0 +1,13 @@
+@import "../../../../common/styles/fonts";
+@import "../../../../common/styles/common";
+.cover-page-label {
+  @include clearfix;
+  margin: 0 auto 5px;
+  position: absolute;
+  z-index: 3999;
+  width: 100%;
+  top: -23px;
+  font-size: 12px;
+  color: #7b7b7b;
+  user-select:none;
+}

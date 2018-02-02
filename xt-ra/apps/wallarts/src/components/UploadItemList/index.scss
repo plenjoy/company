@@ -1,0 +1,74 @@
+.box-list{
+  height: 220px;
+  overflow: auto;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  &.upload-title{
+    margin-top: 25px;
+  }
+  &.upload-list,&.upload-title{
+    li{
+      height: 36px;
+      line-height: 36px;
+      margin-bottom: 8px;
+      .file-name{
+        float: left;
+        width: 20%;
+        background:#f5f5f5;
+        margin-right: 8px;
+        padding-left: 10px;
+        box-sizing: border-box;
+        white-space: nowrap;
+      }
+      .file-progress{
+        float: left;
+        width: 78%;
+        background:#f5f5f5;
+        padding-left: 10px;
+        position: relative;
+        box-sizing: border-box;
+        .status{
+          font-size: 12px;
+        }
+        .delete{
+          position: absolute;
+          right: 15px;
+          a{
+            vertical-align: middle;
+          }
+        }
+        .retry{
+          position: absolute;
+          right: 44px;
+          top: 3px;
+          text-decoration: none;
+          color: #000;
+          font-size: 12px;
+        }
+        .help {
+          position: absolute;
+          right: 27px;
+          text-decoration: none;
+          color: #000;
+          font-size: 12px;
+        }
+        .failed{
+          position: absolute;
+          right: 18px;
+          top: 0;
+          text-decoration: none;
+          color: #de3418;
+          font-size: 12px;
+        }
+      }
+      &.upload-title{
+        .file-name,.file-progress{
+          background: #fff;
+        }
+      }
+    }
+  }
+}

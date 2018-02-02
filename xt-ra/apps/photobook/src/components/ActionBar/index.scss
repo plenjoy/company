@@ -1,0 +1,217 @@
+@import '../../../../common/styles/fonts';
+@import '../../../../common/styles/common';
+.action-bar-wrap {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 200;
+  width: 100%;
+
+  .action-bar {
+    @include font-light();
+    @include reset-list();
+    box-sizing: border-box;
+    background-color: #3a3a3a;
+    border-radius: 4px;
+    line-height: 26px;
+    height: 26px;
+    display: inline-block;
+    white-space: nowrap;
+
+    .item {
+      width: 48px;
+      height: 26px;
+      text-align: center;
+      box-sizing: border-box;
+      position: relative;
+      display: inline-block;
+
+      &:after {
+        position: absolute;
+        display: block;
+        right: 0;
+        top: 3px;
+        width: 1px;
+        height: 20px;
+        background: #7b7b7b;
+        content: '';
+      }
+
+      &:last-child {
+        border-right: none;
+        &:after {
+          display: none;
+        }
+      }
+      > a {
+        height: 26px;
+        cursor: pointer;
+        display: block;
+        background-size: contain !important;
+        &:focus {
+          outline: 0;
+        }
+        &.disabled {
+          cursor: default;
+          pointer-events: none;
+          &.icon-undo {
+            background: url('./icons/undoDisable.png') center center no-repeat;
+          }
+          &.icon-redo {
+            background: url('./icons/redoDisable.png') center center no-repeat;
+          }
+        }
+      }
+      &.disabled {
+        pointer-events: none;
+        .icon-add-text {
+          background: url('./icons/addTextDisable.png') center center no-repeat;
+        }
+        .icon-add-frame {
+          background: url('./icons/addFrameDisable.png') center center no-repeat;
+        }
+        .icon-flip {
+          background: url('./icons/flipDisable.png') center center no-repeat;
+        }
+        .icon-undo {
+          background: url('./icons/undoDisable.png') center center no-repeat;
+        }
+        .icon-redo {
+          background: url('./icons/redoDisable.png') center center no-repeat;
+        }
+        .icon-save-layout {
+          background: url('./icons/saveLayoutDisable.png') center center
+            no-repeat;
+        }
+        .icon-change-bgcolor {
+          background: url('./icons/changeBgColorDisable.png') center center
+            no-repeat;
+        }
+        .icon-add-sheet {
+          background: url('./icons/addSheetDisable.png') center center no-repeat;
+        }
+      }
+      &.disable {
+        .icon-auto-fill {
+          background: url('./icons/autoFillDisable.png') center center no-repeat;
+        }
+      }
+      .icon-book-setting {
+        background: url('./icons/designSetting.png') center center no-repeat;
+      }
+      .icon-auto-fill {
+        background: url('./icons/autoFill.png') center center no-repeat;
+      }
+      .icon-change-bgcolor {
+        background: url('./icons/changeBgColorNormal.png') center center
+          no-repeat;
+      }
+      .icon-add-text {
+        background: url('./icons/addText.png') center center no-repeat;
+      }
+      .icon-add-frame {
+        background: url('./icons/addFrame.png') center center no-repeat;
+      }
+      .icon-flip {
+        background: url('./icons/flip.png') center center no-repeat;
+      }
+      .icon-undo {
+        background: url('./icons/undoNormal.png') center center no-repeat;
+      }
+      .icon-redo {
+        background: url('./icons/redoNormal.png') center center no-repeat;
+      }
+      .icon-add-sheet {
+        background: url('./icons/addSheet.png') center center no-repeat;
+      }
+      .icon-clean-up {
+        background: url('./icons/cleanUp.png') center center no-repeat;
+      }
+      .icon-save-layout {
+        background: url('./icons/saveLayoutNormal.png') center center no-repeat;
+      }
+      .sub-panel {
+        position: absolute;
+        display: none;
+        &.show {
+          display: block;
+        }
+        top: 26px;
+        width: 220px;
+        background: #fff;
+        padding-top: 1px;
+        color: #d6d6d6;
+        font-size: 12px;
+        box-sizing: border-box;
+        z-index: 10;
+        @include reset-list();
+
+        &.add-frame {
+          width: 40px;
+          left: 3px;
+
+          .sub-item {
+            > a {
+              padding: 3px 12px;
+            }
+          }
+        }
+
+        .sub-item {
+          &:hover > a {
+            background-color: #000;
+          }
+          &.disabled:hover > a {
+            background-color: #3a3a3a;
+          }
+          &.disabled {
+            > a {
+              color: #7b7b7b;
+              pointer-events: none;
+            }
+          }
+          > a {
+            padding: 0 13px;
+            height: 30px;
+            line-height: 30px;
+            box-sizing: border-box;
+            display: block;
+            color: #fff;
+            background-color: #3a3a3a;
+            text-align: left;
+            cursor: pointer;
+
+            &:hover {
+              .icon-add-landscape-frame {
+                background: url('./icons/addLandscapeFrameHover.png') center
+                  center no-repeat;
+              }
+
+              .icon-add-portrait-frame {
+                background: url('./icons/addPortraitFrameHover.png') center
+                  center no-repeat;
+              }
+            }
+          }
+
+          .icon-add-landscape-frame {
+            width: 15px;
+            height: 15px;
+            display: inline-block;
+            background: url('./icons/addLandscapeFrame.png') center center
+              no-repeat;
+          }
+
+          .icon-add-portrait-frame {
+            width: 15px;
+            height: 15px;
+            display: inline-block;
+            background: url('./icons/addPortraitFrame.png') center center
+              no-repeat;
+          }
+        }
+      }
+    }
+  }
+}

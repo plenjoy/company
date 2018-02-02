@@ -1,0 +1,42 @@
+@import "../../../../common/styles/common";
+.spreads-list {
+    @include reset-list();
+    margin: 0 auto;
+    background: transparent center center no-repeat;
+    background-size: cover;
+    .pages-list {
+        overflow: hidden;
+        position: relative;
+    }
+    .item {
+        position: absolute;
+    }
+    .to-left-enter {
+        transform: translate(100%);
+    }
+    .to-left-enter.to-left-enter-active {
+        transform: translate(0%);
+        transition: transform 250ms linear;
+    }
+    .to-left-leave {
+        transform: translate(0%);
+    }
+    .to-left-leave.to-left-leave-active {
+        transform: translate(-100%);
+        transition: transform 250ms linear;
+    }
+    .to-right-enter {
+        transform: translate(-100%);
+    }
+    .to-right-enter.to-right-enter-active {
+        transform: translate(0%);
+        transition: transform 250ms linear;
+    }
+    .to-right-leave {
+        transform: translate(0%);
+    }
+    .to-right-leave.to-right-leave-active {
+        transform: translate(100%);
+        transition: transform 250ms linear;
+    }
+}

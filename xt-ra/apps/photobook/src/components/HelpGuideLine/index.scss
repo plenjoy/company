@@ -1,0 +1,106 @@
+@import "../../../../common/styles/fonts.scss";
+@import "../../../../common/styles/common.scss";
+
+.guide-modal{
+  width:530px;
+  padding:40px;
+  box-sizing:border-box;
+
+  .content-wrap{
+  }
+  p{
+    margin:0;
+    padding:0;
+    line-height:1;
+  }
+
+  .modal-title{
+    @include font-light();
+    font-size:24px;
+    color:#3a3a3a;
+  }
+  .line-title{
+    @include font-normal();
+    font-size: 16px;
+    color: #3A3A3A;
+    line-height: 20px;
+    margin-top:20px;
+    height:20px;
+    width:500px;
+    .line-text{
+      display: inline-block;
+       float:left;
+    }
+    span{
+        height:1px;
+        width:200px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 13px;
+        display:inline-block;
+    }
+   .line2-img{
+        width:200px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 13px;
+   }
+    .out-bleed-line{
+      background: #DE3418;
+
+    }
+    .inside-bleed-line{
+      border-top:1px dashed #DE3418;
+      overflow:hidden;
+    }
+    .safe-line{
+      background: #73CCFA;
+    }
+    .indentation-line{
+       border-top: 1px dashed #FF8325;
+    }
+    .spine-line{
+      background: #FF8325;
+    }
+  }
+  .help-content{
+    @include font-light();
+    font-size: 14px;
+    color: #3A3A3A;
+    line-height: 20px;
+    margin-top:10px;
+  }
+
+  .modal-welcome{
+    @include font-normal();
+    margin-top:26px;
+    font-size:13px;
+    color:#3a3a3a;
+  }
+
+  .modal-step{
+    @include font-medium();
+    margin-top:30px;
+    font-size:18px;
+    color:#3a3a3a;
+  }
+
+  .modal-text{
+    @include font-normal();
+    margin-top:10px;
+    margin-bottom:26px;
+    font-size:12px;
+    line-height:1.5;
+  }
+
+  .button-wrap{
+    margin-top:31px;
+    text-align:center;
+    .little-button{
+      width:180px;
+      height:30px;
+      font-size:13px;
+      line-height:30px;
+    }
+  }
+}

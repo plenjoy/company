@@ -1,0 +1,67 @@
+.PicMagnifier {
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.16);
+  position: fixed;
+  left:  0;
+  top: 0;
+  display: none;
+  transform: translate(0, -50%);
+  z-index: 9999999;
+  font-family: 'Gotham-Light';
+
+  .arrow {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    left: -2px;
+    top: 50%;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.16);
+    transform: rotate(-45deg) translate(0, -50%);
+  }
+  .arrow-filter {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 34px;
+    background: #fff;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+  img{
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    left: 10px;
+    &.fill{
+      position: static;
+    }
+  }
+  .extra-info {
+    font-size: 12px;
+    margin-top: 5px;
+    line-height: 14px;
+    text-align: center;
+    .image-name {
+      float: left;
+      color: #3a3a3a;
+    }
+    .image-size {
+      float: right;
+      color: #7b7b7b;
+    }
+    &.removeFloat {
+      .image-name {
+        float: none;
+      }
+      .image-size {
+        float: none;
+        margin-top: 4px;
+      }
+    }
+  }
+}

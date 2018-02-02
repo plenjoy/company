@@ -1,0 +1,16 @@
+.x-delete-icon {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  display: none;
+  background: url('./icons/red.svg') no-repeat center center;
+  background-size: contain;
+
+  &.show{
+    display: inline-block;
+  }
+
+  &.black{
+    background-image: url('./icons/black.svg');
+  }
+}

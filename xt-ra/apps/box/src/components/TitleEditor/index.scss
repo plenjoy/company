@@ -1,0 +1,77 @@
+.bed-title {
+  position: relative;
+  float: left;
+  margin-top: 15px;
+
+
+
+  .box-title {
+      margin:0;
+      display: block;
+      padding:0 25px 0 6px;
+      height: 12px;
+      line-height: 12px;
+      color: #969696;
+      font-size: 12px;
+      color:#fff;
+      font-weight: 300;
+  }
+
+  .title-edit-icon{
+      position: absolute;
+      top: 1px;
+      right: 4px;
+      height: 11px;
+      width: 11px;
+      cursor:pointer;
+  }
+
+  .box-title-edit{
+      position: relative;
+      width: 234px;
+      height: 20px;
+      background: #fff;
+      border:1px solid #ccc;
+
+      .title-edit{
+          width: 175px;
+          height: 20px;
+          color: rgb(132,132,132);
+          outline: none;
+          border:none;
+          padding: 0 6px;
+      }
+
+      img{
+          position: absolute;
+          width: 20px;
+          height: 20px;
+      }
+
+      .icon-done{
+          right: 24px;
+          cursor:pointer;
+      }
+
+      .icon-delete{
+          top: 0;
+          right: 0;
+          cursor:pointer;
+      }
+  }
+
+  .title-warn{
+      display: none;
+      margin:0;
+      font-size: 14px;
+      padding: 0 6px;
+      border: 1px solid #ccc;
+      background: #fff;
+      color: rgb(227,89,66);
+
+      &.show{
+        display:inline-block;
+      }
+  }
+
+}

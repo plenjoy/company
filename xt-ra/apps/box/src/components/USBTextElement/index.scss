@@ -1,0 +1,39 @@
+@import "../../../common/styles/fonts";
+
+.USBTextElement {
+  &.has-text {
+    .USBTextElement__border {
+      border: 0;
+    }
+    .USBTextElement__image {
+      width: initial;
+    }
+  }
+}
+
+.USBTextElement__image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  width: 90%;
+}
+
+.USBTextElement__border {
+  border: 1px solid #95989a;
+  width: 111%;
+  height: 111%;
+  position: absolute;
+  box-sizing: border-box;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.USBTextElement__placeHolder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  width: 100%;
+}

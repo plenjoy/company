@@ -1,0 +1,19 @@
+@import "../../../common/styles/fonts";
+
+.dvd-element{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(245, 245, 245);
+
+  .bg-tip {
+    position: absolute;
+    display: inline-block;
+    @include font-light();
+    padding-left: 10px;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    color: #7b7b7b;
+    // font-size: 32.5%;
+  }
+}

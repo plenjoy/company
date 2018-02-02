@@ -1,0 +1,82 @@
+<product-spec version="1.0">
+	<global>
+		<dpi>300</dpi>
+		<imageQualityBufferPercent>30</imageQualityBufferPercent>
+		<imagedimenstions>
+			<imagedimenstion viewWidth="96" viewHeight="96">96x96</imagedimenstion>
+			<imagedimenstion viewWidth="350" viewHeight="350">350x350</imagedimenstion>
+			<imagedimenstion viewWidth="700" viewHeight="700">700x700</imagedimenstion>
+			<imagedimenstion viewWidth="1000" viewHeight="1000">1000x1000</imagedimenstion>
+			<imagedimenstion viewWidth="1500" viewHeight="1500">1500x1500</imagedimenstion>
+		</imagedimenstions>
+		<options>
+			<optionGroup id="product">
+				<option id="TS">
+					<title><![CDATA[T-Shirt]]></title>
+				</option>
+			</optionGroup>
+			<optionGroup id="size">
+				<option id="14X16" name="14X16" default="true"/>
+			</optionGroup>
+			<optionGroup id="color">
+				<option id="White" name="White"/>
+				<option id="Black" name="Black"/>
+				<option id="SportGrey" name="Sport Grey"/>
+				<option id="NavyBlue" name="Navy Blue"/>
+				<option id="RoyalBlue" name="Royal Blue"/>
+			</optionGroup>
+			<optionGroup id="measure">
+				<option id="XS" name="XS"/>
+				<option id="S" name="S"/>
+				<option id="M" name="M"/>
+				<option id="L" name="L"/>
+				<option id="XL" name="XL"/>
+				<option id="XXL" name="XXL"/>
+			</optionGroup>
+		</options>
+	</global>
+
+	<configurableOptionMap>
+		<optionMap id="size" keyPattern="product">
+			<entry key="TS" value="14X16" />
+		</optionMap>
+		<optionMap id="color" keyPattern="product">
+			<entry key="TS" value="W,B,HG,NB,RB" />
+		</optionMap>
+		<optionMap id="measure" keyPattern="size">
+			<entry key="14X16" value="XS,S,M,L,XL,XXL" />
+		</optionMap>
+	</configurableOptionMap>
+
+	<parameters>
+		<parameter id="baseSize" keyPattern="product-size">
+			<entry key="TS-14X16" x="2050" y="1434" widthInInch="14" heightInInch="16"/>
+		</parameter>
+
+		<parameter id="backgroundSize" keyPattern="product-size">
+			<entry key="TS-14X16" height="9899" width="8327"/>
+		</parameter>
+
+		<parameter id="logoArea" keyPattern="product-size">
+			<entry key="TS-14X16" x="2415" y="164" height="1623" width="1623"/>
+		</parameter>
+
+	</parameters>
+
+	<variables>
+		<variable id="colorValue" keyPattern="product-color">
+			<entry key="TS-W" value=""/>
+			<entry key="TS-B" value=""/>
+			<entry key="TS-HG" value=""/>
+			<entry key="TS-NB" value=""/>
+			<entry key="TS-RB" value=""/>
+		</variable>
+		<variable id="colorAsset" keyPattern="product-color">
+			<entry key="TS-W" url=""/>
+			<entry key="TS-B" url=""/>
+			<entry key="TS-HG" url=""/>
+			<entry key="TS-NB" url=""/>
+			<entry key="TS-RB" url=""/>
+		</variable>
+	</variables>
+</product-spec>

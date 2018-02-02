@@ -1,0 +1,46 @@
+.color-picker {
+  position: relative;
+  height: 22px;
+  vertical-align: middle;
+  display: inline-block;
+  &.disabled {
+    pointer-events: none;
+  }
+  .swatch {
+    padding: 2px;
+    background: #fff;
+    border-radius: 1px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+    display: inline-block;
+    cursor: pointer;
+
+    .color {
+      width: 18px;
+      height: 18px;
+      border-radius: 2px;
+    }
+  }
+
+  .popover {
+    z-index: 12;
+    position: absolute;
+    top: 0;
+    left: 35px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .cover {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
+
+  .sketch-picker > .flexbox-fix {
+    position: relative;
+  }
+}

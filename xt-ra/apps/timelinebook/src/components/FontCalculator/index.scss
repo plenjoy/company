@@ -1,0 +1,46 @@
+.font-calculator-max {
+  position: absolute;
+  z-index: -999999999;
+  top: 0;
+  left: 0;
+  font-family: 'Roboto-Light';
+  opacity: 0;
+  pointer-events: none;
+
+  // // 调试用CSS
+  // z-index: 999999999;
+  // background: wheat;
+  // opacity: 1;
+  // pointer-events: auto;
+  // left: -442px;
+  // top: -327px;
+  // // 调试用CSS
+
+  .font-calculator-min {
+    position: absolute;
+    z-index: -999999999;
+    top: 0;
+    left: 0;
+    font-family: 'Roboto-Light';
+    opacity: 0;
+    pointer-events: none;
+  
+    // // 调试用CSS
+    // z-index: 999999999;
+    // background: red;
+    // opacity: 1;
+    // pointer-events: auto;
+    // // 调试用CSS
+
+    .emoji {
+      width: 44px;
+      display: inline-block;
+      vertical-align: middle;
+
+      // // 调试用CSS
+      // height: 10px;
+      // background: green;
+      // // 调试用CSS
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.preview-modal {
+  &.content {
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    background: #F0F0F0;
+  }
+  .book-cover {
+    .disable-handler {
+      z-index: 1050;
+    }
+  }
+  .x-pagination {
+    margin: 0 auto;
+  }
+
+  .x-order-reminder{
+    position: absolute;
+    top: 6px;
+    width: 100%;
+  }
+}

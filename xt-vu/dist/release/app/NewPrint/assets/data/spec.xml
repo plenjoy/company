@@ -1,0 +1,192 @@
+<product-spec version="1.0">
+	<global>
+		<!-- 精度 -->
+		<dpi>300</dpi>
+
+		<imageQualityBufferPercent>30</imageQualityBufferPercent>
+
+		<options>
+			<!--产品类型-->
+			<optionGroup id="product">
+                <option id="LPP">
+                    <title>
+                        <![CDATA[Little Prints Pack]]>
+                    </title>
+                </option>
+                <option id="LPR">
+	               <title>
+	                  <![CDATA[Large Photo Prints]]>
+	               </title>
+	            </option>
+	            <option id="AR">
+	               <title>
+	                  <![CDATA[Art Prints]]>
+	               </title>
+	            </option>
+	            <option id="PR">
+	                <title>
+	                    <![CDATA[Standard Photo Prints]]>
+	                </title>
+	            </option>
+	            <option id="flushMountPrint">
+	                <title>
+	                    <![CDATA[Flush Mount Prints]]>
+	                </title>
+	            </option>
+            </optionGroup>
+			<optionGroup id="size">
+				<option id="4X6" name="4X6" />
+				<option id="8X10" name="8X10"/>
+
+				<option id="5X5" name="5X5"/>
+        <option id="5X7" name="5X7"/>
+        <option id="6X6" name="6X6"/>
+        <option id="6X8" name="6X8"/>
+        <option id="8X8" name="8X8"/>
+
+        <option id="8X12" name="8X12"/>
+        <option id="10X10" name="10X10"/>
+        <option id="10X15" name="10X15"/>
+        <option id="10X24" name="10X24"/>
+        <option id="11X14" name="11X14"/>
+        <option id="11X17" name="11X17"/>
+        <option id="12X12" name="12X12"/>
+        <option id="12X24" name="12X24"/>
+        <option id="12X36" name="12X36"/>
+        <option id="16X16" name="16X16"/>
+        <option id="16X20" name="16X20"/>
+        <option id="16X24" name="16X24"/>
+        <option id="18X24" name="18X24"/>
+        <option id="20X20" name="20X20"/>
+        <option id="20X24" name="20X24"/>
+        <option id="20X30" name="20X30"/>
+        <option id="24X24" name="24X24"/>
+        <option id="24X30" name="24X30"/>
+        <option id="24X36" name="24X36"/>
+        <option id="30X30" name="30X30"/>
+        <option id="30X40" name="30X40"/>
+			</optionGroup>
+			<optionGroup id="paper">
+				<option id="GP" default="true">
+					<title>Glossy</title>
+				</option>
+				<option id="EP">
+					<title>Matte</title>
+				</option>
+				<option id="EP_LPR">
+           <title>Lustre Print</title>
+        </option>
+				<option id="MP">
+					<title>Metallic Print</title>
+				</option>
+				<option id="AR">
+           <title>Art Print</title>
+        </option>
+			</optionGroup>
+			<optionGroup id="side">
+				<option id="SS" default="true">
+					<title>Singe</title>
+				</option>
+				<option id="DS">
+					<title>Double</title>
+				</option>
+			</optionGroup>
+      <optionGroup id="lppQuantity">
+        <option id="none" default="true">
+          <title>None</title>
+        </option>
+        <option id="ten">
+          <title>10 Prints</title>
+        </option>
+        <option id="twenty">
+          <title>20 Prints</title>
+        </option>
+        <option id="thirty">
+          <title>30 Prints</title>
+        </option>
+      </optionGroup>
+		</options>
+	</global>
+
+	<configurableOptionMap>
+		<optionMap id="size" keyPattern="product">
+			<entry key="LPP" value="4X6" defaultValue="4X6" />
+			<entry key="LPR" value="8X10,8X12,10X10,10X15,10X24,11X14,12X12,12X24,12X36,16X16,16X20,16X24,18X24,20X20,20X24,20X30,24X24,24X30,24X36,30X30,30X40" defaultValue="8X10"/>
+			<entry key="AR" value="8X10,8X12,10X10,10X15,10X24,11X14,12X12,12X24,12X36,16X16,16X20,16X24,18X24,20X20,20X24,20X30,24X24,24X30,24X36,30X30,30X40" defaultValue="8X10"/>
+			<entry key="PR" value="4X6,5X5,5X7,6X6,6X8,8X8,8X10" defaultValue="4X6"/>
+			<entry key="flushMountPrint" value="4X6,5X5,5X7,6X6,6X8,8X8,8X10" defaultValue="4X6" />
+		</optionMap>
+		<optionMap id="paper" keyPattern="product">
+			<entry key="LPP" value="EP" defaultValue="EP" />
+			<entry key="LPR" value="EP_LPR,MP" defaultValue="EP_LPR" />
+			<entry key="AR" value="AR" defaultValue="AR" />
+			<entry key="PR" value="GP,EP" defaultValue="EP" />
+			<entry key="flushMountPrint" value="GP,EP" defaultValue="EP" />
+		</optionMap>
+		<optionMap id="side" keyPattern="product">
+			<entry key="LPP" value="SS" defaultValue="SS" />
+			<entry key="LPR" value="SS" defaultValue="SS" />
+			<entry key="AR" value="SS" defaultValue="SS" />
+			<entry key="PR" value="SS" defaultValue="SS" />
+			<entry key="flushMountPrint" value="SS" defaultValue="SS" />
+		</optionMap>
+    <optionMap id="lppQuantity" keyPattern="product">
+      <entry key="LPP" value="ten,twenty,thirty" defaultValue="ten" />
+      <entry key="LPR" value="none" defaultValue="none" />
+      <entry key="AR" value="none" defaultValue="none" />
+      <entry key="PR" value="none" defaultValue="none" />
+      <entry key="flushMountPrint" value="none" defaultValue="none" />
+    </optionMap>
+	</configurableOptionMap>
+
+	<parameters>
+		<parameter id="baseSizeInInch" keyPattern="size">
+			<entry key="4X6" heightInInch="3.937" widthInInch="5.9055" />
+			<entry key="5X5" heightInInch="5" widthInInch="5" />
+			<entry key="5X7" heightInInch="5" widthInInch="7" />
+			<entry key="6X6" heightInInch="6" widthInInch="6" />
+			<entry key="6X8" heightInInch="6" widthInInch="8" />
+			<entry key="8X8" heightInInch="8" widthInInch="8" />
+			<entry key="8X10" heightInInch="8" widthInInch="10"/>
+      <entry key="8X12" heightInInch="8" widthInInch="12"/>
+      <entry key="10X10" heightInInch="10" widthInInch="10"/>
+      <entry key="10X15" heightInInch="10" widthInInch="15"/>
+      <entry key="10X24" heightInInch="10" widthInInch="24"/>
+      <entry key="11X14" heightInInch="11" widthInInch="14"/>
+      <entry key="11X17" heightInInch="11" widthInInch="17"/>
+      <entry key="12X12" heightInInch="12" widthInInch="12"/>
+      <entry key="12X24" heightInInch="12" widthInInch="24"/>
+      <entry key="12X36" heightInInch="12" widthInInch="36"/>
+      <entry key="16X16" heightInInch="16" widthInInch="16"/>
+      <entry key="16X20" heightInInch="16" widthInInch="20"/>
+      <entry key="16X24" heightInInch="16" widthInInch="24"/>
+      <entry key="18X24" heightInInch="18" widthInInch="24"/>
+      <entry key="20X20" heightInInch="20" widthInInch="20"/>
+      <entry key="20X24" heightInInch="20" widthInInch="24"/>
+      <entry key="20X30" heightInInch="20" widthInInch="30"/>
+      <entry key="24X24" heightInInch="24" widthInInch="24"/>
+      <entry key="24X30" heightInInch="24" widthInInch="30"/>
+      <entry key="24X36" heightInInch="24" widthInInch="36"/>
+      <entry key="30X30" heightInInch="30" widthInInch="30"/>
+      <entry key="30X40" heightInInch="30" widthInInch="40"/>
+		</parameter>
+		<parameter id="bleedInInch" keyPattern="product">
+			<entry key="LPP" top="0.03" bottom="0.03" left="0.0466666666666667" right="0.0466666666666667" />
+			<entry key="LPR" top="0.08" bottom="0.08" left="0.08" right="0.08" />
+			<entry key="AR" top="0.08" bottom="0.08" left="0.08" right="0.08" />
+			<entry key="PR" top="0" bottom="0" left="0" right="0" />
+			<entry key="flushMountPrint" top="0" bottom="0" left="0" right="0" />
+		</parameter>
+		<parameter id="cornerRadiusInInch" keyPattern="product">
+        <entry key="LPP" value="0.1968504" />
+        <entry key="LPR" value="0" />
+        <entry key="AR" value="0" />
+        <entry key="PR" value="0" />
+        <entry key="flushMountPrint" value="0.1968504" />
+    </parameter>
+	</parameters>
+
+	<variables>
+
+	</variables>
+</product-spec>

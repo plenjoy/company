@@ -1,0 +1,18 @@
+.x-usage-count {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-color: #3A3A3A;
+  border-radius: 50%;
+  text-align: center;
+
+  color: #fff;
+  line-height: 18px;
+  font-size: 12px;
+
+  .text{
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75);
+    letter-spacing: 1px;
+  }
+}

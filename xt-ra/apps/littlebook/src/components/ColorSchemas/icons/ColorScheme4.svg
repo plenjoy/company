@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>darkgreen</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="99.7688138%" id="linearGradient-1">
+            <stop stop-color="#0F2620" offset="0%"></stop>
+            <stop stop-color="#1F3B34" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-43.000000, -192.000000)" fill="url(#linearGradient-1)">
+            <ellipse id="darkgreen" transform="translate(53.000000, 202.000000) rotate(90.000000) translate(-53.000000, -202.000000) " cx="53" cy="202" rx="10" ry="10"></ellipse>
+        </g>
+    </g>
+</svg>

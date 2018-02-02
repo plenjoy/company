@@ -1,0 +1,20 @@
+.decoration-element {
+  &.has-image{
+    background-color: transparent;
+  }
+
+  .layer-image {
+    border: none;
+    outline: none;
+    position: relative;
+  }
+
+  .x-loading.show{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -12px;
+    margin-top: -12px;
+    z-index: 9999;
+  }
+}

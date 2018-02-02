@@ -1,0 +1,44 @@
+.notify-top{
+  position: fixed;
+  top: 50px;
+  right: -5px;
+  width: 358px;
+  height: 130px;
+  background: #fff;
+  z-index:1300;
+  border: 1px solid rgb(232, 232, 232);
+  display: none;
+
+  &.show{
+    display: block;
+  }
+
+  .icon-close{
+    position: absolute;
+    display: block;
+    top: 22px;
+    right: 22px;
+    width: 16px;
+    height: 16px;
+    z-index: 12;
+    background: url("./close-normal.svg");
+    background-size: cover;
+    cursor: pointer;
+  }
+  .icon-close:hover{
+    background: url("./close-hover.svg");
+  }
+
+  span{
+    font-size: 12px;
+    position: absolute;
+    top: -9px;
+    left: 178px;
+    color: #fff;
+  }
+  .notify-mes{
+    font-size: 16px;
+    padding-left: 30px;
+    line-height:130px;
+  }
+}

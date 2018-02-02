@@ -1,0 +1,102 @@
+@import "../../../../common/styles/fonts";
+
+.PanelAlbums {
+  overflow-y: auto;
+  height: calc(100% - 34px);
+  box-sizing: border-box;
+  overflow-x: hidden;
+  .PanelAlbum {
+    margin-left: 8px;
+    padding: 8px 0;
+    height: 118px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #D6D6D6;
+    position: relative;
+    cursor: pointer;
+    &.selected {
+      .PanelAlbum__arrow {
+        display: block;
+      }
+    }
+  }
+  .PanelAlbum__image {
+    float: left;
+    position: relative;
+    width: 100.5px;
+    height: 102px;
+    margin-right: 21.5px;
+  }
+  .PanelAlbum__image--container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+    height: 90px;
+  }
+  .PanelAlbum__detail {
+    overflow: hidden;
+    padding-top: 22px;
+  }
+  .PanelAlbum__name {
+    @include font-medium();
+    font-size: 13px;
+    color: #3A3A3A;
+    line-height: 18px;
+    height: 18px;
+    margin: 0;
+    display: inline-block;
+    &.selected {
+      color: white;
+      background: #3A3A3A;
+      border-radius: 2px;
+      padding: 0 4px;
+    }
+  }
+  .PanelAlbum__count {
+    @include font-light();
+    color: #7B7B7B;
+    line-height: 11px;
+    margin-top: 3px;
+  }
+  .PanelAlbum__date {
+    @include font-medium();
+    color: #3A3A3A;
+    line-height: 12px;
+    margin-top: 12px;
+  }
+  .PanelAlbum__incomplete {
+    @include font-light();
+    color: #00841B;
+    display: inline-block;
+    line-height: 11px;
+    font-size: 12px;
+    transform: scale(0.75) translateX(-20%);
+    transform-origin: left bottom;
+  }
+  .PanelAlbum__count--text {
+    display: inline-block;
+    font-size: 12px;
+    transform: scale(0.75);
+    transform-origin: left center;
+  }
+  .PanelAlbum__date--text {
+    display: inline-block;
+    font-size: 12px;
+    transform: scale(0.8333);
+    transform-origin: left center;
+  }
+  .PanelAlbum__arrow {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%) rotate(45deg);
+    width: 19px;
+    height: 19px;
+    background: #f0f0f0;
+    border-bottom: 1px solid #D6D6D6;
+    border-left: 1px solid #D6D6D6;
+    display: none;
+    z-index: 1;
+  }
+}

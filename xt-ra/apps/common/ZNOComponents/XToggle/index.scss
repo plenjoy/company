@@ -1,0 +1,16 @@
+.x-toggle{
+  position: relative;
+  text-align: center;
+  font-size: 12px;
+  line-height: 14px;
+
+  &.button{
+    width: auto;
+    padding: 5px;
+    height: auto;
+    line-height: 14px;
+    background-color: #3A3A3A;
+    border-radius: 4px;
+  }
+}
+

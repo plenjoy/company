@@ -1,0 +1,21 @@
+.x-modal{
+  &.x-intro{
+    .backdrop{
+       opacity: 0.28;
+       background: #000000;
+    }
+
+    .content{
+      min-width: auto;
+      min-height: auto;
+      left:0;
+      top:0;
+      transform: none;
+    }
+  }
+}
+
+// .ToolTipPortal > div{
+//   z-index: 100000 !important;
+//   border-radius: 6px !important;
+// }

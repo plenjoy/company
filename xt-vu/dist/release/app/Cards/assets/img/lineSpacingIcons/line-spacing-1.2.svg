@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="20" rx="1"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="行间距" transform="translate(-1223.000000, -320.000000)">
+            <g id="Group-6" transform="translate(1223.000000, 320.000000)">
+                <g id="Rectangle-3-Copy-3">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#7B7B7B" stroke-width="1" x="0.5" y="0.5" width="19" height="19" rx="1"></rect>
+                </g>
+                <path d="M4,4 L16,4" id="Line-Copy-2" stroke="#7B7B7B" stroke-linecap="square"></path>
+                <path d="M4,7 L16,7" id="Line-Copy-17" stroke="#7B7B7B" stroke-linecap="square"></path>
+                <path d="M4,10 L16,10" id="Line-Copy-18" stroke="#7B7B7B" stroke-linecap="square"></path>
+                <path d="M4,13 L16,13" id="Line-Copy-19" stroke="#7B7B7B" stroke-linecap="square"></path>
+                <path d="M4,16 L16,16" id="Line-Copy-20" stroke="#7B7B7B" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

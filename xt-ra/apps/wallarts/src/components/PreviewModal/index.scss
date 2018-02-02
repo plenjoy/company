@@ -1,0 +1,15 @@
+.preview-modal {
+  &.content {
+    width: 100%;
+    height: 100%;
+    background-color: #F0F0F0;
+  }
+  .book-cover {
+    .disable-handler {
+      z-index: 1050;
+    }
+  }
+  .x-pagination {
+    margin: 0 auto;
+  }
+}

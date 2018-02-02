@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="12762.998 21403 22.721 15.018">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3a3a3a;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #3a3a3a;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Group_92" data-name="Group 92" transform="translate(11550.861 21301)">
+    <g id="_1453" transform="translate(1224.537 102.421) rotate(4)">
+      <path id="Path_37" class="cls-1" d="M2.7,0,0,1.725,2.715,3.409l-.006-.942a5.324,5.324,0,0,1,5.35,5.162,1.2,1.2,0,0,0,.006.151l-.939.007,1.619,3.031,1.6-3.045L9.47,7.78c0-.092-.005-.183-.013-.275A6.8,6.8,0,0,0,2.7.948Z"/>
+    </g>
+    <g id="Rectangle_348" transform="translate(1216.14 107.791)">
+      <rect id="Rectangle-path" class="cls-2" width="13.328" height="9.227"/>
+      <rect id="Rectangle-path-2" data-name="Rectangle-path" class="cls-3" width="11.328" height="7.227" transform="translate(1 1)"/>
+    </g>
+    <g id="Group_91" data-name="Group 91">
+      <path id="Union_3" data-name="Union 3" class="cls-1" d="M-7547-21282.457V-21296h9.278v6.152h-1.822v-4.33h-5.639v9.9h1.261v1.822Z" transform="translate(8759.14 21398)"/>
+    </g>
+  </g>
+</svg>

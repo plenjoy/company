@@ -1,0 +1,15 @@
+@import "../../../../common/styles/fonts.scss";
+
+.page-number {
+  position: absolute;
+  bottom: -28px;
+  width: 100%;
+  text-align: center;
+
+  span{
+    @include font-normal();
+    font-size: 13px;
+    color: #7b7b7b;
+    line-height: 16px;
+  }
+}

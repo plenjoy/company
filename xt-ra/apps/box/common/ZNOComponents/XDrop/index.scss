@@ -1,0 +1,12 @@
+.on-drop{
+  .drop-active{
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    border: 2px dotted blue;
+    box-sizing: border-box;
+  }
+}

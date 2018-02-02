@@ -1,0 +1,177 @@
+{
+    "project": {
+        "guid": "670333",
+        "version": "1.0",
+        "clientId": "web-h5",
+        "createAuthor": "web-h5|1.1|1",
+        "userId": "216851",
+        "artisan": "lei",
+        "createdDate": "2017-08-14 09:22:33",
+        "updatedDate": "2017-08-14 09:23:02",
+        "summary": {
+            "defaultSetting": {
+                "product": "littleModernCanvas",
+                "size": "8X10",
+                "frameStyle":"none",
+                "color":"none",
+                "paper": "TP",
+                "canvasBorderSize":"thin",
+                "orientation": "Landscape"
+            }
+        },
+        "pages": [
+            {
+                "id": "5a7b035f-a446-472d-8e76-964c19039290",
+                "x":-11,
+                "y":-11,
+                "width": 4050.897639,
+                "height": 4960.346457,
+                "type": "Page",
+                "spec": {
+                    "product": "littleModernCanvas",
+                    "size": "8X10",
+                    "frameStyle":"none",
+                    "color":"none",
+                    "paper": "TP",
+                    "canvasBorderSize":"thin",
+                    "quantity": 1
+                },
+                "canvasBorder":{
+                    "top":366,
+                    "right":366,
+                    "bottom":366,
+                    "left":366
+                },
+                "bleed": {
+                    "top": 11,
+                    "right": 11,
+                    "bottom": 11,
+                    "left": 11
+                },
+                "elements": [
+                    {
+                        "x": 0,
+                        "y": 0,
+                        "px": 0,
+                        "py": 0,
+                        "width": 2480.316,
+                        "height": 3070.866,
+                        "pw": 1,
+                        "ph": 1,
+                        "dep": 0,
+                        "rot": 0,
+                        "type": "PhotoElement",
+                        "imageid": "719268",
+                        "encImgId": "QvHOiTeUQI8%3D",
+                        "imgRot": 0,
+                        "imgFlip": false,
+                        "cropLUX": "0",
+                        "cropLUY": "0.08730178",
+                        "cropRLX": "1",
+                        "cropRLY": "0.91269822",
+                        "style": {
+                            "brightness": 0,
+                            "effectId": 0,
+                            "opacity": 100
+                        },
+                        "border": {
+                            "size": 0,
+                            "color": "#000000",
+                            "opacity": 100
+                        }
+                    }
+                ],
+                "backend": {
+                    "isPrint": true
+                }
+            },
+            {
+                "id": "64ffdf31-5d0c-4d58-9915-538fa15725a7",
+                "x":-11,
+                "y":-11,
+                "width": 4050.897639,
+                "height": 4960.346457,
+                "type": "Page",
+                "spec": {
+                    "product": "littleModernCanvas",
+                    "size": "8X10",
+                    "frameStyle":"none",
+                    "color":"none",
+                    "paper": "TP",
+                    "canvasBorderSize":"thin",
+                    "quantity": 1
+                },
+                "canvasBorder":{
+                    "top":366,
+                    "right":366,
+                    "bottom":366,
+                    "left":366
+                },
+                "bleed": {
+                    "top": 11,
+                    "right": 11,
+                    "bottom": 11,
+                    "left": 11
+                },
+                "elements": [
+                    {
+                        "x": 0,
+                        "y": 0,
+                        "px": 0,
+                        "py": 0,
+                        "width": 2480.316,
+                        "height": 3070.866,
+                        "pw": 1,
+                        "ph": 1,
+                        "dep": 0,
+                        "rot": 0,
+                        "type": "PhotoElement",
+                        "imageid": "719268",
+                        "encImgId": "QvHOiTeUQI8%3D",
+                        "imgRot": 0,
+                        "imgFlip": false,
+                        "cropLUX": "0",
+                        "cropLUY": "0.08730178",
+                        "cropRLX": "1",
+                        "cropRLY": "0.91269822",
+                        "style": {
+                            "brightness": 0,
+                            "effectId": 0,
+                            "opacity": 100
+                        },
+                        "border": {
+                            "size": 0,
+                            "color": "#000000",
+                            "opacity": 100
+                        }
+                    }
+                ],
+                "backend": {
+                    "isPrint": true
+                }
+            }
+        ],
+        "images": [
+            {
+                "id": "719268",
+                "guid": "96439ea3-969e-48e5-bf7e-3071a566600c",
+                "encImgId": "QvHOiTeUQI8%3D",
+                "order": 0,
+                "name": "crop",
+                "width": 492,
+                "height": 738,
+                "shotTime": ""
+            },
+            {
+                "id": "719269",
+                "guid": "845760b2-9953-4955-a393-a30568bdfbe4",
+                "encImgId": "RQkwvt5864s%3D",
+                "order": 1,
+                "name": "2",
+                "width": 1920,
+                "height": 1080,
+                "shotTime": ""
+            }
+        ]
+    }
+}

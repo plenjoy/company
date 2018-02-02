@@ -1,0 +1,112 @@
+@import "../../styles/fonts";
+@import "../../styles/common";
+
+.x-pagination {
+  @include font-light();
+  @include reset-list();
+
+  width: 380px;
+  height: 24px;
+  line-height: 24px;
+  border-radius: 4px;
+  border: 1px solid #d6d6d6;
+  background-color: #f6f6f6;
+  box-sizing: border-box;
+  overflow: hidden;
+  user-select: none;
+
+  .item {
+    float: left;
+    height: 24px;
+    width: 24px;
+
+    input[type="checkbox"] {
+      display: none;
+
+      & + a {
+        margin-top: 6px;
+        height: 12px;
+        width: 12px;
+        display: block;
+        cursor: pointer;
+      }
+
+      &:disabled + a{
+        cursor: not-allowed;
+      }
+    }
+  }
+
+  // 第一页按钮
+  .first {
+    margin-left: 8px;
+    margin-right: 28px;
+  }
+  .first a {
+    margin-left: 8px;
+    margin-right: 28px;
+    background: url("./icons/1-normal.svg") center center no-repeat;
+  }
+  .first a:hover {
+    background: url("./icons/1-hover.svg") center center no-repeat;
+  }
+  .first {
+    input[type="checkbox"]:disabled + a{
+      background: url("./icons/1-disable.svg") center center no-repeat;
+    }
+  }
+
+  // 上一页按钮
+  .previous a {
+    background: url("./icons/2-normal.svg") center center no-repeat;
+  }
+  .previous a:hover {
+    background: url("./icons/2-hover.svg") center center no-repeat;
+  }
+  .previous {
+    input[type="checkbox"]:disabled + a{
+      background: url("./icons/2-disable.svg") center center no-repeat;
+    }
+  }
+
+  // 下一页按钮
+  .next a {
+    background: url("./icons/3-normal.svg") center center no-repeat;
+  }
+  .next a:hover {
+    background: url("./icons/3-hover.svg") center center no-repeat;
+  }
+  .next {
+    input[type="checkbox"]:disabled + a{
+      background: url("./icons/3-disable.svg") center center no-repeat;
+    }
+  }
+
+  // 最后一页按钮
+  .last{
+    margin-right: 8px;
+    margin-left: 28px;
+  }
+  .last a {
+    background: url("./icons/4-normal.svg") center center no-repeat;
+  }
+  .last a:hover {
+    background: url("./icons/4-hover.svg") center center no-repeat;
+  }
+  .last {
+    input[type="checkbox"]:disabled + a{
+      background: url("./icons/4-disable.svg") center center no-repeat;
+    }
+  }
+
+  .tip{
+    width: 210px;
+    text-align: center;
+    color: #7b7b7b;
+    font-size: 12px;
+
+    label:first-child{
+      margin-right: 20px;
+    }
+  }
+}

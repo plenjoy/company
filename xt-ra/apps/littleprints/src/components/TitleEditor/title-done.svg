@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-1389 -1184 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #d6d6d6;
+        stroke-width: 0.5px;
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #3a3a3a;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="gray" stop-opacity="0.322"/>
+    </linearGradient>
+  </defs>
+  <g id="group-127" transform="translate(-1728 -1199)">
+    <g id="rectangle-30" class="cls-1" transform="translate(339 15)">
+      <rect class="cls-3" width="20" height="20"/>
+      <rect class="cls-4" x="0.25" y="0.25" width="19.5" height="19.5"/>
+    </g>
+    <g id="正确_1_" data-name="正确 (1)" transform="translate(343.256 20.775)">
+      <g id="group">
+        <path id="path" class="cls-2" d="M26.747,43.707l-7.5,7.5-.028-.028-.047.047-4.417-4.358.464-.469L19.2,50.326l7.08-7.088Z" transform="translate(-14.759 -43.238)"/>
+      </g>
+    </g>
+  </g>
+</svg>

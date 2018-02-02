@@ -1,0 +1,14 @@
+@import '../../scss/index';
+
+.Select {
+  @include font-family(300);
+  color: #3A3A3A;
+  font-size: 12px;
+  margin-right: 50px;
+}
+
+.Select__input {
+  margin-left: 10px;
+  width: 142px;
+  height: 22px;
+}

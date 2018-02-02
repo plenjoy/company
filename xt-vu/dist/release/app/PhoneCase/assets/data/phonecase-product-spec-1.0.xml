@@ -1,0 +1,137 @@
+﻿<product-spec version="1.0.6">
+    <global>
+        <!-- 打印精度 -->
+        <dpi>300</dpi>
+         
+        <!-- 图片质量警告阈值百分比 -->
+        <imageQualityBufferPercent>30</imageQualityBufferPercent>
+         
+        <options>
+            <!-- 产品 -->
+            <optionGroup id="product">
+                <option id="PhoneCase" name="Phone Case" />
+            </optionGroup>
+             
+            <!-- 设备型号（更准确的命名应为deviceModel，但鉴于model这个词在开发中的特殊性，改用deviceType） -->
+            <optionGroup id="deviceType">
+                <option id="iPhone6" name="iPhone 6">
+                    <title>iPhone 6/6s</title>
+                </option>
+                 
+                <option id="iPhone6Plus" name="iPhone 6P">
+                    <title>iPhone 6/6s Plus</title>
+                </option>
+                 
+                <option id="SamsungGalaxyS5" name="Galaxy S5">
+                    <title>Samsung Galaxy S5</title>
+                </option>
+                 
+                <option id="SamsungGalaxyS6" name="Galaxy S6">
+                    <title>Samsung Galaxy S6</title>
+                </option>
+                 
+                <option id="iPhone5" name="iPhone 5">
+                    <title>iPhone 5/5s</title>
+                </option>
+            </optionGroup>
+             
+            <!-- 材质 -->
+            <optionGroup id="paper">
+                <option id="GP">
+                    <title>Glossy</title>
+                </option>
+                <option id="EP">
+                    <title>Matte</title>
+                </option>
+            </optionGroup>
+        </options>
+    </global>
+     
+    <configurableOptionMap>
+        <optionMap id="product" keyPattern="client">
+            <entry key="*" value="PhoneCase" />
+        </optionMap>
+         
+        <optionMap id="deviceType" keyPattern="product">
+            <entry key="PhoneCase" value="iPhone5,iPhone6,iPhone6Plus,SamsungGalaxyS5,SamsungGalaxyS6" />
+        </optionMap>
+         
+        <optionMap id="paper" keyPattern="deviceType">
+            <entry key="*" value="GP,EP" />
+        </optionMap>
+    </configurableOptionMap>
+     
+    <parameters>
+        <!-- 1英寸 = 25.4毫米 -->
+         
+        <!-- 产品基础尺寸，等于手机正面尺寸 -->
+        <parameter id="baseSizeInInch" keyPattern="deviceType">
+            <!-- iPhone6 70mm * 140mm -->
+            <entry key="iPhone6" width="2.75590551181102" height="5.51181102362205" />
+             
+            <!-- iPhone6P 80mm * 160mm -->
+            <entry key="iPhone6Plus" width="3.1496062992126" height="6.2992125984252" />
+             
+            <!-- GalaxyS5 74mm * 144mm -->
+            <entry key="SamsungGalaxyS5" width="2.91338582677165" height="5.66929133858268" />
+             
+            <!-- GalaxyS6 73mm * 145mm -->
+            <entry key="SamsungGalaxyS6" width="2.8740157480315" height="5.70866141732283" />
+             
+            <!-- iPhone5 62mm * 127mm -->
+            <entry key="iPhone5" width="2.44094488188976" height="5" />
+        </parameter>
+         
+        <!-- 侧边尺寸 -->
+        <parameter id="sideInInch" keyPattern="deviceType">
+            <!-- iPhone6 8mm * 5.5mm -->
+            <entry key="iPhone6" left="0.31496062992126" top="0.21653543307087" right="0.31496062992126" bottom="0.21653543307087" />
+             
+            <!-- iPhone6P 8mm * 3mm -->
+            <entry key="iPhone6Plus" left="0.31496062992126" top="0.11811023622047" right="0.31496062992126" bottom="0.11811023622047" />
+             
+            <!-- GalaxyS5 11mm * 6mm -->
+            <entry key="SamsungGalaxyS5" left="0.43307086614173" top="0.23622047244094" right="0.43307086614173" bottom="0.23622047244094" />
+             
+            <!-- GalaxyS6 8mm * 3mm -->
+            <entry key="SamsungGalaxyS6" left="0.31496062992126" top="0.11811023622047" right="0.31496062992126" bottom="0.11811023622047" />
+             
+            <!-- iPhone5 11mm * 7mm -->
+            <entry key="iPhone5" left="0.43307086614173" top="0.2755905511811" right="0.43307086614173" bottom="0.2755905511811" />
+        </parameter>
+         
+        <!-- 背面卷边尺寸 -->
+        <parameter id="edgeInInch" keyPattern="deviceType">
+            <entry key="*" left="0" top="0" right="0" bottom="0" />
+        </parameter>
+         
+        <!-- 出血尺寸 -->
+        <parameter id="bleedInInch" keyPattern="deviceType">
+            <!-- 目前统一为2mm -->
+            <entry key="*" left="0.07874015748031" top="0.07874015748031" right="0.07874015748031" bottom="0.07874015748031" />
+        </parameter>
+    </parameters>
+     
+    <variables>
+        <!-- 出于客户端异步加载资源的考虑，每个图片资源都应提供其尺寸信息，并因此不再集中于一个variable中 -->
+         
+        <!-- 型号缩略图，用于选择设备型号时显示 -->
+        <variable id="thumbnail" keyPattern="deviceType">
+            <entry key="iPhone6" image="/phoneCase/assets/thumbnail/iphone6s.png" width="720" height="1158" />
+            <entry key="iPhone6Plus" image="/phoneCase/assets/thumbnail/iphone6P.png" width="720" height="1210" />
+            <entry key="SamsungGalaxyS5" image="/phoneCase/assets/thumbnail/samsungS5.png" width="720" height="1280" />
+            <entry key="SamsungGalaxyS6" image="/phoneCase/assets/thumbnail/samsungS6.png" width="720" height="1240" />
+            <entry key="iPhone5" image="/phoneCase/assets/thumbnail/iphone5s.png" width="720" height="1184" />
+        </variable>
+         
+        <!-- 提供手机形象的蒙板前景图，用于编辑界面显示 -->
+        <variable id="foreground" keyPattern="deviceType">
+            <!-- paddingLeft、paddingTop、paddingRight、paddingBottom指图片边缘到图片上手机正面区域的距离 -->
+            <entry key="iPhone6" image="/phoneCase/assets/foreground/iphone6s.png" width="720" height="1158" paddingLeft="128" paddingTop="115" paddingRight="128" paddingBottom="115" />
+            <entry key="iPhone6Plus" image="/phoneCase/assets/foreground/iphone6P.png" width="720" height="1210" paddingLeft="112" paddingTop="109" paddingRight="112" paddingBottom="109" />
+            <entry key="SamsungGalaxyS5" image="/phoneCase/assets/foreground/samsungS5.png" width="720" height="1280" paddingLeft="107" paddingTop="148" paddingRight="107" paddingBottom="148" />
+            <entry key="SamsungGalaxyS6" image="/phoneCase/assets/foreground/samsungS6.png" width="720" height="1240" paddingLeft="121" paddingTop="125" paddingRight="121" paddingBottom="125" />
+            <entry key="iPhone5" image="/phoneCase/assets/foreground/iphone5s.png" width="720" height="1184" paddingLeft="138" paddingTop="137" paddingRight="138" paddingBottom="137" />
+        </variable>
+    </variables>
+</product-spec>

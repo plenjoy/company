@@ -1,0 +1,858 @@
+<product-spec version="4.0">
+  <!--  全局的产品规范  -->
+  <global>
+    <!--  精度  -->
+    <dpi>300</dpi>
+    <imageQualityBufferPercent>30</imageQualityBufferPercent>
+    <!--  有效的照片缩略图尺寸维度  -->
+    <imagedimenstions>
+      <imagedimenstion viewWidth="96" viewHeight="96">96x96</imagedimenstion>
+      <imagedimenstion viewWidth="350" viewHeight="350">350x350</imagedimenstion>
+      <imagedimenstion viewWidth="700" viewHeight="700">700x700</imagedimenstion>
+      <imagedimenstion viewWidth="1000" viewHeight="1000">1000x1000</imagedimenstion>
+      <imagedimenstion viewWidth="1500" viewHeight="1500">1500x1500</imagedimenstion>
+    </imagedimenstions>
+    <options>
+      <!--  照片书产品  -->
+      <optionGroup id="product">
+        <option id="LF">
+          <title>
+            <![CDATA[ Layflat Photo Book ]]>
+          </title>
+        </option>
+        <option id="FM" default="true">
+          <title>
+            <![CDATA[ Flush Mount Album ]]>
+          </title>
+        </option>
+        <option id="LB">
+          <title>
+            <![CDATA[ Little Black Book ]]>
+          </title>
+        </option>
+        <option id="PS">
+          <title>
+            <![CDATA[ Press Photo Book ]]>
+          </title>
+        </option>
+      </optionGroup>
+      <!--  照片书封面  -->
+      <optionGroup id="cover">
+        <option id="CC" name="Crystal Leatherette" customizable="true" />
+        <option id="GC" name="Crystal Genuine Leather" customizable="true" />
+        <option id="MC" name="Metal Leatherette" customizable="true" />
+        <option id="GM" name="Metal Genuine Leather" customizable="true" />
+        <option id="LC" name="Leatherette" customizable="false" />
+        <option id="GL" name="Genuine Leather" customizable="false" />
+        <option id="NC" name="Linen Cover" customizable="false" />
+        <option id="HC" name="Hard Cover" customizable="true" />
+        <option id="LBB" name="Black Cover" customizable="false" />
+        <option id="LBPC" name="Photo Cover" customizable="true" skuCode="LPB" />
+        <option id="LSB" name="Bling Cover" customizable="false" disable="true" />
+        <option id="LLB" name="Genuine Leather" customizable="false" disable="true" />
+        <option id="LALC" name="Leather Cover" disable="true" />
+        <option id="LFHC" name="Hard Cover" customizable="true" skuCode="HC" />
+        <option id="LFLC" name="Leatherette" customizable="false" skuCode="LC" />
+        <option id="LFGL" name="Genuine Leather" customizable="false" skuCode="GL" />
+        <option id="LFNC" name="Linen Cover" customizable="false" skuCode="NC" />
+        <option id="LFPC" name="Padded Cover" customizable="true" skuCode="PC" />
+        <option id="LFBC" name="Bling Cover" customizable="false" skuCode="BC" />
+        <option id="BC" name="Bling Cover" customizable="false" />
+        <option id="FMPAC" name="Paper Cover" customizable="true" skuCode="PA" />
+        <option id="LFPAC" name="Paper Cover" customizable="true" skuCode="PA" />
+        <option id="PSHC" name="Hard Cover" customizable="true" />
+        <option id="PSSC" name="Soft Cover" customizable="true" />
+        <option id="PSNC" name="Linen Cover" customizable="false" />
+        <option id="PSLC" name="Leatherette" customizable="false" />
+      </optionGroup>
+      <!--  照片书尺寸  -->
+      <optionGroup id="size">
+        <option id="4X4" name="4x4" widthInInch="3.8734" heightInInch="3.747" aspectRatioType="Square" />
+        <option id="6X6" name="6x6" widthInInch="5.8735" heightInInch="5.747" aspectRatioType="Square" default="true" />
+        <option id="8X8" name="8x8" widthInInch="7.75" heightInInch="7.5" aspectRatioType="Square" />
+        <option id="10X10" name="10x10" widthInInch="9.75" heightInInch="9.5" aspectRatioType="Square" />
+        <option id="12X12" name="12x12" widthInInch="11.75" heightInInch="11.5" aspectRatioType="Square" />
+        <option id="14X14" name="14x14" widthInInch="13.75" heightInInch="13.5" aspectRatioType="Square" />
+        <option id="7X5" name="7x5" widthInInch="4.874" heightInInch="6.747" aspectRatioType="Portrait" />
+        <option id="8X6" name="8x6" widthInInch="5.8735" heightInInch="7.747" aspectRatioType="Portrait" />
+        <option id="11X8" name="11x8" widthInInch="7.75" heightInInch="10.5" aspectRatioType="Portrait" />
+        <option id="14X11" name="14x11" widthInInch="10.75" heightInInch="13.5" aspectRatioType="Portrait" />
+        <option id="16X12" name="16x12" widthInInch="11.75" heightInInch="15.5" aspectRatioType="Portrait" />
+        <option id="5X7" name="5x7" widthInInch="6.874" heightInInch="4.747" aspectRatioType="Landscape" />
+        <option id="6X8" name="6x8" widthInInch="7.8735" heightInInch="5.747" aspectRatioType="Landscape" />
+        <option id="8X11" name="8x11" widthInInch="10.75" heightInInch="7.5" aspectRatioType="Landscape" />
+        <option id="11X14" name="11x14" widthInInch="13.75" heightInInch="10.5" aspectRatioType="Landscape" />
+        <option id="12X16" name="12x16" widthInInch="15.75" heightInInch="11.5" aspectRatioType="Landscape" />
+      </optionGroup>
+      <!--  照片书颜色  -->
+      <optionGroup id="leatherColor">
+        <option id="none" name="None" default="true" />
+        <option id="black" name="Black" default="true" />
+        <option id="red" name="Ruby" />
+        <option id="white" name="White" />
+        <option id="espresso" name="Espresso" />
+        <option id="camel" name="Cinnamon" />
+        <option id="blue" name="Blue" />
+        <option id="kiwi" name="Kiwi" />
+        <option id="pink" name="Pink" />
+        <option id="navyBlue" name="Navy Blue" />
+        <option id="shamrockGreen" name="Shamrock Green" />
+        <option id="tangerineOrange" name="Tangerine Orange" />
+        <option id="slateGrey" name="Slate Grey" />
+        <option id="maroon" name="Maroon" />
+        <option id="lightBlue" name="Light Blue" />
+        <option id="siennaBrown" name="Sienna Brown" />
+        <option id="cream" name="Cream" />
+        <option id="oliveGreen" name="Olive Green" />
+        <option id="indianRed" name="Indian Red" />
+        <option id="chocolateBrown" name="Chocolate Brown" />
+        <option id="brown" name="Dark Brown" />
+        <option id="darkGreen" name="Dark Green" />
+        <option id="orange" name="Brown" />
+        <option id="tan" name="Tan" />
+        <option id="rusticGreen" name="Rustic Green" />
+        <option id="rusticBrown" name="Rustic Brown" />
+        <option id="blingLace" name="Lace" />
+        <option id="blingZebra" name="Zebra" />
+        <option id="blingCream" name="Cream" />
+        <option id="blingBlack" name="Black Grid" />
+        <option id="blingBlue" name="Blue Grid" />
+        <option id="blingEspresso" name="Espresso Grid" />
+        <option id="blingRed" name="Red Grid" />
+        <option id="blingWhite" name="White Grid" />
+        <option id="greenLeaf" name="Green Leaf" />
+        <option id="fireBrick" name="Fire Brick" />
+        <option id="pinkRose" name="Pink Rose" />
+        <option id="pansy" name="Pansy" />
+        <option id="blueGrey" name="Blue Grey" />
+        <option id="sunnyYellow" name="Sunny Yellow" />
+        <option id="cinnamon" name="Cinnamon" />
+        <option id="ruby" name="Ruby" />
+        <option id="blackNavyBlue" name="Navy Blue" />
+      </optionGroup>
+      <!--  烫边选项  -->
+      <optionGroup id="gilding">
+        <option id="none" default="true">
+          <title>None</title>
+        </option>
+        <option id="black">
+          <title>Black</title>
+        </option>
+        <option id="gold">
+          <title>Gold</title>
+        </option>
+        <option id="silver">
+          <title>Silver</title>
+        </option>
+      </optionGroup>
+      <!--  纸张厚度  -->
+      <optionGroup id="paperThickness">
+        <option id="Thick" skuCode="" default="true">
+          <title>Thick</title>
+        </option>
+        <option id="Light" skuCode="L">
+          <title>Standard</title>
+        </option>
+        <option id="Rigid" skuCode="R">
+          <title>Rigid</title>
+        </option>
+        <option id="ExtraThin" skuCode="X">
+          <title>Extra Thin</title>
+        </option>
+        <option id="PressThin" skuCode="S">
+          <title>Press Thin</title>
+        </option>
+      </optionGroup>
+      <!--  纸张类型  -->
+      <optionGroup id="paper">
+        <option id="EP" default="true">
+          <title>Lustre Print</title>
+        </option>
+        <option id="MP">
+          <title>Metallic Print</title>
+        </option>
+        <option id="AP">
+          <title>Matte Velvet Print</title>
+        </option>
+        <option id="DP">
+          <title>Artisan Print</title>
+        </option>
+        <option id="SP">
+          <title>Stock Paper</title>
+        </option>
+        <option id="RP">
+          <title>Art Print</title>
+        </option>
+      </optionGroup>
+      <!--  天窗形状  -->
+      <optionGroup id="cameoShape">
+        <option id="none" default="true" />
+        <option id="Rect" />
+        <option id="Round" />
+        <option id="Oval" />
+      </optionGroup>
+      <!--  天窗类型  -->
+      <optionGroup id="cameo">
+        <option id="none" default="true" />
+        <option id="S" />
+        <option id="M" />
+        <option id="L" />
+      </optionGroup>
+      <!--  客户端类型  -->
+      <optionGroup id="client">
+        <option id="flex" default="true" />
+        <option id="iphone" />
+        <option id="android" />
+        <option id="h5" />
+      </optionGroup>
+      <!--  金属封面类型  -->
+      <optionGroup id="metalSurface">
+        <option id="none" default="true" />
+        <option id="whiteBaseMatte">
+          <title>White Base Matte</title>
+        </option>
+        <option id="whiteBaseGlossy">
+          <title>White Base Glossy</title>
+        </option>
+        <option id="metalBrushMatte">
+          <title>Metal Brush Matte</title>
+        </option>
+        <option id="metalBrushGlossy">
+          <title>Metal Brush Glossy</title>
+        </option>
+      </optionGroup>
+    </options>
+  </global>
+  <disableOptionMap>
+    <optionMap id="product" keyPattern="client">
+      <entry key="*" value="LB" />
+    </optionMap>
+    <optionMap id="cover" keyPattern="product">
+      <entry key="LB" value="LSB,LLB" />
+    </optionMap>
+    <optionMap id="paper" keyPattern="product">
+      <entry key="LB" value="MP" />
+    </optionMap>
+  </disableOptionMap>
+  <configurableOptionMap>
+    <optionMap id="product" keyPattern="client">
+      <entry key="*" value="LF,FM,LB,PS" />
+    </optionMap>
+    <optionMap id="cover" keyPattern="client-product">
+      <entry key="[flex,h5]-FM" value="FMPAC,HC,NC,BC,LC,GL,CC,GC,MC,GM" />
+      <entry key="[iphone,android]-FM" value="HC,FMPAC,NC,BC,LC,GL,CC,GC,MC,GM" />
+      <entry key="*-LB" value="LBB,LBPC,LSB,LLB" />
+      <entry key="*-LF" value="LFHC,LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC" />
+      <entry key="*-PS" value="PSHC,PSSC,PSNC,PSLC" />
+    </optionMap>
+    <optionMap id="size" keyPattern="product-cover">
+      <entry key="FM-[HC,LC,GL,NC,BC]" value="6X6,8X8,10X10,12X12,14X14,8X6,11X8,14X11,16X12,6X8,8X11,11X14,12X16" />
+      <entry key="FM-FMPAC" value="6X6,8X8,10X10,12X12,7X5,8X6,11X8,14X11,5X7,6X8,8X11,11X14" />
+      <entry key="FM-[CC,GC,MC,GM]" value="8X8,10X10,12X12,14X14,11X8,14X11,16X12,8X11,11X14,12X16" />
+      <entry key="LB-*" value="5X7,6X8,8X11,7X5,8X6,11X8,4X4,6X6,8X8,10X10" />
+      <entry key="LF-[LFHC,LFPC,LFNC,LFBC,LFLC,LFGL]" value="6X6,8X8,10X10,12X12,8X6,11X8,14X11,6X8,8X11,11X14" />
+      <entry key="LF-LFPAC" value="6X6,8X8,10X10,12X12,7X5,8X6,11X8,14X11,5X7,6X8,8X11,11X14" />
+      <entry key="PS-[PSNC,PSLC]" value="6X6,8X8,10X10,8X6,11X8,6X8,8X11,12X12,14X11,11X14" />
+      <entry key="PS-PSHC" value="5X7,7X5,6X6,8X8,10X10,8X6,11X8,6X8,8X11,12X12,14X11,11X14" />
+      <entry key="PS-PSSC" value="5X7,7X5,6X6,8X8,10X10,8X6,11X8,6X8,8X11" />
+    </optionMap>
+    <optionMap id="paper" keyPattern="product">
+      <entry key="FM" value="EP,MP,AP,RP" />
+      <entry key="LB" value="EP,MP" />
+      <entry key="LF" value="DP" />
+      <entry key="PS" value="SP" />
+    </optionMap>
+    <optionMap id="leatherColor" keyPattern="cover">
+      <entry key="[HC,LBB,LBPC,LFHC,LFPC,LFPAC,FMPAC,PSHC,PSSC]" value="none" />
+      <entry key="[LC,CC,MC,LFLC,PSLC]" value="black,red,white,espresso,camel,blue,kiwi,pink,cream,brown,darkGreen,orange,tan,blackNavyBlue,blueGrey,sunnyYellow" defaultValue="black"/>
+      <entry key="[GL,GC,GM,LFGL,LLB]" value="black,white,espresso,cream,brown,rusticGreen,rusticBrown,blackNavyBlue,blueGrey,sunnyYellow,cinnamon,ruby" defaultValue="black"/>
+      <entry key="[NC,LFNC,PSNC]" value="black,navyBlue,shamrockGreen,tangerineOrange,slateGrey,maroon,lightBlue,siennaBrown,cream,oliveGreen,indianRed,chocolateBrown,greenLeaf,fireBrick,pinkRose,pansy" defaultValue="black"/>
+      <entry key="[BC,LSB,LFBC]" value="blingLace,blingZebra,blingCream,blingBlack,blingBlue,blingEspresso,blingRed,blingWhite" defaultValue="blingLace"/>
+    </optionMap>
+    <optionMap id="paperThickness" keyPattern="product-cover-size">
+      <entry key="FM-[HC,NC,BC,LC,GL,CC,GC,MC,GM]-[8X8,10X10,12X12,11X8,14X11,8X11,11X14]" value="Light,Thick,Rigid" defaultValue="Light" />
+      <entry key="FM-[HC,NC,BC,LC,GL,CC,GC,MC,GM]-[14X14,16X12,12X16]" value="Thick,Rigid" defaultValue="Thick" />
+      <entry key="FM-[HC,NC,BC,LC,GL,CC,GC,MC,GM]-[4X4,6X6,7X5,8X6,5X7,6X8]" value="Light" defaultValue="Light" />
+      <entry key="FM-FMPAC-*" value="Light" defaultValue="Light" />
+      <entry key="LB-*-*" value="Light" defaultValue="Light" />
+      <entry key="LF-*-*" value="ExtraThin" defaultValue="ExtraThin" />
+      <entry key="PS-*-*" value="PressThin" defaultValue="PressThin" />
+    </optionMap>
+    <optionMap id="gilding" keyPattern="product">
+      <entry key="FM" value="none,black,gold,silver" />
+      <entry key="[LB,LF,PS]" value="none" />
+    </optionMap>
+    <optionMap id="cameo" keyPattern="cover-size">
+      <entry key="[HC,LBB,LBPC,LLB,LFHC,LFPC,CC,MC,GC,GM,LFPAC,FMPAC,PSSC,PSHC]-*" value="none" />
+      <entry key="[LC,GL,NC,BC]-[8X8,10X10,12X12,14X14,11X8,14X11,16X12,8X11,11X14,12X16]" value="S,M,L" defaultValue="M" />
+      <entry key="[LC,GL,NC,BC]-[6X6,8X6,6X8]" value="none" />
+      <entry key="LSB-[5X7,6X8,8X11,7X5,8X6,11X8,6X6,8X8,10X10]" value="S,M,L" defaultValue="M" />
+      <entry key="LSB-4X4" value="M" />
+      <entry key="[LFNC,LFBC,LFLC,LFGL]-[8X8,10X10,12X12,11X8,14X11,8X11,11X14]" value="S,M,L" defaultValue="M" />
+      <entry key="[LFNC,LFLC,LFGL,LFBC]-[6X6,6X8,8X6]" value="none" />
+      <entry key="[PSNC,PSLC]-*" value="M" />
+    </optionMap>
+    <optionMap id="cameoShape" keyPattern="cover-size">
+      <entry key="[HC,LBB,LBPC,LLB,LFHC,LFPC,CC,MC,GC,GM,LFPAC,FMPAC,PSSC,PSHC]-*" value="none" />
+      <entry key="[LC,GL,NC,BC]-[8X8,10X10,12X12,14X14]" value="Rect,Round" defaultValue="Rect" />
+      <entry key="[LC,GL,NC,BC]-[11X8,14X11,16X12,8X11,11X14,12X16]" value="Rect,Oval" defaultValue="Rect" />
+      <entry key="[LC,GL,NC,BC]-[6X6,8X6,6X8]" value="none" />
+      <entry key="LSB-[5X7,6X8,8X11,7X5,8X6,11X8,6X6,8X8,10X10]" value="Rect" />
+      <entry key="LSB-4X4" value="Rect" />
+      <entry key="[LFNC,LFBC,LFLC,LFGL]-[8X8,10X10,12X12,11X8,14X11,8X11,11X14]" value="Rect" />
+      <entry key="[LFNC,LFLC,LFGL,LFBC]-[6X6,6X8,8X6]" value="none" />
+      <entry key="[PSNC,PSLC]-*" value="Rect" />
+    </optionMap>
+    <optionMap id="metalSurface" keyPattern="cover">
+      <entry key="[CC,GC,LC,GL,NC,HC,LBB,LBPC,LSB,LLB,LALC,LFHC,LFLC,LFGL,LFNC,LFPC,LFBC,BC,FMPAC,LFPAC,PSHC,PSSC,PSNC,PSLC]" value="none" />
+      <entry key="[MC,GM]" value="whiteBaseMatte,whiteBaseGlossy,metalBrushMatte,metalBrushGlossy" defaultValue="metalBrushMatte" />
+    </optionMap>
+  </configurableOptionMap>
+  <parameters>
+    <!-- 封面基础宽高 -->
+    <parameter id="bookCoverBaseSize" keyPattern="size-product-cover">
+      <entry key="4X4-FM-*" widthInInch="3.8734" heightInInch="3.747" />
+      <entry key="6X6-FM-*" widthInInch="5.8735" heightInInch="5.747" />
+      <entry key="8X8-FM-*" widthInInch="7.75" heightInInch="7.5" />
+      <entry key="10X10-FM-*" widthInInch="9.75" heightInInch="9.5" />
+      <entry key="12X12-FM-*" widthInInch="11.75" heightInInch="11.5" />
+      <entry key="14X14-FM-*" widthInInch="13.75" heightInInch="13.5" />
+      <entry key="7X5-FM-*" widthInInch="4.8818898" heightInInch="6.7716535" />
+      <entry key="8X6-FM-*" widthInInch="5.8735" heightInInch="7.747" />
+      <entry key="11X8-FM-*" widthInInch="7.75" heightInInch="10.5" />
+      <entry key="14X11-FM-*" widthInInch="10.75" heightInInch="13.5" />
+      <entry key="5X7-FM-*" widthInInch="6.8897638" heightInInch="4.7637795" />
+      <entry key="6X8-FM-*" widthInInch="7.8735" heightInInch="5.747" />
+      <entry key="8X11-FM-*" widthInInch="10.75" heightInInch="7.5" />
+      <entry key="11X14-FM-*" widthInInch="13.75" heightInInch="10.5" />
+
+      <entry key="12X16-FM-[CC,GC,MC,GM,NC,BC,LC,GL]" widthInInch="15.75" heightInInch="11.5" />
+      <entry key="16X12-FM-[CC,GC,MC,GM,NC,BC,LC,GL]" widthInInch="11.75" heightInInch="15.5" />
+      <entry key="16X12-FM-HC" widthInInch="12.2047244" heightInInch="15.984252" />
+      <entry key="12X16-FM-HC" widthInInch="16.1417323" heightInInch="12.0472441" />
+
+      <!-- LF -->
+      <entry key="6X6-LF-LFHC" widthInInch="6.2204724" heightInInch="6.1417323" />
+      <entry key="6X8-LF-LFHC" widthInInch="8.2677165" heightInInch="6.1417323" />
+      <entry key="8X6-LF-LFHC" widthInInch="6.2992126" heightInInch="8.0314961" />
+      <entry key="8X8-LF-LFHC" widthInInch="8.1889764" heightInInch="8.0314961" />
+      <entry key="8X11-LF-LFHC" widthInInch="11.2598425" heightInInch="8.0314961" />
+      <entry key="10X10-LF-LFHC" widthInInch="10.1574803" heightInInch="10.0393701" />
+      <entry key="11X8-LF-LFHC" widthInInch="8.2677165" heightInInch="11.0629921" />
+      <entry key="11X14-LF-LFHC" widthInInch="14.2519685" heightInInch="10.9448819" />
+      <entry key="12X12-LF-LFHC" widthInInch="12.2047244" heightInInch="12.0472441" />
+      <entry key="14X11-LF-LFHC" widthInInch="11.2598425" heightInInch="14.015748" />
+
+      <entry key="6X6-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="5.8735" heightInInch="5.747" />
+      <entry key="8X8-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="7.75" heightInInch="7.5" />
+      <entry key="10X10-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="9.75" heightInInch="9.5" />
+      <entry key="12X12-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="11.75" heightInInch="11.5" />
+      <entry key="14X14-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="13.75" heightInInch="13.5" />
+      <entry key="7X5-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="4.8818898" heightInInch="6.7716535" />
+      <entry key="8X6-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="5.8735" heightInInch="7.747" />
+      <entry key="11X8-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="7.75" heightInInch="10.5" />
+      <entry key="14X11-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="10.75" heightInInch="13.5" />
+      <entry key="16X12-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="11.75" heightInInch="15.5" />
+      <entry key="5X7-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="6.8897638" heightInInch="4.7637795" />
+      <entry key="6X8-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="7.8735" heightInInch="5.747" />
+      <entry key="8X11-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="10.75" heightInInch="7.5" />
+      <entry key="11X14-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="13.75" heightInInch="10.5" />
+      <entry key="12X16-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="15.75" heightInInch="11.5" />
+
+      <!-- PS -->
+      <entry key="5X7-PS-PSSC" widthInInch="7.1259843" heightInInch="5.0393701" />
+      <entry key="6X6-PS-PSSC" widthInInch="6.1023622" heightInInch="5.984252" />
+      <entry key="6X8-PS-PSSC" widthInInch="8.1496063" heightInInch="5.9448819" />
+      <entry key="7X5-PS-PSSC" widthInInch="4.9606299" heightInInch="7.1259843" />
+      <entry key="8X6-PS-PSSC" widthInInch="6.1023622" heightInInch="7.992126" />
+      <entry key="8X8-PS-PSSC" widthInInch="7.992126" heightInInch="7.7165354" />
+      <entry key="8X11-PS-PSSC" widthInInch="10.984252" heightInInch="7.7165354" />
+      <entry key="10X10-PS-PSSC" widthInInch="10" heightInInch="9.6850394" />
+      <entry key="11X8-PS-PSSC" widthInInch="7.992126" heightInInch="10.7086614" />
+      <entry key="11X14-PS-PSSC" widthInInch="14.1732283" heightInInch="10.984252" />
+      <entry key="12X12-PS-PSSC" widthInInch="12.2440945" heightInInch="11.9291339" />
+      <entry key="14X11-PS-PSSC" widthInInch="11.2204724" heightInInch="13.8976378" />
+
+      <entry key="5X7-PS-PSHC" widthInInch="7.3622047" heightInInch="5.2755906" />
+      <entry key="6X6-PS-PSHC" widthInInch="6.3385827" heightInInch="6.2204724" />
+      <entry key="6X8-PS-PSHC" widthInInch="8.3858268" heightInInch="6.1811024" />
+      <entry key="7X5-PS-PSHC" widthInInch="5.1968504" heightInInch="7.3622047" />
+      <entry key="8X6-PS-PSHC" widthInInch="6.3385827" heightInInch="8.2283465" />
+      <entry key="8X8-PS-PSHC" widthInInch="8.2283465" heightInInch="7.9527559" />
+      <entry key="8X11-PS-PSHC" widthInInch="11.2204724" heightInInch="7.9527559" />
+      <entry key="10X10-PS-PSHC" widthInInch="10.2362205" heightInInch="9.9212598" />
+      <entry key="11X8-PS-PSHC" widthInInch="8.2283465" heightInInch="10.9448819" />
+      <entry key="11X14-PS-PSHC" widthInInch="14.1732283" heightInInch="10.984252" />
+      <entry key="12X12-PS-PSHC" widthInInch="12.2440945" heightInInch="11.9291339" />
+      <entry key="14X11-PS-PSHC" widthInInch="11.2204724" heightInInch="13.8976378" />
+
+      <entry key="5X7-PS-[PSNC,PSLC]" widthInInch="7.0472" heightInInch="5.03937" />
+      <entry key="6X6-PS-[PSNC,PSLC]" widthInInch="5.8735" heightInInch="5.747" />
+      <entry key="6X8-PS-[PSNC,PSLC]" widthInInch="7.8735" heightInInch="5.747" />
+      <entry key="7X5-PS-[PSNC,PSLC]" widthInInch="5.03937" heightInInch="7.28346" />
+      <entry key="8X6-PS-[PSNC,PSLC]" widthInInch="5.8735" heightInInch="7.747" />
+      <entry key="8X8-PS-[PSNC,PSLC]" widthInInch="7.75" heightInInch="7.5" />
+      <entry key="8X11-PS-[PSNC,PSLC]" widthInInch="10.75" heightInInch="7.5" />
+      <entry key="10X10-PS-[PSNC,PSLC]" widthInInch="9.75" heightInInch="9.5" />
+      <entry key="11X8-PS-[PSNC,PSLC]" widthInInch="7.75" heightInInch="10.5" />
+      <entry key="11X14-PS-[PSNC,PSLC]" widthInInch="13.75" heightInInch="10.5" />
+      <entry key="12X12-PS-[PSNC,PSLC]" widthInInch="11.75" heightInInch="11.5" />
+      <entry key="14X11-PS-[PSNC,PSLC]" widthInInch="10.75" heightInInch="13.5" />
+    </parameter>
+
+    <!-- 内页基础宽高 -->
+    <parameter id="bookInnerBaseSize" keyPattern="size-product-cover">
+      <entry key="4X4-FM-*" widthInInch="3.8734" heightInInch="3.747" />
+      <entry key="6X6-FM-*" widthInInch="5.8735" heightInInch="5.747" />
+      <entry key="8X8-FM-*" widthInInch="7.75" heightInInch="7.5" />
+      <entry key="10X10-FM-*" widthInInch="9.75" heightInInch="9.5" />
+      <entry key="12X12-FM-*" widthInInch="11.75" heightInInch="11.5" />
+      <entry key="14X14-FM-*" widthInInch="13.75" heightInInch="13.5" />
+      <entry key="7X5-FM-*" widthInInch="4.8818898" heightInInch="6.7716535" />
+      <entry key="8X6-FM-*" widthInInch="5.8735" heightInInch="7.747" />
+      <entry key="11X8-FM-*" widthInInch="7.75" heightInInch="10.5" />
+      <entry key="14X11-FM-*" widthInInch="10.75" heightInInch="13.5" />
+      <entry key="5X7-FM-*" widthInInch="6.8897638" heightInInch="4.7637795" />
+      <entry key="6X8-FM-*" widthInInch="7.8735" heightInInch="5.747" />
+      <entry key="8X11-FM-*" widthInInch="10.75" heightInInch="7.5" />
+      <entry key="11X14-FM-*" widthInInch="13.75" heightInInch="10.5" />
+
+      <entry key="12X16-FM-[CC,GC,MC,GM,NC,BC,LC,GL]" widthInInch="15.75" heightInInch="11.5" />
+      <entry key="16X12-FM-[CC,GC,MC,GM,NC,BC,LC,GL]" widthInInch="11.75" heightInInch="15.5" />
+      <entry key="12X16-FM-HC" widthInInch="15.7677165" heightInInch="11.5354331" />
+      <entry key="16X12-FM-HC" widthInInch="11.7716535" heightInInch="15.511811" />
+
+      <!-- LF -->
+      <entry key="6X6-LF-LFHC" widthInInch="5.8661417" heightInInch="5.7480315" />
+      <entry key="6X8-LF-LFHC" widthInInch="7.8543307" heightInInch="5.7480315" />
+      <entry key="8X6-LF-LFHC" widthInInch="5.8661417" heightInInch="7.7165354" />
+      <entry key="8X8-LF-LFHC" widthInInch="7.7559055" heightInInch="7.519685" />
+      <entry key="8X11-LF-LFHC" widthInInch="10.7677165" heightInInch="7.519685" />
+      <entry key="10X10-LF-LFHC" widthInInch="9.7637795" heightInInch="9.5275591" />
+      <entry key="11X8-LF-LFHC" widthInInch="7.7559055" heightInInch="10.511811" />
+      <entry key="11X14-LF-LFHC" widthInInch="13.7598425" heightInInch="10.511811" />
+      <entry key="12X12-LF-LFHC" widthInInch="11.7716535" heightInInch="11.5354331" />
+      <entry key="14X11-LF-LFHC" widthInInch="10.7677165" heightInInch="13.5433071" />
+
+      <entry key="4X4-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="3.8734" heightInInch="3.747" />
+      <entry key="6X6-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="5.8735" heightInInch="5.747" />
+      <entry key="8X8-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="7.75" heightInInch="7.5" />
+      <entry key="10X10-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="9.75" heightInInch="9.5" />
+      <entry key="12X12-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="11.75" heightInInch="11.5" />
+      <entry key="14X14-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="13.75" heightInInch="13.5" />
+      <entry key="7X5-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="4.8818898" heightInInch="6.7716535" />
+      <entry key="8X6-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="5.8735" heightInInch="7.747" />
+      <entry key="11X8-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="7.75" heightInInch="10.5" />
+      <entry key="14X11-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="10.75" heightInInch="13.5" />
+      <entry key="16X12-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="11.75" heightInInch="15.5" />
+      <entry key="5X7-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="6.8897638" heightInInch="4.7637795" />
+      <entry key="6X8-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="7.8735" heightInInch="5.747" />
+      <entry key="8X11-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="10.75" heightInInch="7.5" />
+      <entry key="11X14-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="13.75" heightInInch="10.5" />
+      <entry key="12X16-LF-[LFPC,LFNC,LFBC,LFLC,LFGL,LFPAC]" widthInInch="15.75" heightInInch="11.5" />
+
+      <!-- PS -->
+      <entry key="5X7-PS-[PSHC,PSSC]" widthInInch="7.0472441" heightInInch="5.0393701" />
+      <entry key="6X6-PS-[PSHC,PSSC]" widthInInch="6.023622" heightInInch="5.984252" />
+      <entry key="6X8-PS-[PSHC,PSSC]" widthInInch="8.0708661" heightInInch="5.9448819" />
+      <entry key="7X5-PS-[PSHC,PSSC]" widthInInch="4.8818898" heightInInch="7.1259843" />
+      <entry key="8X6-PS-[PSHC,PSSC]" widthInInch="6.023622" heightInInch="7.992126" />
+      <entry key="8X8-PS-[PSHC,PSSC]" widthInInch="7.9133858" heightInInch="7.7165354" />
+      <entry key="8X11-PS-[PSHC,PSSC]" widthInInch="10.9055118" heightInInch="7.7165354" />
+      <entry key="10X10-PS-[PSHC,PSSC]" widthInInch="9.9212598" heightInInch="9.6850394" />
+      <entry key="11X8-PS-[PSHC,PSSC]" widthInInch="7.9133858" heightInInch="10.7086614" />
+      <entry key="11X14-PS-[PSHC,PSSC]" widthInInch="13.8582677" heightInInch="10.7480315" />
+      <entry key="12X12-PS-[PSHC,PSSC]" widthInInch="11.9291339" heightInInch="11.6929134" />
+      <entry key="14X11-PS-[PSHC,PSSC]" widthInInch="10.9055118" heightInInch="13.6614173" />
+
+      <entry key="5X7-PS-[PSNC,PSLC]" widthInInch="7.0472" heightInInch="5.03937" />
+      <entry key="6X6-PS-[PSNC,PSLC]" widthInInch="5.8735" heightInInch="5.747" />
+      <entry key="6X8-PS-[PSNC,PSLC]" widthInInch="7.8735" heightInInch="5.747" />
+      <entry key="7X5-PS-[PSNC,PSLC]" widthInInch="5.03937" heightInInch="7.28346" />
+      <entry key="8X6-PS-[PSNC,PSLC]" widthInInch="5.8735" heightInInch="7.747" />
+      <entry key="8X8-PS-[PSNC,PSLC]" widthInInch="7.75" heightInInch="7.5" />
+      <entry key="8X11-PS-[PSNC,PSLC]" widthInInch="10.75" heightInInch="7.5" />
+      <entry key="10X10-PS-[PSNC,PSLC]" widthInInch="9.75" heightInInch="9.5" />
+      <entry key="11X8-PS-[PSNC,PSLC]" widthInInch="7.75" heightInInch="10.5" />
+      <entry key="11X14-PS-[PSNC,PSLC]" widthInInch="13.75" heightInInch="10.5" />
+      <entry key="12X12-PS-[PSNC,PSLC]" widthInInch="11.75" heightInInch="11.5" />
+      <entry key="14X11-PS-[PSNC,PSLC]" widthInInch="10.75" heightInInch="13.5" />
+    </parameter>
+
+    <!--  内页出血  -->
+    <parameter id="innerPageBleed" keyPattern="cover-size">
+      <entry key="[HC,LFPC,NC,BC,LC,GL,LSB,LLB,LFNC,LFBC,LFLC,LFGL,CC,GC,MC,GM,LBB,LBPC]-[4X4,6X6,7X5,8X6,5X7,6X8]" top="55" bottom="55" left="55" right="55" />
+      <entry key="[LFPC,NC,BC,LC,GL,LSB,LLB,LFNC,LFBC,LFLC,LFGL,CC,GC,MC,GM,LFPAC,FMPAC,LBB,LBPC]-[8X8,10X10,12X12,14X14,11X8,14X11,16X12,8X11,11X14,12X16]" top="75" bottom="75" left="75" right="75" />
+      <entry key="[LFPAC,FMPAC]-[4X4,6X6,8X6,6X8]" top="55" bottom="55" left="55" right="55" />
+
+      <entry key="HC-[8X8,10X10,12X12,14X14,11X8,14X11,8X11,11X14]" top="75" bottom="75" left="75" right="75" />
+      <entry key="HC-[16X12,12X16]" top="70.8" bottom="70.8" left="70.8" right="70.8" />
+
+      <!-- 4.5mm -->
+      <entry key="[LFPAC,FMPAC]-[7X5,5X7]" top="53" bottom="53" left="53" right="53" />
+      <entry key="[PSHC,PSSC,PSNC,PSLC]-*" top="23.6" bottom="23.6" left="23.6" right="23.6" />
+
+      <!-- 4.5mm -->
+      <entry key="LFHC-[6X6,8X6,6X8]" top="53" bottom="53" left="53" right="53" />
+      <entry key="LFHC-[8X8,10X10,12X12,11X8,14X11,8X11,11X14]" top="71" bottom="71" left="71" right="71" />
+    </parameter>
+
+    <!--  内页,封面安全区  -->
+    <parameter id="safeZone" keyPattern="cover-size">
+      <!-- 无论是封面还是内页，安全区域的值始终取内页的出血值 -->
+      <entry key="[HC,LFHC,LFPC,NC,BC,LC,GL,LSB,LLB,LFNC,LFBC,LFLC,LFGL,CC,GC,MC,GM,LFPAC,FMPAC,LBB,LBPC]-[4X4,6X6,7X5,8X6,5X7,6X8]" top="55" bottom="55" left="55" right="55" />
+      <entry key="[HC,LFHC,LFPC,NC,BC,LC,GL,LSB,LLB,LFNC,LFBC,LFLC,LFGL,CC,GC,MC,GM,LFPAC,FMPAC,LBB,LBPC]-[8X8,10X10,12X12,14X14,11X8,14X11,16X12,8X11,11X14,12X16]" top="75" bottom="75" left="75" right="75" />
+
+      <entry key="[PSHC,PSSC,PSNC,PSLC]-*" top="23.6" bottom="23.6" left="23.6" right="23.6" />
+    </parameter>
+
+    <!--  封面出血  -->
+    <parameter id="coverPageBleed" keyPattern="cover-size">
+      <entry key="LFPC-*" top="225" bottom="225" left="225" right="225" />
+      <entry key="[NC,BC,LC,GL,LSB,LLB,LFNC,LFBC,LFLC,LFGL,PSNC,PSLC]-*" top="0" bottom="0" left="0" right="0" />
+      <entry key="[CC,GC,MC,GM]-*" top="75" bottom="75" left="75" right="75" />
+      <entry key="[LFPAC,FMPAC]-[12X12,14X11,11X14]" top="75" bottom="75" left="75" right="75" />
+      <entry key="[LBB,LBPC,LFPAC,FMPAC]-[8X11,11X8,8X8,10X10]" top="75" bottom="75" left="75" right="75" />
+      <entry key="[LBB,LBPC]-[5X7,6X8,7X5,8X6,4X4,6X6]" top="38" bottom="38" left="38" right="38" />
+      <entry key="[LFPAC,FMPAC]-[8X6,4X4,6X6,6X8]" top="38" bottom="38" left="38" right="38" />
+
+      <entry key="HC-[4X4,6X6,8X8,10X10,12X12,14X14,7X5,8X6,11X8,14X11,5X7,6X8,8X11,11X14]" top="225" bottom="225" left="225" right="225" />
+      <entry key="HC-[16X12,12X16]" top="236" bottom="236" left="236" right="236" />
+
+      <!-- 4.5mm -->
+      <entry key="[LFPAC,FMPAC]-[5X7,7X5]" top="53" bottom="53" left="53" right="53" />
+      <entry key="PSSC-*" top="23.6" bottom="23.6" left="23.6" right="23.6" />
+      <entry key="PSHC-*" top="212.5" bottom="212.5" left="212.5" right="212.5" />
+
+      <!-- 20mm -->
+      <entry key="LFHC-*" top="236" bottom="236" left="236" right="236" />
+    </parameter>
+    <!--  封面皮革包边  -->
+    <parameter id="coverWrap" keyPattern="cover-size">
+      <entry key="[HC,LFHC,LFPC,LFPAC,FMPAC,LBB,LBPC,PSSC,PSSC,PSHC]-*" top="0" bottom="0" left="0" right="0" />
+      <entry key="[NC,BC,LC,GL,LSB,LLB,LFNC,LFBC,LFLC,LFGL,PSNC,PSLC]-*" top="0" bottom="0" left="0" right="0" />
+      <entry key="[CC,GC,MC,GM]-*" top="0" bottom="0" left="0" right="0" />
+    </parameter>
+    <!--  封面延边尺寸  -->
+    <parameter id="coverExpandingSize" keyPattern="cover-size">
+      <entry key="[CC,GC,MC,GM]-*" top="50" bottom="50" left="50" right="50" />
+      <entry key="[HC,LFPC]-[6X6,8X6,6X8]" left="103" right="103" top="38" bottom="38" />
+      <entry key="[HC,LFPC]-[8X8,10X10,12X12,11X8,14X11,8X11,11X14]" left="140" right="140" top="75" bottom="75" />
+      <entry key="HC-14X14" left="140" right="140" top="75" bottom="75" />
+      <entry key="[LBB,LBPC,LSB,LLB,LFPAC,FMPAC,PSSC]-*" top="0" bottom="0" left="0" right="0" />
+      <entry key="[LC,GL]-6X6" top="50" bottom="50" left="53" right="53" />
+      <entry key="[LC,GL]-8X8" top="38" bottom="38" left="65" right="65" />
+      <entry key="[LC,GL]-10X10" top="44" bottom="44" left="65" right="65" />
+      <entry key="[LC,GL]-[12X12,14X14,12X16]" top="50" bottom="50" left="65" right="65" />
+      <entry key="[LC,GL]-16X12" top="38" bottom="38" left="65" right="65" />
+      <entry key="[LC,GL]-6X8" top="50" bottom="50" left="77" right="77" />
+      <entry key="[LC,GL]-8X6" top="27" bottom="27" left="112" right="112" />
+      <entry key="[LC,GL]-8X11" top="44" bottom="44" left="89" right="89" />
+      <entry key="[LC,GL]-11X8" top="56" bottom="56" left="112" right="112" />
+      <entry key="[LC,GL]-[11X14,14X11]" top="38" bottom="38" left="89" right="89" />
+      <entry key="BC-6X6" top="37" bottom="37" left="38" right="38" />
+      <entry key="BC-8X8" top="25" bottom="25" left="50" right="50" />
+      <entry key="BC-10X10" top="31" bottom="31" left="50" right="50" />
+      <entry key="BC-[12X12,14X14,12X16]" top="37" bottom="37" left="50" right="50" />
+      <entry key="BC-16X12" top="25" bottom="25" left="50" right="50" />
+      <entry key="BC-6X8" top="37" bottom="37" left="61" right="61" />
+      <entry key="BC-8X6" top="13" bottom="13" left="97" right="97" />
+      <entry key="BC-8X11" top="31" bottom="31" left="73" right="73" />
+      <entry key="BC-11X8" top="43" bottom="43" left="97" right="97" />
+      <entry key="BC-[11X14,14X11]" top="25" bottom="25" left="73" right="73" />
+      <entry key="NC-6X6" top="42" bottom="42" left="46" right="46" />
+      <entry key="NC-8X8" top="30" bottom="30" left="58" right="58" />
+      <entry key="NC-10X10" top="36" bottom="36" left="58" right="58" />
+      <entry key="NC-[12X12,14X14,12X16]" top="42" bottom="42" left="58" right="58" />
+      <entry key="NC-16X12" top="30" bottom="30" left="58" right="58" />
+      <entry key="NC-6X8" top="42" bottom="42" left="70" right="70" />
+      <entry key="NC-8X6" top="18" bottom="18" left="105" right="105" />
+      <entry key="NC-8X11" top="36" bottom="36" left="82" right="82" />
+      <entry key="NC-11X8" top="48" bottom="48" left="105" right="105" />
+      <entry key="NC-[11X14,14X11]" top="30" bottom="30" left="82" right="82" />
+      <entry key="[LFLC,LFGL]-6X6" top="50" bottom="50" left="18" right="18" />
+      <entry key="[LFLC,LFGL]-8X8" top="38" bottom="38" left="30" right="30" />
+      <entry key="[LFLC,LFGL]-10X10" top="44" bottom="44" left="30" right="30" />
+      <entry key="[LFLC,LFGL]-12X12" top="50" bottom="50" left="30" right="30" />
+      <entry key="[LFLC,LFGL]-6X8" top="50" bottom="50" left="41" right="41" />
+      <entry key="[LFLC,LFGL]-8X6" top="27" bottom="27" left="77" right="77" />
+      <entry key="[LFLC,LFGL]-8X11" top="44" bottom="44" left="53" right="53" />
+      <entry key="[LFLC,LFGL]-11X8" top="56" bottom="56" left="77" right="77" />
+      <entry key="[LFLC,LFGL]-[11X14,14X11]" top="38" bottom="38" left="53" right="53" />
+      <entry key="LFNC-6X6" top="42" bottom="42" left="34" right="34" />
+      <entry key="LFNC-8X8" top="30" bottom="30" left="46" right="46" />
+      <entry key="LFNC-10X10" top="36" bottom="36" left="46" right="46" />
+      <entry key="LFNC-12X12" top="42" bottom="42" left="46" right="46" />
+      <entry key="LFNC-6X8" top="42" bottom="42" left="58" right="58" />
+      <entry key="LFNC-8X6" top="18" bottom="18" left="93" right="93" />
+      <entry key="LFNC-8X11" top="36" bottom="36" left="70" right="70" />
+      <entry key="LFNC-11X8" top="48" bottom="48" left="93" right="93" />
+      <entry key="LFNC-[11X14,14X11]" top="30" bottom="30" left="70" right="70" />
+      <entry key="LFBC-6X6" top="46" bottom="46" left="26" right="26" />
+      <entry key="LFBC-8X8" top="34" bottom="34" left="38" right="38" />
+      <entry key="LFBC-10X10" top="40" bottom="40" left="38" right="38" />
+      <entry key="LFBC-12X12" top="46" bottom="46" left="38" right="38" />
+      <entry key="LFBC-6X8" top="46" bottom="46" left="50" right="50" />
+      <entry key="LFBC-8X6" top="22" bottom="22" left="85" right="85" />
+      <entry key="LFBC-8X11" top="40" bottom="40" left="62" right="62" />
+      <entry key="LFBC-11X8" top="52" bottom="52" left="85" right="85" />
+      <entry key="LFBC-[11X14,14X11]" top="34" bottom="34" left="61" right="61" />
+      <entry key="PSLC-[6X6,8X6,6X8,8X8,10X10,12X12,11X8,14X11,8X11,11X14]" top="44" bottom="44" left="38" right="38" />
+      <entry key="PSNC-[6X6,8X6,6X8,8X8,10X10,12X12,11X8,14X11,8X11,11X14]" top="36" bottom="36" left="54" right="54" />
+      <entry key="PSHC-[5X7,6X6,6X8,7X5,8X6,8X8,8X11,10X10,11X8]" left="0" right="0" top="0" bottom="0" />
+      <entry key="PSHC-[11X14,12X12,14X11]" left="0" right="0" top="0" bottom="0" />
+
+      <entry key="LFHC-*" left="0" right="0" top="0" bottom="0" />
+      <entry key="HC-[16X12,12X16]" left="0" right="0" top="0" bottom="0" />
+    </parameter>
+    <!--  书脊尺寸  -->
+    <parameter id="spineWidth" keyPattern="cover-paperThickness-size">
+      <entry key="[CC,GC,MC,GM,NC,BC,LC,GL]-Rigid-*" baseValue="240" addtionalValue="24" />
+      <entry key="[CC,GC,MC,GM,NC,BC,LC,GL]-Thick-*" baseValue="165" addtionalValue="15" />
+      <entry key="[CC,GC,MC,GM,NC,BC,LC,GL]-Light-*" baseValue="155" addtionalValue="10" />
+      <entry key="FMPAC-Light-*" baseValue="153" addtionalValue="10" />
+      <entry key="[LBB,LBPC]-Light-*" baseValue="175" addtionalValue="12" />
+      <entry key="LFPC-ExtraThin-*" baseValue="144" addtionalValue="10" />
+      <entry key="LFHC-ExtraThin-*" baseValue="165" addtionalValue="10" />
+      <entry key="LFPAC-ExtraThin-*" baseValue="153" addtionalValue="10" />
+      <entry key="PSHC-PressThin-*" baseValue="100" addtionalValue="1.8" />
+      <entry key="PSSC-PressThin-*" baseValue="30" addtionalValue="1.8" />
+      <entry key="[LSB,LLB]-Light-*" baseValue="175" addtionalValue="12" />
+      <entry key="[LFNC,LFBC,LFLC,LFGL]-ExtraThin-*" baseValue="144" addtionalValue="10" />
+      <entry key="[PSNC,PSLC]-PressThin-*" baseValue="100" addtionalValue="1.8" />
+
+      <entry key="HC-Rigid-[4X4,6X6,8X8,10X10,12X12,14X14,7X5,8X6,11X8,14X11,5X7,6X8,8X11,11X14]" baseValue="240" addtionalValue="24" />
+      <entry key="HC-Thick-[4X4,6X6,8X8,10X10,12X12,14X14,7X5,8X6,11X8,14X11,5X7,6X8,8X11,11X14]" baseValue="165" addtionalValue="15" />
+      <entry key="HC-Light-[4X4,6X6,8X8,10X10,12X12,14X14,7X5,8X6,11X8,14X11,5X7,6X8,8X11,11X14]" baseValue="155" addtionalValue="10" />
+      <entry key="HC-Rigid-[16X12,12X16]" baseValue="283.5" addtionalValue="23.6" />
+      <entry key="HC-Thick-[16X12,12X16]" baseValue="200.8" addtionalValue="17.8" />
+      <entry key="HC-Light-[16X12,12X16]" baseValue="189" addtionalValue="13" />
+    </parameter>
+    <!--  书脊压线 尺寸  -->
+    <parameter id="spineExpanding" keyPattern="cover-size">
+      <entry key="HC-[4X4,6X6,8X8,10X10,12X12,14X14,7X5,8X6,11X8,14X11,5X7,6X8,8X11,11X14]" expandingOverBackcover="234" expandingOverFrontcover="234" />
+      <entry key="HC-[16X12,12X16]" expandingOverBackcover="236" expandingOverFrontcover="236" />
+
+      <entry key="PSHC-*" expandingOverBackcover="142" expandingOverFrontcover="142" />
+      <entry key="LFPC-*" expandingOverBackcover="234" expandingOverFrontcover="234" />
+      <entry key="LFHC-*" expandingOverBackcover="236" expandingOverFrontcover="236" />
+      <entry key="[CC,GC]-*" expandingOverBackcover="0" expandingOverFrontcover="60" />
+      <entry key="[MC,GM]-*" expandingOverBackcover="0" expandingOverFrontcover="25" />
+      <entry key="[NC,BC,LC,GL,LBB,LBPC,LSB,LLB,LFNC,LFBC,LFLC,LFGL,LFPAC,FMPAC,PSNC,PSLC,PSSC]-*" expandingOverBackcover="0" expandingOverFrontcover="0" />
+    </parameter>
+    <!--  天窗出血  -->
+    <parameter id="cameoBleed" keyPattern="cameo">
+      <entry key="none" top="0" bottom="0" left="0" right="0" />
+      <entry key="[S,M,L]" top="60" bottom="60" left="60" right="60" />
+    </parameter>
+    <!--  天窗尺寸  -->
+    <parameter id="cameoSize" keyPattern="size-cameoShape-cameo">
+      <entry key="*-none-*" width="0" height="0" />
+      <entry key="*-*-none" width="0" height="0" />
+      <entry key="4X4-Rect-M" width="562" height="562" />
+      <entry key="6X6-Rect-S" width="575" height="575" />
+      <entry key="6X6-Rect-M" width="862" height="862" />
+      <entry key="6X6-Rect-L" width="1150" height="1150" />
+      <entry key="8X8-Rect-S" width="800" height="800" />
+      <entry key="8X8-Rect-M" width="1200" height="1200" />
+      <entry key="8X8-Rect-L" width="1600" height="1600" />
+      <entry key="5X7-Rect-S" width="712" height="475" />
+      <entry key="5X7-Rect-M" width="1068" height="712" />
+      <entry key="5X7-Rect-L" width="1424" height="950" />
+      <entry key="6X8-Rect-S" width="862" height="575" />
+      <entry key="6X8-Rect-M" width="1293" height="862" />
+      <entry key="6X8-Rect-L" width="1724" height="1150" />
+      <entry key="7X5-Rect-S" width="450" height="675" />
+      <entry key="7X5-Rect-M" width="675" height="1012" />
+      <entry key="7X5-Rect-L" width="900" height="1350" />
+      <entry key="8X6-Rect-S" width="517" height="775" />
+      <entry key="8X6-Rect-M" width="775" height="1162" />
+      <entry key="8X6-Rect-L" width="1033" height="1550" />
+      <entry key="8X11-Rect-S" width="1200" height="800" />
+      <entry key="8X11-Rect-M" width="1800" height="1200" />
+      <entry key="8X11-Rect-L" width="2400" height="1600" />
+      <entry key="10X10-Rect-S" width="1000" height="1000" />
+      <entry key="10X10-Rect-M" width="1500" height="1500" />
+      <entry key="10X10-Rect-L" width="2000" height="2000" />
+      <entry key="11X8-Rect-S" width="734" height="1100" />
+      <entry key="11X8-Rect-M" width="1100" height="1650" />
+      <entry key="11X8-Rect-L" width="1467" height="2200" />
+      <entry key="11X14-Rect-S" width="1650" height="1100" />
+      <entry key="11X14-Rect-M" width="2475" height="1650" />
+      <entry key="11X14-Rect-L" width="3300" height="2200" />
+      <entry key="12X12-Rect-S" width="1200" height="1200" />
+      <entry key="12X12-Rect-M" width="1800" height="1800" />
+      <entry key="12X12-Rect-L" width="2400" height="2400" />
+      <entry key="12X16-Rect-S" width="1800" height="1200" />
+      <entry key="12X16-Rect-M" width="2700" height="1800" />
+      <entry key="12X16-Rect-L" width="3600" height="2400" />
+      <entry key="14X14-Rect-S" width="1400" height="1400" />
+      <entry key="14X14-Rect-M" width="2100" height="2100" />
+      <entry key="14X14-Rect-L" width="2800" height="2800" />
+      <entry key="14X11-Rect-S" width="934" height="1400" />
+      <entry key="14X11-Rect-M" width="1400" height="2100" />
+      <entry key="14X11-Rect-L" width="1867" height="2800" />
+      <entry key="16X12-Rect-S" width="1067" height="1600" />
+      <entry key="16X12-Rect-M" width="1600" height="2400" />
+      <entry key="16X12-Rect-L" width="2134" height="3200" />
+      <entry key="8X8-Round-S" width="800" height="800" />
+      <entry key="8X8-Round-M" width="1200" height="1200" />
+      <entry key="8X8-Round-L" width="1606" height="1606" />
+      <entry key="10X10-Round-S" width="1000" height="1000" />
+      <entry key="10X10-Round-M" width="1512" height="1512" />
+      <entry key="10X10-Round-L" width="1984" height="1984" />
+      <entry key="12X12-Round-S" width="1200" height="1200" />
+      <entry key="12X12-Round-M" width="1795" height="1795" />
+      <entry key="12X12-Round-L" width="2386" height="2386" />
+      <entry key="14X14-Round-S" width="1394" height="1394" />
+      <entry key="14X14-Round-M" width="2102" height="2102" />
+      <entry key="14X14-Round-L" width="2787" height="2787" />
+      <entry key="8X11-Oval-S" width="1192" height="791" />
+      <entry key="8X11-Oval-M" width="1641" height="1097" />
+      <entry key="8X11-Oval-L" width="2196" height="1463" />
+      <entry key="11X8-Oval-S" width="731" height="1097" />
+      <entry key="11X8-Oval-M" width="1097" height="1641" />
+      <entry key="11X8-Oval-L" width="1463" height="2196" />
+      <entry key="14X11-Oval-S" width="1097" height="1641" />
+      <entry key="14X11-Oval-M" width="1641" height="2467" />
+      <entry key="14X11-Oval-L" width="2196" height="3294" />
+      <entry key="12X16-Oval-S" width="1794" height="1192" />
+      <entry key="12X16-Oval-M" width="2692" height="1794" />
+      <entry key="12X16-Oval-L" width="3589" height="2397" />
+      <entry key="11X14-Oval-S" width="1393" height="932" />
+      <entry key="11X14-Oval-M" width="2089" height="1393" />
+      <entry key="11X14-Oval-L" width="2798" height="1865" />
+      <entry key="16X12-Oval-S" width="1062" height="1593" />
+      <entry key="16X12-Oval-M" width="1593" height="2397" />
+      <entry key="16X12-Oval-L" width="2125" height="3188" />
+    </parameter>
+    <!--  书页范围  -->
+    <parameter id="sheetNumberRange" keyPattern="product-size-paperThickness">
+      <entry key="FM-*-Thick" min="8" max="25" />
+      <entry key="FM-[8X8,10X10,12X12,14X14,11X8,14X11,16X12,8X11,11X14,12X16]-Light" min="8" max="35" />
+      <entry key="FM-[6X8,8X6,6X6,5X7,7X5]-Light" min="8" max="25" />
+      <entry key="FM-*-Rigid" min="8" max="15" />
+      <entry key="LB-[8X11,11X8,8X8,10X10]-*" min="10" max="35" />
+      <entry key="LB-[5X7,6X8,7X5,8X6,4X4,6X6]-*" min="10" max="25" />
+      <entry key="LF-*-*" min="10" max="50" />
+      <entry key="PS-*-*" min="16" max="81" />
+    </parameter>
+  </parameters>
+  <variables>
+    <variable id="coverAsset" keyPattern="cover-leatherColor">
+      <entry key="[CC,MC]-black" coverimage="/template-resources/images/option/cover/preview/black.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/black.jpg" />
+      <entry key="[CC,MC]-red" coverimage="/template-resources/images/option/cover/preview/red.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/red.jpg" />
+      <entry key="[CC,MC]-white" coverimage="/template-resources/images/option/cover/preview/white.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/white.jpg" />
+      <entry key="[CC,MC]-espresso" coverimage="/template-resources/images/option/cover/preview/espresso.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/espresso.jpg" />
+      <entry key="[CC,MC]-camel" coverimage="/template-resources/images/option/cover/preview/camel.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/camel.jpg" />
+      <entry key="[CC,MC]-blue" coverimage="/template-resources/images/option/cover/preview/blue.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/blue.jpg" />
+      <entry key="[CC,MC]-kiwi" coverimage="/template-resources/images/option/cover/preview/kiwi.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/kiwi.jpg" />
+      <entry key="[CC,MC]-pink" coverimage="/template-resources/images/option/cover/preview/pink.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/pink.jpg" />
+      <entry key="[CC,MC]-brown" coverimage="/template-resources/images/option/cover/preview/brown.jpg?version=2" thumbnailUrl="/template-resources/images/option/cover/icon/brown.jpg" />
+      <entry key="[CC,MC]-darkGreen" coverimage="/template-resources/images/option/cover/preview/darkGreen.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/darkGreen.jpg" />
+      <entry key="[CC,MC]-orange" coverimage="/template-resources/images/option/cover/preview/orange.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/orange.jpg" />
+      <entry key="[CC,MC]-tan" coverimage="/template-resources/images/option/cover/preview/tan.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/tan.jpg" />
+      <entry key="[CC,MC]-blackNavyBlue" coverimage="/template-resources/images/option/cover/preview/blackNavyBlue.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/blackNavyBlue.jpg" />
+      <entry key="[CC,MC]-cream" coverimage="/template-resources/images/option/cover/preview/cream-leather.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/cream.jpg" />
+      <entry key="[CC,MC]-blueGrey" coverimage="/template-resources/images/option/cover/preview/blueGrey.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/blueGrey.jpg" />
+      <entry key="[CC,MC]-sunnyYellow" coverimage="/template-resources/images/option/cover/preview/sunnyYellow.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/sunnyYellow.jpg" />
+      <entry key="[GC,GM,GL,LLB,LFGL]-black" coverimage="/template-resources/images/option/cover/preview/black-llb.jpg?version=2" thumbnailUrl="/template-resources/images/option/cover/icon/black.jpg" />
+      <entry key="[GC,GM,GL,LLB,LFGL]-white" coverimage="/template-resources/images/option/cover/preview/white-llb.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/white-g.jpg" />
+      <entry key="[GC,GM,GL,LLB,LFGL]-espresso" coverimage="/template-resources/images/option/cover/preview/espresso-llb.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/espresso-g.jpg" />
+      <entry key="[GC,GM,GL,LLB,LFGL]-brown" coverimage="/template-resources/images/option/cover/preview/genuine-brown.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/brown-g.jpg" />
+      <entry key="[GC,GM,GL,LLB,LFGL]-rusticBrown" coverimage="/template-resources/images/option/cover/preview/genuine-rustic-brown.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/genuine-rustic-brown.png" />
+      <entry key="[GC,GM,GL,LLB,LFGL]-rusticGreen" coverimage="/template-resources/images/option/cover/preview/genuine-rustic-green.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/genuine-rustic-green.png" />
+      <entry key="[GC,GM,GL,LLB,LFGL]-blackNavyBlue" coverimage="/template-resources/images/option/cover/preview/Navy Blue.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/Navy-Blue.jpg" />
+      <entry key="[GC,GM,GL,LLB,LFGL]-cream" coverimage="/template-resources/images/option/cover/preview/Cream-genuine.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/cream.jpg" />
+      <entry key="[GC,GM,GL,LLB,LFGL]-blueGrey" coverimage="/template-resources/images/option/cover/preview/bluegrey-genuine.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/Blue-Grey.jpg" />
+      <entry key="[GC,GM,GL,LLB,LFGL]-sunnyYellow" coverimage="/template-resources/images/option/cover/preview/Sunny Yellow.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/Sunny-Yellow.jpg" />
+      <entry key="[GC,GM,GL,LLB,LFGL]-cinnamon" coverimage="/template-resources/images/option/cover/preview/Cinnamon.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/Cinnamon.jpg" />
+      <entry key="[GC,GM,GL,LLB,LFGL]-ruby" coverimage="/template-resources/images/option/cover/preview/Ruby.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/Ruby.jpg" />
+      <entry key="[LC,LFLC,PSLC]-black" coverimage="/template-resources/images/option/cover/preview/black.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/black.jpg" />
+      <entry key="[LC,LFLC,PSLC]-red" coverimage="/template-resources/images/option/cover/preview/red.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/red.jpg" />
+      <entry key="[LC,LFLC,PSLC]-white" coverimage="/template-resources/images/option/cover/preview/white.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/white.jpg" />
+      <entry key="[LC,LFLC,PSLC]-espresso" coverimage="/template-resources/images/option/cover/preview/espresso.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/espresso.jpg" />
+      <entry key="[LC,LFLC,PSLC]-camel" coverimage="/template-resources/images/option/cover/preview/camel.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/camel.jpg" />
+      <entry key="[LC,LFLC,PSLC]-blue" coverimage="/template-resources/images/option/cover/preview/blue.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/blue.jpg" />
+      <entry key="[LC,LFLC,PSLC]-kiwi" coverimage="/template-resources/images/option/cover/preview/kiwi.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/kiwi.jpg" />
+      <entry key="[LC,LFLC,PSLC]-pink" coverimage="/template-resources/images/option/cover/preview/pink.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/pink.jpg" />
+      <entry key="[LC,LFLC,PSLC]-brown" coverimage="/template-resources/images/option/cover/preview/brown.jpg?version=2" thumbnailUrl="/template-resources/images/option/cover/icon/brown.jpg" />
+      <entry key="[LC,LFLC,PSLC]-darkGreen" coverimage="/template-resources/images/option/cover/preview/darkGreen.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/darkGreen.jpg" />
+      <entry key="[LC,LFLC,PSLC]-orange" coverimage="/template-resources/images/option/cover/preview/orange.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/orange.jpg" />
+      <entry key="[LC,LFLC,PSLC]-tan" coverimage="/template-resources/images/option/cover/preview/tan.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/tan.jpg" />
+      <entry key="[LC,LFLC,PSLC]-blackNavyBlue" coverimage="/template-resources/images/option/cover/preview/blackNavyBlue.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/blackNavyBlue.jpg" />
+      <entry key="[LC,LFLC,PSLC]-cream" coverimage="/template-resources/images/option/cover/preview/cream-leather.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/cream.jpg" />
+      <entry key="[LC,LFLC,PSLC]-blueGrey" coverimage="/template-resources/images/option/cover/preview/blueGrey.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/blueGrey.jpg" />
+      <entry key="[LC,LFLC,PSLC]-sunnyYellow" coverimage="/template-resources/images/option/cover/preview/sunnyYellow.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/sunnyYellow.jpg" />
+      <entry key="[NC,LFNC,PSNC]-black" coverimage="/template-resources/images/option/cover/preview/linenBlack.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/black.png" />
+      <entry key="[NC,LFNC,PSNC]-navyBlue" coverimage="/template-resources/images/option/cover/preview/navyBlue.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/navyBlue.png" />
+      <entry key="[NC,LFNC,PSNC]-shamrockGreen" coverimage="/template-resources/images/option/cover/preview/shamrockGreen.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/shamrockGreen.png" />
+      <entry key="[NC,LFNC,PSNC]-tangerineOrange" coverimage="/template-resources/images/option/cover/preview/tangerineOrange.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/tangerineOrange.png" />
+      <entry key="[NC,LFNC,PSNC]-slateGrey" coverimage="/template-resources/images/option/cover/preview/slateGrey.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/slateGrey.png" />
+      <entry key="[NC,LFNC,PSNC]-maroon" coverimage="/template-resources/images/option/cover/preview/maroon.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/maroon.png" />
+      <entry key="[NC,LFNC,PSNC]-lightBlue" coverimage="/template-resources/images/option/cover/preview/lightBlue.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/lightBlue.png" />
+      <entry key="[NC,LFNC,PSNC]-siennaBrown" coverimage="/template-resources/images/option/cover/preview/siennaBrown.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/siennaBrown.png" />
+      <entry key="[NC,LFNC,PSNC]-cream" coverimage="/template-resources/images/option/cover/preview/cream.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/cream.png" />
+      <entry key="[NC,LFNC,PSNC]-oliveGreen" coverimage="/template-resources/images/option/cover/preview/oliveGreen.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/oliveGreen.png" />
+      <entry key="[NC,LFNC,PSNC]-indianRed" coverimage="/template-resources/images/option/cover/preview/indianRed.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/indianRed.png" />
+      <entry key="[NC,LFNC,PSNC]-chocolateBrown" coverimage="/template-resources/images/option/cover/preview/chocolateBrown.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/chocolateBrown.png" />
+      <entry key="[NC,LFNC,PSNC]-greenLeaf" coverimage="/template-resources/images/option/cover/preview/Greenleaf.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/Greenleaf.jpg" />
+      <entry key="[NC,LFNC,PSNC]-fireBrick" coverimage="/template-resources/images/option/cover/preview/Firebrick.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/Firebrick.jpg" />
+      <entry key="[NC,LFNC,PSNC]-pinkRose" coverimage="/template-resources/images/option/cover/preview/Pinkrose.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/Pinkrose.jpg" />
+      <entry key="[NC,LFNC,PSNC]-pansy" coverimage="/template-resources/images/option/cover/preview/Pansy.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/Pansy.jpg" />
+      <entry key="[BC,LSB,LFBC]-blingLace" coverimage="/template-resources/images/option/cover/preview/blingLace.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/blingLace.jpg" />
+      <entry key="[BC,LSB,LFBC]-blingZebra" coverimage="/template-resources/images/option/cover/preview/blingZebra.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/blingZebra.jpg" />
+      <entry key="[BC,LSB,LFBC]-blingCream" coverimage="/template-resources/images/option/cover/preview/blingCream.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/blingCream.jpg" />
+      <entry key="[BC,LSB,LFBC]-blingBlack" coverimage="/template-resources/images/option/cover/preview/blingBlack.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/blingBlack.jpg" />
+      <entry key="[BC,LSB,LFBC]-blingBlue" coverimage="/template-resources/images/option/cover/preview/blingBlue.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/blingBlue.jpg" />
+      <entry key="[BC,LSB,LFBC]-blingEspresso" coverimage="/template-resources/images/option/cover/preview/blingEspresso.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/blingEspresso.jpg" />
+      <entry key="[BC,LSB,LFBC]-blingRed" coverimage="/template-resources/images/option/cover/preview/blingRed.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/blingRed.jpg" />
+      <entry key="[BC,LSB,LFBC]-blingWhite" coverimage="/template-resources/images/option/cover/preview/blingWhite.jpg" thumbnailUrl="/template-resources/images/option/cover/icon/blingWhite.jpg" />
+    </variable>
+    <variable id="paintedTextColor" keyPattern="cover-leatherColor">
+      <entry key="[NC,LFNC,PSNC]-[tangerineOrange,cream,lightBlue]" value="0x000000" />
+      <entry key="[NC,LFNC,PSNC]-[black,navyBlue,shamrockGreen,slateGrey,maroon,siennaBrown,oliveGreen,indianRed,chocolateBrown,greenLeaf,fireBrick,pinkRose,pansy]" value="0xffffff" />
+      <entry key="[LC,CC,MC,LFLC,PSLC]-[white,kiwi,pink,cream]" value="0x000000" />
+      <entry key="[LC,CC,MC,LFLC,PSLC]-[black,red,espresso,camel,blue,brown,darkGreen,orange,tan,blackNavyBlue,blueGrey,sunnyYellow]" value="0xffffff" />
+      <entry key="[GL,GC,GM,LFGL,LLB]-[white,cream]" value="0x000000" />
+      <entry key="[GL,GC,GM,LFGL,LLB]-[black,espresso,brown,rusticGreen,rusticBrown,blackNavyBlue,blueGrey,sunnyYellow,cinnamon,ruby]" value="0xffffff" />
+    </variable>
+    <variable id="cameoSupportCondition" keyPattern="cover-size">
+      <entry key="[LC,NC,BC,GL]-[8X8,10X10,12X12,14X14,11X8,14X11,16X12,8X11,11X14,12X16]" value="true" />
+      <entry key="BC-[6X6,6X8,8X6]" value="false" />
+      <entry key="LSB-[5X7,6X8,8X11,7X5,8X6,11X8,6X6,8X8,10X10]" value="true" />
+      <entry key="LSB-4X4" value="true" />
+      <entry key="[LFNC,LFBC,LFLC,LFGL,PSNC,PSLC]-[8X8,10X10,12X12,11X8,14X11,8X11,11X14]" value="true" />
+      <entry key="LFBC-[6X6,6X8,8X6]" value="false" />
+      <entry key="[PSNC,PSLC]-*" value="true" />
+    </variable>
+    <variable id="spineSupportCondition" keyPattern="cover">
+      <entry key="HC,FMPAC,LBB,LBPC,LFHC,LFPC,LFPAC,PSHC,PSSC" value="true" />
+    </variable>
+    <!--
+判断cover页面背景元素支持分为三种支持: 全部铺满的(filledCoverBackground)， 只有后页有背景元素(backCoverBackground)，
+            只有前页有背景元素(frontCoverBackground)
+-->
+    <variable id="coverBackgroundSupportCondition" keyPattern="cover">
+      <entry key="LSB,LLB,BC,LC,GL,NC,LFLC,LFNC,LFBC,LFGL,PSNC,PSLC" filledCoverBackground="true" />
+      <entry key="CC,GC,MC,GM" backCoverBackground="true" />
+    </variable>
+    <variable id="paintedTextSupportCondition" keyPattern="cover">
+      <entry key="[CC,GC,MC,GM,GL,LC,LLB,NC,LFLC,LFGL,LFNC]" value="true" />
+    </variable>
+    <variable id="coverCustomizable" keyPattern="cover">
+      <entry key="[HC,LBPC,LALC,LFHC,LFPC,FMPAC,LFPAC,PSHC,PSSC]" value="true" />
+    </variable>
+    <variable id="sizeComment" keyPattern="product-size">
+      <entry key="LF-5X7" value="Paper Cover Only" />
+      <entry key="LF-7X5" value="Paper Cover Only" />
+      <entry key="FM-5X7" value="Paper Cover Only" />
+      <entry key="FM-7X5" value="Paper Cover Only" />
+      <entry key="PS-5X7" value="Soft Cover Only" />
+      <entry key="PS-7X5" value="Soft Cover Only" />
+    </variable>
+    <variable id="sizeCollection" keyPattern="client-product">
+      <entry key="[android,iphone]-*" value="6X6,8X8,10X10,12X12,5X7,6X8,8X11,7X5,8X6,11X8" />
+    </variable>
+  </variables>
+</product-spec>

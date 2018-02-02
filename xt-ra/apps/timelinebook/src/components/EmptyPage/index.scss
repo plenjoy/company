@@ -1,0 +1,31 @@
+@import "../../../../common/styles/fonts";
+
+.empty-page {
+  position: absolute;
+  top: 76px;
+  height: calc(100vh - 76px);
+  width: 100%;
+  background: #f0f0f0;
+  z-index: 2;
+  .empty-page-image {
+    display: block;
+    margin: 180px auto 20px auto;
+  }
+  .empty-page-text {
+    @include font-medium();
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #7B7B7B;
+    line-height: 21px;
+  }
+  .empty-page-back {
+    margin: 40px auto 0 auto;
+    @include font-medium();
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 14px;
+    display: block;
+  }
+}

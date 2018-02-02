@@ -1,0 +1,31 @@
+.layout-item {
+  position: relative;
+
+  &:hover{
+     cursor: pointer;
+
+    .icon-delete{
+      width: 25px;
+      height: 25px;
+      position: absolute;
+      right: 0px;
+      bottom: 5px;
+      z-index: 1000;
+      &:hover{
+        cursor: pointer;
+      }
+      &.show{
+        display: none;
+      }
+    }
+  }
+  .layout-img {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20);
+    box-sizing: border-box;
+    border: 1px solid #d6d6d6;
+    height: 70px;
+    min-height: 80px;
+    min-width: 50px;
+  }
+}
+

@@ -1,0 +1,29 @@
+@import "../../../../common/styles/fonts";
+@import "../../../../common/styles/common";
+.sort-options{
+  width: 230px;
+  position:absolute;
+  left:0px;
+  top:20px;
+  background:#fff;
+  z-index: 100;
+  overflow:auto;
+  font-size:12px;
+  border:1px solid #ccc;
+  .option-each{
+    height:36px;
+    line-height:38px;
+    text-align: left;
+    padding-left:10px;
+    cursor: pointer;
+    display:block;
+
+    &.active{
+      background: #F0F0F0;
+    }
+    &:hover{
+      background:#F0F0F0;
+    }
+
+  }
+}

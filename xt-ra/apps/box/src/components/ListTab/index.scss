@@ -1,0 +1,32 @@
+ .font-normal{
+    font-family: "Gotham SSm A", "Gotham SSm B", Arial;
+    font-weight: 400;
+  }
+  .list-tab{
+    height: 34px;
+    width: 382px;
+    .list-tab-selected{
+        float: left;
+        text-align: center;
+        width: 190px;
+        height: 34px;
+        line-height: 34px;
+        font-size: 13px;
+        color: #3a3a3a;
+        @extend .font-normal;
+        background: rgba(246,246,246,1);
+        border-right: 1px solid rgba(232, 232, 232, 1);
+
+    }
+    .list-tab-noselect{
+        float: left;
+        width: 190px;
+        height: 34px;
+        line-height: 34px;
+        font-size: 13px;
+        @extend .font-normal;    
+        background: #fff;
+        border-bottom: 1px solid rgba(232, 232, 232, 1);
+    }
+  }
+  

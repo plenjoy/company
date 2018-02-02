@@ -1,0 +1,52 @@
+.x-simple-pagination {
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    top: 50%;
+    transform: translateY(-50%);
+
+    input{
+        display: none;
+    }
+
+    .icon{
+      width: 28px;
+      height: 48px;
+      cursor: pointer;
+      display: inline-block;
+    }
+
+    // previous icon
+    .previous-icon{
+      float: left;
+      margin-left: 10px;
+      background: #F0F0F0 url("./icons/left-normal.svg") center center no-repeat;
+
+      &:hover{
+        background-image: url("./icons/left-hover.svg");
+      }
+    }
+
+    // input:disabled + .previous-icon{
+    //   cursor: not-allowed;
+    //   background-image: url("./icons/more-disable.svg");
+    // }
+
+    // next icon
+    .next-icon{
+      float: right;
+      margin-right: 10px;
+      background: #F0F0F0 url("./icons/right-normal.svg") center center no-repeat;
+
+      &:hover{
+        background-image: url("./icons/right-hover.svg");
+      }
+    }
+
+    // input:disabled + .next-icon{
+    //   cursor: not-allowed;
+    //   background-image: url("./icons/less-disable.svg");
+    // }
+}

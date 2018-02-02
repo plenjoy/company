@@ -1,0 +1,37 @@
+<svg id="Group_32" data-name="Group 32" xmlns="http://www.w3.org/2000/svg" viewBox="1175 150 20 20">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #7b7b7b;
+      }
+
+      .cls-2 {
+        fill: #7b7b7b;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Rectangle_18" data-name="Rectangle 18" class="cls-1" transform="translate(1175 150)">
+    <rect class="cls-3" width="20" height="20" rx="2"/>
+    <rect class="cls-4" x="0.5" y="0.5" width="19" height="19" rx="1.5"/>
+  </g>
+  <rect id="Rectangle_19" data-name="Rectangle 19" class="cls-2" width="12" height="1" transform="translate(1179 155)"/>
+  <rect id="Rectangle_29" data-name="Rectangle 29" class="cls-2" width="12" height="1" transform="translate(1179 161)"/>
+  <g id="Group_21" data-name="Group 21" transform="translate(-534 -19)">
+    <g id="Group_20" data-name="Group 20" transform="translate(1715 177)">
+      <rect id="Rectangle_21" data-name="Rectangle 21" class="cls-2" width="8" height="1"/>
+    </g>
+  </g>
+  <g id="Group_23" data-name="Group 23" transform="translate(-534 -13)">
+    <g id="Group_22" data-name="Group 22" transform="translate(1715 177)">
+      <rect id="Rectangle_22" data-name="Rectangle 22" class="cls-2" width="8" height="1"/>
+    </g>
+  </g>
+</svg>

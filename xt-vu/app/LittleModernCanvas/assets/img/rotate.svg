@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="16px" viewBox="0 0 25 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>rotate-frame</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LMC-2-Copy" transform="translate(-674.000000, -517.000000)">
+            <g id="rotate-frame" transform="translate(674.000000, 517.000000)">
+                <g id="_1453" transform="translate(18.500000, 6.500000) rotate(4.000000) translate(-18.500000, -6.500000) translate(13.000000, 1.000000)" fill-rule="nonzero" fill="#3A3A3A">
+                    <path d="M2.69683333,0 L0,1.725 L2.71516667,3.409 L2.70875,2.467 C5.47472889,2.33694782 7.83898776,4.61826833 8.05841667,7.629 C8.05841667,7.678 8.05841667,7.729 8.06483333,7.78 L7.12616667,7.787 L8.745,10.818 L10.3455,7.773 L9.47008333,7.78 C9.47008333,7.688 9.46458333,7.597 9.45725,7.505 C9.16348767,3.70721936 6.19511397,0.825426889 2.70325,0.948 L2.69683333,0 Z" id="Path_37"></path>
+                </g>
+                <g id="Rectangle_348" transform="translate(5.000000, 6.000000)">
+                    <rect id="Rectangle-path" x="0" y="0" width="13.328" height="9.227"></rect>
+                    <rect id="Rectangle-path" stroke="#3A3A3A" stroke-width="2" x="1" y="1" width="11.328" height="7.227"></rect>
+                </g>
+                <g id="Group_215" fill-rule="nonzero" fill="#3A3A3A">
+                    <rect id="Rectangle_349" x="1" y="0.209" width="1.81818182" height="13.328"></rect>
+                    <rect id="Rectangle_350" x="8.45636364" y="0.209" width="1.81818182" height="6.152"></rect>
+                    <rect id="Rectangle_351" transform="translate(5.427273, 1.209000) rotate(-90.000000) translate(-5.427273, -1.209000) " x="4.51818182" y="-2.892" width="1.81818182" height="8.202"></rect>
+                    <rect id="Rectangle_352" transform="translate(2.398182, 12.841000) rotate(-90.000000) translate(-2.398182, -12.841000) " x="1.48909091" y="11.303" width="1.81818182" height="3.076"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>单选框-未选中 </title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-61.5%" y="-46.2%" width="223.1%" height="223.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="options" transform="translate(-14.000000, -320.000000)">
+            <g id="单选框-未选中-" filter="url(#filter-1)" transform="translate(18.000000, 322.000000)">
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="6.5" cy="6.5" r="6.5"></circle>
+                <circle id="Oval" stroke="#7B7B7B" cx="6.5" cy="6.5" r="6.03571429"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,54 @@
+$boxWidth: 655px;
+$boxHeight: 460px;
+$boxPadding: 40px;
+$closeTop : 15px;
+$closeRight : 15px;
+$titleSize : 23px;
+$contentSize : 14px;
+.upload-modal{
+  width: $boxWidth;
+  height: $boxHeight;
+  .box-image-upload{
+    width: $boxWidth;
+    height: $boxHeight;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    padding: $boxPadding;
+    box-sizing: border-box;
+    position: fixed;
+    font-size: $contentSize;
+    transform : translate(-50%,-50%);
+    .close{
+      top: $closeTop;
+      right: $closeRight;
+      position: absolute;
+    }
+    h3{
+      padding: 0;
+      margin: 0;
+      &.title{
+        font-size: $titleSize;
+        font-weight: 400;
+      }
+    }
+    .upload-meta{
+      margin-top: 20px;
+      .upload-info{
+        float: left;
+        line-height: 40px;
+        .failed{
+          margin-left: 15px;
+          color: #de3418;
+        }
+      }
+      .upload-buttons{
+        float: right;
+        .cancel-all{
+          margin-left: 10px;
+          display: none;
+        }
+      }
+    }
+  }
+}

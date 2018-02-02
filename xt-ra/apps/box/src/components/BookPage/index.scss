@@ -1,0 +1,24 @@
+.book-page {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+  &.notHidden {
+    overflow: visible;
+  }
+
+  &.pressbook.inner.disabled {
+    .element-container {
+      .backgorund-element {
+        background-color: #c1c1c1;
+
+        .tip {
+          color: #000;
+        }
+      }
+    }
+  }
+}

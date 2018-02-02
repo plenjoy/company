@@ -1,0 +1,79 @@
+@import '../../../../common/styles/fonts';
+@import '../../../../common/styles/base';
+@import '../../../../common/styles/common';
+
+.app {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  clear: both;
+
+  @include font-light();
+
+  .full-screen-btn {
+    position: fixed;
+    z-index: 50002;
+  }
+
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .mod-header {
+    height: auto;
+  }
+
+  .side-bar {
+    position: absolute;
+    top: 77px;
+    bottom: 0;
+  }
+
+  .notifications-tr {
+    z-index: 99999 !important;
+  }
+
+  .work-space {
+    margin-top: 82px;
+  }
+
+  .global-file-upload{
+    position: fixed;
+    top: -200px;
+  }
+}
+
+/* change react-select default style */
+.Select-menu-outer {
+  background-color: #f0f0f0 !important;
+  border: 1px solid #d6d6d6 !important;
+  color: #3a3a3a !important;
+}
+
+.Select-option {
+  background-color: #ffffff !important;
+  color: #7b7b7b !important;
+  @include font-light();
+
+  &.is-selected {
+    color: #3a3a3a !important;
+    background-color: #ffffff  !important;
+    @include font-medium();
+
+    &.is-focused {
+      @include font-medium();
+    }
+  }
+
+  &.is-focused {
+    @include font-normal();
+    color: #3a3a3a !important;
+    background-color: #f6f6f6 !important;
+  }
+}
+/* END OF changeing react-select default style*/

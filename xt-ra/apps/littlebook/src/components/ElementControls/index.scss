@@ -1,0 +1,12 @@
+.element-controls {
+  position: fixed;
+  z-index: 9000;
+  box-sizing: border-box;
+  cursor: default;
+  border: 1px solid #4CC1FC;
+  transform: translate3d(0, 0, 0);
+
+  &.multiple-element {
+    border: 2px solid #4CC1FC;
+  }
+}

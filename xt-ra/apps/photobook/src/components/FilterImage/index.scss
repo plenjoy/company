@@ -1,0 +1,31 @@
+.filter-img {
+  background: #f6f6f6;
+  padding: 7px 8px 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+  li {
+    display: inline-block;
+    &:nth-child(1){
+      float: left;
+    }
+    &:nth-child(3) {
+      float: right;
+    }
+
+    > input {
+      vertical-align: middle;
+      display: inline-block;
+      margin-top: -1px;
+    }
+
+    > label {
+      display: inline-block;
+      margin-left: 4px;
+      line-height: 19px;
+    }
+    .x-radio .text {
+      width: auto;
+    }
+  }
+}

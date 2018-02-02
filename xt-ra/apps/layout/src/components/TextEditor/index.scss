@@ -1,0 +1,110 @@
+$width: 590px;
+$height: 425px;
+$padding: 38px 40px 8px;
+.texteditor-modal{
+  width: $width;
+  height: $height;
+  padding: $padding;
+  h3{
+    padding: 0;
+    margin: 0;
+    &.title{
+      font-size: 24px;
+      color: #3a3a3a;
+      font-weight: normal;
+      font-family: "Gotham SSm A", "Gotham SSm B", Arial
+    }
+  }
+  .editor{
+    margin-top: 18px;
+    .disabled{
+      opacity: 0.4;
+      pointer-events: none;
+    }
+    .textarea{
+      margin-bottom: 10px;
+    }
+    .row{
+      width: 100%;
+      height: 50px;
+      margin: 10px 0;
+      &.align-buttons {
+        text-align: right;
+        height: auto;
+        span {
+          display: inline-block;
+          margin-left: 5px;
+        }
+      }
+      &.buttons{
+        text-align: center;
+        margin-top: 28px;
+        .remove{
+          vertical-align: bottom;
+          font-family: Arial;
+          text-decoration: underline;
+          cursor: pointer;
+          font-size: 14px;
+          color: #797979;
+          margin-left: 10px;
+          display: none;
+          &.show{
+            display: inline!important;
+          }
+        }
+      }
+      .align {
+        display: inline-block;
+        margin-left: 5px;
+        &.active {
+          background: orange;
+        }
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+      .col{
+        // height: 50px;
+        // line-height: 50px;
+        margin-top: 10px;
+        &.right{
+          .Select{
+            float: right;
+          }
+        }
+        label{
+          float: left;
+          line-height: 35px;
+          margin-right: 12px;
+          font-family: "Gotham SSm A", "Gotham SSm B", Arial;
+          &.right{
+            margin-left: 10px;
+          }
+          &.label{
+            width: 100%;
+          }
+        }
+        .Select{
+          float: left;
+          width: 154px;
+        }
+      }
+      .col-2{
+        float: left;
+        width: 50%;
+
+      }
+    }
+  }
+  .Select-control{
+    height: 35px;
+    line-height: 35px;
+  }
+  .Select-clear-zone{
+    display: none;
+  }
+  .Select-menu-outer img{
+    height: 20px;
+  }
+}

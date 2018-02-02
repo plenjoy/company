@@ -1,0 +1,207 @@
+<product-spec version="1.4">
+    <global>
+        <!-- 打印精度 -->
+        <dpi>300</dpi>
+         
+        <!-- 图片质量警告阈值百分比 -->
+        <imageQualityBufferPercent>30</imageQualityBufferPercent>
+         
+        <options>
+            <!-- 产品 -->
+            <optionGroup id="product">
+                <option id="PhoneCase" name="Phone Case" />
+            </optionGroup>
+             
+            <!-- 设备型号（更准确的命名应为deviceModel，但鉴于model这个词在开发中的特殊性，改用deviceType） -->
+            <optionGroup id="deviceType">
+                <option id="iPhone6" name="iPhone 6">
+                    <title>iPhone 6/6s</title>
+                </option>
+                 
+                <option id="iPhone6Plus" name="iPhone 6P">
+                    <title>iPhone 6/6s Plus</title>
+                </option>
+                 
+                <option id="SamsungGalaxyS5" name="Galaxy S5">
+                    <title>Samsung Galaxy S5</title>
+                </option>
+                 
+                <option id="SamsungGalaxyS6" name="Galaxy S6">
+                    <title>Samsung Galaxy S6</title>
+                </option>
+                 
+                <option id="iPhone5" name="iPhone 5">
+                    <title>iPhone 5/5s</title>
+                </option>
+
+                <option id="iPhone7" name="iPhone 7">
+                    <title>iPhone 7</title>
+                </option>
+
+                <option id="iPhone7Plus" name="iPhone 7P">
+                    <title>iPhone 7 Plus</title>
+                </option>
+
+                <option id="SamsungGalaxyS7" name="Galaxy S7">
+                    <title>Samsung Galaxy S7</title>
+                </option>
+
+                <option id="iPhoneX" name="iPhone X">
+                    <title>iPhone X</title>
+                </option>
+
+                <option id="SamsungGalaxyS8" name="Galaxy S8">
+                    <title>Samsung Galaxy S8</title>
+                </option>
+
+                <option id="SamsungGalaxyS8P" name="Galaxy S8 Plus">
+                    <title>Samsung Galaxy S8 Plus</title>
+                </option>
+            </optionGroup>
+             
+            <!-- 材质 -->
+            <optionGroup id="paper">
+                <option id="GP">
+                    <title>Glossy</title>
+                </option>
+                <option id="EP">
+                    <title>Matte</title>
+                </option>
+            </optionGroup>
+        </options>
+    </global>
+     
+    <configurableOptionMap>
+        <optionMap id="product" keyPattern="client">
+            <entry key="*" value="PhoneCase" />
+        </optionMap>
+         
+        <optionMap id="deviceType" keyPattern="product">
+            <entry key="PhoneCase" value="iPhone6,iPhone6Plus,iPhone7,iPhone7Plus,SamsungGalaxyS6,SamsungGalaxyS7,iPhoneX,SamsungGalaxyS8,SamsungGalaxyS8P" />
+        </optionMap>
+         
+        <optionMap id="paper" keyPattern="deviceType">
+            <entry key="*" value="GP,EP" />
+        </optionMap>
+    </configurableOptionMap>
+     
+    <parameters>
+        <!-- 1英寸 = 25.4毫米 -->
+         
+        <!-- 产品基础尺寸，等于手机正面尺寸 -->
+        <parameter id="baseSizeInInch" keyPattern="deviceType">
+            <!-- iPhone6 78mm * 143mm -->
+            <entry key="iPhone6" width="3.070866141732283" height="5.62992125984252" />
+             
+            <!-- iPhone6P 80mm * 160mm -->
+            <entry key="iPhone6Plus" width="3.1496062992126" height="6.2992125984252" />
+             
+            <!-- GalaxyS5 74mm * 144mm -->
+            <entry key="SamsungGalaxyS5" width="2.91338582677165" height="5.66929133858268" />
+             
+            <!-- GalaxyS6 73mm * 145mm -->
+            <entry key="SamsungGalaxyS6" width="2.8740157480315" height="5.70866141732283" />
+             
+            <!-- iPhone5 62mm * 127mm -->
+            <entry key="iPhone5" width="2.44094488188976" height="5" />
+
+             <!-- iPhone7 78mm * 143mm -->
+            <entry key="iPhone7" width="3.070866141732283" height="5.62992125984252" />
+
+            <!-- iPhone7P 81mm * 161mm -->
+            <entry key="iPhone7Plus" width="3.18897637795276" height="6.33858267716535" />
+
+            <!-- GalaxyS7 73mm * 144mm -->
+            <entry key="SamsungGalaxyS7" width="2.8740157480315" height="5.66929133858268" />
+
+            <!-- iPhoneX 72mm * 144mm -->
+            <entry key="iPhoneX" width="2.83464566929134" height="5.66929133858267" />
+
+            <!-- GalaxyS8 70mm * 151mm -->
+            <entry key="SamsungGalaxyS8" width="2.7559055118110" height="5.94488188976378" />
+
+            <!-- GalaxyS8P 76mm * 161mm -->
+            <entry key="SamsungGalaxyS8P" width="2.99212598425197" height="6.33858267716535" />
+        </parameter>
+         
+        <!-- 侧边尺寸 -->
+        <parameter id="sideInInch" keyPattern="deviceType">
+            <!-- iPhone6 4mm * 4mm -->
+            <entry key="iPhone6" left="0.1574803149606299" top="0.1574803149606299" right="0.1574803149606299" bottom="0.1574803149606299" />
+             
+            <!-- iPhone6P 8mm * 3mm -->
+            <entry key="iPhone6Plus" left="0.31496062992126" top="0.11811023622047" right="0.31496062992126" bottom="0.11811023622047" />
+             
+            <!-- GalaxyS5 11mm * 6mm -->
+            <entry key="SamsungGalaxyS5" left="0.43307086614173" top="0.23622047244094" right="0.43307086614173" bottom="0.23622047244094" />
+             
+            <!-- GalaxyS6 8mm * 3mm -->
+            <entry key="SamsungGalaxyS6" left="0.31496062992126" top="0.11811023622047" right="0.31496062992126" bottom="0.11811023622047" />
+             
+            <!-- iPhone5 11mm * 7mm -->
+            <entry key="iPhone5" left="0.43307086614173" top="0.2755905511811" right="0.43307086614173" bottom="0.2755905511811" />
+
+            <!-- iPhone7 4mm * 4mm -->
+            <entry key="iPhone7" left="0.1574803149606299" top="0.1574803149606299" right="0.1574803149606299" bottom="0.1574803149606299" />
+
+            <!-- iPhone7P 10mm * 6.5mm -->
+            <entry key="iPhone7Plus" left="0.39370078740157" top="0.25590551181102" right="0.39370078740157" bottom="0.25590551181102" />
+
+             <!-- GalaxyS7 9mm * 6mm -->
+            <entry key="SamsungGalaxyS7" left="0.35433070866142" top="0.23622047244094" right="0.35433070866142" bottom="0.23622047244094" />
+
+            <!-- iPhoneX 6mm * 6mm -->
+            <entry key="iPhoneX" left="0.236220472440945" top="0.236220472440945" right="0.236220472440945" bottom="0.236220472440945" />
+
+            <!-- GalaxyS8 6mm * 6mm -->
+            <entry key="SamsungGalaxyS8" left="0.236220472440945" top="0.236220472440945" right="0.236220472440945" bottom="0.236220472440945" />
+
+            <!-- GalaxyS8P 6mm * 6mm -->
+            <entry key="SamsungGalaxyS8P" left="0.236220472440945" top="0.236220472440945" right="0.236220472440945" bottom="0.236220472440945" />
+        </parameter>
+         
+        <!-- 背面卷边尺寸 -->
+        <parameter id="edgeInInch" keyPattern="deviceType">
+            <entry key="*" left="0" top="0" right="0" bottom="0" />
+        </parameter>
+         
+        <!-- 出血尺寸 -->
+        <parameter id="bleedInInch" keyPattern="deviceType">
+            <!-- 目前统一为2mm -->
+            <entry key="*" left="0.07874015748031" top="0.07874015748031" right="0.07874015748031" bottom="0.07874015748031" />
+        </parameter>
+    </parameters>
+     
+    <variables>
+        <!-- 出于客户端异步加载资源的考虑，每个图片资源都应提供其尺寸信息，并因此不再集中于一个variable中 -->
+         
+        <!-- 型号缩略图，用于选择设备型号时显示 -->
+        <variable id="thumbnail" keyPattern="deviceType">
+            <entry key="iPhone6" image="/phoneCase/assets/thumbnail/iphone6s.png" width="503" height="968" />
+            <entry key="iPhone6Plus" image="/phoneCase/assets/thumbnail/iphone6P.png" width="535" height="1032" />
+            <entry key="SamsungGalaxyS5" image="/phoneCase/assets/thumbnail/samsungS5.png" width="720" height="1280" />
+            <entry key="SamsungGalaxyS6" image="/phoneCase/assets/thumbnail/samsungS6.png" width="720" height="1240" />
+            <entry key="iPhone5" image="/phoneCase/assets/thumbnail/iphone5s.png" width="720" height="1184" />
+            <entry key="iPhone7" image="/phoneCase/assets/thumbnail/iphone7.png" width="720" height="1197" />
+            <entry key="iPhone7Plus" image="/phoneCase/assets/thumbnail/iphone7P.png" width="720" height="1249" />
+            <entry key="SamsungGalaxyS7" image="/phoneCase/assets/thumbnail/samsungS7.png" width="634" height="1119" />
+        </variable>
+         
+        <!-- 提供手机形象的蒙板前景图，用于编辑界面显示 -->
+        <variable id="foreground" keyPattern="deviceType">
+            <!-- paddingLeft、paddingTop、paddingRight、paddingBottom指图片边缘到图片上手机正面区域的距离 -->
+            <entry key="iPhone6" image="/phoneCase/assets/foreground/iphone6s.png" width="503" height="889" paddingLeft="20" paddingTop="20" paddingRight="20" paddingBottom="20" />
+            <entry key="iPhone6Plus" image="/phoneCase/assets/foreground/iphone6P.png" width="535" height="1032" paddingLeft="20" paddingTop="20" paddingRight="20" paddingBottom="20" />
+            <entry key="SamsungGalaxyS5" image="/phoneCase/assets/foreground/samsungS5.png" width="720" height="1280" paddingLeft="107" paddingTop="148" paddingRight="107" paddingBottom="148" />
+            <entry key="SamsungGalaxyS6" image="/phoneCase/assets/foreground/samsungS6.png" width="518" height="990" paddingLeft="20" paddingTop="20" paddingRight="20" paddingBottom="20" />
+            <entry key="iPhone5" image="/phoneCase/assets/foreground/iphone5s.png" width="720" height="1184" paddingLeft="138" paddingTop="137" paddingRight="138" paddingBottom="137" />
+
+            <entry key="iPhone7" image="/phoneCase/assets/foreground/iphone7.png" width="505" height="893" paddingLeft="20" paddingTop="20" paddingRight="20" paddingBottom="20" />
+            <entry key="iPhone7Plus" image="/phoneCase/assets/foreground/iphone7P.png" width="536" height="1033" paddingLeft="20" paddingTop="20" paddingRight="20" paddingBottom="20" />
+            <entry key="SamsungGalaxyS7" image="/phoneCase/assets/foreground/samsungS7.png" width="466" height="905" paddingLeft="20" paddingTop="20" paddingRight="20" paddingBottom="20" />
+            <entry key="iPhoneX" image="/phoneCase/assets/foreground/iphoneX.png" width="534" height="1028" paddingLeft="20" paddingTop="20" paddingRight="20" paddingBottom="20" />
+            <entry key="SamsungGalaxyS8" image="/phoneCase/assets/foreground/SamsungGalaxyS8.png" width="460" height="942" paddingLeft="20" paddingTop="20" paddingRight="20" paddingBottom="20" />
+            <entry key="SamsungGalaxyS8P" image="/phoneCase/assets/foreground/SamsungGalaxyS8P.png" width="491" height="993" paddingLeft="20" paddingTop="20" paddingRight="20" paddingBottom="20" />
+        </variable>
+    </variables>
+</product-spec>

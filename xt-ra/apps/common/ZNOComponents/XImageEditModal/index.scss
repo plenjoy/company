@@ -1,0 +1,79 @@
+@import '../../styles/fonts.scss';
+
+.image-edit-modal {
+  width: 560px;
+  padding: 35px 40px;
+  box-sizing: border-box;
+
+  .modal-title {
+    font-size: 24px;
+    color: #3a3a3a;
+    margin: 0 0 4px 0;
+    @include font-normal();
+  }
+
+  .image-name {
+    font-size: 12px;
+    color: #7b7b7b;
+    @include font-light();
+  }
+
+  .cropper-area {
+    position: relative;
+    margin: 30px auto 20px auto;
+    text-align: center;
+    font-size: 0;
+    max-height: 310px;
+    min-height: 310px;
+  }
+
+  .rotate-controls {
+    text-align: center;
+
+    > div {
+      display: inline-block;
+    }
+
+    .disable{
+       pointer-events: none;
+       opacity: 0.4
+      }
+    .left-button, .right-button {
+
+      border: none;
+      width: 46px;
+      height: 46px;
+      cursor: pointer;
+
+      &:focus {
+        outline: 0;
+      }
+    }
+
+    .left-button {
+      margin-right: 68px;
+
+      background: url('./rotate_left.png') no-repeat center;
+
+      &:active {
+        background: url('./rotate_left_hover.png') no-repeat center;
+      }
+    }
+
+    .right-button {
+      background: url('./rotate_right.png') no-repeat center;
+
+      &:active {
+        background: url('./rotate_right_hover.png') no-repeat center;
+      }
+    }
+
+    .description {
+      width: 46px;
+    }
+  }
+
+  .modal-foot {
+    text-align: center;
+  }
+}

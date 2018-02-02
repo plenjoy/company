@@ -1,0 +1,48 @@
+.one-page {
+  position: absolute;
+  left: 280px;
+  top: 77px;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  user-select: none;
+
+  &.hide {
+    display: none;
+  }
+  ul.action-bar {
+    position: relative;
+    z-index: 40000;
+    margin: 12px auto 0;
+  }
+  ul.spreads-list {
+    margin: 0 auto;
+  }
+
+  .x-loading{
+    z-index: 1000;
+  }
+
+  .btns-list {
+    position: relative;
+    text-align: center;
+
+    .hide {
+      display: none;
+    }
+
+    .cameo-painted-btns {
+      margin: 0 auto;
+    }
+  }
+
+  .layout-wrap {
+    position: fixed;
+    left: 280px;
+    height: 130px;
+    right: 0px;
+    bottom: 0px;
+    z-index:200;
+    background-color: #f6f6f6;
+  }
+}

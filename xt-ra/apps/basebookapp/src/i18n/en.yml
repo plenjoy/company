@@ -1,0 +1,11 @@
+locale: "en"
+
+Modals:
+  TITLE: "TEST"
+
+PageHeader:
+  ORDER: "Order"
+
+PageNav:
+  ALLPAGES: "All Pages"
+  MANAGEPHOTOS: "Manage Photos"

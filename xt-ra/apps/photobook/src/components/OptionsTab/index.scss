@@ -1,0 +1,54 @@
+@import '../../../../common/styles/fonts.scss';
+@import '../../../../common/styles/common.scss';
+
+.options-tab {
+  .options-box {
+    padding: 10px 9px;
+
+    .options-control {
+      @include clearfix();
+
+      & + .options-control {
+        margin-top: 20px;
+      }
+
+      .options-name {
+        @include font-medium();
+        font-size: 13px;
+        line-height: 22px;
+        float: left;
+        display: inline-block;
+        width: 60px;
+      }
+
+      .options-select {
+        @include font-normal();
+        float: right;
+        width: 180px;
+        font-size: 12px;
+        height: 22px;
+        display: inline-block;
+
+        .Select-control {
+          height: 20px;
+          border: 1px solid #d6d6d6;
+          border-radius: 4px;
+          background-color: #fff;
+
+          .Select-input {
+            height: 20px;
+          }
+
+          .Select-value,
+          .Select-placeholder {
+            line-height: 20px;
+          }
+
+          .Select-clear-zone {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

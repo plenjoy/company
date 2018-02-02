@@ -1,0 +1,16 @@
+.each-color{
+  height:40px;
+  background:#fff;
+  line-height: 40px;
+  padding-left: 10px;
+  cursor: pointer;
+  img{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  &:hover{
+    background:#efefef;
+  }
+}
+

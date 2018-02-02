@@ -1,0 +1,22 @@
+@import "../../../../common/styles/common";
+.text-action-bar {
+  @include action-bar;
+  // width:150px;
+  &.has-layer{
+    width:100px;
+  }
+  // layer
+  .item-layer > a {
+    background: url("./icons/layer.png") center center no-repeat;
+  }
+
+  //edit
+  .item-edit a {
+    background: url("./icons/edit.png") center center no-repeat;
+  }
+
+  // clear
+  .item-clear a {
+    background: url("./icons/clear.png") center center no-repeat;
+  }
+}

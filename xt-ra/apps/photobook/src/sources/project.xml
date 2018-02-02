@@ -1,0 +1,133 @@
+<project schemaVersion="2.2" projectRevision="0" mergedDesignRevision="-2" clientId="web-flex" createAuthor="web-flex|1.1|1">
+  <guid>178248</guid>
+  <userId>240703</userId>
+  <pageCount>24</pageCount>
+  <pageAdded>4</pageAdded>
+  <artisan>denver</artisan>
+  <title>45353</title>
+  <description/>
+  <pageBase>20</pageBase>
+  <freeLogo>true</freeLogo>
+  <useStamp>false</useStamp>
+  <useCameo size="M" shape="Rect" hasPhoto="true" direction="Square">true</useCameo>
+  <useLEStamp>false</useLEStamp>
+  <useGilding>false</useGilding>
+  <useTextPrinting>false</useTextPrinting>
+  <createdDate>2016-11-1 17:42:57</createdDate>
+  <updatedDate>2016-11-01 18:24:54</updatedDate>
+  <uiSetting>
+    <templateStrip>
+      <showTemplatePanel>true</showTemplatePanel>
+      <autoLayout>true</autoLayout>
+    </templateStrip>
+  </uiSetting>
+  <book>
+    <spec version="3.7">
+      <option id="leatherColor" value="black" />
+      <option id="paper" value="DP" />
+      <option id="client" value="flex" />
+      <option id="product" value="LF" />
+      <option id="cameo" value="M" />
+      <option id="cover" value="LFGL" />
+      <option id="size" value="12X12" />
+      <option id="cameoShape" value="Rect" />
+      <option id="paperThickness" value="ExtraThin" />
+      <option id="gilding" value="none" />
+    </spec>
+    <bookSetting>
+      <border color="0x0" size="1" opacity="100" />
+      <background color="0xFFFFFF" />
+      <font fontSize="96" color="0x0" fontFamilyId="font_arial" fontId="font_arial_narrow" />
+    </bookSetting>
+    <spreads>
+      <spread id="37899F9B-3E65-ED0B-C741-1F452900B034" type="coverPage" w="7050" h="3450" bleedTop="0" bleedBottom="0" bleedLeft="0" bleedRight="0" pageNumber="0" bgColor="16777215" tplGuid="4e1299cf-843b-41c0-a5dc-bf42411c3c32">
+        <elements>
+          <element type="BackgroundElement" x="0" y="0" width="7050" height="3450" px="0" py="0" pw="1" ph="1" rot="0" dep="1" backgroundColor="7184070" backgroundImageUrl="/template-resources/images/option/cover/preview/black-llb.jpg?version=2" />
+          <element type="CameoElement" x="4327.5" y="765" width="1920" height="1920" px="0.6138297872340426" py="0.2217391304347826" pw="0.2723404255319149" ph="0.5565217391304348" rot="0" dep="999" imageid="330079" imgRot="90" imgFlip="true" cropLUX="0.125" cropLUY="0" cropRLX="0.875" cropRLY="1" size="M" shape="Rect" />
+        </elements>
+      </spread>
+      <spread id="BC5697BF-BB02-D6CB-0B24-1F452900AF03" type="innerPage" w="7200" h="3600" bleedTop="75" bleedBottom="75" bleedLeft="75" bleedRight="75" pageNumber="1" bgColor="16777215" tplGuid="259df617-9324-4d95-8622-b94cffe3f040">
+        <elements>
+          <element type="TextElement" x="3061.8367346938776" y="171.34110787171954" width="1800" height="720" px="0.42525510204081635" py="0.04759475218658876" pw="0.25" ph="0.2" rot="0" dep="117" color="0" fontSize="0.057777777777777775" textAlign="left" fontWeight="normal" fontFamily="Arial Narrow" textAutoWrap="%7B%22autoWrapType%22%3A%22wordWrap%22%2C%22autowrapPosition%22%3A%5B%5D%7D">
+            <![CDATA[ewqqeqeqeq]]>
+          </element>
+          <element type="PhotoElement" x="2712.00000000024" y="486.00000000000006" width="2367" height="1584" px="0.3766666666667" py="0.135" pw="0.32875" ph="0.44" rot="0" dep="111" imageid="330080" imgRot="0" imgFlip="false" cropLUX="0" cropLUY="0.24904942965779472" cropRLX="1" cropRLY="0.7509505703422052" />
+          <element type="PhotoElement" x="279" y="486" width="2372" height="1584" px="0.03875" py="0.135" pw="0.32944444444444443" ph="0.44" rot="0" dep="112" imageid="330083" imgRot="0" imgFlip="false" cropLUX="0.0009469696969696252" cropLUY="0.00010539629005036725" cropRLX="0.9990530303030302" cropRLY="0.9998946037099493">
+            <styles>
+              <style type="ColorFilterStyle" enabled="true" opacity="1" brightness="1" contrast="1" saturation="0" tintFilterAmount="0.3" />
+            </styles>
+          </element>
+          <element type="PhotoElement" x="1899" y="2126.99999999988" width="1558.4999999997601" height="987.0000000001199" px="0.26375" py="0.5908333333333" pw="0.2164583333333" ph="0.2741666666667" rot="0" dep="113" imageid="330079" imgRot="90" imgFlip="false" cropLUX="0" cropLUY="0.07779916586449716" cropRLX="1" cropRLY="0.9222008341355028" />
+          <element type="PhotoElement" x="279" y="2127" width="1558" height="987" px="0.03875" py="0.5908333333333333" pw="0.21638888888888888" ph="0.27416666666666667" rot="0" dep="114" imageid="330083" imgRot="0" imgFlip="false" cropLUX="0.00016041065119022985" cropLUY="0.025024061597616883" cropRLX="0.9998395893488098" cropRLY="0.9749759384023832" bgc="13382604">
+            <styles>
+              <style type="GradientStyle" enabled="true" mode="logic" gtype="liner" inv="false" mp="0.01" sn="1" ang="0" cx="0.5" cy="0.5" />
+              <style type="ShadowStyle" enabled="true" color="0" angle="90" opacity="0.6" blur="12" distance="5" />
+            </styles>
+          </element>
+          <element type="PhotoElement" x="5133.000000000239" y="486.00000000000006" width="1787.99999999976" height="2628" px="0.7129166666667" py="0.135" pw="0.2483333333333" ph="0.73" rot="0" dep="115" imageid="330077" imgRot="0" imgFlip="true" cropLUX="0.04642313546429229" cropLUY="0" cropRLX="0.9535768645357077" cropRLY="1" />
+          <element type="PhotoElement" x="3519" y="2126.99999999988" width="1558.4999999997601" height="987.0000000001199" px="0.48875" py="0.5908333333333" pw="0.2164583333333" ph="0.2741666666667" rot="0" dep="116" imageid="330081" imgRot="0" imgFlip="true" cropLUX="0" cropLUY="0.2625120307987796" cropRLX="1" cropRLY="0.7374879692012204" />
+        </elements>
+      </spread>
+      <spread id="A6B0B04F-E76D-2433-6FBC-1F452900EA4A" type="innerPage" w="7200" h="3600" bleedTop="75" bleedBottom="75" bleedLeft="75" bleedRight="75" pageNumber="2" bgColor="16777215" tplGuid="427prod-1">
+        <elements>
+          <element type="PhotoElement" x="322.50000000024" y="319.5" width="1969.5000000002399" height="2961" px="0.0447916666667" py="0.08875" pw="0.2735416666667" ph="0.8225" rot="0" dep="111" imageid="330081" imgRot="0" imgFlip="false" cropLUX="0.05656872678143874" cropLUY="0" cropRLX="0.9434312732185614" cropRLY="1" />
+          <element type="PhotoElement" x="2458.49999999976" y="319.5" width="4419" height="2961" px="0.3414583333333" py="0.08875" pw="0.61375" ph="0.8225" rot="0" dep="112" imageid="330082" imgRot="0" imgFlip="false" cropLUX="0.002532928064842908" cropLUY="0" cropRLX="0.997467071935157" cropRLY="1" />
+        </elements>
+      </spread>
+      <spread id="08695EF9-A5B4-626D-2D11-1F53CE66EADB" type="innerPage" w="7200" h="3600" bleedTop="75" bleedBottom="75" bleedLeft="75" bleedRight="75" pageNumber="3" bgColor="16777215" tplGuid="427prod-1">
+        <elements>
+          <element type="DecorationElement" x="3308.443148688046" y="2394.779883381924" width="316" height="347" px="0.45950599287333976" py="0.6652166342727566" pw="0.04388888888888889" ph="0.09638888888888889" rot="0" dep="114" decorationid="b3fea55c-59bf-4e9a-bea8-2f0e84f9ee81" decorationtype="sticker" />
+          <element type="DecorationElement" x="2783.7216858872657" y="434.8718244063521" width="398.83381924198255" height="404.0816326530612" px="0.38662801192878693" py="0.12079772900176447" pw="0.05539358600583091" ph="0.11224489795918367" rot="0" dep="113" decorationid="bdd0e586-04e1-4b0d-8fd0-5bbc426823b9" decorationtype="sticker" />
+          <element type="PhotoElement" x="322.50000000024" y="319.5" width="1969.5000000002399" height="2961" px="0.0447916666667" py="0.08875" pw="0.2735416666667" ph="0.8225" rot="0" dep="111" imageid="330076" imgRot="0" imgFlip="false" cropLUX="0.2782843633907194" cropLUY="0" cropRLX="0.7217156366092806" cropRLY="1" />
+          <element type="PhotoElement" x="2458.49999999976" y="319.5" width="4419" height="2961" px="0.3414583333333" py="0.08875" pw="0.61375" ph="0.8225" rot="0" dep="112" imageid="330075" imgRot="0" imgFlip="false" cropLUX="0.08008733156168002" cropLUY="0" cropRLX="0.91991266843832" cropRLY="1" />
+        </elements>
+      </spread>
+      <spread id="2CC0A6F1-A94D-AC85-3BFE-1F45290033D1" type="innerPage" w="7200" h="3600" bleedTop="75" bleedBottom="75" bleedLeft="75" bleedRight="75" pageNumber="4" bgColor="16777215" tplGuid="null">
+        <elements/>
+      </spread>
+      <spread id="C5889C3F-5F99-2ECD-D861-1F452900AD24" type="innerPage" w="7200" h="3600" bleedTop="75" bleedBottom="75" bleedLeft="75" bleedRight="75" pageNumber="5" bgColor="16777215" tplGuid="null">
+        <elements/>
+      </spread>
+      <spread id="ED10A080-8569-95B8-BA35-1F4529001115" type="innerPage" w="7200" h="3600" bleedTop="75" bleedBottom="75" bleedLeft="75" bleedRight="75" pageNumber="6" bgColor="16777215" tplGuid="null">
+        <elements/>
+      </spread>
+      <spread id="A6FB84A1-1685-40D1-C2B1-1F45290099B1" type="innerPage" w="7200" h="3600" bleedTop="75" bleedBottom="75" bleedLeft="75" bleedRight="75" pageNumber="7" bgColor="16777215" tplGuid="null">
+        <elements/>
+      </spread>
+      <spread id="F4A6E15F-E923-09DE-7786-1F452900BBDA" type="innerPage" w="7200" h="3600" bleedTop="75" bleedBottom="75" bleedLeft="75" bleedRight="75" pageNumber="8" bgColor="16777215" tplGuid="null">
+        <elements/>
+      </spread>
+      <spread id="2302F1CC-E8EB-747D-275A-1F452900FABC" type="innerPage" w="7200" h="3600" bleedTop="75" bleedBottom="75" bleedLeft="75" bleedRight="75" pageNumber="9" bgColor="16777215" tplGuid="null">
+        <elements/>
+      </spread>
+      <spread id="5F9383B6-D1F5-2901-3932-1F45290070A0" type="innerPage" w="7200" h="3600" bleedTop="75" bleedBottom="75" bleedLeft="75" bleedRight="75" pageNumber="10" bgColor="16777215" tplGuid="null">
+        <elements/>
+      </spread>
+      <spread id="524DF3FE-7BF1-95BF-2E7C-1F48A7B212E4" type="innerPage" w="7200" h="3600" bleedTop="75" bleedBottom="75" bleedLeft="75" bleedRight="75" pageNumber="11" bgColor="16777215" tplGuid="null">
+        <elements/>
+      </spread>
+      <spread id="E18686D3-7A46-A983-0F9D-1F4529006EA7" type="innerPage" w="7200" h="3600" bleedTop="75" bleedBottom="75" bleedLeft="75" bleedRight="75" pageNumber="12" bgColor="16777215" tplGuid="null">
+        <elements/>
+      </spread>
+    </spreads>
+  </book>
+  <mergeInfo>
+    <mergedMobileImages/>
+  </mergeInfo>
+  <images>
+    <image id="330075" guid="b94edbab-f25a-4746-92d4-e71921d029cf" order="1" name="6a970939jw1f2eu6npvwej23hz1ywu0z" width="4535" height="2552" />
+    <image id="330076" guid="946037f2-c3ef-4976-b6ae-aa8afa467c8c" order="2" name="6a970939jw1f2eu7kn8l9j24002o01l0" width="5184" height="3456" />
+    <image id="330077" guid="8cb63f56-084f-4e2a-a4ec-05b5a9e56b7e" order="3" name="6a970939jw1f3b2hqlyyuj22c03404qt" width="3024" height="4032" />
+    <image id="330078" guid="d03773ae-7daf-435b-a7ef-ba4b05ef4aa3" order="4" name="11-14011511121X11" width="3744" height="5616" />
+    <image id="330079" guid="0b77fa81-714b-4df0-b190-e6504d933f0f" order="5" name="61c0ac24gw1f4y6hnbfr4j232o43knpg" width="3984" height="5312" />
+    <image id="330080" guid="a99a8629-e056-4bb9-9542-f51f43e4ac9f" order="6" name="61c0ac24gw1f53tmhv6yfj232o43k4qs" width="3984" height="5312" />
+    <image id="330081" guid="955d855c-9e97-44b7-838d-decc9e70e6ac" order="7" name="61c0ac24gw1f53tmta24cj232o43k7wk" width="3984" height="5312" />
+    <image id="330082" guid="a5f44822-4de9-409d-bb81-20f0d0bf47b7" order="8" name="20160603110031377" width="5616" height="3744" />
+    <image id="330083" guid="c34ca74c-46e1-4918-bd35-512a36b4dd49" order="9" name="201603091457506270" width="5760" height="3840" />
+  </images>
+  <designImages/>
+  <decorations>
+    <decoration guid="bdd0e586-04e1-4b0d-8fd0-5bbc426823b9" name="White stars" type="sticker" count="1" displayRatio="1" width="976" height="983" />
+    <decoration guid="b3fea55c-59bf-4e9a-bea8-2f0e84f9ee81" name="pumpkin  " type="sticker" count="1" displayRatio="1" width="316" height="347" />
+  </decorations>
+</project>

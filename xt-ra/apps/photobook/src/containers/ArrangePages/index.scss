@@ -1,0 +1,89 @@
+@import '../../../../common/styles/fonts';
+@import '../../../../common/styles/common';
+
+.arrange-pages {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 77px;
+  bottom: 0;
+  z-index: 20;
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+  user-select: none;
+
+  .wrap {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    bottom: 0;
+    padding: 10px 30px 30px ;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .row {
+    position: relative;
+    width: 200vw;
+    padding-top: 10px;
+  }
+  .x-loading {
+    z-index: 1000;
+  }
+
+  .book-cover,
+  .book-sheet {
+    position: absolute;
+    margin: 0 30px 30px 0;
+  }
+
+  .add-pages-button {
+    position: absolute;
+  }
+
+  .cover-sheet {
+    overflow: hidden;
+  }
+
+  .element-container {
+    .element {
+      cursor: default;
+    }
+  }
+
+  .page-number {
+    position: absolute;
+    top: -13px;
+    z-index: 100;
+
+    .page-item {
+      width: 50%;
+      box-sizing: border-box;
+      color: #7b7b7b;
+
+      &.active {
+        border-color: transparent;
+      }
+
+      &.right {
+        text-align: right;
+      }
+    }
+  }
+
+  .x-delete-icon {
+    z-index: 100000;
+  }
+
+  .x-undoable {
+    position: fixed;
+    top: 90px;
+    right: 40px;
+  }
+
+  .hover-tooltip {
+    @include hover-tooltip;
+  }
+}

@@ -1,0 +1,104 @@
+@import '../../../../common/styles/common.scss';
+
+.upgrade-container{
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  text-align: left;
+
+  .pos-abs{
+    position: absolute;
+  }
+
+  .upgrade-effect{
+    display: block;
+  }
+
+  .upgrade-sheet-size{
+    overflow: hidden;
+  }
+
+  .upgrade-sheet-size-with-bleed{
+
+  }
+
+  .upgrade-options{
+    position: absolute;
+  }
+
+  .element {
+    position: absolute;
+    overflow: hidden;
+    cursor: default;
+
+    &.has-text{
+      top: 50%;
+      left: 50%;
+      transform: translate3d(-50%, -50%, 0);
+    }
+  }
+}
+
+// .upgrade-item-v2 {
+//   position: relative;
+//   overflow: hidden;
+//   // width: 260px;
+//   // height: 180px;
+
+//   .upgrade-sheet{
+//     overflow: hidden;
+//     position: absolute;
+//   }
+
+//   .upgrade-sheet-with-bleed{
+//     position: absolute;
+//   }
+
+//   .upgrade-item-effect{
+//     display: block;
+//     position: absolute;
+//   }
+
+//   .wrap {
+//     width: 100%;
+//     height: 100%;
+//     overflow: hidden;
+//     position: relative;
+
+//     &.has-text {
+//       display: flex;
+//       align-items: center;
+//       justify-content: center;
+
+//       .element {
+//         position: inherit;
+//       }
+//     }
+//   }
+
+//   .effect-image {
+//     position: absolute;
+//     display: block;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//   }
+
+//   .element {
+//     position: absolute;
+//     overflow: hidden;
+
+//     .element-img {
+//       display: block;
+//       // width: 100%;
+//       // height: 100%;
+
+//       &.has-img {
+//         background-color: transparent;
+//       }
+
+//       background-color: #f6f6f6;
+//     }
+//   }
+// }

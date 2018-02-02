@@ -1,0 +1,11 @@
+@import '../../scss/index';
+
+.ProjectList {
+  display: none;
+  position: relative;
+  -moz-user-select: none; 
+
+  &.show {
+    display: block;
+  }
+}

@@ -1,0 +1,11 @@
+.guide-line {
+  // display: none;
+  position: absolute;
+  z-index: 9001;
+  // background-color: rgba(100, 181, 246, 1);
+  pointer-events: none;
+
+  &.isShown {
+    display: block;
+  }
+}

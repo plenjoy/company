@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>softcover-highlight</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-1726.000000, -172.000000)" stroke-width="1.5" stroke="#3A3A3A">
+            <g id="softcover-highlight" transform="translate(1726.000000, 172.000000)">
+                <g id="Group">
+                    <rect id="Rectangle-7" x="0.75" y="0.75" width="16.5" height="16.5" rx="1"></rect>
+                    <path d="M3.30000305,1.49804699 L3.3,16.5020829" id="Line" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

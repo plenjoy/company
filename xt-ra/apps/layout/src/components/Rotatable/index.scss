@@ -1,0 +1,32 @@
+.rotatable {
+  position: absolute;
+  left: 50%;
+  top: -5px;
+  transform: translate(-50%, -100%);
+  z-index: 9000;
+
+  .rotate-circle {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #00d3ff;
+    background: #fff;
+  }
+
+  .rotate-line {
+    height: 15px;
+    border-left: 1px dashed #00d3ff;
+    margin-left: -2px;
+    transform: translate(50%, 0);
+  }
+
+  .degree-string {
+    background-color: #060606;
+    color: #fff;
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+}

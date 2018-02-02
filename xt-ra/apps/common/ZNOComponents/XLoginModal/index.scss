@@ -1,0 +1,31 @@
+.x-login-modal{
+  padding: 10px 20px;
+
+  .data-group {
+    margin: 15px 0;
+
+    .group-item{
+      margin: 10px 0;
+
+      .label{
+        margin: 5px;
+        font-size: 16px;
+        font-weight: 400;
+      }
+
+      input{
+        border: none;
+        outline: none;
+        font-size: 16px;
+        padding: 10px 12px;
+        background: #eee;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .btn-list{
+    margin: 20px 0;
+    text-align: center;
+  }
+}

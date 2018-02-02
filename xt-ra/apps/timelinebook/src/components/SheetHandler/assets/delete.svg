@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 151</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ablums-hover-changeCover" transform="translate(-1032.000000, -135.000000)">
+            <g id="Group-151" transform="translate(1032.000000, 135.000000)">
+                <circle id="Ellipse_5" fill="#000000" fill-rule="nonzero" opacity="0.7" cx="12" cy="12" r="12"></circle>
+                <g id="Group_5" transform="translate(7.000000, 7.000000)" fill="#FFFFFF">
+                    <g id="Delete">
+                        <g id="Group-5">
+                            <path d="M5,3.812 L1.436,0.247 C1.10766672,-0.0813332838 0.575333284,-0.0813332838 0.247,0.247 C-0.0813332838,0.575333284 -0.0813332838,1.10766672 0.247,1.436 L3.812,5 L0.247,8.564 C0.0347842291,8.77621576 -0.0480954678,9.08552697 0.0295808903,9.3754191 C0.107257248,9.66531123 0.333688774,9.89174275 0.623580901,9.96941911 C0.913473027,10.0470955 1.22278424,9.96421577 1.435,9.752 L5,6.188 L8.564,9.752 C8.77621576,9.96439441 9.08562227,10.0474392 9.3756691,9.96985213 C9.66571593,9.89226509 9.89233806,9.66583356 9.97016911,9.37585211 C10.0480002,9.08587067 9.96521577,8.77639439 9.753,8.564 L6.188,5 L9.753,1.436 C10.0813333,1.10766672 10.0813333,0.575333284 9.753,0.247 C9.42466672,-0.0813332838 8.89233328,-0.0813332838 8.564,0.247 L5,3.812 Z" id="Delete-2"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

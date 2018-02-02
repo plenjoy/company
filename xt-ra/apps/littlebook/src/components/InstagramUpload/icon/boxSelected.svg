@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="908 2724 19 19">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #86898b;
+        stroke: #86898b;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-width: 1.2px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        filter: url(#Rectangle_129);
+      }
+    </style>
+    <filter id="Rectangle_129" x="908" y="2724" width="19" height="19" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_229" data-name="Group 229" transform="translate(730 2342)">
+    <g class="cls-5" transform="matrix(1, 0, 0, 1, -730, -2342)">
+      <g id="Rectangle_129-2" data-name="Rectangle 129" class="cls-1" transform="translate(911 2726)">
+        <rect class="cls-3" width="13" height="13" rx="2"/>
+        <rect class="cls-4" x="0.5" y="0.5" width="12" height="12" rx="1.5"/>
+      </g>
+    </g>
+    <g id="Group_227" data-name="Group 227" transform="translate(-786.265 -103.5)">
+      <path id="Path_6" data-name="Path 6" class="cls-2" d="M-.235.132,2.292,3.268" transform="translate(970.5 492.5)"/>
+      <path id="Path_5" data-name="Path 5" class="cls-2" d="M5,0-.348,4.269" transform="translate(972.5 491.5)"/>
+    </g>
+  </g>
+</svg>

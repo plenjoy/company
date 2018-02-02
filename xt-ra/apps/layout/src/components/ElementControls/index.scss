@@ -1,0 +1,8 @@
+.element-controls {
+  position: absolute;
+  z-index: 9000;
+  box-sizing: border-box;
+  cursor: move;
+  border: 1px solid #00d3ff;
+  transform: translate3d(0, 0, 0);
+}

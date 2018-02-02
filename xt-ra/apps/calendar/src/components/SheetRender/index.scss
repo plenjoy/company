@@ -1,0 +1,15 @@
+.book-sheet {
+  position: relative;
+  .inner-effect {
+    position: absolute;
+    .effect-img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      user-select: none;
+    }
+  }
+  .inner-sheet {
+    position: absolute;
+  }
+}

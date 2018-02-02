@@ -1,0 +1,27 @@
+.book-options {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 77px;
+  bottom: 0;
+  z-index: 0;
+  user-select: none;
+
+  .cover-select-area {
+    overflow: hidden;
+    position: absolute;
+    left: 300px;
+    right: 0;
+    top: 50%;
+    bottom: 0;
+
+    .book-cover {
+      .book-page.enabled.cover{
+        // background: #f6f6f6 !important;
+      }
+      .disable-handler{
+        z-index:1050;
+      }
+    }
+  }
+}

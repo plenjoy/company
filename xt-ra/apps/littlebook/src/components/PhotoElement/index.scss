@@ -1,0 +1,52 @@
+.photo-element {
+  border: 1px solid #dfdfdf;
+  background-color: #f6f6f6;
+
+  .box {
+    pointer-events: none;
+    &.hover {
+      border: 1px solid #0090e9;
+      background-color: rgba(79, 173, 242, 0.3);
+    }
+  }
+
+  &.has-image{
+    border: none;
+  }
+
+  &.preview{
+    border: none;
+    background-color: transparent;
+
+    &.has-image{
+      background-color: #f6f6f6;
+    }
+  }
+
+  &.error-image{
+    background-color: #d6d6d6;
+  }
+
+  .img-border {
+    box-sizing: border-box;
+  }
+
+  .photo-img {
+    font-size: 0;
+    user-drag: none;
+    user-select: none;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .empty-tip{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #7b7b7b;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,11 @@
+.text-element-thumbnail{
+  &.element{
+    background-color: transparent;
+  }
+
+  .text-img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}

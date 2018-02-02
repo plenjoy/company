@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="87px" viewBox="0 0 64 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>Exclude</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Exclude" fill-rule="nonzero" fill="#FFFFFF">
+            <polygon id="Shape" points="34.4 7.6 33.2 3.3 25.3 5.5 26.5 9.8 0.3 17 3.8 25.6 62 9.6 60.6 0.4"></polygon>
+            <path d="M4.3,29.1 L11,86.1 L57,86.1 L63.7,29.1 L4.3,29.1 L4.3,29.1 Z M19.4,75 L16.7,38 L20.1,38 L22.8,75 L19.4,75 Z M35.7,75 L32.3,75 L32.3,38 L35.7,38 L35.7,75 Z M48.6,75 L45.2,75 L47.9,38 L51.3,38 L48.6,75 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

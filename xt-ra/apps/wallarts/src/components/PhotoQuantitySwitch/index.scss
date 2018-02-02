@@ -1,0 +1,25 @@
+.photo-quantity-switch {
+  text-align: center;
+  li {
+    img {
+      width: 26px;
+    }
+    a {
+      margin: 0 auto;
+      display: block;
+    }
+    & + li {
+      margin-top: 20px;
+    }
+    &:last-child {
+      margin-bottom: 60px;
+    }
+    .label {
+      font-size: 10px;
+      color: #7b7b7b;
+      &.active {
+        color: #3a3a3a;
+      }
+    }
+  }
+}

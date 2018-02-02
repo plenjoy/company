@@ -1,0 +1,264 @@
+{
+    "project": {
+        "guid": "",
+        "version": "1.0",
+        "clientId": "web-h5",
+        "createAuthor": "web-h5|1.1|1",
+        "userId": "253061",
+        "artisan": "roger",
+        "createdDate": "2017-05-27 15:22:16",
+        "updatedDate": "2017-05-27 15:22:32",
+        "summary": {
+            "defaultSetting": {
+                "product": "LBP",
+                "size": "4X6",
+                "paper": "EP",
+                "side": "SS"
+            }
+        },
+        "pages": [
+            {
+                "id": "30c6acd7-c201-4f49-bee5-93f7300e2534",
+                "spec": {
+                    "product": "LBP",
+                    "size": "4X6",
+                    "paper": "EP",
+                    "side": "SS"
+                },
+                "width": 1770,
+                "height": 1180.2,
+                "type": "Print",
+                "quantity": 1,
+                "bleed": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0
+                },
+                "border": {
+                    "color": "none",
+                    "size": 0
+                },
+                "elements": [
+                    {
+                        "id": "e39501bf-9de6-4cba-88bf-4032d9382448",
+                        "type": "PhotoElement",
+                        "x": 0,
+                        "y": 0,
+                        "width": 1770,
+                        "height": 1180.2,
+                        "px": 0,
+                        "py": 0,
+                        "pw": 1,
+                        "ph": 1,
+                        "imgFlip": false,
+                        "rot": 0,
+                        "imgRot": 0,
+                        "encImgId": "rNPdlIz8dKY%3D",
+                        "imageid": "382622",
+                        "dep": 1,
+                        "cropLUX": 0.00008473,
+                        "cropLUY": 0,
+                        "cropRLX": 0.99991527,
+                        "cropRLY": 1
+                    }
+                ],
+                "backend": {
+                    "isPrint": true
+                }
+            },
+            {
+                "id": "6addaff0-95a2-479e-aa41-7dd605903dda",
+                "spec": {
+                    "product": "LBP",
+                    "size": "4X6",
+                    "paper": "EP",
+                    "side": "SS"
+                },
+                "width": 1770,
+                "height": 1180.2,
+                "type": "Print",
+                "quantity": 1,
+                "bleed": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0
+                },
+                "border": {
+                    "color": "none",
+                    "size": 0
+                },
+                "elements": [
+                    {
+                        "id": "8ea4cda5-1a4f-4e95-a65b-b142f99dd309",
+                        "type": "PhotoElement",
+                        "x": 0,
+                        "y": 0,
+                        "width": 1770,
+                        "height": 1180.2,
+                        "px": 0,
+                        "py": 0,
+                        "pw": 1,
+                        "ph": 1,
+                        "imgFlip": false,
+                        "rot": 0,
+                        "imgRot": 0,
+                        "encImgId": "7UzJ7pwX22Y%3D",
+                        "imageid": "382621",
+                        "dep": 1,
+                        "cropLUX": 0.03132944,
+                        "cropLUY": 0,
+                        "cropRLX": 0.96867057,
+                        "cropRLY": 1
+                    }
+                ],
+                "backend": {
+                    "isPrint": true
+                }
+            },
+            {
+                "id": "7f5efdca-5dc7-4150-8da7-0d4d5a51ab04",
+                "spec": {
+                    "product": "LBP",
+                    "size": "4X6",
+                    "paper": "EP",
+                    "side": "SS"
+                },
+                "width": 1180.2,
+                "height": 1770,
+                "type": "Print",
+                "quantity": 1,
+                "bleed": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0
+                },
+                "border": {
+                    "color": "none",
+                    "size": 0
+                },
+                "elements": [
+                    {
+                        "id": "44321585-364a-4aa4-96a5-0ec95c9e1eb6",
+                        "type": "PhotoElement",
+                        "x": 0,
+                        "y": 0,
+                        "width": 1180.2,
+                        "height": 1770,
+                        "px": 0,
+                        "py": 0,
+                        "pw": 1,
+                        "ph": 1,
+                        "imgFlip": false,
+                        "rot": 0,
+                        "imgRot": 0,
+                        "encImgId": "FU4CkzQ76zw%3D",
+                        "imageid": "382619",
+                        "dep": 1,
+                        "cropLUX": 0.03325424,
+                        "cropLUY": 0,
+                        "cropRLX": 0.96674577,
+                        "cropRLY": 1
+                    }
+                ],
+                "backend": {
+                    "isPrint": true
+                }
+            },
+            {
+                "id": "562e3ecc-46df-4fb0-8ed6-fe8c47201dc6",
+                "spec": {
+                    "product": "LBP",
+                    "size": "4X6",
+                    "paper": "EP",
+                    "side": "SS"
+                },
+                "width": 1770,
+                "height": 1180.2,
+                "type": "Print",
+                "quantity": 1,
+                "bleed": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0
+                },
+                "border": {
+                    "color": "none",
+                    "size": 0
+                },
+                "elements": [
+                    {
+                        "id": "9ed46a21-9a61-43cc-a22e-22d98dac2d4b",
+                        "type": "PhotoElement",
+                        "x": 0,
+                        "y": 0,
+                        "width": 1770,
+                        "height": 1180.2,
+                        "px": 0,
+                        "py": 0,
+                        "pw": 1,
+                        "ph": 1,
+                        "imgFlip": false,
+                        "rot": 0,
+                        "imgRot": 0,
+                        "encImgId": "0wMEUplvPG4%3D",
+                        "imageid": "382620",
+                        "dep": 1,
+                        "cropLUX": 0.03132944,
+                        "cropLUY": 0,
+                        "cropRLX": 0.96867057,
+                        "cropRLY": 1
+                    }
+                ],
+                "backend": {
+                    "isPrint": true
+                }
+            }
+        ],
+        "images": [
+            {
+                "id": "382622",
+                "guid": "ed2500c2-a5be-4260-a59a-58f833410dcf",
+                "encImgId": "rNPdlIz8dKY%3D",
+                "order": 0,
+                "name": "001%20(2)",
+                "width": 750,
+                "height": 500,
+                "shotTime": "1491038061000"
+            },
+            {
+                "id": "382621",
+                "guid": "328623c5-f3d4-44f1-8497-de5c6884d0a0",
+                "encImgId": "7UzJ7pwX22Y%3D",
+                "order": 1,
+                "name": "1-131223095629",
+                "width": 1024,
+                "height": 640,
+                "shotTime": "1491124474000"
+            },
+            {
+                "id": "382619",
+                "guid": "dedfc669-bc16-49fe-81d9-86ba1eb90078",
+                "encImgId": "FU4CkzQ76zw%3D",
+                "order": 2,
+                "name": "06",
+                "width": 550,
+                "height": 770,
+                "shotTime": ""
+            },
+            {
+                "id": "382620",
+                "guid": "0d4b2131-0305-48be-8542-7598dadc91af",
+                "encImgId": "0wMEUplvPG4%3D",
+                "order": 3,
+                "name": "3",
+                "width": 2560,
+                "height": 1600,
+                "shotTime": "1491210886000"
+            }
+        ]
+    }
+}

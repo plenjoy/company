@@ -1,0 +1,149 @@
+{
+    "project": {
+        "version": "4.1",
+        "clientId": "web-h5",
+        "createAuthor": "web-h5|1.1|1",
+        "userId": "233654",
+        "artisan": "qinsheng",
+        "title": "Canvas_11152017_1",
+        "updatedDate": "2017-11-15 17:40:10",
+        "createdDate": "2017-11-15 17:40:10",
+        "guid": "320620",
+        "summary": {
+            "defaultSetting": {
+                "category": "categoryCanvas",
+                "product": "canvas",
+                "frameStyle": "none",
+                "size": "16X20",
+                "color": "none",
+                "paper": "TP",
+                "metalType": "none",
+                "matte": "none",
+                "matteStyle": "none",
+                "glassStyle": "none",
+                "canvasBorder": "mirror",
+                "finish": "none",
+                "canvasBorderSize": "standard",
+                "orientation": "Landscape",
+                "id": "96061a48-1283-49ff-b696-999a728777bb",
+                "version": "4.1",
+                "clientId": "web-h5",
+                "createAuthor": "web-h5|1.1|1",
+                "userId": "233654",
+                "artisan": "qinsheng",
+                "quantity": 1
+            }
+        },
+        "pages": [{
+                "id": "96061a48-1283-49ff-b696-999a728777bb",
+                "width": 6815.433072,
+                "height": 5610.70866,
+                "bgColor": "#FFFFFF",
+                "type": "Page",
+                "bleed": {
+                    "top": 24,
+                    "bottom": 24,
+                    "left": 24,
+                    "right": 24
+                },
+                "elements": [{
+                        "x": 390,
+                        "y": 390,
+                        "px": 0.057223069448403205,
+                        "py": 0.06950993602294794,
+                        "width": 6035.433072,
+                        "height": 4830.70866,
+                        "pw": 0.8855538611031936,
+                        "ph": 0.8609801279541042,
+                        "dep": 0,
+                        "rot": 0,
+                        "type": "PhotoElement",
+                        "imageid": "409178",
+                        "encImgId": "BBj4l3lds0U%3D",
+                        "imgRot": 0,
+                        "imgFlip": false,
+                        "cropLUX": "0.18765281",
+                        "cropLUY": "0",
+                        "cropRLX": "0.81234719",
+                        "cropRLY": "1",
+                        "style": {
+                            "brightness": 0,
+                            "effectId": 0,
+                            "opacity": 100
+                        },
+                        "border": {
+                            "size": 0,
+                            "color": "#000000",
+                            "opacity": 100
+                        }
+                    }],
+                "backend": {
+                    "isPrint": true,
+                    "slice": false
+                },
+                "quantity": 1,
+                "spec": {
+                    "category": "categoryCanvas",
+                    "product": "canvas",
+                    "frameStyle": "none",
+                    "size": "16X20",
+                    "color": "none",
+                    "paper": "TP",
+                    "metalType": "none",
+                    "matte": "none",
+                    "matteStyle": "none",
+                    "glassStyle": "none",
+                    "canvasBorder": "mirror",
+                    "finish": "none",
+                    "canvasBorderSize": "standard"
+                },
+                "frameBorder": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                },
+                "borderInFrame": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                },
+                "boardInMatting": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                },
+                "matteLayer": {
+                    "x": 0,
+                    "y": 0,
+                    "px": 0,
+                    "py": 0,
+                    "left": 0,
+                    "right": 0,
+                    "top": 0,
+                    "bottom": 0,
+                    "color": 16777215,
+                    "depth": 1
+                },
+                "canvasBorder": {
+                    "left": 366,
+                    "top": 366,
+                    "right": 366,
+                    "bottom": 366,
+                    "color": "16777215"
+                }
+            }],
+        "images": [{
+                "id": "409178",
+                "guid": "9efa4497-0b34-4625-a4c4-5d53ba2e7583",
+                "encImgId": "BBj4l3lds0U%3D",
+                "order": 0,
+                "name": "005",
+                "width": 800,
+                "height": 400,
+                "shotTime": ""
+            }]
+    }
+}

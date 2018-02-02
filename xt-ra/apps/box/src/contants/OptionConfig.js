@@ -1,0 +1,6 @@
+export default [
+  {product: 'IB', optionIds: [{type: 'product', title: 'Products', showHr: true}, {type: 'type', title: 'Panel Type', showHr: true}, {type: 'size', title: 'Size'}]},
+  {product: 'woodBox', optionIds: [{type: 'product', title: 'Products', showHr: true}, {type: 'finish',title: 'Print Options', showHr: true}, {type: 'size', title: 'Size'}]},
+  {product: 'usbCase', optionIds: [{type: 'product', title: 'Products', showHr: true}, {type: 'cover',title: 'Cover', showHr: true}, {type: 'leatherColor',title: 'Cover Color', showHr: true}, {type: 'usbColor',title: 'USB Color', showHr: true}, {type: 'usbCapacities',title: 'USB Capacities', showHr: true}, {type: 'type', title: 'Panel Type'}]},
+  {product: 'dvdCase', optionIds: [{type: 'product', title: 'Products', showHr: true}, {type: 'cover',title: 'Cover', showHr: true}, {type: 'leatherColor',title: 'Cover Color', showHr: true}, {type: 'dvdType',title: 'Holder Type', showHr: true}, {type: 'dvdPrinted',title: 'DVD', showHr: true}, {type: 'type', title: 'Panel Type'}]},
+]

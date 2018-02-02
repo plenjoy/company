@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>下载</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-93.000000, -105.000000)">
+            <g id="下载" transform="translate(93.000000, 105.000000)">
+                <rect id="Rectangle-2" x="0" y="0" width="22" height="22"></rect>
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="2" fill="#FFA500" fill-rule="nonzero" cx="11" cy="11" r="10"></circle>
+                <path d="M12,12.8886719 L10.4453125,12.8886719 C10.1113281,12.8886719 9.890625,12.6660156 9.890625,12.3339844 L9.890625,6.22265625 C9.890625,5.88867187 10.1132812,5.66796875 10.4453125,5.66796875 L12,5.66796875 C12.3339844,5.66796875 12.5546875,5.890625 12.5546875,6.22265625 L12.5546875,12.3339844 C12.5546875,12.6660156 12.3339844,12.8886719 12,12.8886719 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M12,16.3339844 L10.4453125,16.3339844 C10.1113281,16.3339844 9.890625,16.1113281 9.890625,15.7792969 L9.890625,14.890625 C9.890625,14.5566406 10.1132812,14.3359375 10.4453125,14.3359375 L12,14.3359375 C12.3339844,14.3359375 12.5546875,14.5585938 12.5546875,14.890625 L12.5546875,15.7792969 C12.5546875,16.1113281 12.3339844,16.3339844 12,16.3339844 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

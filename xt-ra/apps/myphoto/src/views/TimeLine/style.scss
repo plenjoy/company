@@ -1,0 +1,10 @@
+@import '../../scss/index';
+
+.TimeLine {
+  display: none;
+  position: relative;
+
+  &.show {
+    display: block;
+  }
+}

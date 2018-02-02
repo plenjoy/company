@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Zno - Make Product">
+    <meta name="description" content="Zno - Make Product">
+  <link rel="icon" href="../../static/img/store.ico" mce_href="../../static/img/store.ico"  type="image/x-icon" />
+  <link rel="shortcut icon" href="../../static/img/store.ico" mce_href="../../static/img/store.ico"  type="image/x-icon" />
+	<!-- fonts for production -->
+	<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/629680/7695352/css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/629680/6901352/css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="https://d1pqep7lkbntd4.cloudfront.net/prod-assets/fonts/438179/1F7A11641A8AB02F3.css">
+  <link rel="stylesheet" type="text/css" href="https://d1pqep7lkbntd4.cloudfront.net/prod-assets/fonts/438188/D6DC15A965771F34B.css">
+	<!-- fonts for testing -->
+	<!-- <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/629680/6853352/css/fonts.css" /> -->
+	<link rel="stylesheet" type="text/css" href="../../static/css/bootstrap-slider.min.css">
+  <link rel="stylesheet" type="text/css" href="../../static/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" type="text/css" href="../../static/css/been.css"> -->
+  <link rel="stylesheet" type="text/css" href="../../static/css/jquery.Jcrop.min.css">
+  <link rel="stylesheet" type="text/css" href="../../static/css/spectrum.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/main.css?version=201801311042">
+  <!-- this is only for msg use -->
+  <!-- <script type="text/javascript" src="../../libs/jquery-1.11.3.min.js"></script> -->
+  <!-- <script type="text/javascript" src="../../libs/been.js"></script> -->
+	<title>Zno - Make Product</title>
+	<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-34392654-2', 'auto');
+    ga('send', 'pageview');
+    </script>
+</head>
+<body id="app" onselectstart="return false;">
+	<!-- page -->
+
+	<div style="position: absolute;width: 100%; height: 100%; left: 0; top: 0;background-color: #f0f0f0;" v-show="sharedStore.isNewProject || privateStore.isShowPage">
+		<!-- header component -->
+		<page-loading></page-loading>
+		<as-header></as-header>
+    <style-select-modal></style-select-modal>
+
+    <div>
+      <list-tab>
+      </list-tab>
+      <dashboard></dashboard>
+      <price-item></price-item>
+		</div>
+
+		<!-- image uploading component -->
+		<image-upload></image-upload>
+		<single-image-upload></single-image-upload>
+
+
+		<!-- image cropping component -->
+		<image-crop :image-name="imageName"></image-crop>
+
+    <!-- options view component -->
+    <options-window></options-window>
+    <order-window></order-window>
+    <contact-us-window></contact-us-window>
+    <clone-window></clone-window>
+    <text-editor></text-editor>
+    <pop-up></pop-up>
+    <comp-option></comp-option>
+    <cart-choose-window></cart-choose-window>
+    <new-project-window></new-project-window>
+    <matting-change-confirm></matting-change-confirm>
+    <!-- <matting-glass></matting-glass> -->
+    <!-- <edit-border></edit-border> -->
+    <!-- <screenshot-element></screenshot-element> -->
+    <!-- front-end cropping playground -->
+    <!-- <div>
+        <img id="crop-playground" src="" style="display: none;" />
+    </div> -->
+		<inner-preview></inner-preview>
+    <!-- preview-bed -->
+    <form id="preview-form" action="" method="post" style="display: none;">
+    	<input id="input-preview-projectid" type="hidden" name="projectID" value="" />
+    </form>
+
+	</div>
+
+	<!-- <dispatch></dispatch> -->
+	<script type="text/javascript" src="./js/vendor.js?version=201801311042"></script>
+    <script type="text/javascript" src="./js/app.js?version=201801311042"></script>
+
+
+</body>
+</html>

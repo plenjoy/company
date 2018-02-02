@@ -1,0 +1,46 @@
+@import "../../../../common/styles/fonts.scss";
+
+.selected-photo-statu-bar {
+  @include font-normal();
+  display: inline-block;
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  height: 18px;
+  z-index: 3;
+  // padding-right: 10px;
+  line-height: 18px;
+  font-size: 12px;
+  // background-color: #fff;
+  border-radius: 6px;
+  transform: translate(-50%, 0);
+
+  &.has-selected {
+    position: fixed;
+  }
+
+  span.has-selected{
+    display: inline-block;
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: #7b7b7b;
+  }
+
+  a {
+    color: #3a3a3a;
+    margin-left: 8px;
+    cursor: pointer;
+
+    &:hover {
+      color: #7b7b7b;
+    }
+  }
+
+  span.no-selected{
+    display: inline-block;
+    color: #3a3a3a;
+    padding: 0 10px;
+    border-radius: 5px;
+  }
+}
